@@ -12,6 +12,8 @@ simplejson = "*"
 pprint = "*"
 "discord.py" = "*"
 cleverwrap = "*"
+tqdm = "*"
+
 
 [dev-packages]
 
