@@ -26,7 +26,7 @@ def opener(document, suffix):
 
 
 def start(general):
-    for doc in docs:
+    for doc in docs:i
         general[doc] = {'name': doc, 'items': []}
 
 

@@ -13,7 +13,7 @@ pprint = "*"
 "discord.py" = "*"
 cleverwrap = "*"
 tqdm = "*"
-
+mongoengine = "*"
 
 [dev-packages]
 
