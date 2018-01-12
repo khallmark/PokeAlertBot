@@ -1,11 +1,4 @@
-import json
-from pprint import pprint
-
 from pokelib.documents import *
-
-from mongoengine import *
-
-connect('pokemon', host='localhost', port=27017)
 
 class Pokedex:
     def __init__(self):
