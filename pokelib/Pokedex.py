@@ -1,5 +1,3 @@
-from pokelib.documents import *
-
 class Pokedex:
     def __init__(self):
         self.test = 0

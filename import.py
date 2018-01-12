@@ -1,8 +1,8 @@
 import json
 from pprint import pprint
 
-from PokedexImport import *
-from documents import *
+from pokelib.PokedexImport import PokedexImport
+from pokelib.documents import *
 from mongoengine import *
 
 connect('pokemon', host='localhost', port=27017)

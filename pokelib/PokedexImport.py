@@ -1,5 +1,3 @@
-from pprint import pprint
-
 from pokelib.documents import *
 
 class PokedexImport:
