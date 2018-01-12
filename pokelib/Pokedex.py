@@ -5,7 +5,7 @@ class Pokedex:
         self.test = 0
 
     def getPokemon(self, pokemon):
-        results = Pokemon.objects(name=pokemon)
+        results = Pokemon.objects(name__iexact=pokemon)
 
         if len(results) > 0:
             return results[0]
