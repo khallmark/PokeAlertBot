@@ -12,6 +12,9 @@ import json
 import requests
 from cleverwrap import CleverWrap
 
+import sys
+sys.path.append("..")
+
 class LBHImageDownload:
     def __init__(self, url, filename):
         self.url = url
@@ -32,14 +35,22 @@ class LBHImageDownload:
 
 
 class LBHBot(commands.Bot):
-    def __init__(self, token, cleverToken):
+    def __init__(self, token, cleverToken, pokedex):
         super().__init__(command_prefix=["?", "!"], description="Birch", pm_help=None)
         self.token = token
         self.cw = CleverWrap(cleverToken)
         self.file_channels = []
+        self.pokedex = pokedex
 
         self.add_command(self.test)
         self.add_command(self.ping)
+        self.add_command(self.dex)
+
+        self.run(self.token)
+
+    # Adds a channel to grab files from
+    def addFileChannel(self, channelId):
+        self.file_channels.append(channelId)
 
     async def on_ready(self):
         print('Logged in as '+self.user.name+' (ID:'+self.user.id+') | Connected to '+str(len(self.servers))+' servers | Connected to '+str(len(set(self.get_all_members())))+' users')
@@ -81,3 +92,35 @@ class LBHBot(commands.Bot):
     @commands.command()
     async def test(self, *args):
         await self.say(":kappa:")
+
+    @commands.command()
+    async def dex(self, *args):
+
+        if len(args) != 1:
+            await self.say("Command ?dex expects one argument, the name of a pokemon or the pokemon number")
+            return
+
+        pokemon = args[0]
+
+        pokemonObj = self.pokedex.getPokemon(pokemon)
+
+        if pokemonObj is None:
+            await self.say("Pokemon not found")
+            return
+
+        em = discord.Embed(title=pokemonObj.name, colour=0xDEADBF)
+
+        em.add_field(name="Base Attack", value=pokemonObj.baseAttack, inline=True)
+        em.add_field(name="Base Defense", value=pokemonObj.baseDefense, inline=True)
+        em.add_field(name="Base Stamina", value=pokemonObj.baseStamina, inline=True)
+
+        typeString = pokemonObj.type.name
+
+        if pokemonObj.type2 is not None:
+            typeString = typeString+"/"+pokemonObj.type2.name
+
+        em.add_field(name="Type", value=typeString, inline=False)
+
+        # em.set_author(name='Someone', icon_url=client.user.default_avatar_url)
+
+        await self.say(embed=em)
