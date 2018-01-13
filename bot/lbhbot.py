@@ -105,6 +105,10 @@ class LBHBot(commands.Bot):
 
         pokemonObj = self.pokedex.getPokemon(pokemon)
 
+        if pokemonObj is None:
+            await self.say("Pokemon not found")
+            return
+
         cp = pokemonObj.cp(level, 15, 15, 15)
 
         await self.say(pokemonObj.name + " 100% CP @ level " + str(level) + ": " + str(cp))
@@ -134,14 +138,14 @@ class LBHBot(commands.Bot):
         tn = pokemonObj.icon()
         em.set_thumbnail(url=tn)
 
-        em.add_field(name="Type", value=typeString, inline=False)
+        em.add_field(name="Type", value=typeString, inline=True)
 
         em.add_field(name="Base Attack", value=pokemonObj.baseAttack, inline=True)
         em.add_field(name="Base Defense", value=pokemonObj.baseDefense, inline=True)
         em.add_field(name="Base Stamina", value=pokemonObj.baseStamina, inline=True)
 
-        em.add_field(name="Level 20 CP", value=pokemonObj.cp(20, 15, 15, 15), inline=False)
-        em.add_field(name="Level 25 CP", value=pokemonObj.cp(25, 15, 15, 15), inline=False)
+        em.add_field(name="Level 20 CP", value=pokemonObj.cp(20, 15, 15, 15), inline=True)
+        em.add_field(name="Level 25 CP", value=pokemonObj.cp(25, 15, 15, 15), inline=True)
 
         # em.set_author(name='Someone', icon_url=client.user.default_avatar_url)
 
