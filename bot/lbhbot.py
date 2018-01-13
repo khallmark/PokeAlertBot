@@ -42,8 +42,6 @@ class LBHBot(commands.Bot):
         self.file_channels = []
         self.pokedex = pokedex
 
-        self.add_command(self.test)
-        self.add_command(self.ping)
         self.add_command(self.dex)
         self.add_command(self.cp)
 
