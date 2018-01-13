@@ -5,7 +5,7 @@ import json
 import os
 from collections import OrderedDict
 
-masterNew = json.load(open('GAME_MASTER.json'), object_pairs_hook=OrderedDict)
+masterNew = json.load(open('../GAME_MASTER.json'), object_pairs_hook=OrderedDict)
 
 masterNewIn = masterNew['itemTemplates']
 
@@ -26,7 +26,7 @@ def opener(document, suffix):
 
 
 def start(general):
-    for doc in docs:i
+    for doc in docs:
         general[doc] = {'name': doc, 'items': []}
 
 

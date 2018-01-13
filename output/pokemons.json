@@ -671,6 +671,7 @@
       "collisionHeadRadiusM": 0.153,
       "movementType": "MOVEMENT_JUMP",
       "movementTimerS": 10.0,
+      "jumpTimeS": 1.0,
       "attackTimerS": 29.0,
       "attackProbability": 0.1,
       "dodgeProbability": 0.15,
@@ -741,7 +742,6 @@
       "collisionHeightM": 0.6435,
       "collisionHeadRadiusM": 0.1755,
       "movementTimerS": 3600.0,
-      "jumpTimeS": 1.0,
       "attackTimerS": 3600.0,
       "bonusCandyCaptureReward": 2,
       "bonusStardustCaptureReward": 200,
@@ -15772,8 +15772,7 @@
       "baseDefense": 90
     },
     "quickMoves": [
-      "ICE_SHARD_FAST",
-      "QUICK_ATTACK_FAST"
+      "PRESENT_FAST"
     ],
     "cinematicMoves": [
       "ICE_PUNCH",
@@ -21741,7 +21740,7 @@
     "type": "POKEMON_TYPE_ELECTRIC",
     "camera": {
       "diskRadiusM": 0.555,
-      "cylinderRadiusM": 1.0,
+      "cylinderRadiusM": 0.3,
       "cylinderHeightM": 0.4,
       "shoulderModeScale": 0.5
     },
@@ -26520,8 +26519,7 @@
       "baseDefense": 251
     },
     "quickMoves": [
-      "WATERFALL_FAST",
-      "DRAGON_TAIL_FAST"
+      "WATERFALL_FAST"
     ],
     "cinematicMoves": [
       "HYDRO_PUMP",

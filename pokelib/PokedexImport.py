@@ -1,4 +1,6 @@
 from pokelib.documents import *
+from lxml import html
+import requests
 
 class PokedexImport:
     def createMap(self, objectType):
@@ -95,5 +97,16 @@ class PokedexImport:
             pokemonObj.baseDefense = pokemonSettings['stats']['baseDefense']
             pokemonObj.baseStamina = pokemonSettings['stats']['baseStamina']
 
-
+            pokemonObj.description = self.getDescription(name.lower())
             pokemonObj.save()
+
+    def getDescription(self, pokemon):
+        page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
+
+        content = page.text.replace('\n', ' ')
+
+        tree = html.fromstring(content)
+
+        description = tree.xpath('//p[@class="version-y                                   active"]/text()')
+
+        return description[0].strip()

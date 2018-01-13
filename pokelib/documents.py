@@ -129,6 +129,7 @@ class Pokemon(Document):
     templateId = StringField(required=True)
     number = IntField()
     name = StringField(required=True)
+    description = StringField()
     type = ReferenceField(Type)
     type2 = ReferenceField(Type)
     baseAttack = IntField()

@@ -86,15 +86,6 @@ class LBHBot(commands.Bot):
             await self.process_commands(message)
 
     @commands.command()
-    async def ping(self, *args):
-        await self.say(":ping_pong: Pong!")
-        await asyncio.sleep(3)
-
-    @commands.command()
-    async def test(self, *args):
-        await self.say(":kappa:")
-
-    @commands.command()
     async def cp(self, *args):
         if len(args) != 2:
             await self.say("Command: ?cp <pokemon_name> <level>")
@@ -128,7 +119,7 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-        em = discord.Embed(title=pokemonObj.name, colour=0xDEADBF)
+        em = discord.Embed(title=pokemonObj.name, description=pokemonObj.description, colour=0xDEADBF)
 
         typeString = pokemonObj.type.name
 

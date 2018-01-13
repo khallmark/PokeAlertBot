@@ -347,6 +347,18 @@
     "dropTrainerLevel": 100
   }
 }, {
+  "templateId": "ITEM_STAR_PIECE",
+  "itemSettings": {
+    "itemId": "ITEM_STAR_PIECE",
+    "itemType": "ITEM_TYPE_STARDUST_BOOST",
+    "category": "ITEM_CATEGORY_STARDUST_BOOST",
+    "dropTrainerLevel": 100,
+    "stardustBoost": {
+      "stardustMultiplier": 1.5,
+      "boostDurationMs": 1800000
+    }
+  }
+}, {
   "templateId": "ITEM_SUN_STONE",
   "itemSettings": {
     "itemId": "ITEM_SUN_STONE",
