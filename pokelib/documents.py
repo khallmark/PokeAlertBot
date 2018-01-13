@@ -1,3 +1,4 @@
+import math
 from mongoengine import *
 
 class Type(Document):
@@ -136,3 +137,27 @@ class Pokemon(Document):
     # quickMoves = ListField()
     # chargeMoves = ListField()
     # familyId = StringField()
+
+    def icon(self):
+        number = str(self.number).zfill(3)
+
+        return "https://serebii.net/pokemongo/pokemon/" + number + ".png";
+
+    def cp(self, level, attackIV, defenseIV, staminaIV):
+        # CP = (Attack * Defense^0.5 * Stamina^0.5 * CP_Multiplier^2) / 10
+        if (attackIV > 15):
+            attackIV = 15
+
+        if (defenseIV > 15):
+            defenseIV = 15
+
+        if (staminaIV > 15):
+            staminaIV = 15
+
+        attack = self.baseAttack + attackIV
+        defense = self.baseDefense + defenseIV
+        stamina = self.baseStamina + staminaIV
+
+        cp = math.floor(((attack) * math.pow(defense, 0.5) * math.pow(stamina, 0.5) * math.pow(Pokemon.cpm_map[str(level)], 2))/10)
+
+        return cp

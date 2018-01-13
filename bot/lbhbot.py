@@ -110,16 +110,26 @@ class LBHBot(commands.Bot):
 
         em = discord.Embed(title=pokemonObj.name, colour=0xDEADBF)
 
-        em.add_field(name="Base Attack", value=pokemonObj.baseAttack, inline=True)
-        em.add_field(name="Base Defense", value=pokemonObj.baseDefense, inline=True)
-        em.add_field(name="Base Stamina", value=pokemonObj.baseStamina, inline=True)
-
         typeString = pokemonObj.type.name
 
         if pokemonObj.type2 is not None:
             typeString = typeString+"/"+pokemonObj.type2.name
 
+        print(pokemonObj.icon())
+
+        tn = pokemonObj.icon()
+        em.set_thumbnail(url=tn)
+
         em.add_field(name="Type", value=typeString, inline=False)
+
+        em.add_field(name="Base Attack", value=pokemonObj.baseAttack, inline=True)
+        em.add_field(name="Base Defense", value=pokemonObj.baseDefense, inline=True)
+        em.add_field(name="Base Stamina", value=pokemonObj.baseStamina, inline=True)
+
+        em.add_field(name="Level 20 CP", value=pokemonObj.cp(20, 15, 15, 15), inline=True)
+        em.add_field(name="Level 25 CP", value=pokemonObj.cp(25, 15, 15, 15), inline=True)
+        em.add_field(name="Level 30 CP", value=pokemonObj.cp(30, 15, 15, 15), inline=True)
+        em.add_field(name="Level 35 CP", value=pokemonObj.cp(35, 15, 15, 15), inline=True)
 
         # em.set_author(name='Someone', icon_url=client.user.default_avatar_url)
 
