@@ -45,6 +45,7 @@ class LBHBot(commands.Bot):
         self.add_command(self.test)
         self.add_command(self.ping)
         self.add_command(self.dex)
+        self.add_command(self.cp)
 
         self.run(self.token)
 
@@ -92,6 +93,21 @@ class LBHBot(commands.Bot):
     @commands.command()
     async def test(self, *args):
         await self.say(":kappa:")
+
+    @commands.command()
+    async def cp(self, *args):
+        if len(args) != 2:
+            await self.say("Command: ?cp <pokemon_name> <level>")
+            return
+
+        pokemon = args[0]
+        level = args[1]
+
+        pokemonObj = self.pokedex.getPokemon(pokemon)
+
+        cp = pokemonObj.cp(level, 15, 15, 15)
+
+        await self.say(pokemonObj.name + " 100% CP @ level " + str(level) + ": " + str(cp))
 
     @commands.command()
     async def dex(self, *args):
