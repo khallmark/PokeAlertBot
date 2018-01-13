@@ -97,7 +97,7 @@ class PokedexImport:
             pokemonObj.baseDefense = pokemonSettings['stats']['baseDefense']
             pokemonObj.baseStamina = pokemonSettings['stats']['baseStamina']
 
-            if len(pokemonObj.description) == 0 or pokemonObj.description is None:
+            if pokemonObj.description is None or len(pokemonObj.description) == 0:
                 pokemonObj.description = self.getDescription(name.lower())
 
             pokemonObj.save()
