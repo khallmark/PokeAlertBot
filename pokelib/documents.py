@@ -130,6 +130,7 @@ class Pokemon(Document):
     number = IntField()
     name = StringField(required=True)
     description = StringField()
+    category = StringField()
     type = ReferenceField(Type)
     type2 = ReferenceField(Type)
     baseAttack = IntField()

@@ -97,13 +97,17 @@ class PokedexImport:
             pokemonObj.baseDefense = pokemonSettings['stats']['baseDefense']
             pokemonObj.baseStamina = pokemonSettings['stats']['baseStamina']
 
-            if pokemonObj.description is None or len(pokemonObj.description) == 0:
-                pokemonObj.description = self.getDescription(name.lower())
+            if pokemonObj.description is None or pokemonObj.category is None:
+                self.loadPokedexData(name.lower(), pokemonObj)
 
             pokemonObj.save()
 
-    def getDescription(self, pokemon):
+    def loadPokedexData(self, pokemon, pokemonObj):
         page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
+
+        if page.status_code == 503:
+            print(pokemon)
+            exit(0)
 
         content = page.text.replace('\n', ' ')
 
@@ -112,7 +116,8 @@ class PokedexImport:
         description = tree.xpath('//p[@class="version-y                                   active"]/text()')
 
         if (len(description)):
-            return description[0].strip()
+            pokemonObj.description = description[0].strip()
 
-        print(pokemon)
-        exit(0)
+        category = tree.xpath('//div[@class="column-7 push-7"]/ul/li/span[@class="attribute-value"]/text()')
+
+        pokemonObj.category = category[0].strip()

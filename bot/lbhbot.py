@@ -117,7 +117,12 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-        em = discord.Embed(title=pokemonObj.name, description=pokemonObj.description, colour=0xDEADBF)
+        title = pokemonObj.name
+
+        if pokemonObj.category is not None:
+            title = pokemonObj.name + " (" + pokemonObj.category + " Pokémon)"
+
+        em = discord.Embed(title=title, description=pokemonObj.description, colour=0xDEADBF)
 
         typeString = pokemonObj.type.name
 
@@ -133,8 +138,8 @@ class LBHBot(commands.Bot):
         em.add_field(name="Base Defense", value=pokemonObj.baseDefense, inline=True)
         em.add_field(name="Base Stamina", value=pokemonObj.baseStamina, inline=True)
 
-        em.add_field(name="Level 20 CP", value=pokemonObj.cp(20, 15, 15, 15), inline=True)
-        em.add_field(name="Level 25 CP", value=pokemonObj.cp(25, 15, 15, 15), inline=True)
+        em.add_field(name="100% Level 20 CP", value=pokemonObj.cp(20, 15, 15, 15), inline=True)
+        em.add_field(name="100% Level 25 CP", value=pokemonObj.cp(25, 15, 15, 15), inline=True)
 
         # em.set_author(name='Someone', icon_url=client.user.default_avatar_url)
 
