@@ -37,14 +37,16 @@ class PokedexImport:
 
         return dbMap
 
-    def importWeather(self, weatherData):
+    def importWeather(self, weatherData, types):
 
         dbMap = self.createMap(Weather)
         weatherMap = {}
 
         for weather in weatherData:
             templateId = weather["templateId"]
-            name = weather["weatherAffinities"]["weatherCondition"].capitalize()
+
+            weatherAffinities = weather["weatherAffinities"]
+            name = weatherAffinities["weatherCondition"].capitalize()
 
             weatherObj = 0
             if templateId in dbMap:
@@ -58,13 +60,60 @@ class PokedexImport:
                     name = name
                 )
 
+                for pType in weatherAffinities["pokemonType"]:
+                    if pType in types:
+                        weatherObj.typeBoost.append(types[pType])
+
                 dbMap[templateId] = weatherObj
 
             weatherObj.save()
 
         return dbMap
 
-    def importPokemon(self, pokemonData, types, weather):
+    def importMoves(self, moveData, types):
+        dbMap = self.createMap(Move)
+
+        for move in moveData:
+            moveObj = False
+
+            #templateId = move["templateId"]
+
+            moveSettings = move["moveSettings"]
+
+            templateId = moveSettings["movementId"]
+            name = moveSettings["movementId"].replace("_FAST", "").replace("_", " ").title()
+
+            if templateId in dbMap:
+                moveObj = dbMap[templateId]
+            else:
+                moveObj = Move(
+                    templateId = templateId,
+                    name = name
+                )
+
+            moveObj.name = name
+
+            charge = True
+            if "_FAST" in templateId:
+                charge = False
+
+            moveObj.charge = charge
+
+            if moveSettings["pokemonType"] in types:
+                moveObj.type = types[moveSettings['pokemonType']]
+
+            moveObj.durationMS = moveSettings["durationMs"]
+
+            if "power" in moveSettings:
+                moveObj.power = moveSettings["power"]
+
+            moveObj.save()
+
+            dbMap[templateId] = moveObj
+
+        return dbMap
+
+    def importPokemon(self, pokemonData, types, weather, moves):
         dbMap = self.createMap(Pokemon)
 
         pokemon_dict = []
@@ -99,6 +148,20 @@ class PokedexImport:
 
             if pokemonObj.description is None or pokemonObj.category is None:
                 self.loadPokedexData(name.lower(), pokemonObj)
+
+            quickMoves = []
+            for quickMove in pokemonSettings["quickMoves"]:
+                if quickMove in moves:
+                    quickMoves.append(moves[quickMove])
+
+            pokemonObj.quickMoves = quickMoves
+
+            chargeMoves = []
+            for chargeMove in pokemonSettings["cinematicMoves"]:
+                if chargeMove in moves:
+                    chargeMoves.append(moves[chargeMove])
+
+            pokemonObj.chargeMoves = chargeMoves
 
             pokemonObj.save()
 

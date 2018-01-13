@@ -41,7 +41,23 @@ class Weather(Document):
 class Move(Document):
     templateId = StringField(required=True)
     name = StringField()
-    type = StringField()
+    type = ReferenceField(Type)
+    power = FloatField()
+    durationMS = IntField()
+    charge = BooleanField()
+
+    def dps(self, stab=False, weather=False):
+        power = self.power
+
+        if stab:
+            power = power * 1.2
+
+        duration = self.durationMS
+
+        if self.charge:
+            duration += 500
+
+        return round((power * 1000)/duration, 1)
 
 class Pokemon(Document):
     cpm_map = {
@@ -136,8 +152,8 @@ class Pokemon(Document):
     baseAttack = IntField()
     baseDefense = IntField()
     baseStamina = IntField()
-    # quickMoves = ListField()
-    # chargeMoves = ListField()
+    quickMoves = ListField(ReferenceField(Move))
+    chargeMoves = ListField(ReferenceField(Move))
     # familyId = StringField()
 
     def icon(self):

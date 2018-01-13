@@ -1,19 +1,11 @@
+import os
+import platform
+import sys
+
 from discord.ext import commands
 import discord
-
-import asyncio
-import aiohttp
-
-import os
-
-import asyncio
-import platform
-import json
 import requests
 from cleverwrap import CleverWrap
-
-import sys
-sys.path.append("..")
 
 class LBHImageDownload:
     def __init__(self, url, filename):
@@ -44,6 +36,7 @@ class LBHBot(commands.Bot):
 
         self.add_command(self.dex)
         self.add_command(self.cp)
+        self.add_command(self.moves)
 
         self.run(self.token)
 
@@ -106,7 +99,7 @@ class LBHBot(commands.Bot):
     async def dex(self, *args):
 
         if len(args) != 1:
-            await self.say("Command ?dex expects one argument, the name of a pokemon or the pokemon number")
+            await self.say("Command: ?dex <pokemon_name>")
             return
 
         pokemon = args[0]
@@ -117,20 +110,24 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-        title = pokemonObj.name
+        # title = pokemonObj.name
+        #
+        # if pokemonObj.category is not None:
+        #     title = pokemonObj.name + " (" + pokemonObj.category + " Pokémon)"
+        #
+        # em = discord.Embed(title=title, description=pokemonObj.description, colour=0xDEADBF)
+        #
 
-        if pokemonObj.category is not None:
-            title = pokemonObj.name + " (" + pokemonObj.category + " Pokémon)"
+        #
+        # tn = pokemonObj.icon()
+        # em.set_thumbnail(url=tn)
 
-        em = discord.Embed(title=title, description=pokemonObj.description, colour=0xDEADBF)
+        em = self.embedForPokemon(pokemonObj)
 
         typeString = pokemonObj.type.name
 
         if pokemonObj.type2 is not None:
             typeString = typeString+"/"+pokemonObj.type2.name
-
-        tn = pokemonObj.icon()
-        em.set_thumbnail(url=tn)
 
         em.add_field(name="Type", value=typeString, inline=True)
 
@@ -142,5 +139,59 @@ class LBHBot(commands.Bot):
         em.add_field(name="100% Level 25 CP", value=pokemonObj.cp(25, 15, 15, 15), inline=True)
 
         # em.set_author(name='Someone', icon_url=client.user.default_avatar_url)
+
+        await self.say(embed=em)
+
+    def embedForPokemon(self, pokemonObj):
+        title = pokemonObj.name
+
+        if pokemonObj.category is not None:
+            title = pokemonObj.name + " (" + pokemonObj.category + " Pokémon)"
+
+        em = discord.Embed(title=title, description=pokemonObj.description, colour=0xDEADBF)
+
+        tn = pokemonObj.icon()
+        em.set_thumbnail(url=tn)
+
+        return em
+
+
+    @commands.command()
+    async def moves(self, *args):
+        if len(args) != 1:
+            await self.say("Command: ?dex <pokemon_name>")
+            return
+
+        pokemon = args[0]
+
+        pokemonObj = self.pokedex.getPokemon(pokemon)
+
+        if pokemonObj is None:
+            await self.say("Pokemon not found")
+            return
+
+        em = self.embedForPokemon(pokemonObj)
+        quickMoves = pokemonObj.quickMoves
+
+        moveString = ""
+        for move in quickMoves:
+
+            stab = False
+            if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
+                stab = True
+
+            moveString = moveString + move.name + " (" + str(move.dps(stab=stab)) + " DPS)\n"
+
+        em.add_field(name="Quick Moves", value=moveString, inline=True)
+
+        moveString = ""
+        for move in pokemonObj.chargeMoves:
+            stab = False
+            if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
+                stab = True
+
+            moveString = moveString + move.name + " (" + str(move.dps(stab=stab)) + " DPS)\n"
+
+        em.add_field(name="Charge Moves", value=moveString, inline=True)
 
         await self.say(embed=em)
