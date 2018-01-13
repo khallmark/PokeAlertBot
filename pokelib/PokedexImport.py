@@ -109,4 +109,8 @@ class PokedexImport:
 
         description = tree.xpath('//p[@class="version-y                                   active"]/text()')
 
-        return description[0].strip()
+        if (len(description)):
+            return description[0].strip()
+
+        print(pokemon)
+        exit(0)
