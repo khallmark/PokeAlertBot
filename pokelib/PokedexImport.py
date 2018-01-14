@@ -106,6 +106,8 @@ class PokedexImport:
 
             if "power" in moveSettings:
                 moveObj.power = moveSettings["power"]
+            else:
+                moveObj.power = 0
 
             moveObj.save()
 

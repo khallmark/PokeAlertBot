@@ -49,6 +49,9 @@ class Move(Document):
     def dps(self, stab=False, weather=False):
         power = self.power
 
+        if power is None:
+            power = 0
+
         if stab:
             power = power * 1.2
 

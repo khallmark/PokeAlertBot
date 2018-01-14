@@ -177,10 +177,13 @@ class LBHBot(commands.Bot):
         for move in quickMoves:
 
             stab = False
+            stabStr = ""
             if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
                 stab = True
+                stabStr = "STAB"
 
-            moveString = moveString + move.name + " (" + str(move.dps(stab=stab)) + " DPS)\n"
+
+            moveString += move.name + " (" + str(move.dps(stab=stab)) + " DPS, " + move.type.name + " " + stabStr + ")\n"
 
         em.add_field(name="Quick Moves", value=moveString, inline=True)
 
