@@ -93,9 +93,20 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-        cp = pokemonObj.cp(level, 15, 15, 15)
 
-        await self.say(pokemonObj.name + " 100% CP @ level " + str(level) + ": " + str(cp))
+        cp = pokemonObj.cp(level, 15, 15, 15)
+        attack = pokemonObj.attack(level, 15)
+        defense = pokemonObj.defense(level, 15)
+        hp = pokemonObj.hp(level, 15)
+
+        em = self.embedForPokemon(pokemonObj)
+
+        em.add_field(name="CP", value=cp, inline=True)
+        em.add_field(name="Attack", value=attack, inline=True)
+        em.add_field(name="Defense", value=defense, inline=True)
+        em.add_field(name="HP", value=hp, inline=True)
+
+        await self.say(embed=em)
 
     @commands.command()
     async def dex(self, *args):

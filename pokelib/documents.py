@@ -171,19 +171,20 @@ class Pokemon(Document):
 
     def cp(self, level, attackIV: int, defenseIV: int, staminaIV: int):
         # CP = (Attack * Defense^0.5 * Stamina^0.5 * CP_Multiplier^2) / 10
-        if (attackIV > 15):
-            attackIV = 15
-
-        if (defenseIV > 15):
-            defenseIV = 15
-
-        if (staminaIV > 15):
-            staminaIV = 15
-
         attack = self.baseAttack + attackIV
         defense = self.baseDefense + defenseIV
         stamina = self.baseStamina + staminaIV
 
-        cp = math.floor(((attack) * math.pow(defense, 0.5) * math.pow(stamina, 0.5) * math.pow(Pokemon.cpm_map[str(level)], 2))/10)
+        return math.floor(((attack) * math.pow(defense, 0.5) * math.pow(stamina, 0.5) * math.pow(Pokemon.cpm_map[str(level)], 2))/10)
 
-        return cp
+    def attack(self, level, iv):
+        # Attack=(BaseAttack+AttackIV)∗CpM
+        return round((self.baseAttack + iv) * Pokemon.cpm_map[str(level)])
+
+    def defense(self, level, iv):
+        # Defense=(BaseDefense+DefenseIV)∗CpM
+        return round((self.baseDefense + iv) * Pokemon.cpm_map[str(level)])
+
+    def hp(self, level, iv):
+        # HP=Floor((BaseStamina+StaminaIV)∗CpM)
+        return math.floor((self.baseStamina + iv) * Pokemon.cpm_map[str(level)])
