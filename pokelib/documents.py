@@ -46,13 +46,16 @@ class Move(Document):
     durationMS = IntField()
     charge = BooleanField()
 
-    def dps(self, stab=False, weather=False):
+    def dps(self, pokemon, weather=False):
         power = self.power
 
         if power is None:
             power = 0
 
-        if stab:
+        if self in pokemon.stabMoves:
+            power = power * 1.2
+
+        if weather is not None and self.type in weather.typeBoost:
             power = power * 1.2
 
         duration = self.durationMS
@@ -157,6 +160,7 @@ class Pokemon(Document):
     baseStamina = IntField()
     quickMoves = ListField(ReferenceField(Move))
     chargeMoves = ListField(ReferenceField(Move))
+    stabMoves = ListField(ReferenceField(Move))
     evolutions = ListField(ReferenceField('self'))
     # familyId = StringField()
 
@@ -165,7 +169,7 @@ class Pokemon(Document):
 
         return "https://serebii.net/pokemongo/pokemon/" + number + ".png";
 
-    def cp(self, level, attackIV, defenseIV, staminaIV):
+    def cp(self, level, attackIV: int, defenseIV: int, staminaIV: int):
         # CP = (Attack * Defense^0.5 * Stamina^0.5 * CP_Multiplier^2) / 10
         if (attackIV > 15):
             attackIV = 15

@@ -151,19 +151,31 @@ class PokedexImport:
             if pokemonObj.description is None or pokemonObj.category is None:
                 self.loadPokedexData(name.lower(), pokemonObj)
 
+            stabMoves = []
+
             quickMoves = []
             for quickMove in pokemonSettings["quickMoves"]:
                 if quickMove in moves:
-                    quickMoves.append(moves[quickMove])
+                    move = moves[quickMove]
 
-            pokemonObj.quickMoves = quickMoves
+                    quickMoves.append(move)
+                    if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
+                        stabMoves.append(move)
 
             chargeMoves = []
             for chargeMove in pokemonSettings["cinematicMoves"]:
                 if chargeMove in moves:
+                    move = moves[chargeMove]
+
                     chargeMoves.append(moves[chargeMove])
 
+                    if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
+                        stabMoves.append(move)
+
+
+            pokemonObj.quickMoves = quickMoves
             pokemonObj.chargeMoves = chargeMoves
+            pokemonObj.stabMoves = stabMoves
 
             pokemonObj.save()
 

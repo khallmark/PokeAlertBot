@@ -7,6 +7,8 @@ import discord
 import requests
 from cleverwrap import CleverWrap
 
+from pokelib.documents import *
+
 class LBHImageDownload:
     def __init__(self, url, filename):
         self.url = url
@@ -177,22 +179,20 @@ class LBHBot(commands.Bot):
         for move in quickMoves:
             quickString += self.generateMoveString(pokemonObj, move)
 
-        em.add_field(name="Quick Moves", value=quickString, inline=True)
+        em.add_field(name="Quick Moves", value=quickString, inline=False)
 
         chargeString = ""
         for move in pokemonObj.chargeMoves:
             chargeString += self.generateMoveString(pokemonObj, move)
 
-        em.add_field(name="Charge Moves", value=chargeString, inline=True)
+        em.add_field(name="Charge Moves", value=chargeString, inline=False)
 
         await self.say(embed=em)
 
-    def generateMoveString(self, pokemonObj, move):
-        stab = False
+    def generateMoveString(self, pokemonObj: Pokemon, move: Move):
         stabStr = ""
-        if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
-            stab = True
+        if move in pokemonObj.stabMoves:
             stabStr = ", STAB"
 
-        return move.name + " (" + str(move.dps(stab=stab)) + " DPS, " + move.type.name + "" + stabStr + ")\n"
+        return move.name + " (" + str(move.dps(pokemon=pokemonObj)) + " DPS, " + move.type.name + "" + stabStr + ")\n"
 
