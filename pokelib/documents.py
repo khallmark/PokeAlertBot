@@ -46,7 +46,7 @@ class Move(Document):
     durationMS = IntField()
     charge = BooleanField()
 
-    def dps(self, pokemon, weather=False):
+    def dps(self, pokemon, weather):
         power = self.power
 
         if power is None:

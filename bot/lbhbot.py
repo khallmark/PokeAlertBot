@@ -194,5 +194,5 @@ class LBHBot(commands.Bot):
         if move in pokemonObj.stabMoves:
             stabStr = ", STAB"
 
-        return move.name + " (" + str(move.dps(pokemon=pokemonObj)) + " DPS, " + move.type.name + "" + stabStr + ")\n"
+        return move.name + " (" + str(move.dps(pokemon=pokemonObj, weather=None)) + " DPS, " + move.type.name + "" + stabStr + ")\n"
 
