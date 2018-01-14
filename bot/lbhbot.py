@@ -173,28 +173,26 @@ class LBHBot(commands.Bot):
         em = self.embedForPokemon(pokemonObj)
         quickMoves = pokemonObj.quickMoves
 
-        moveString = ""
+        quickString = ""
         for move in quickMoves:
+            quickString += self.generateMoveString(pokemonObj, move)
 
-            stab = False
-            stabStr = ""
-            if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
-                stab = True
-                stabStr = "STAB"
+        em.add_field(name="Quick Moves", value=quickString, inline=True)
 
-
-            moveString += move.name + " (" + str(move.dps(stab=stab)) + " DPS, " + move.type.name + " " + stabStr + ")\n"
-
-        em.add_field(name="Quick Moves", value=moveString, inline=True)
-
-        moveString = ""
+        chargeString = ""
         for move in pokemonObj.chargeMoves:
-            stab = False
-            if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
-                stab = True
+            chargeString += self.generateMoveString(pokemonObj, move)
 
-            moveString = moveString + move.name + " (" + str(move.dps(stab=stab)) + " DPS)\n"
-
-        em.add_field(name="Charge Moves", value=moveString, inline=True)
+        em.add_field(name="Charge Moves", value=chargeString, inline=True)
 
         await self.say(embed=em)
+
+    def generateMoveString(self, pokemonObj, move):
+        stab = False
+        stabStr = ""
+        if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
+            stab = True
+            stabStr = ", STAB"
+
+        return move.name + " (" + str(move.dps(stab=stab)) + " DPS, " + move.type.name + "" + stabStr + ")\n"
+

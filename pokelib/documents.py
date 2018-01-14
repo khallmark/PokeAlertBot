@@ -157,6 +157,7 @@ class Pokemon(Document):
     baseStamina = IntField()
     quickMoves = ListField(ReferenceField(Move))
     chargeMoves = ListField(ReferenceField(Move))
+    evolutions = ListField(ReferenceField('self'))
     # familyId = StringField()
 
     def icon(self):
