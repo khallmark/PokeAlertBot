@@ -16,12 +16,10 @@ importer = PokeApiImport()
 
 i = 387
 while i < 802:
+    pokemon = importer.importPokemon(i)
 
-    if i == 664 or i == 657:
-        pokemon = importer.importPokemon(i)
-
-        if pokemon is not None:
-            pokemon.save()
+    if pokemon is not None:
+        pokemon.save()
 
     i += 1
 
