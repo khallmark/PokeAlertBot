@@ -150,9 +150,12 @@ class Pokemon(Document):
 
     templateId = StringField(required=True)
     number = IntField()
+    source = StringField()
     name = StringField(required=True)
     description = StringField()
     category = StringField()
+    weight = FloatField()
+    height = FloatField()
     type = ReferenceField(Type)
     type2 = ReferenceField(Type)
     baseAttack = IntField()
@@ -167,7 +170,8 @@ class Pokemon(Document):
     def icon(self):
         number = str(self.number).zfill(3)
 
-        return "https://serebii.net/pokemongo/pokemon/" + number + ".png";
+        return "https://serebii.net/sunmoon/pokemon/" + number + ".png";
+        # return "https://serebii.net/pokemongo/pokemon/" + number + ".png";
 
     def cp(self, level, attackIV: int, defenseIV: int, staminaIV: int):
         # CP = (Attack * Defense^0.5 * Stamina^0.5 * CP_Multiplier^2) / 10

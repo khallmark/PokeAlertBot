@@ -1,0 +1,35 @@
+{
+  "count": 7,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/generation/1/",
+      "name": "generation-i"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/generation/2/",
+      "name": "generation-ii"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/generation/3/",
+      "name": "generation-iii"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/generation/4/",
+      "name": "generation-iv"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/generation/5/",
+      "name": "generation-v"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/generation/6/",
+      "name": "generation-vi"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/generation/7/",
+      "name": "sun-moon"
+    }
+  ],
+  "next": null
+}

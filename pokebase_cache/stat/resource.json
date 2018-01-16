@@ -1,0 +1,39 @@
+{
+  "count": 8,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/stat/1/",
+      "name": "hp"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/stat/2/",
+      "name": "attack"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/stat/3/",
+      "name": "defense"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/stat/4/",
+      "name": "special-attack"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/stat/5/",
+      "name": "special-defense"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/stat/6/",
+      "name": "speed"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/stat/7/",
+      "name": "accuracy"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/stat/8/",
+      "name": "evasion"
+    }
+  ],
+  "next": null
+}

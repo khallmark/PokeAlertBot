@@ -3,6 +3,10 @@ import json
 from pokelib.PokedexImport import PokedexImport
 from pokelib.documents import *
 from mongoengine import *
+import pokebase
+import pokebase.api as api
+
+api.set_cache("./pokebase_cache")
 
 connect('pokemon', host='localhost', port=27017)
 

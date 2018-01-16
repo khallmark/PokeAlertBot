@@ -1,6 +1,7 @@
 from pokelib.documents import *
 from lxml import html
 import requests
+import pokebase
 
 class PokedexImport:
     def createMap(self, objectType):
@@ -137,9 +138,12 @@ class PokedexImport:
                     name = name
                 )
 
+            pokemonObj.source = "game_master"
             pokemonObj.name = name
             pokemonObj.number = pokemonNumber
             pokemonObj.type = types[pokemonSettings["type"]]
+
+            self.loadPokeAPIData(pokemonObj)
 
             if "type2" in pokemonSettings:
                 pokemonObj.type2 = types[pokemonSettings["type2"]]
@@ -182,7 +186,7 @@ class PokedexImport:
     def loadPokedexData(self, pokemon, pokemonObj):
         page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
 
-        if page.status_code == 503:
+        if page.status_code == 503 or page.status_code == 404:
             print(pokemon)
             exit(0)
 
@@ -198,3 +202,10 @@ class PokedexImport:
         category = tree.xpath('//div[@class="column-7 push-7"]/ul/li/span[@class="attribute-value"]/text()')
 
         pokemonObj.category = category[0].strip()
+
+    def loadPokeAPIData(self, pokemonObj):
+        apiMon = pokebase.NamedAPIResource("pokemon", pokemonObj.number)
+
+        pokemonObj.weight = apiMon.weight/10
+        pokemonObj.height = apiMon.height/10
+

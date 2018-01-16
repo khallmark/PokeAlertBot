@@ -15,6 +15,7 @@ cleverwrap = "*"
 tqdm = "*"
 mongoengine = "*"
 lxml = "*"
+pokebase = "*"
 
 [dev-packages]
 

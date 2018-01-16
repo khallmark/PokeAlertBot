@@ -1,0 +1,98 @@
+{
+  "is_battle_only": false,
+  "names": [
+    {
+      "name": "HP",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "name": "PV",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "name": "KP",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "name": "PS",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "name": "PS",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "name": "HP",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    }
+  ],
+  "affecting_natures": {
+    "increase": [],
+    "decrease": []
+  },
+  "characteristics": [
+    {
+      "url": "https://pokeapi.co/api/v2/characteristic/1/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/characteristic/7/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/characteristic/13/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/characteristic/19/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/characteristic/25/"
+    }
+  ],
+  "affecting_moves": {
+    "increase": [
+      {
+        "move": {
+          "url": "https://pokeapi.co/api/v2/move/246/",
+          "name": "ancient-power"
+        },
+        "change": 1
+      },
+      {
+        "move": {
+          "url": "https://pokeapi.co/api/v2/move/318/",
+          "name": "silver-wind"
+        },
+        "change": 1
+      },
+      {
+        "move": {
+          "url": "https://pokeapi.co/api/v2/move/466/",
+          "name": "ominous-wind"
+        },
+        "change": 1
+      }
+    ],
+    "decrease": []
+  },
+  "move_damage_class": null,
+  "game_index": 1,
+  "id": 1,
+  "name": "hp"
+}

@@ -1,0 +1,19 @@
+{
+  "count": 3,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/move-damage-class/1/",
+      "name": "status"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/move-damage-class/2/",
+      "name": "physical"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/move-damage-class/3/",
+      "name": "special"
+    }
+  ],
+  "next": null
+}

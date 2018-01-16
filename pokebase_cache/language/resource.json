@@ -1,0 +1,55 @@
+{
+  "count": 12,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/language/1/",
+      "name": "ja-Hrkt"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/2/",
+      "name": "roomaji"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/3/",
+      "name": "ko"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/4/",
+      "name": "zh-Hant"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/5/",
+      "name": "fr"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/6/",
+      "name": "de"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/7/",
+      "name": "es"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/8/",
+      "name": "it"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/9/",
+      "name": "en"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/10/",
+      "name": "cs"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/11/",
+      "name": "ja"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/language/12/",
+      "name": "zh-Hans"
+    }
+  ],
+  "next": null
+}
