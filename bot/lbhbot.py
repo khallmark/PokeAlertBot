@@ -123,18 +123,6 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-        # title = pokemonObj.name
-        #
-        # if pokemonObj.category is not None:
-        #     title = pokemonObj.name + " (" + pokemonObj.category + " Pokémon)"
-        #
-        # em = discord.Embed(title=title, description=pokemonObj.description, colour=0xDEADBF)
-        #
-
-        #
-        # tn = pokemonObj.icon()
-        # em.set_thumbnail(url=tn)
-
         em = self.embedForPokemon(pokemonObj)
 
         typeString = pokemonObj.type.name
@@ -151,6 +139,10 @@ class LBHBot(commands.Bot):
         em.add_field(name="100% Level 20 CP", value=pokemonObj.cp(20, 15, 15, 15), inline=True)
         em.add_field(name="100% Level 25 CP", value=pokemonObj.cp(25, 15, 15, 15), inline=True)
 
+        if pokemonObj.source == "pokeapi":
+            em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
+        else:
+            em.set_footer(text="Data was loaded from GAME_MASTER.json and is accurate for Pokémon Go.")
         # em.set_author(name='Someone', icon_url=client.user.default_avatar_url)
 
         await self.say(embed=em)

@@ -170,8 +170,10 @@ class Pokemon(Document):
     def icon(self):
         number = str(self.number).zfill(3)
 
-        return "https://serebii.net/sunmoon/pokemon/" + number + ".png";
-        # return "https://serebii.net/pokemongo/pokemon/" + number + ".png";
+        if self.source == "pokeapi":
+            return "https://serebii.net/sunmoon/pokemon/" + number + ".png";
+        else:
+            return "https://serebii.net/pokemongo/pokemon/" + number + ".png";
 
     def cp(self, level, attackIV: int, defenseIV: int, staminaIV: int):
         # CP = (Attack * Defense^0.5 * Stamina^0.5 * CP_Multiplier^2) / 10
