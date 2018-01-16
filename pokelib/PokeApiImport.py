@@ -19,7 +19,7 @@ class PokeApiImport:
             pokemonObj = Pokemon()
             pokemonObj.name = apiMon.name.title()
 
-        print(pokemonObj.name)
+        # print(pokemonObj.name)
 
         stats = {}
         for stat in apiMon.stats:
