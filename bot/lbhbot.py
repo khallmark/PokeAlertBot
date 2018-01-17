@@ -176,17 +176,22 @@ class LBHBot(commands.Bot):
             return
 
         em = self.embedForPokemon(pokemonObj)
-        quickMoves = pokemonObj.quickMoves
 
-        quickString = ""
-        for move in quickMoves:
-            quickString += self.generateMoveString(pokemonObj, move)
+        if len(pokemonObj.quickMoves):
+            quickString = ""
+            for move in pokemonObj.quickMoves:
+                quickString += self.generateMoveString(pokemonObj, move)
+        else:
+            quickString = "No Quick Moves Found"
 
         em.add_field(name="Quick Moves", value=quickString, inline=False)
 
-        chargeString = ""
-        for move in pokemonObj.chargeMoves:
-            chargeString += self.generateMoveString(pokemonObj, move)
+        if len(pokemonObj.chargeMoves):
+            chargeString = ""
+            for move in pokemonObj.chargeMoves:
+                chargeString += self.generateMoveString(pokemonObj, move)
+        else:
+            chargeString = "No Charge Moves Found"
 
         em.add_field(name="Charge Moves", value=chargeString, inline=False)
 
