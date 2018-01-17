@@ -14,6 +14,9 @@ connect('pokemon', host='localhost', port=27017)
 
 importer = PokeApiImport()
 
+# pokemon = importer.importPokemon(387)
+# pokemon.save()
+
 i = 387
 while i < 802:
     pokemon = importer.importPokemon(i)

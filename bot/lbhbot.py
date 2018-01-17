@@ -142,7 +142,7 @@ class LBHBot(commands.Bot):
         if pokemonObj.source == "pokeapi":
             em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
         else:
-            em.set_footer(text="Data was loaded from GAME_MASTER.json and is accurate for Pokémon Go.")
+            em.set_footer(text="Data is accurate for Pokémon Go.")
         # em.set_author(name='Someone', icon_url=client.user.default_avatar_url)
 
         await self.say(embed=em)
@@ -153,7 +153,7 @@ class LBHBot(commands.Bot):
         if pokemonObj.category is not None:
             title = pokemonObj.name + " (" + pokemonObj.category + " Pokémon)"
 
-        em = discord.Embed(title=title, description=pokemonObj.description, colour=0xDEADBF)
+        em = discord.Embed(title=title, description=pokemonObj.description, colour=pokemonObj.type.color())
 
         tn = pokemonObj.icon()
         em.set_thumbnail(url=tn)
@@ -189,6 +189,11 @@ class LBHBot(commands.Bot):
             chargeString += self.generateMoveString(pokemonObj, move)
 
         em.add_field(name="Charge Moves", value=chargeString, inline=False)
+
+        if pokemonObj.source == "pokeapi":
+            em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
+        else:
+            em.set_footer(text="Data is accurate for Pokémon Go.")
 
         await self.say(embed=em)
 

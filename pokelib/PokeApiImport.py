@@ -40,8 +40,6 @@ class PokeApiImport:
         for type in apiMon.types:
             name = type.type.name
 
-            # pprint(type.type.name)
-
             typeObj = Type.objects(name__iexact=name)[0]
 
             if type.slot == 1:
@@ -49,6 +47,29 @@ class PokeApiImport:
 
             if type.slot == 2:
                 pokemonObj.type2 = typeObj
+
+        for move in apiMon.moves:
+            version_group_details = move.version_group_details
+
+            moveName = move.move.name.replace('-', ' ').title()
+
+            moves = Move.objects(name__iexact=moveName)
+
+            if len(moves) > 0:
+
+                learnMethod = version_group_details[0]["move_learn_method"]["name"]
+                # print(moveName + " " + learnMethod)
+                if learnMethod == "level-up":
+                    moveObj = moves[0]
+
+                    if moveObj.charge:
+                        # print(moveName + " Charge Learned by " + learnMethod)
+                        if moveObj not in pokemonObj.chargeMoves:
+                            pokemonObj.chargeMoves.append(moveObj)
+                    else:
+                        # print(moveName + " Charge Learned by " + version_group_details[0]["move_learn_method"]["name"])
+                        if moveObj not in pokemonObj.quickMoves:
+                            pokemonObj.quickMoves.append(moveObj)
 
         if pokemonObj.description is None or pokemonObj.category is None:
             if not self.loadPokedexData(pokemonObj.name.lower(), pokemonObj):

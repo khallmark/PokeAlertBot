@@ -22,10 +22,34 @@ class Type(Document):
         "POKEMON_TYPE_DARK",
         "POKEMON_TYPE_FAIRY"
     ]
+    
+    type_colors = {
+        "POKEMON_TYPE_NORMAL"   : 0x808179,
+        "POKEMON_TYPE_FIGHTING" : 0xDA3E53,
+        "POKEMON_TYPE_FLYING"   : 0x6780D6,
+        "POKEMON_TYPE_POISON"   : 0xDD4FCD,
+        "POKEMON_TYPE_GROUND"   : 0xC0703B,
+        "POKEMON_TYPE_ROCK"     : 0xC8BA56,
+        "POKEMON_TYPE_BUG"      : 0x91CD04,
+        "POKEMON_TYPE_GHOST"    : 0x9778DC,
+        "POKEMON_TYPE_STEEL"    : 0x248788,
+        "POKEMON_TYPE_FIRE"     : 0xFC931A,
+        "POKEMON_TYPE_WATER"    : 0x50B0D9,
+        "POKEMON_TYPE_GRASS"    : 0x43C96C,
+        "POKEMON_TYPE_ELECTRIC" : 0xFED248,
+        "POKEMON_TYPE_PSYCHIC"  : 0xFC7669,
+        "POKEMON_TYPE_ICE"      : 0x6FDDD3,
+        "POKEMON_TYPE_DRAGON"   : 0x1A61A8,
+        "POKEMON_TYPE_DARK"     : 0x464658,
+        "POKEMON_TYPE_FAIRY"    : 0xF193D7
+    }
 
     templateId = StringField(required=True)
     name = StringField(required=True, max_length=10)
     typeIndex = DictField()
+
+    def color(self):
+        return Type.type_colors[self.templateId]
 
     def setTypeMap(self, attackScalars):
         for index, scalar in enumerate(attackScalars):
