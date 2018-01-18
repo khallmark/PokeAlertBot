@@ -182,7 +182,7 @@ class PokedexImport:
             pokemonObj.stabMoves = stabMoves
 
             pokemonObj.save()
-            
+
         return pokemonObj
 
     def loadPokedexData(self, pokemon, pokemonObj):

@@ -13,7 +13,7 @@ docs = 'avatars', 'badges', 'settings', 'forms', 'items', 'types', 'quests', 'sp
 generalNew = OrderedDict()
 suffixNew = ''
 
-directory = 'output/'
+directory = '../output/'
 indent = 2
 
 if not os.path.exists(directory):

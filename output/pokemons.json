@@ -20548,7 +20548,7 @@
       "ROCK_SMASH_FAST"
     ],
     "cinematicMoves": [
-      "CRUNCH",
+      "STOMP",
       "DISARMING_VOICE",
       "FLAMETHROWER"
     ],
@@ -22899,8 +22899,8 @@
       "bonusStardustCaptureReward": 200,
       "attackProbability": 0.2,
       "dodgeProbability": 0.3,
-      "dodgeDurationS": 1.0,
-      "dodgeDistance": 1.0,
+      "dodgeDurationS": 0.5,
+      "dodgeDistance": 0.4,
       "cameraDistance": 3.0,
       "minPokemonActionFrequencyS": 0.2,
       "maxPokemonActionFrequencyS": 1.6
@@ -26490,7 +26490,7 @@
     "type": "POKEMON_TYPE_WATER",
     "camera": {
       "diskRadiusM": 0.555,
-      "cylinderRadiusM": 3.3,
+      "cylinderRadiusM": 5.0,
       "cylinderHeightM": 2.0,
       "cylinderGroundM": 0.5,
       "shoulderModeScale": 0.5
@@ -26544,8 +26544,8 @@
     "weightStdDev": 44.0,
     "familyId": "FAMILY_KYOGRE",
     "kmBuddyDistance": 20.0,
-    "buddySize": "BUDDY_FLYING",
-    "modelHeight": 5.1
+    "buddySize": "BUDDY_BIG",
+    "modelHeight": 1.0
   }
 }, {
   "templateId": "V0383_POKEMON_GROUDON",

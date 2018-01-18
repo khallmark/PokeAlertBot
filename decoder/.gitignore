@@ -1,0 +1,9 @@
+/target/
+.classpath
+.project
+.settings/
+.idea/
+*.log
+dependency-reduced-pom.xml
+
+node_modules
