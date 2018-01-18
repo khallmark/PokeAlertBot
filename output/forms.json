@@ -1,2079 +1,2079 @@
 [{
-  "templateId": "FORMS_V0001_POKEMON_BULBASAUR",
+  "templateId": "FORMS_V0001_POKEMON_BULBASAUR", 
   "formSettings": {
     "pokemon": "BULBASAUR"
   }
 }, {
-  "templateId": "FORMS_V0002_POKEMON_IVYSAUR",
+  "templateId": "FORMS_V0002_POKEMON_IVYSAUR", 
   "formSettings": {
     "pokemon": "IVYSAUR"
   }
 }, {
-  "templateId": "FORMS_V0003_POKEMON_VENUSAUR",
+  "templateId": "FORMS_V0003_POKEMON_VENUSAUR", 
   "formSettings": {
     "pokemon": "VENUSAUR"
   }
 }, {
-  "templateId": "FORMS_V0004_POKEMON_CHARMANDER",
+  "templateId": "FORMS_V0004_POKEMON_CHARMANDER", 
   "formSettings": {
     "pokemon": "CHARMANDER"
   }
 }, {
-  "templateId": "FORMS_V0005_POKEMON_CHARMELEON",
+  "templateId": "FORMS_V0005_POKEMON_CHARMELEON", 
   "formSettings": {
     "pokemon": "CHARMELEON"
   }
 }, {
-  "templateId": "FORMS_V0006_POKEMON_CHARIZARD",
+  "templateId": "FORMS_V0006_POKEMON_CHARIZARD", 
   "formSettings": {
     "pokemon": "CHARIZARD"
   }
 }, {
-  "templateId": "FORMS_V0007_POKEMON_SQUIRTLE",
+  "templateId": "FORMS_V0007_POKEMON_SQUIRTLE", 
   "formSettings": {
     "pokemon": "SQUIRTLE"
   }
 }, {
-  "templateId": "FORMS_V0008_POKEMON_WARTORTLE",
+  "templateId": "FORMS_V0008_POKEMON_WARTORTLE", 
   "formSettings": {
     "pokemon": "WARTORTLE"
   }
 }, {
-  "templateId": "FORMS_V0009_POKEMON_BLASTOISE",
+  "templateId": "FORMS_V0009_POKEMON_BLASTOISE", 
   "formSettings": {
     "pokemon": "BLASTOISE"
   }
 }, {
-  "templateId": "FORMS_V0010_POKEMON_CATERPIE",
+  "templateId": "FORMS_V0010_POKEMON_CATERPIE", 
   "formSettings": {
     "pokemon": "CATERPIE"
   }
 }, {
-  "templateId": "FORMS_V0011_POKEMON_METAPOD",
+  "templateId": "FORMS_V0011_POKEMON_METAPOD", 
   "formSettings": {
     "pokemon": "METAPOD"
   }
 }, {
-  "templateId": "FORMS_V0012_POKEMON_BUTTERFREE",
+  "templateId": "FORMS_V0012_POKEMON_BUTTERFREE", 
   "formSettings": {
     "pokemon": "BUTTERFREE"
   }
 }, {
-  "templateId": "FORMS_V0013_POKEMON_WEEDLE",
+  "templateId": "FORMS_V0013_POKEMON_WEEDLE", 
   "formSettings": {
     "pokemon": "WEEDLE"
   }
 }, {
-  "templateId": "FORMS_V0014_POKEMON_KAKUNA",
+  "templateId": "FORMS_V0014_POKEMON_KAKUNA", 
   "formSettings": {
     "pokemon": "KAKUNA"
   }
 }, {
-  "templateId": "FORMS_V0015_POKEMON_BEEDRILL",
+  "templateId": "FORMS_V0015_POKEMON_BEEDRILL", 
   "formSettings": {
     "pokemon": "BEEDRILL"
   }
 }, {
-  "templateId": "FORMS_V0016_POKEMON_PIDGEY",
+  "templateId": "FORMS_V0016_POKEMON_PIDGEY", 
   "formSettings": {
     "pokemon": "PIDGEY"
   }
 }, {
-  "templateId": "FORMS_V0017_POKEMON_PIDGEOTTO",
+  "templateId": "FORMS_V0017_POKEMON_PIDGEOTTO", 
   "formSettings": {
     "pokemon": "PIDGEOTTO"
   }
 }, {
-  "templateId": "FORMS_V0018_POKEMON_PIDGEOT",
+  "templateId": "FORMS_V0018_POKEMON_PIDGEOT", 
   "formSettings": {
     "pokemon": "PIDGEOT"
   }
 }, {
-  "templateId": "FORMS_V0019_POKEMON_RATTATA",
+  "templateId": "FORMS_V0019_POKEMON_RATTATA", 
   "formSettings": {
     "pokemon": "RATTATA"
   }
 }, {
-  "templateId": "FORMS_V0020_POKEMON_RATICATE",
+  "templateId": "FORMS_V0020_POKEMON_RATICATE", 
   "formSettings": {
     "pokemon": "RATICATE"
   }
 }, {
-  "templateId": "FORMS_V0021_POKEMON_SPEAROW",
+  "templateId": "FORMS_V0021_POKEMON_SPEAROW", 
   "formSettings": {
     "pokemon": "SPEAROW"
   }
 }, {
-  "templateId": "FORMS_V0022_POKEMON_FEAROW",
+  "templateId": "FORMS_V0022_POKEMON_FEAROW", 
   "formSettings": {
     "pokemon": "FEAROW"
   }
 }, {
-  "templateId": "FORMS_V0023_POKEMON_EKANS",
+  "templateId": "FORMS_V0023_POKEMON_EKANS", 
   "formSettings": {
     "pokemon": "EKANS"
   }
 }, {
-  "templateId": "FORMS_V0024_POKEMON_ARBOK",
+  "templateId": "FORMS_V0024_POKEMON_ARBOK", 
   "formSettings": {
     "pokemon": "ARBOK"
   }
 }, {
-  "templateId": "FORMS_V0025_POKEMON_PIKACHU",
+  "templateId": "FORMS_V0025_POKEMON_PIKACHU", 
   "formSettings": {
     "pokemon": "PIKACHU"
   }
 }, {
-  "templateId": "FORMS_V0026_POKEMON_RAICHU",
+  "templateId": "FORMS_V0026_POKEMON_RAICHU", 
   "formSettings": {
     "pokemon": "RAICHU"
   }
 }, {
-  "templateId": "FORMS_V0027_POKEMON_SANDSHREW",
+  "templateId": "FORMS_V0027_POKEMON_SANDSHREW", 
   "formSettings": {
     "pokemon": "SANDSHREW"
   }
 }, {
-  "templateId": "FORMS_V0028_POKEMON_SANDSLASH",
+  "templateId": "FORMS_V0028_POKEMON_SANDSLASH", 
   "formSettings": {
     "pokemon": "SANDSLASH"
   }
 }, {
-  "templateId": "FORMS_V0029_POKEMON_NIDORAN",
+  "templateId": "FORMS_V0029_POKEMON_NIDORAN", 
   "formSettings": {
     "pokemon": "NIDORAN_FEMALE"
   }
 }, {
-  "templateId": "FORMS_V0030_POKEMON_NIDORINA",
+  "templateId": "FORMS_V0030_POKEMON_NIDORINA", 
   "formSettings": {
     "pokemon": "NIDORINA"
   }
 }, {
-  "templateId": "FORMS_V0031_POKEMON_NIDOQUEEN",
+  "templateId": "FORMS_V0031_POKEMON_NIDOQUEEN", 
   "formSettings": {
     "pokemon": "NIDOQUEEN"
   }
 }, {
-  "templateId": "FORMS_V0032_POKEMON_NIDORAN",
+  "templateId": "FORMS_V0032_POKEMON_NIDORAN", 
   "formSettings": {
     "pokemon": "NIDORAN_MALE"
   }
 }, {
-  "templateId": "FORMS_V0033_POKEMON_NIDORINO",
+  "templateId": "FORMS_V0033_POKEMON_NIDORINO", 
   "formSettings": {
     "pokemon": "NIDORINO"
   }
 }, {
-  "templateId": "FORMS_V0034_POKEMON_NIDOKING",
+  "templateId": "FORMS_V0034_POKEMON_NIDOKING", 
   "formSettings": {
     "pokemon": "NIDOKING"
   }
 }, {
-  "templateId": "FORMS_V0035_POKEMON_CLEFAIRY",
+  "templateId": "FORMS_V0035_POKEMON_CLEFAIRY", 
   "formSettings": {
     "pokemon": "CLEFAIRY"
   }
 }, {
-  "templateId": "FORMS_V0036_POKEMON_CLEFABLE",
+  "templateId": "FORMS_V0036_POKEMON_CLEFABLE", 
   "formSettings": {
     "pokemon": "CLEFABLE"
   }
 }, {
-  "templateId": "FORMS_V0037_POKEMON_VULPIX",
+  "templateId": "FORMS_V0037_POKEMON_VULPIX", 
   "formSettings": {
     "pokemon": "VULPIX"
   }
 }, {
-  "templateId": "FORMS_V0038_POKEMON_NINETALES",
+  "templateId": "FORMS_V0038_POKEMON_NINETALES", 
   "formSettings": {
     "pokemon": "NINETALES"
   }
 }, {
-  "templateId": "FORMS_V0039_POKEMON_JIGGLYPUFF",
+  "templateId": "FORMS_V0039_POKEMON_JIGGLYPUFF", 
   "formSettings": {
     "pokemon": "JIGGLYPUFF"
   }
 }, {
-  "templateId": "FORMS_V0040_POKEMON_WIGGLYTUFF",
+  "templateId": "FORMS_V0040_POKEMON_WIGGLYTUFF", 
   "formSettings": {
     "pokemon": "WIGGLYTUFF"
   }
 }, {
-  "templateId": "FORMS_V0041_POKEMON_ZUBAT",
+  "templateId": "FORMS_V0041_POKEMON_ZUBAT", 
   "formSettings": {
     "pokemon": "ZUBAT"
   }
 }, {
-  "templateId": "FORMS_V0042_POKEMON_GOLBAT",
+  "templateId": "FORMS_V0042_POKEMON_GOLBAT", 
   "formSettings": {
     "pokemon": "GOLBAT"
   }
 }, {
-  "templateId": "FORMS_V0043_POKEMON_ODDISH",
+  "templateId": "FORMS_V0043_POKEMON_ODDISH", 
   "formSettings": {
     "pokemon": "ODDISH"
   }
 }, {
-  "templateId": "FORMS_V0044_POKEMON_GLOOM",
+  "templateId": "FORMS_V0044_POKEMON_GLOOM", 
   "formSettings": {
     "pokemon": "GLOOM"
   }
 }, {
-  "templateId": "FORMS_V0045_POKEMON_VILEPLUME",
+  "templateId": "FORMS_V0045_POKEMON_VILEPLUME", 
   "formSettings": {
     "pokemon": "VILEPLUME"
   }
 }, {
-  "templateId": "FORMS_V0046_POKEMON_PARAS",
+  "templateId": "FORMS_V0046_POKEMON_PARAS", 
   "formSettings": {
     "pokemon": "PARAS"
   }
 }, {
-  "templateId": "FORMS_V0047_POKEMON_PARASECT",
+  "templateId": "FORMS_V0047_POKEMON_PARASECT", 
   "formSettings": {
     "pokemon": "PARASECT"
   }
 }, {
-  "templateId": "FORMS_V0048_POKEMON_VENONAT",
+  "templateId": "FORMS_V0048_POKEMON_VENONAT", 
   "formSettings": {
     "pokemon": "VENONAT"
   }
 }, {
-  "templateId": "FORMS_V0049_POKEMON_VENOMOTH",
+  "templateId": "FORMS_V0049_POKEMON_VENOMOTH", 
   "formSettings": {
     "pokemon": "VENOMOTH"
   }
 }, {
-  "templateId": "FORMS_V0050_POKEMON_DIGLETT",
+  "templateId": "FORMS_V0050_POKEMON_DIGLETT", 
   "formSettings": {
     "pokemon": "DIGLETT"
   }
 }, {
-  "templateId": "FORMS_V0051_POKEMON_DUGTRIO",
+  "templateId": "FORMS_V0051_POKEMON_DUGTRIO", 
   "formSettings": {
     "pokemon": "DUGTRIO"
   }
 }, {
-  "templateId": "FORMS_V0052_POKEMON_MEOWTH",
+  "templateId": "FORMS_V0052_POKEMON_MEOWTH", 
   "formSettings": {
     "pokemon": "MEOWTH"
   }
 }, {
-  "templateId": "FORMS_V0053_POKEMON_PERSIAN",
+  "templateId": "FORMS_V0053_POKEMON_PERSIAN", 
   "formSettings": {
     "pokemon": "PERSIAN"
   }
 }, {
-  "templateId": "FORMS_V0054_POKEMON_PSYDUCK",
+  "templateId": "FORMS_V0054_POKEMON_PSYDUCK", 
   "formSettings": {
     "pokemon": "PSYDUCK"
   }
 }, {
-  "templateId": "FORMS_V0055_POKEMON_GOLDUCK",
+  "templateId": "FORMS_V0055_POKEMON_GOLDUCK", 
   "formSettings": {
     "pokemon": "GOLDUCK"
   }
 }, {
-  "templateId": "FORMS_V0056_POKEMON_MANKEY",
+  "templateId": "FORMS_V0056_POKEMON_MANKEY", 
   "formSettings": {
     "pokemon": "MANKEY"
   }
 }, {
-  "templateId": "FORMS_V0057_POKEMON_PRIMEAPE",
+  "templateId": "FORMS_V0057_POKEMON_PRIMEAPE", 
   "formSettings": {
     "pokemon": "PRIMEAPE"
   }
 }, {
-  "templateId": "FORMS_V0058_POKEMON_GROWLITHE",
+  "templateId": "FORMS_V0058_POKEMON_GROWLITHE", 
   "formSettings": {
     "pokemon": "GROWLITHE"
   }
 }, {
-  "templateId": "FORMS_V0059_POKEMON_ARCANINE",
+  "templateId": "FORMS_V0059_POKEMON_ARCANINE", 
   "formSettings": {
     "pokemon": "ARCANINE"
   }
 }, {
-  "templateId": "FORMS_V0060_POKEMON_POLIWAG",
+  "templateId": "FORMS_V0060_POKEMON_POLIWAG", 
   "formSettings": {
     "pokemon": "POLIWAG"
   }
 }, {
-  "templateId": "FORMS_V0061_POKEMON_POLIWHIRL",
+  "templateId": "FORMS_V0061_POKEMON_POLIWHIRL", 
   "formSettings": {
     "pokemon": "POLIWHIRL"
   }
 }, {
-  "templateId": "FORMS_V0062_POKEMON_POLIWRATH",
+  "templateId": "FORMS_V0062_POKEMON_POLIWRATH", 
   "formSettings": {
     "pokemon": "POLIWRATH"
   }
 }, {
-  "templateId": "FORMS_V0063_POKEMON_ABRA",
+  "templateId": "FORMS_V0063_POKEMON_ABRA", 
   "formSettings": {
     "pokemon": "ABRA"
   }
 }, {
-  "templateId": "FORMS_V0064_POKEMON_KADABRA",
+  "templateId": "FORMS_V0064_POKEMON_KADABRA", 
   "formSettings": {
     "pokemon": "KADABRA"
   }
 }, {
-  "templateId": "FORMS_V0065_POKEMON_ALAKAZAM",
+  "templateId": "FORMS_V0065_POKEMON_ALAKAZAM", 
   "formSettings": {
     "pokemon": "ALAKAZAM"
   }
 }, {
-  "templateId": "FORMS_V0066_POKEMON_MACHOP",
+  "templateId": "FORMS_V0066_POKEMON_MACHOP", 
   "formSettings": {
     "pokemon": "MACHOP"
   }
 }, {
-  "templateId": "FORMS_V0067_POKEMON_MACHOKE",
+  "templateId": "FORMS_V0067_POKEMON_MACHOKE", 
   "formSettings": {
     "pokemon": "MACHOKE"
   }
 }, {
-  "templateId": "FORMS_V0068_POKEMON_MACHAMP",
+  "templateId": "FORMS_V0068_POKEMON_MACHAMP", 
   "formSettings": {
     "pokemon": "MACHAMP"
   }
 }, {
-  "templateId": "FORMS_V0069_POKEMON_BELLSPROUT",
+  "templateId": "FORMS_V0069_POKEMON_BELLSPROUT", 
   "formSettings": {
     "pokemon": "BELLSPROUT"
   }
 }, {
-  "templateId": "FORMS_V0070_POKEMON_WEEPINBELL",
+  "templateId": "FORMS_V0070_POKEMON_WEEPINBELL", 
   "formSettings": {
     "pokemon": "WEEPINBELL"
   }
 }, {
-  "templateId": "FORMS_V0071_POKEMON_VICTREEBEL",
+  "templateId": "FORMS_V0071_POKEMON_VICTREEBEL", 
   "formSettings": {
     "pokemon": "VICTREEBEL"
   }
 }, {
-  "templateId": "FORMS_V0072_POKEMON_TENTACOOL",
+  "templateId": "FORMS_V0072_POKEMON_TENTACOOL", 
   "formSettings": {
     "pokemon": "TENTACOOL"
   }
 }, {
-  "templateId": "FORMS_V0073_POKEMON_TENTACRUEL",
+  "templateId": "FORMS_V0073_POKEMON_TENTACRUEL", 
   "formSettings": {
     "pokemon": "TENTACRUEL"
   }
 }, {
-  "templateId": "FORMS_V0074_POKEMON_GEODUDE",
+  "templateId": "FORMS_V0074_POKEMON_GEODUDE", 
   "formSettings": {
     "pokemon": "GEODUDE"
   }
 }, {
-  "templateId": "FORMS_V0075_POKEMON_GRAVELER",
+  "templateId": "FORMS_V0075_POKEMON_GRAVELER", 
   "formSettings": {
     "pokemon": "GRAVELER"
   }
 }, {
-  "templateId": "FORMS_V0076_POKEMON_GOLEM",
+  "templateId": "FORMS_V0076_POKEMON_GOLEM", 
   "formSettings": {
     "pokemon": "GOLEM"
   }
 }, {
-  "templateId": "FORMS_V0077_POKEMON_PONYTA",
+  "templateId": "FORMS_V0077_POKEMON_PONYTA", 
   "formSettings": {
     "pokemon": "PONYTA"
   }
 }, {
-  "templateId": "FORMS_V0078_POKEMON_RAPIDASH",
+  "templateId": "FORMS_V0078_POKEMON_RAPIDASH", 
   "formSettings": {
     "pokemon": "RAPIDASH"
   }
 }, {
-  "templateId": "FORMS_V0079_POKEMON_SLOWPOKE",
+  "templateId": "FORMS_V0079_POKEMON_SLOWPOKE", 
   "formSettings": {
     "pokemon": "SLOWPOKE"
   }
 }, {
-  "templateId": "FORMS_V0080_POKEMON_SLOWBRO",
+  "templateId": "FORMS_V0080_POKEMON_SLOWBRO", 
   "formSettings": {
     "pokemon": "SLOWBRO"
   }
 }, {
-  "templateId": "FORMS_V0081_POKEMON_MAGNEMITE",
+  "templateId": "FORMS_V0081_POKEMON_MAGNEMITE", 
   "formSettings": {
     "pokemon": "MAGNEMITE"
   }
 }, {
-  "templateId": "FORMS_V0082_POKEMON_MAGNETON",
+  "templateId": "FORMS_V0082_POKEMON_MAGNETON", 
   "formSettings": {
     "pokemon": "MAGNETON"
   }
 }, {
-  "templateId": "FORMS_V0083_POKEMON_FARFETCHD",
+  "templateId": "FORMS_V0083_POKEMON_FARFETCHD", 
   "formSettings": {
     "pokemon": "FARFETCHD"
   }
 }, {
-  "templateId": "FORMS_V0084_POKEMON_DODUO",
+  "templateId": "FORMS_V0084_POKEMON_DODUO", 
   "formSettings": {
     "pokemon": "DODUO"
   }
 }, {
-  "templateId": "FORMS_V0085_POKEMON_DODRIO",
+  "templateId": "FORMS_V0085_POKEMON_DODRIO", 
   "formSettings": {
     "pokemon": "DODRIO"
   }
 }, {
-  "templateId": "FORMS_V0086_POKEMON_SEEL",
+  "templateId": "FORMS_V0086_POKEMON_SEEL", 
   "formSettings": {
     "pokemon": "SEEL"
   }
 }, {
-  "templateId": "FORMS_V0087_POKEMON_DEWGONG",
+  "templateId": "FORMS_V0087_POKEMON_DEWGONG", 
   "formSettings": {
     "pokemon": "DEWGONG"
   }
 }, {
-  "templateId": "FORMS_V0088_POKEMON_GRIMER",
+  "templateId": "FORMS_V0088_POKEMON_GRIMER", 
   "formSettings": {
     "pokemon": "GRIMER"
   }
 }, {
-  "templateId": "FORMS_V0089_POKEMON_MUK",
+  "templateId": "FORMS_V0089_POKEMON_MUK", 
   "formSettings": {
     "pokemon": "MUK"
   }
 }, {
-  "templateId": "FORMS_V0090_POKEMON_SHELLDER",
+  "templateId": "FORMS_V0090_POKEMON_SHELLDER", 
   "formSettings": {
     "pokemon": "SHELLDER"
   }
 }, {
-  "templateId": "FORMS_V0091_POKEMON_CLOYSTER",
+  "templateId": "FORMS_V0091_POKEMON_CLOYSTER", 
   "formSettings": {
     "pokemon": "CLOYSTER"
   }
 }, {
-  "templateId": "FORMS_V0092_POKEMON_GASTLY",
+  "templateId": "FORMS_V0092_POKEMON_GASTLY", 
   "formSettings": {
     "pokemon": "GASTLY"
   }
 }, {
-  "templateId": "FORMS_V0093_POKEMON_HAUNTER",
+  "templateId": "FORMS_V0093_POKEMON_HAUNTER", 
   "formSettings": {
     "pokemon": "HAUNTER"
   }
 }, {
-  "templateId": "FORMS_V0094_POKEMON_GENGAR",
+  "templateId": "FORMS_V0094_POKEMON_GENGAR", 
   "formSettings": {
     "pokemon": "GENGAR"
   }
 }, {
-  "templateId": "FORMS_V0095_POKEMON_ONIX",
+  "templateId": "FORMS_V0095_POKEMON_ONIX", 
   "formSettings": {
     "pokemon": "ONIX"
   }
 }, {
-  "templateId": "FORMS_V0096_POKEMON_DROWZEE",
+  "templateId": "FORMS_V0096_POKEMON_DROWZEE", 
   "formSettings": {
     "pokemon": "DROWZEE"
   }
 }, {
-  "templateId": "FORMS_V0097_POKEMON_HYPNO",
+  "templateId": "FORMS_V0097_POKEMON_HYPNO", 
   "formSettings": {
     "pokemon": "HYPNO"
   }
 }, {
-  "templateId": "FORMS_V0098_POKEMON_KRABBY",
+  "templateId": "FORMS_V0098_POKEMON_KRABBY", 
   "formSettings": {
     "pokemon": "KRABBY"
   }
 }, {
-  "templateId": "FORMS_V0099_POKEMON_KINGLER",
+  "templateId": "FORMS_V0099_POKEMON_KINGLER", 
   "formSettings": {
     "pokemon": "KINGLER"
   }
 }, {
-  "templateId": "FORMS_V0100_POKEMON_VOLTORB",
+  "templateId": "FORMS_V0100_POKEMON_VOLTORB", 
   "formSettings": {
     "pokemon": "VOLTORB"
   }
 }, {
-  "templateId": "FORMS_V0101_POKEMON_ELECTRODE",
+  "templateId": "FORMS_V0101_POKEMON_ELECTRODE", 
   "formSettings": {
     "pokemon": "ELECTRODE"
   }
 }, {
-  "templateId": "FORMS_V0102_POKEMON_EXEGGCUTE",
+  "templateId": "FORMS_V0102_POKEMON_EXEGGCUTE", 
   "formSettings": {
     "pokemon": "EXEGGCUTE"
   }
 }, {
-  "templateId": "FORMS_V0103_POKEMON_EXEGGUTOR",
+  "templateId": "FORMS_V0103_POKEMON_EXEGGUTOR", 
   "formSettings": {
     "pokemon": "EXEGGUTOR"
   }
 }, {
-  "templateId": "FORMS_V0104_POKEMON_CUBONE",
+  "templateId": "FORMS_V0104_POKEMON_CUBONE", 
   "formSettings": {
     "pokemon": "CUBONE"
   }
 }, {
-  "templateId": "FORMS_V0105_POKEMON_MAROWAK",
+  "templateId": "FORMS_V0105_POKEMON_MAROWAK", 
   "formSettings": {
     "pokemon": "MAROWAK"
   }
 }, {
-  "templateId": "FORMS_V0106_POKEMON_HITMONLEE",
+  "templateId": "FORMS_V0106_POKEMON_HITMONLEE", 
   "formSettings": {
     "pokemon": "HITMONLEE"
   }
 }, {
-  "templateId": "FORMS_V0107_POKEMON_HITMONCHAN",
+  "templateId": "FORMS_V0107_POKEMON_HITMONCHAN", 
   "formSettings": {
     "pokemon": "HITMONCHAN"
   }
 }, {
-  "templateId": "FORMS_V0108_POKEMON_LICKITUNG",
+  "templateId": "FORMS_V0108_POKEMON_LICKITUNG", 
   "formSettings": {
     "pokemon": "LICKITUNG"
   }
 }, {
-  "templateId": "FORMS_V0109_POKEMON_KOFFING",
+  "templateId": "FORMS_V0109_POKEMON_KOFFING", 
   "formSettings": {
     "pokemon": "KOFFING"
   }
 }, {
-  "templateId": "FORMS_V0110_POKEMON_WEEZING",
+  "templateId": "FORMS_V0110_POKEMON_WEEZING", 
   "formSettings": {
     "pokemon": "WEEZING"
   }
 }, {
-  "templateId": "FORMS_V0111_POKEMON_RHYHORN",
+  "templateId": "FORMS_V0111_POKEMON_RHYHORN", 
   "formSettings": {
     "pokemon": "RHYHORN"
   }
 }, {
-  "templateId": "FORMS_V0112_POKEMON_RHYDON",
+  "templateId": "FORMS_V0112_POKEMON_RHYDON", 
   "formSettings": {
     "pokemon": "RHYDON"
   }
 }, {
-  "templateId": "FORMS_V0113_POKEMON_CHANSEY",
+  "templateId": "FORMS_V0113_POKEMON_CHANSEY", 
   "formSettings": {
     "pokemon": "CHANSEY"
   }
 }, {
-  "templateId": "FORMS_V0114_POKEMON_TANGELA",
+  "templateId": "FORMS_V0114_POKEMON_TANGELA", 
   "formSettings": {
     "pokemon": "TANGELA"
   }
 }, {
-  "templateId": "FORMS_V0115_POKEMON_KANGASKHAN",
+  "templateId": "FORMS_V0115_POKEMON_KANGASKHAN", 
   "formSettings": {
     "pokemon": "KANGASKHAN"
   }
 }, {
-  "templateId": "FORMS_V0116_POKEMON_HORSEA",
+  "templateId": "FORMS_V0116_POKEMON_HORSEA", 
   "formSettings": {
     "pokemon": "HORSEA"
   }
 }, {
-  "templateId": "FORMS_V0117_POKEMON_SEADRA",
+  "templateId": "FORMS_V0117_POKEMON_SEADRA", 
   "formSettings": {
     "pokemon": "SEADRA"
   }
 }, {
-  "templateId": "FORMS_V0118_POKEMON_GOLDEEN",
+  "templateId": "FORMS_V0118_POKEMON_GOLDEEN", 
   "formSettings": {
     "pokemon": "GOLDEEN"
   }
 }, {
-  "templateId": "FORMS_V0119_POKEMON_SEAKING",
+  "templateId": "FORMS_V0119_POKEMON_SEAKING", 
   "formSettings": {
     "pokemon": "SEAKING"
   }
 }, {
-  "templateId": "FORMS_V0120_POKEMON_STARYU",
+  "templateId": "FORMS_V0120_POKEMON_STARYU", 
   "formSettings": {
     "pokemon": "STARYU"
   }
 }, {
-  "templateId": "FORMS_V0121_POKEMON_STARMIE",
+  "templateId": "FORMS_V0121_POKEMON_STARMIE", 
   "formSettings": {
     "pokemon": "STARMIE"
   }
 }, {
-  "templateId": "FORMS_V0122_POKEMON_MR_MIME",
+  "templateId": "FORMS_V0122_POKEMON_MR_MIME", 
   "formSettings": {
     "pokemon": "MR_MIME"
   }
 }, {
-  "templateId": "FORMS_V0123_POKEMON_SCYTHER",
+  "templateId": "FORMS_V0123_POKEMON_SCYTHER", 
   "formSettings": {
     "pokemon": "SCYTHER"
   }
 }, {
-  "templateId": "FORMS_V0124_POKEMON_JYNX",
+  "templateId": "FORMS_V0124_POKEMON_JYNX", 
   "formSettings": {
     "pokemon": "JYNX"
   }
 }, {
-  "templateId": "FORMS_V0125_POKEMON_ELECTABUZZ",
+  "templateId": "FORMS_V0125_POKEMON_ELECTABUZZ", 
   "formSettings": {
     "pokemon": "ELECTABUZZ"
   }
 }, {
-  "templateId": "FORMS_V0126_POKEMON_MAGMAR",
+  "templateId": "FORMS_V0126_POKEMON_MAGMAR", 
   "formSettings": {
     "pokemon": "MAGMAR"
   }
 }, {
-  "templateId": "FORMS_V0127_POKEMON_PINSIR",
+  "templateId": "FORMS_V0127_POKEMON_PINSIR", 
   "formSettings": {
     "pokemon": "PINSIR"
   }
 }, {
-  "templateId": "FORMS_V0128_POKEMON_TAUROS",
+  "templateId": "FORMS_V0128_POKEMON_TAUROS", 
   "formSettings": {
     "pokemon": "TAUROS"
   }
 }, {
-  "templateId": "FORMS_V0129_POKEMON_MAGIKARP",
+  "templateId": "FORMS_V0129_POKEMON_MAGIKARP", 
   "formSettings": {
     "pokemon": "MAGIKARP"
   }
 }, {
-  "templateId": "FORMS_V0130_POKEMON_GYARADOS",
+  "templateId": "FORMS_V0130_POKEMON_GYARADOS", 
   "formSettings": {
     "pokemon": "GYARADOS"
   }
 }, {
-  "templateId": "FORMS_V0131_POKEMON_LAPRAS",
+  "templateId": "FORMS_V0131_POKEMON_LAPRAS", 
   "formSettings": {
     "pokemon": "LAPRAS"
   }
 }, {
-  "templateId": "FORMS_V0132_POKEMON_DITTO",
+  "templateId": "FORMS_V0132_POKEMON_DITTO", 
   "formSettings": {
     "pokemon": "DITTO"
   }
 }, {
-  "templateId": "FORMS_V0133_POKEMON_EEVEE",
+  "templateId": "FORMS_V0133_POKEMON_EEVEE", 
   "formSettings": {
     "pokemon": "EEVEE"
   }
 }, {
-  "templateId": "FORMS_V0134_POKEMON_VAPOREON",
+  "templateId": "FORMS_V0134_POKEMON_VAPOREON", 
   "formSettings": {
     "pokemon": "VAPOREON"
   }
 }, {
-  "templateId": "FORMS_V0135_POKEMON_JOLTEON",
+  "templateId": "FORMS_V0135_POKEMON_JOLTEON", 
   "formSettings": {
     "pokemon": "JOLTEON"
   }
 }, {
-  "templateId": "FORMS_V0136_POKEMON_FLAREON",
+  "templateId": "FORMS_V0136_POKEMON_FLAREON", 
   "formSettings": {
     "pokemon": "FLAREON"
   }
 }, {
-  "templateId": "FORMS_V0137_POKEMON_PORYGON",
+  "templateId": "FORMS_V0137_POKEMON_PORYGON", 
   "formSettings": {
     "pokemon": "PORYGON"
   }
 }, {
-  "templateId": "FORMS_V0138_POKEMON_OMANYTE",
+  "templateId": "FORMS_V0138_POKEMON_OMANYTE", 
   "formSettings": {
     "pokemon": "OMANYTE"
   }
 }, {
-  "templateId": "FORMS_V0139_POKEMON_OMASTAR",
+  "templateId": "FORMS_V0139_POKEMON_OMASTAR", 
   "formSettings": {
     "pokemon": "OMASTAR"
   }
 }, {
-  "templateId": "FORMS_V0140_POKEMON_KABUTO",
+  "templateId": "FORMS_V0140_POKEMON_KABUTO", 
   "formSettings": {
     "pokemon": "KABUTO"
   }
 }, {
-  "templateId": "FORMS_V0141_POKEMON_KABUTOPS",
+  "templateId": "FORMS_V0141_POKEMON_KABUTOPS", 
   "formSettings": {
     "pokemon": "KABUTOPS"
   }
 }, {
-  "templateId": "FORMS_V0142_POKEMON_AERODACTYL",
+  "templateId": "FORMS_V0142_POKEMON_AERODACTYL", 
   "formSettings": {
     "pokemon": "AERODACTYL"
   }
 }, {
-  "templateId": "FORMS_V0143_POKEMON_SNORLAX",
+  "templateId": "FORMS_V0143_POKEMON_SNORLAX", 
   "formSettings": {
     "pokemon": "SNORLAX"
   }
 }, {
-  "templateId": "FORMS_V0144_POKEMON_ARTICUNO",
+  "templateId": "FORMS_V0144_POKEMON_ARTICUNO", 
   "formSettings": {
     "pokemon": "ARTICUNO"
   }
 }, {
-  "templateId": "FORMS_V0145_POKEMON_ZAPDOS",
+  "templateId": "FORMS_V0145_POKEMON_ZAPDOS", 
   "formSettings": {
     "pokemon": "ZAPDOS"
   }
 }, {
-  "templateId": "FORMS_V0146_POKEMON_MOLTRES",
+  "templateId": "FORMS_V0146_POKEMON_MOLTRES", 
   "formSettings": {
     "pokemon": "MOLTRES"
   }
 }, {
-  "templateId": "FORMS_V0147_POKEMON_DRATINI",
+  "templateId": "FORMS_V0147_POKEMON_DRATINI", 
   "formSettings": {
     "pokemon": "DRATINI"
   }
 }, {
-  "templateId": "FORMS_V0148_POKEMON_DRAGONAIR",
+  "templateId": "FORMS_V0148_POKEMON_DRAGONAIR", 
   "formSettings": {
     "pokemon": "DRAGONAIR"
   }
 }, {
-  "templateId": "FORMS_V0149_POKEMON_DRAGONITE",
+  "templateId": "FORMS_V0149_POKEMON_DRAGONITE", 
   "formSettings": {
     "pokemon": "DRAGONITE"
   }
 }, {
-  "templateId": "FORMS_V0150_POKEMON_MEWTWO",
+  "templateId": "FORMS_V0150_POKEMON_MEWTWO", 
   "formSettings": {
     "pokemon": "MEWTWO"
   }
 }, {
-  "templateId": "FORMS_V0151_POKEMON_MEW",
+  "templateId": "FORMS_V0151_POKEMON_MEW", 
   "formSettings": {
     "pokemon": "MEW"
   }
 }, {
-  "templateId": "FORMS_V0152_POKEMON_CHIKORITA",
+  "templateId": "FORMS_V0152_POKEMON_CHIKORITA", 
   "formSettings": {
     "pokemon": "CHIKORITA"
   }
 }, {
-  "templateId": "FORMS_V0153_POKEMON_BAYLEEF",
+  "templateId": "FORMS_V0153_POKEMON_BAYLEEF", 
   "formSettings": {
     "pokemon": "BAYLEEF"
   }
 }, {
-  "templateId": "FORMS_V0154_POKEMON_MEGANIUM",
+  "templateId": "FORMS_V0154_POKEMON_MEGANIUM", 
   "formSettings": {
     "pokemon": "MEGANIUM"
   }
 }, {
-  "templateId": "FORMS_V0155_POKEMON_CYNDAQUIL",
+  "templateId": "FORMS_V0155_POKEMON_CYNDAQUIL", 
   "formSettings": {
     "pokemon": "CYNDAQUIL"
   }
 }, {
-  "templateId": "FORMS_V0156_POKEMON_QUILAVA",
+  "templateId": "FORMS_V0156_POKEMON_QUILAVA", 
   "formSettings": {
     "pokemon": "QUILAVA"
   }
 }, {
-  "templateId": "FORMS_V0157_POKEMON_TYPHLOSION",
+  "templateId": "FORMS_V0157_POKEMON_TYPHLOSION", 
   "formSettings": {
     "pokemon": "TYPHLOSION"
   }
 }, {
-  "templateId": "FORMS_V0158_POKEMON_TOTODILE",
+  "templateId": "FORMS_V0158_POKEMON_TOTODILE", 
   "formSettings": {
     "pokemon": "TOTODILE"
   }
 }, {
-  "templateId": "FORMS_V0159_POKEMON_CROCONAW",
+  "templateId": "FORMS_V0159_POKEMON_CROCONAW", 
   "formSettings": {
     "pokemon": "CROCONAW"
   }
 }, {
-  "templateId": "FORMS_V0160_POKEMON_FERALIGATR",
+  "templateId": "FORMS_V0160_POKEMON_FERALIGATR", 
   "formSettings": {
     "pokemon": "FERALIGATR"
   }
 }, {
-  "templateId": "FORMS_V0161_POKEMON_SENTRET",
+  "templateId": "FORMS_V0161_POKEMON_SENTRET", 
   "formSettings": {
     "pokemon": "SENTRET"
   }
 }, {
-  "templateId": "FORMS_V0162_POKEMON_FURRET",
+  "templateId": "FORMS_V0162_POKEMON_FURRET", 
   "formSettings": {
     "pokemon": "FURRET"
   }
 }, {
-  "templateId": "FORMS_V0163_POKEMON_HOOTHOOT",
+  "templateId": "FORMS_V0163_POKEMON_HOOTHOOT", 
   "formSettings": {
     "pokemon": "HOOTHOOT"
   }
 }, {
-  "templateId": "FORMS_V0164_POKEMON_NOCTOWL",
+  "templateId": "FORMS_V0164_POKEMON_NOCTOWL", 
   "formSettings": {
     "pokemon": "NOCTOWL"
   }
 }, {
-  "templateId": "FORMS_V0165_POKEMON_LEDYBA",
+  "templateId": "FORMS_V0165_POKEMON_LEDYBA", 
   "formSettings": {
     "pokemon": "LEDYBA"
   }
 }, {
-  "templateId": "FORMS_V0166_POKEMON_LEDIAN",
+  "templateId": "FORMS_V0166_POKEMON_LEDIAN", 
   "formSettings": {
     "pokemon": "LEDIAN"
   }
 }, {
-  "templateId": "FORMS_V0167_POKEMON_SPINARAK",
+  "templateId": "FORMS_V0167_POKEMON_SPINARAK", 
   "formSettings": {
     "pokemon": "SPINARAK"
   }
 }, {
-  "templateId": "FORMS_V0168_POKEMON_ARIADOS",
+  "templateId": "FORMS_V0168_POKEMON_ARIADOS", 
   "formSettings": {
     "pokemon": "ARIADOS"
   }
 }, {
-  "templateId": "FORMS_V0169_POKEMON_CROBAT",
+  "templateId": "FORMS_V0169_POKEMON_CROBAT", 
   "formSettings": {
     "pokemon": "CROBAT"
   }
 }, {
-  "templateId": "FORMS_V0170_POKEMON_CHINCHOU",
+  "templateId": "FORMS_V0170_POKEMON_CHINCHOU", 
   "formSettings": {
     "pokemon": "CHINCHOU"
   }
 }, {
-  "templateId": "FORMS_V0171_POKEMON_LANTURN",
+  "templateId": "FORMS_V0171_POKEMON_LANTURN", 
   "formSettings": {
     "pokemon": "LANTURN"
   }
 }, {
-  "templateId": "FORMS_V0172_POKEMON_PICHU",
+  "templateId": "FORMS_V0172_POKEMON_PICHU", 
   "formSettings": {
     "pokemon": "PICHU"
   }
 }, {
-  "templateId": "FORMS_V0173_POKEMON_CLEFFA",
+  "templateId": "FORMS_V0173_POKEMON_CLEFFA", 
   "formSettings": {
     "pokemon": "CLEFFA"
   }
 }, {
-  "templateId": "FORMS_V0174_POKEMON_IGGLYBUFF",
+  "templateId": "FORMS_V0174_POKEMON_IGGLYBUFF", 
   "formSettings": {
     "pokemon": "IGGLYBUFF"
   }
 }, {
-  "templateId": "FORMS_V0175_POKEMON_TOGEPI",
+  "templateId": "FORMS_V0175_POKEMON_TOGEPI", 
   "formSettings": {
     "pokemon": "TOGEPI"
   }
 }, {
-  "templateId": "FORMS_V0176_POKEMON_TOGETIC",
+  "templateId": "FORMS_V0176_POKEMON_TOGETIC", 
   "formSettings": {
     "pokemon": "TOGETIC"
   }
 }, {
-  "templateId": "FORMS_V0177_POKEMON_NATU",
+  "templateId": "FORMS_V0177_POKEMON_NATU", 
   "formSettings": {
     "pokemon": "NATU"
   }
 }, {
-  "templateId": "FORMS_V0178_POKEMON_XATU",
+  "templateId": "FORMS_V0178_POKEMON_XATU", 
   "formSettings": {
     "pokemon": "XATU"
   }
 }, {
-  "templateId": "FORMS_V0179_POKEMON_MAREEP",
+  "templateId": "FORMS_V0179_POKEMON_MAREEP", 
   "formSettings": {
     "pokemon": "MAREEP"
   }
 }, {
-  "templateId": "FORMS_V0180_POKEMON_FLAAFFY",
+  "templateId": "FORMS_V0180_POKEMON_FLAAFFY", 
   "formSettings": {
     "pokemon": "FLAAFFY"
   }
 }, {
-  "templateId": "FORMS_V0181_POKEMON_AMPHAROS",
+  "templateId": "FORMS_V0181_POKEMON_AMPHAROS", 
   "formSettings": {
     "pokemon": "AMPHAROS"
   }
 }, {
-  "templateId": "FORMS_V0182_POKEMON_BELLOSSOM",
+  "templateId": "FORMS_V0182_POKEMON_BELLOSSOM", 
   "formSettings": {
     "pokemon": "BELLOSSOM"
   }
 }, {
-  "templateId": "FORMS_V0183_POKEMON_MARILL",
+  "templateId": "FORMS_V0183_POKEMON_MARILL", 
   "formSettings": {
     "pokemon": "MARILL"
   }
 }, {
-  "templateId": "FORMS_V0184_POKEMON_AZUMARILL",
+  "templateId": "FORMS_V0184_POKEMON_AZUMARILL", 
   "formSettings": {
     "pokemon": "AZUMARILL"
   }
 }, {
-  "templateId": "FORMS_V0185_POKEMON_SUDOWOODO",
+  "templateId": "FORMS_V0185_POKEMON_SUDOWOODO", 
   "formSettings": {
     "pokemon": "SUDOWOODO"
   }
 }, {
-  "templateId": "FORMS_V0186_POKEMON_POLITOED",
+  "templateId": "FORMS_V0186_POKEMON_POLITOED", 
   "formSettings": {
     "pokemon": "POLITOED"
   }
 }, {
-  "templateId": "FORMS_V0187_POKEMON_HOPPIP",
+  "templateId": "FORMS_V0187_POKEMON_HOPPIP", 
   "formSettings": {
     "pokemon": "HOPPIP"
   }
 }, {
-  "templateId": "FORMS_V0188_POKEMON_SKIPLOOM",
+  "templateId": "FORMS_V0188_POKEMON_SKIPLOOM", 
   "formSettings": {
     "pokemon": "SKIPLOOM"
   }
 }, {
-  "templateId": "FORMS_V0189_POKEMON_JUMPLUFF",
+  "templateId": "FORMS_V0189_POKEMON_JUMPLUFF", 
   "formSettings": {
     "pokemon": "JUMPLUFF"
   }
 }, {
-  "templateId": "FORMS_V0190_POKEMON_AIPOM",
+  "templateId": "FORMS_V0190_POKEMON_AIPOM", 
   "formSettings": {
     "pokemon": "AIPOM"
   }
 }, {
-  "templateId": "FORMS_V0191_POKEMON_SUNKERN",
+  "templateId": "FORMS_V0191_POKEMON_SUNKERN", 
   "formSettings": {
     "pokemon": "SUNKERN"
   }
 }, {
-  "templateId": "FORMS_V0192_POKEMON_SUNFLORA",
+  "templateId": "FORMS_V0192_POKEMON_SUNFLORA", 
   "formSettings": {
     "pokemon": "SUNFLORA"
   }
 }, {
-  "templateId": "FORMS_V0193_POKEMON_YANMA",
+  "templateId": "FORMS_V0193_POKEMON_YANMA", 
   "formSettings": {
     "pokemon": "YANMA"
   }
 }, {
-  "templateId": "FORMS_V0194_POKEMON_WOOPER",
+  "templateId": "FORMS_V0194_POKEMON_WOOPER", 
   "formSettings": {
     "pokemon": "WOOPER"
   }
 }, {
-  "templateId": "FORMS_V0195_POKEMON_QUAGSIRE",
+  "templateId": "FORMS_V0195_POKEMON_QUAGSIRE", 
   "formSettings": {
     "pokemon": "QUAGSIRE"
   }
 }, {
-  "templateId": "FORMS_V0196_POKEMON_ESPEON",
+  "templateId": "FORMS_V0196_POKEMON_ESPEON", 
   "formSettings": {
     "pokemon": "ESPEON"
   }
 }, {
-  "templateId": "FORMS_V0197_POKEMON_UMBREON",
+  "templateId": "FORMS_V0197_POKEMON_UMBREON", 
   "formSettings": {
     "pokemon": "UMBREON"
   }
 }, {
-  "templateId": "FORMS_V0198_POKEMON_MURKROW",
+  "templateId": "FORMS_V0198_POKEMON_MURKROW", 
   "formSettings": {
     "pokemon": "MURKROW"
   }
 }, {
-  "templateId": "FORMS_V0199_POKEMON_SLOWKING",
+  "templateId": "FORMS_V0199_POKEMON_SLOWKING", 
   "formSettings": {
     "pokemon": "SLOWKING"
   }
 }, {
-  "templateId": "FORMS_V0200_POKEMON_MISDREAVUS",
+  "templateId": "FORMS_V0200_POKEMON_MISDREAVUS", 
   "formSettings": {
     "pokemon": "MISDREAVUS"
   }
 }, {
-  "templateId": "FORMS_V0201_POKEMON_UNOWN",
+  "templateId": "FORMS_V0201_POKEMON_UNOWN", 
   "formSettings": {
-    "pokemon": "UNOWN",
+    "pokemon": "UNOWN", 
     "forms": [
       {
-        "form": "UNOWN_F",
+        "form": "UNOWN_F", 
         "assetBundleValue": 16
-      },
+      }, 
       {
-        "form": "UNOWN_A",
+        "form": "UNOWN_A", 
         "assetBundleValue": 11
-      },
+      }, 
       {
-        "form": "UNOWN_B",
+        "form": "UNOWN_B", 
         "assetBundleValue": 12
-      },
+      }, 
       {
-        "form": "UNOWN_C",
+        "form": "UNOWN_C", 
         "assetBundleValue": 13
-      },
+      }, 
       {
-        "form": "UNOWN_D",
+        "form": "UNOWN_D", 
         "assetBundleValue": 14
-      },
+      }, 
       {
-        "form": "UNOWN_E",
+        "form": "UNOWN_E", 
         "assetBundleValue": 15
-      },
+      }, 
       {
-        "form": "UNOWN_G",
+        "form": "UNOWN_G", 
         "assetBundleValue": 17
-      },
+      }, 
       {
-        "form": "UNOWN_H",
+        "form": "UNOWN_H", 
         "assetBundleValue": 18
-      },
+      }, 
       {
-        "form": "UNOWN_I",
+        "form": "UNOWN_I", 
         "assetBundleValue": 19
-      },
+      }, 
       {
-        "form": "UNOWN_J",
+        "form": "UNOWN_J", 
         "assetBundleValue": 20
-      },
+      }, 
       {
-        "form": "UNOWN_K",
+        "form": "UNOWN_K", 
         "assetBundleValue": 21
-      },
+      }, 
       {
-        "form": "UNOWN_L",
+        "form": "UNOWN_L", 
         "assetBundleValue": 22
-      },
+      }, 
       {
-        "form": "UNOWN_M",
+        "form": "UNOWN_M", 
         "assetBundleValue": 23
-      },
+      }, 
       {
-        "form": "UNOWN_N",
+        "form": "UNOWN_N", 
         "assetBundleValue": 24
-      },
+      }, 
       {
-        "form": "UNOWN_O",
+        "form": "UNOWN_O", 
         "assetBundleValue": 25
-      },
+      }, 
       {
-        "form": "UNOWN_P",
+        "form": "UNOWN_P", 
         "assetBundleValue": 26
-      },
+      }, 
       {
-        "form": "UNOWN_Q",
+        "form": "UNOWN_Q", 
         "assetBundleValue": 27
-      },
+      }, 
       {
-        "form": "UNOWN_R",
+        "form": "UNOWN_R", 
         "assetBundleValue": 28
-      },
+      }, 
       {
-        "form": "UNOWN_S",
+        "form": "UNOWN_S", 
         "assetBundleValue": 29
-      },
+      }, 
       {
-        "form": "UNOWN_T",
+        "form": "UNOWN_T", 
         "assetBundleValue": 30
-      },
+      }, 
       {
-        "form": "UNOWN_U",
+        "form": "UNOWN_U", 
         "assetBundleValue": 31
-      },
+      }, 
       {
-        "form": "UNOWN_V",
+        "form": "UNOWN_V", 
         "assetBundleValue": 32
-      },
+      }, 
       {
-        "form": "UNOWN_W",
+        "form": "UNOWN_W", 
         "assetBundleValue": 33
-      },
+      }, 
       {
-        "form": "UNOWN_X",
+        "form": "UNOWN_X", 
         "assetBundleValue": 34
-      },
+      }, 
       {
-        "form": "UNOWN_Y",
+        "form": "UNOWN_Y", 
         "assetBundleValue": 35
-      },
+      }, 
       {
-        "form": "UNOWN_Z",
+        "form": "UNOWN_Z", 
         "assetBundleValue": 36
-      },
+      }, 
       {
-        "form": "UNOWN_EXCLAMATION_POINT",
+        "form": "UNOWN_EXCLAMATION_POINT", 
         "assetBundleValue": 37
-      },
+      }, 
       {
-        "form": "UNOWN_QUESTION_MARK",
+        "form": "UNOWN_QUESTION_MARK", 
         "assetBundleValue": 38
       }
     ]
   }
 }, {
-  "templateId": "FORMS_V0202_POKEMON_WOBBUFFET",
+  "templateId": "FORMS_V0202_POKEMON_WOBBUFFET", 
   "formSettings": {
     "pokemon": "WOBBUFFET"
   }
 }, {
-  "templateId": "FORMS_V0203_POKEMON_GIRAFARIG",
+  "templateId": "FORMS_V0203_POKEMON_GIRAFARIG", 
   "formSettings": {
     "pokemon": "GIRAFARIG"
   }
 }, {
-  "templateId": "FORMS_V0204_POKEMON_PINECO",
+  "templateId": "FORMS_V0204_POKEMON_PINECO", 
   "formSettings": {
     "pokemon": "PINECO"
   }
 }, {
-  "templateId": "FORMS_V0205_POKEMON_FORRETRESS",
+  "templateId": "FORMS_V0205_POKEMON_FORRETRESS", 
   "formSettings": {
     "pokemon": "FORRETRESS"
   }
 }, {
-  "templateId": "FORMS_V0206_POKEMON_DUNSPARCE",
+  "templateId": "FORMS_V0206_POKEMON_DUNSPARCE", 
   "formSettings": {
     "pokemon": "DUNSPARCE"
   }
 }, {
-  "templateId": "FORMS_V0207_POKEMON_GLIGAR",
+  "templateId": "FORMS_V0207_POKEMON_GLIGAR", 
   "formSettings": {
     "pokemon": "GLIGAR"
   }
 }, {
-  "templateId": "FORMS_V0208_POKEMON_STEELIX",
+  "templateId": "FORMS_V0208_POKEMON_STEELIX", 
   "formSettings": {
     "pokemon": "STEELIX"
   }
 }, {
-  "templateId": "FORMS_V0209_POKEMON_SNUBBULL",
+  "templateId": "FORMS_V0209_POKEMON_SNUBBULL", 
   "formSettings": {
     "pokemon": "SNUBBULL"
   }
 }, {
-  "templateId": "FORMS_V0210_POKEMON_GRANBULL",
+  "templateId": "FORMS_V0210_POKEMON_GRANBULL", 
   "formSettings": {
     "pokemon": "GRANBULL"
   }
 }, {
-  "templateId": "FORMS_V0211_POKEMON_QWILFISH",
+  "templateId": "FORMS_V0211_POKEMON_QWILFISH", 
   "formSettings": {
     "pokemon": "QWILFISH"
   }
 }, {
-  "templateId": "FORMS_V0212_POKEMON_SCIZOR",
+  "templateId": "FORMS_V0212_POKEMON_SCIZOR", 
   "formSettings": {
     "pokemon": "SCIZOR"
   }
 }, {
-  "templateId": "FORMS_V0213_POKEMON_SHUCKLE",
+  "templateId": "FORMS_V0213_POKEMON_SHUCKLE", 
   "formSettings": {
     "pokemon": "SHUCKLE"
   }
 }, {
-  "templateId": "FORMS_V0214_POKEMON_HERACROSS",
+  "templateId": "FORMS_V0214_POKEMON_HERACROSS", 
   "formSettings": {
     "pokemon": "HERACROSS"
   }
 }, {
-  "templateId": "FORMS_V0215_POKEMON_SNEASEL",
+  "templateId": "FORMS_V0215_POKEMON_SNEASEL", 
   "formSettings": {
     "pokemon": "SNEASEL"
   }
 }, {
-  "templateId": "FORMS_V0216_POKEMON_TEDDIURSA",
+  "templateId": "FORMS_V0216_POKEMON_TEDDIURSA", 
   "formSettings": {
     "pokemon": "TEDDIURSA"
   }
 }, {
-  "templateId": "FORMS_V0217_POKEMON_URSARING",
+  "templateId": "FORMS_V0217_POKEMON_URSARING", 
   "formSettings": {
     "pokemon": "URSARING"
   }
 }, {
-  "templateId": "FORMS_V0218_POKEMON_SLUGMA",
+  "templateId": "FORMS_V0218_POKEMON_SLUGMA", 
   "formSettings": {
     "pokemon": "SLUGMA"
   }
 }, {
-  "templateId": "FORMS_V0219_POKEMON_MAGCARGO",
+  "templateId": "FORMS_V0219_POKEMON_MAGCARGO", 
   "formSettings": {
     "pokemon": "MAGCARGO"
   }
 }, {
-  "templateId": "FORMS_V0220_POKEMON_SWINUB",
+  "templateId": "FORMS_V0220_POKEMON_SWINUB", 
   "formSettings": {
     "pokemon": "SWINUB"
   }
 }, {
-  "templateId": "FORMS_V0221_POKEMON_PILOSWINE",
+  "templateId": "FORMS_V0221_POKEMON_PILOSWINE", 
   "formSettings": {
     "pokemon": "PILOSWINE"
   }
 }, {
-  "templateId": "FORMS_V0222_POKEMON_CORSOLA",
+  "templateId": "FORMS_V0222_POKEMON_CORSOLA", 
   "formSettings": {
     "pokemon": "CORSOLA"
   }
 }, {
-  "templateId": "FORMS_V0223_POKEMON_REMORAID",
+  "templateId": "FORMS_V0223_POKEMON_REMORAID", 
   "formSettings": {
     "pokemon": "REMORAID"
   }
 }, {
-  "templateId": "FORMS_V0224_POKEMON_OCTILLERY",
+  "templateId": "FORMS_V0224_POKEMON_OCTILLERY", 
   "formSettings": {
     "pokemon": "OCTILLERY"
   }
 }, {
-  "templateId": "FORMS_V0225_POKEMON_DELIBIRD",
+  "templateId": "FORMS_V0225_POKEMON_DELIBIRD", 
   "formSettings": {
     "pokemon": "DELIBIRD"
   }
 }, {
-  "templateId": "FORMS_V0226_POKEMON_MANTINE",
+  "templateId": "FORMS_V0226_POKEMON_MANTINE", 
   "formSettings": {
     "pokemon": "MANTINE"
   }
 }, {
-  "templateId": "FORMS_V0227_POKEMON_SKARMORY",
+  "templateId": "FORMS_V0227_POKEMON_SKARMORY", 
   "formSettings": {
     "pokemon": "SKARMORY"
   }
 }, {
-  "templateId": "FORMS_V0228_POKEMON_HOUNDOUR",
+  "templateId": "FORMS_V0228_POKEMON_HOUNDOUR", 
   "formSettings": {
     "pokemon": "HOUNDOUR"
   }
 }, {
-  "templateId": "FORMS_V0229_POKEMON_HOUNDOOM",
+  "templateId": "FORMS_V0229_POKEMON_HOUNDOOM", 
   "formSettings": {
     "pokemon": "HOUNDOOM"
   }
 }, {
-  "templateId": "FORMS_V0230_POKEMON_KINGDRA",
+  "templateId": "FORMS_V0230_POKEMON_KINGDRA", 
   "formSettings": {
     "pokemon": "KINGDRA"
   }
 }, {
-  "templateId": "FORMS_V0231_POKEMON_PHANPY",
+  "templateId": "FORMS_V0231_POKEMON_PHANPY", 
   "formSettings": {
     "pokemon": "PHANPY"
   }
 }, {
-  "templateId": "FORMS_V0232_POKEMON_DONPHAN",
+  "templateId": "FORMS_V0232_POKEMON_DONPHAN", 
   "formSettings": {
     "pokemon": "DONPHAN"
   }
 }, {
-  "templateId": "FORMS_V0233_POKEMON_PORYGON2",
+  "templateId": "FORMS_V0233_POKEMON_PORYGON2", 
   "formSettings": {
     "pokemon": "PORYGON2"
   }
 }, {
-  "templateId": "FORMS_V0234_POKEMON_STANTLER",
+  "templateId": "FORMS_V0234_POKEMON_STANTLER", 
   "formSettings": {
     "pokemon": "STANTLER"
   }
 }, {
-  "templateId": "FORMS_V0235_POKEMON_SMEARGLE",
+  "templateId": "FORMS_V0235_POKEMON_SMEARGLE", 
   "formSettings": {
     "pokemon": "SMEARGLE"
   }
 }, {
-  "templateId": "FORMS_V0236_POKEMON_TYROGUE",
+  "templateId": "FORMS_V0236_POKEMON_TYROGUE", 
   "formSettings": {
     "pokemon": "TYROGUE"
   }
 }, {
-  "templateId": "FORMS_V0237_POKEMON_HITMONTOP",
+  "templateId": "FORMS_V0237_POKEMON_HITMONTOP", 
   "formSettings": {
     "pokemon": "HITMONTOP"
   }
 }, {
-  "templateId": "FORMS_V0238_POKEMON_SMOOCHUM",
+  "templateId": "FORMS_V0238_POKEMON_SMOOCHUM", 
   "formSettings": {
     "pokemon": "SMOOCHUM"
   }
 }, {
-  "templateId": "FORMS_V0239_POKEMON_ELEKID",
+  "templateId": "FORMS_V0239_POKEMON_ELEKID", 
   "formSettings": {
     "pokemon": "ELEKID"
   }
 }, {
-  "templateId": "FORMS_V0240_POKEMON_MAGBY",
+  "templateId": "FORMS_V0240_POKEMON_MAGBY", 
   "formSettings": {
     "pokemon": "MAGBY"
   }
 }, {
-  "templateId": "FORMS_V0241_POKEMON_MILTANK",
+  "templateId": "FORMS_V0241_POKEMON_MILTANK", 
   "formSettings": {
     "pokemon": "MILTANK"
   }
 }, {
-  "templateId": "FORMS_V0242_POKEMON_BLISSEY",
+  "templateId": "FORMS_V0242_POKEMON_BLISSEY", 
   "formSettings": {
     "pokemon": "BLISSEY"
   }
 }, {
-  "templateId": "FORMS_V0243_POKEMON_RAIKOU",
+  "templateId": "FORMS_V0243_POKEMON_RAIKOU", 
   "formSettings": {
     "pokemon": "RAIKOU"
   }
 }, {
-  "templateId": "FORMS_V0244_POKEMON_ENTEI",
+  "templateId": "FORMS_V0244_POKEMON_ENTEI", 
   "formSettings": {
     "pokemon": "ENTEI"
   }
 }, {
-  "templateId": "FORMS_V0245_POKEMON_SUICUNE",
+  "templateId": "FORMS_V0245_POKEMON_SUICUNE", 
   "formSettings": {
     "pokemon": "SUICUNE"
   }
 }, {
-  "templateId": "FORMS_V0246_POKEMON_LARVITAR",
+  "templateId": "FORMS_V0246_POKEMON_LARVITAR", 
   "formSettings": {
     "pokemon": "LARVITAR"
   }
 }, {
-  "templateId": "FORMS_V0247_POKEMON_PUPITAR",
+  "templateId": "FORMS_V0247_POKEMON_PUPITAR", 
   "formSettings": {
     "pokemon": "PUPITAR"
   }
 }, {
-  "templateId": "FORMS_V0248_POKEMON_TYRANITAR",
+  "templateId": "FORMS_V0248_POKEMON_TYRANITAR", 
   "formSettings": {
     "pokemon": "TYRANITAR"
   }
 }, {
-  "templateId": "FORMS_V0249_POKEMON_LUGIA",
+  "templateId": "FORMS_V0249_POKEMON_LUGIA", 
   "formSettings": {
     "pokemon": "LUGIA"
   }
 }, {
-  "templateId": "FORMS_V0250_POKEMON_HO_OH",
+  "templateId": "FORMS_V0250_POKEMON_HO_OH", 
   "formSettings": {
     "pokemon": "HO_OH"
   }
 }, {
-  "templateId": "FORMS_V0251_POKEMON_CELEBI",
+  "templateId": "FORMS_V0251_POKEMON_CELEBI", 
   "formSettings": {
     "pokemon": "CELEBI"
   }
 }, {
-  "templateId": "FORMS_V0252_POKEMON_TREECKO",
+  "templateId": "FORMS_V0252_POKEMON_TREECKO", 
   "formSettings": {
     "pokemon": "TREECKO"
   }
 }, {
-  "templateId": "FORMS_V0253_POKEMON_GROVYLE",
+  "templateId": "FORMS_V0253_POKEMON_GROVYLE", 
   "formSettings": {
     "pokemon": "GROVYLE"
   }
 }, {
-  "templateId": "FORMS_V0254_POKEMON_SCEPTILE",
+  "templateId": "FORMS_V0254_POKEMON_SCEPTILE", 
   "formSettings": {
     "pokemon": "SCEPTILE"
   }
 }, {
-  "templateId": "FORMS_V0255_POKEMON_TORCHIC",
+  "templateId": "FORMS_V0255_POKEMON_TORCHIC", 
   "formSettings": {
     "pokemon": "TORCHIC"
   }
 }, {
-  "templateId": "FORMS_V0256_POKEMON_COMBUSKEN",
+  "templateId": "FORMS_V0256_POKEMON_COMBUSKEN", 
   "formSettings": {
     "pokemon": "COMBUSKEN"
   }
 }, {
-  "templateId": "FORMS_V0257_POKEMON_BLAZIKEN",
+  "templateId": "FORMS_V0257_POKEMON_BLAZIKEN", 
   "formSettings": {
     "pokemon": "BLAZIKEN"
   }
 }, {
-  "templateId": "FORMS_V0258_POKEMON_MUDKIP",
+  "templateId": "FORMS_V0258_POKEMON_MUDKIP", 
   "formSettings": {
     "pokemon": "MUDKIP"
   }
 }, {
-  "templateId": "FORMS_V0259_POKEMON_MARSHTOMP",
+  "templateId": "FORMS_V0259_POKEMON_MARSHTOMP", 
   "formSettings": {
     "pokemon": "MARSHTOMP"
   }
 }, {
-  "templateId": "FORMS_V0260_POKEMON_SWAMPERT",
+  "templateId": "FORMS_V0260_POKEMON_SWAMPERT", 
   "formSettings": {
     "pokemon": "SWAMPERT"
   }
 }, {
-  "templateId": "FORMS_V0261_POKEMON_POOCHYENA",
+  "templateId": "FORMS_V0261_POKEMON_POOCHYENA", 
   "formSettings": {
     "pokemon": "POOCHYENA"
   }
 }, {
-  "templateId": "FORMS_V0262_POKEMON_MIGHTYENA",
+  "templateId": "FORMS_V0262_POKEMON_MIGHTYENA", 
   "formSettings": {
     "pokemon": "MIGHTYENA"
   }
 }, {
-  "templateId": "FORMS_V0263_POKEMON_ZIGZAGOON",
+  "templateId": "FORMS_V0263_POKEMON_ZIGZAGOON", 
   "formSettings": {
     "pokemon": "ZIGZAGOON"
   }
 }, {
-  "templateId": "FORMS_V0264_POKEMON_LINOONE",
+  "templateId": "FORMS_V0264_POKEMON_LINOONE", 
   "formSettings": {
     "pokemon": "LINOONE"
   }
 }, {
-  "templateId": "FORMS_V0265_POKEMON_WURMPLE",
+  "templateId": "FORMS_V0265_POKEMON_WURMPLE", 
   "formSettings": {
     "pokemon": "WURMPLE"
   }
 }, {
-  "templateId": "FORMS_V0266_POKEMON_SILCOON",
+  "templateId": "FORMS_V0266_POKEMON_SILCOON", 
   "formSettings": {
     "pokemon": "SILCOON"
   }
 }, {
-  "templateId": "FORMS_V0267_POKEMON_BEAUTIFLY",
+  "templateId": "FORMS_V0267_POKEMON_BEAUTIFLY", 
   "formSettings": {
     "pokemon": "BEAUTIFLY"
   }
 }, {
-  "templateId": "FORMS_V0268_POKEMON_CASCOON",
+  "templateId": "FORMS_V0268_POKEMON_CASCOON", 
   "formSettings": {
     "pokemon": "CASCOON"
   }
 }, {
-  "templateId": "FORMS_V0269_POKEMON_DUSTOX",
+  "templateId": "FORMS_V0269_POKEMON_DUSTOX", 
   "formSettings": {
     "pokemon": "DUSTOX"
   }
 }, {
-  "templateId": "FORMS_V0270_POKEMON_LOTAD",
+  "templateId": "FORMS_V0270_POKEMON_LOTAD", 
   "formSettings": {
     "pokemon": "LOTAD"
   }
 }, {
-  "templateId": "FORMS_V0271_POKEMON_LOMBRE",
+  "templateId": "FORMS_V0271_POKEMON_LOMBRE", 
   "formSettings": {
     "pokemon": "LOMBRE"
   }
 }, {
-  "templateId": "FORMS_V0272_POKEMON_LUDICOLO",
+  "templateId": "FORMS_V0272_POKEMON_LUDICOLO", 
   "formSettings": {
     "pokemon": "LUDICOLO"
   }
 }, {
-  "templateId": "FORMS_V0273_POKEMON_SEEDOT",
+  "templateId": "FORMS_V0273_POKEMON_SEEDOT", 
   "formSettings": {
     "pokemon": "SEEDOT"
   }
 }, {
-  "templateId": "FORMS_V0274_POKEMON_NUZLEAF",
+  "templateId": "FORMS_V0274_POKEMON_NUZLEAF", 
   "formSettings": {
     "pokemon": "NUZLEAF"
   }
 }, {
-  "templateId": "FORMS_V0275_POKEMON_SHIFTRY",
+  "templateId": "FORMS_V0275_POKEMON_SHIFTRY", 
   "formSettings": {
     "pokemon": "SHIFTRY"
   }
 }, {
-  "templateId": "FORMS_V0276_POKEMON_TAILLOW",
+  "templateId": "FORMS_V0276_POKEMON_TAILLOW", 
   "formSettings": {
     "pokemon": "TAILLOW"
   }
 }, {
-  "templateId": "FORMS_V0277_POKEMON_SWELLOW",
+  "templateId": "FORMS_V0277_POKEMON_SWELLOW", 
   "formSettings": {
     "pokemon": "SWELLOW"
   }
 }, {
-  "templateId": "FORMS_V0278_POKEMON_WINGULL",
+  "templateId": "FORMS_V0278_POKEMON_WINGULL", 
   "formSettings": {
     "pokemon": "WINGULL"
   }
 }, {
-  "templateId": "FORMS_V0279_POKEMON_PELIPPER",
+  "templateId": "FORMS_V0279_POKEMON_PELIPPER", 
   "formSettings": {
     "pokemon": "PELIPPER"
   }
 }, {
-  "templateId": "FORMS_V0280_POKEMON_RALTS",
+  "templateId": "FORMS_V0280_POKEMON_RALTS", 
   "formSettings": {
     "pokemon": "RALTS"
   }
 }, {
-  "templateId": "FORMS_V0281_POKEMON_KIRLIA",
+  "templateId": "FORMS_V0281_POKEMON_KIRLIA", 
   "formSettings": {
     "pokemon": "KIRLIA"
   }
 }, {
-  "templateId": "FORMS_V0282_POKEMON_GARDEVOIR",
+  "templateId": "FORMS_V0282_POKEMON_GARDEVOIR", 
   "formSettings": {
     "pokemon": "GARDEVOIR"
   }
 }, {
-  "templateId": "FORMS_V0283_POKEMON_SURSKIT",
+  "templateId": "FORMS_V0283_POKEMON_SURSKIT", 
   "formSettings": {
     "pokemon": "SURSKIT"
   }
 }, {
-  "templateId": "FORMS_V0284_POKEMON_MASQUERAIN",
+  "templateId": "FORMS_V0284_POKEMON_MASQUERAIN", 
   "formSettings": {
     "pokemon": "MASQUERAIN"
   }
 }, {
-  "templateId": "FORMS_V0285_POKEMON_SHROOMISH",
+  "templateId": "FORMS_V0285_POKEMON_SHROOMISH", 
   "formSettings": {
     "pokemon": "SHROOMISH"
   }
 }, {
-  "templateId": "FORMS_V0286_POKEMON_BRELOOM",
+  "templateId": "FORMS_V0286_POKEMON_BRELOOM", 
   "formSettings": {
     "pokemon": "BRELOOM"
   }
 }, {
-  "templateId": "FORMS_V0287_POKEMON_SLAKOTH",
+  "templateId": "FORMS_V0287_POKEMON_SLAKOTH", 
   "formSettings": {
     "pokemon": "SLAKOTH"
   }
 }, {
-  "templateId": "FORMS_V0288_POKEMON_VIGOROTH",
+  "templateId": "FORMS_V0288_POKEMON_VIGOROTH", 
   "formSettings": {
     "pokemon": "VIGOROTH"
   }
 }, {
-  "templateId": "FORMS_V0289_POKEMON_SLAKING",
+  "templateId": "FORMS_V0289_POKEMON_SLAKING", 
   "formSettings": {
     "pokemon": "SLAKING"
   }
 }, {
-  "templateId": "FORMS_V0290_POKEMON_NINCADA",
+  "templateId": "FORMS_V0290_POKEMON_NINCADA", 
   "formSettings": {
     "pokemon": "NINCADA"
   }
 }, {
-  "templateId": "FORMS_V0291_POKEMON_NINJASK",
+  "templateId": "FORMS_V0291_POKEMON_NINJASK", 
   "formSettings": {
     "pokemon": "NINJASK"
   }
 }, {
-  "templateId": "FORMS_V0292_POKEMON_SHEDINJA",
+  "templateId": "FORMS_V0292_POKEMON_SHEDINJA", 
   "formSettings": {
     "pokemon": "SHEDINJA"
   }
 }, {
-  "templateId": "FORMS_V0293_POKEMON_WHISMUR",
+  "templateId": "FORMS_V0293_POKEMON_WHISMUR", 
   "formSettings": {
     "pokemon": "WHISMUR"
   }
 }, {
-  "templateId": "FORMS_V0294_POKEMON_LOUDRED",
+  "templateId": "FORMS_V0294_POKEMON_LOUDRED", 
   "formSettings": {
     "pokemon": "LOUDRED"
   }
 }, {
-  "templateId": "FORMS_V0295_POKEMON_EXPLOUD",
+  "templateId": "FORMS_V0295_POKEMON_EXPLOUD", 
   "formSettings": {
     "pokemon": "EXPLOUD"
   }
 }, {
-  "templateId": "FORMS_V0296_POKEMON_MAKUHITA",
+  "templateId": "FORMS_V0296_POKEMON_MAKUHITA", 
   "formSettings": {
     "pokemon": "MAKUHITA"
   }
 }, {
-  "templateId": "FORMS_V0297_POKEMON_HARIYAMA",
+  "templateId": "FORMS_V0297_POKEMON_HARIYAMA", 
   "formSettings": {
     "pokemon": "HARIYAMA"
   }
 }, {
-  "templateId": "FORMS_V0298_POKEMON_AZURILL",
+  "templateId": "FORMS_V0298_POKEMON_AZURILL", 
   "formSettings": {
     "pokemon": "AZURILL"
   }
 }, {
-  "templateId": "FORMS_V0299_POKEMON_NOSEPASS",
+  "templateId": "FORMS_V0299_POKEMON_NOSEPASS", 
   "formSettings": {
     "pokemon": "NOSEPASS"
   }
 }, {
-  "templateId": "FORMS_V0300_POKEMON_SKITTY",
+  "templateId": "FORMS_V0300_POKEMON_SKITTY", 
   "formSettings": {
     "pokemon": "SKITTY"
   }
 }, {
-  "templateId": "FORMS_V0301_POKEMON_DELCATTY",
+  "templateId": "FORMS_V0301_POKEMON_DELCATTY", 
   "formSettings": {
     "pokemon": "DELCATTY"
   }
 }, {
-  "templateId": "FORMS_V0302_POKEMON_SABLEYE",
+  "templateId": "FORMS_V0302_POKEMON_SABLEYE", 
   "formSettings": {
     "pokemon": "SABLEYE"
   }
 }, {
-  "templateId": "FORMS_V0303_POKEMON_MAWILE",
+  "templateId": "FORMS_V0303_POKEMON_MAWILE", 
   "formSettings": {
     "pokemon": "MAWILE"
   }
 }, {
-  "templateId": "FORMS_V0304_POKEMON_ARON",
+  "templateId": "FORMS_V0304_POKEMON_ARON", 
   "formSettings": {
     "pokemon": "ARON"
   }
 }, {
-  "templateId": "FORMS_V0305_POKEMON_LAIRON",
+  "templateId": "FORMS_V0305_POKEMON_LAIRON", 
   "formSettings": {
     "pokemon": "LAIRON"
   }
 }, {
-  "templateId": "FORMS_V0306_POKEMON_AGGRON",
+  "templateId": "FORMS_V0306_POKEMON_AGGRON", 
   "formSettings": {
     "pokemon": "AGGRON"
   }
 }, {
-  "templateId": "FORMS_V0307_POKEMON_MEDITITE",
+  "templateId": "FORMS_V0307_POKEMON_MEDITITE", 
   "formSettings": {
     "pokemon": "MEDITITE"
   }
 }, {
-  "templateId": "FORMS_V0308_POKEMON_MEDICHAM",
+  "templateId": "FORMS_V0308_POKEMON_MEDICHAM", 
   "formSettings": {
     "pokemon": "MEDICHAM"
   }
 }, {
-  "templateId": "FORMS_V0309_POKEMON_ELECTRIKE",
+  "templateId": "FORMS_V0309_POKEMON_ELECTRIKE", 
   "formSettings": {
     "pokemon": "ELECTRIKE"
   }
 }, {
-  "templateId": "FORMS_V0310_POKEMON_MANECTRIC",
+  "templateId": "FORMS_V0310_POKEMON_MANECTRIC", 
   "formSettings": {
     "pokemon": "MANECTRIC"
   }
 }, {
-  "templateId": "FORMS_V0311_POKEMON_PLUSLE",
+  "templateId": "FORMS_V0311_POKEMON_PLUSLE", 
   "formSettings": {
     "pokemon": "PLUSLE"
   }
 }, {
-  "templateId": "FORMS_V0312_POKEMON_MINUN",
+  "templateId": "FORMS_V0312_POKEMON_MINUN", 
   "formSettings": {
     "pokemon": "MINUN"
   }
 }, {
-  "templateId": "FORMS_V0313_POKEMON_VOLBEAT",
+  "templateId": "FORMS_V0313_POKEMON_VOLBEAT", 
   "formSettings": {
     "pokemon": "VOLBEAT"
   }
 }, {
-  "templateId": "FORMS_V0314_POKEMON_ILLUMISE",
+  "templateId": "FORMS_V0314_POKEMON_ILLUMISE", 
   "formSettings": {
     "pokemon": "ILLUMISE"
   }
 }, {
-  "templateId": "FORMS_V0315_POKEMON_ROSELIA",
+  "templateId": "FORMS_V0315_POKEMON_ROSELIA", 
   "formSettings": {
     "pokemon": "ROSELIA"
   }
 }, {
-  "templateId": "FORMS_V0316_POKEMON_GULPIN",
+  "templateId": "FORMS_V0316_POKEMON_GULPIN", 
   "formSettings": {
     "pokemon": "GULPIN"
   }
 }, {
-  "templateId": "FORMS_V0317_POKEMON_SWALOT",
+  "templateId": "FORMS_V0317_POKEMON_SWALOT", 
   "formSettings": {
     "pokemon": "SWALOT"
   }
 }, {
-  "templateId": "FORMS_V0318_POKEMON_CARVANHA",
+  "templateId": "FORMS_V0318_POKEMON_CARVANHA", 
   "formSettings": {
     "pokemon": "CARVANHA"
   }
 }, {
-  "templateId": "FORMS_V0319_POKEMON_SHARPEDO",
+  "templateId": "FORMS_V0319_POKEMON_SHARPEDO", 
   "formSettings": {
     "pokemon": "SHARPEDO"
   }
 }, {
-  "templateId": "FORMS_V0320_POKEMON_WAILMER",
+  "templateId": "FORMS_V0320_POKEMON_WAILMER", 
   "formSettings": {
     "pokemon": "WAILMER"
   }
 }, {
-  "templateId": "FORMS_V0321_POKEMON_WAILORD",
+  "templateId": "FORMS_V0321_POKEMON_WAILORD", 
   "formSettings": {
     "pokemon": "WAILORD"
   }
 }, {
-  "templateId": "FORMS_V0322_POKEMON_NUMEL",
+  "templateId": "FORMS_V0322_POKEMON_NUMEL", 
   "formSettings": {
     "pokemon": "NUMEL"
   }
 }, {
-  "templateId": "FORMS_V0323_POKEMON_CAMERUPT",
+  "templateId": "FORMS_V0323_POKEMON_CAMERUPT", 
   "formSettings": {
     "pokemon": "CAMERUPT"
   }
 }, {
-  "templateId": "FORMS_V0324_POKEMON_TORKOAL",
+  "templateId": "FORMS_V0324_POKEMON_TORKOAL", 
   "formSettings": {
     "pokemon": "TORKOAL"
   }
 }, {
-  "templateId": "FORMS_V0325_POKEMON_SPOINK",
+  "templateId": "FORMS_V0325_POKEMON_SPOINK", 
   "formSettings": {
     "pokemon": "SPOINK"
   }
 }, {
-  "templateId": "FORMS_V0326_POKEMON_GRUMPIG",
+  "templateId": "FORMS_V0326_POKEMON_GRUMPIG", 
   "formSettings": {
     "pokemon": "GRUMPIG"
   }
 }, {
-  "templateId": "FORMS_V0327_POKEMON_SPINDA",
+  "templateId": "FORMS_V0327_POKEMON_SPINDA", 
   "formSettings": {
     "pokemon": "SPINDA"
   }
 }, {
-  "templateId": "FORMS_V0328_POKEMON_TRAPINCH",
+  "templateId": "FORMS_V0328_POKEMON_TRAPINCH", 
   "formSettings": {
     "pokemon": "TRAPINCH"
   }
 }, {
-  "templateId": "FORMS_V0329_POKEMON_VIBRAVA",
+  "templateId": "FORMS_V0329_POKEMON_VIBRAVA", 
   "formSettings": {
     "pokemon": "VIBRAVA"
   }
 }, {
-  "templateId": "FORMS_V0330_POKEMON_FLYGON",
+  "templateId": "FORMS_V0330_POKEMON_FLYGON", 
   "formSettings": {
     "pokemon": "FLYGON"
   }
 }, {
-  "templateId": "FORMS_V0331_POKEMON_CACNEA",
+  "templateId": "FORMS_V0331_POKEMON_CACNEA", 
   "formSettings": {
     "pokemon": "CACNEA"
   }
 }, {
-  "templateId": "FORMS_V0332_POKEMON_CACTURNE",
+  "templateId": "FORMS_V0332_POKEMON_CACTURNE", 
   "formSettings": {
     "pokemon": "CACTURNE"
   }
 }, {
-  "templateId": "FORMS_V0333_POKEMON_SWABLU",
+  "templateId": "FORMS_V0333_POKEMON_SWABLU", 
   "formSettings": {
     "pokemon": "SWABLU"
   }
 }, {
-  "templateId": "FORMS_V0334_POKEMON_ALTARIA",
+  "templateId": "FORMS_V0334_POKEMON_ALTARIA", 
   "formSettings": {
     "pokemon": "ALTARIA"
   }
 }, {
-  "templateId": "FORMS_V0335_POKEMON_ZANGOOSE",
+  "templateId": "FORMS_V0335_POKEMON_ZANGOOSE", 
   "formSettings": {
     "pokemon": "ZANGOOSE"
   }
 }, {
-  "templateId": "FORMS_V0336_POKEMON_SEVIPER",
+  "templateId": "FORMS_V0336_POKEMON_SEVIPER", 
   "formSettings": {
     "pokemon": "SEVIPER"
   }
 }, {
-  "templateId": "FORMS_V0337_POKEMON_LUNATONE",
+  "templateId": "FORMS_V0337_POKEMON_LUNATONE", 
   "formSettings": {
     "pokemon": "LUNATONE"
   }
 }, {
-  "templateId": "FORMS_V0338_POKEMON_SOLROCK",
+  "templateId": "FORMS_V0338_POKEMON_SOLROCK", 
   "formSettings": {
     "pokemon": "SOLROCK"
   }
 }, {
-  "templateId": "FORMS_V0339_POKEMON_BARBOACH",
+  "templateId": "FORMS_V0339_POKEMON_BARBOACH", 
   "formSettings": {
     "pokemon": "BARBOACH"
   }
 }, {
-  "templateId": "FORMS_V0340_POKEMON_WHISCASH",
+  "templateId": "FORMS_V0340_POKEMON_WHISCASH", 
   "formSettings": {
     "pokemon": "WHISCASH"
   }
 }, {
-  "templateId": "FORMS_V0341_POKEMON_CORPHISH",
+  "templateId": "FORMS_V0341_POKEMON_CORPHISH", 
   "formSettings": {
     "pokemon": "CORPHISH"
   }
 }, {
-  "templateId": "FORMS_V0342_POKEMON_CRAWDAUNT",
+  "templateId": "FORMS_V0342_POKEMON_CRAWDAUNT", 
   "formSettings": {
     "pokemon": "CRAWDAUNT"
   }
 }, {
-  "templateId": "FORMS_V0343_POKEMON_BALTOY",
+  "templateId": "FORMS_V0343_POKEMON_BALTOY", 
   "formSettings": {
     "pokemon": "BALTOY"
   }
 }, {
-  "templateId": "FORMS_V0344_POKEMON_CLAYDOL",
+  "templateId": "FORMS_V0344_POKEMON_CLAYDOL", 
   "formSettings": {
     "pokemon": "CLAYDOL"
   }
 }, {
-  "templateId": "FORMS_V0345_POKEMON_LILEEP",
+  "templateId": "FORMS_V0345_POKEMON_LILEEP", 
   "formSettings": {
     "pokemon": "LILEEP"
   }
 }, {
-  "templateId": "FORMS_V0346_POKEMON_CRADILY",
+  "templateId": "FORMS_V0346_POKEMON_CRADILY", 
   "formSettings": {
     "pokemon": "CRADILY"
   }
 }, {
-  "templateId": "FORMS_V0347_POKEMON_ANORITH",
+  "templateId": "FORMS_V0347_POKEMON_ANORITH", 
   "formSettings": {
     "pokemon": "ANORITH"
   }
 }, {
-  "templateId": "FORMS_V0348_POKEMON_ARMALDO",
+  "templateId": "FORMS_V0348_POKEMON_ARMALDO", 
   "formSettings": {
     "pokemon": "ARMALDO"
   }
 }, {
-  "templateId": "FORMS_V0349_POKEMON_FEEBAS",
+  "templateId": "FORMS_V0349_POKEMON_FEEBAS", 
   "formSettings": {
     "pokemon": "FEEBAS"
   }
 }, {
-  "templateId": "FORMS_V0350_POKEMON_MILOTIC",
+  "templateId": "FORMS_V0350_POKEMON_MILOTIC", 
   "formSettings": {
     "pokemon": "MILOTIC"
   }
 }, {
-  "templateId": "FORMS_V0351_POKEMON_CASTFORM",
+  "templateId": "FORMS_V0351_POKEMON_CASTFORM", 
   "formSettings": {
-    "pokemon": "CASTFORM",
+    "pokemon": "CASTFORM", 
     "forms": [
       {
-        "form": "CASTFORM_NORMAL",
+        "form": "CASTFORM_NORMAL", 
         "assetBundleValue": 11
-      },
+      }, 
       {
-        "form": "CASTFORM_SUNNY",
+        "form": "CASTFORM_SUNNY", 
         "assetBundleValue": 12
-      },
+      }, 
       {
-        "form": "CASTFORM_RAINY",
+        "form": "CASTFORM_RAINY", 
         "assetBundleValue": 13
-      },
+      }, 
       {
-        "form": "CASTFORM_SNOWY",
+        "form": "CASTFORM_SNOWY", 
         "assetBundleValue": 14
       }
     ]
   }
 }, {
-  "templateId": "FORMS_V0352_POKEMON_KECLEON",
+  "templateId": "FORMS_V0352_POKEMON_KECLEON", 
   "formSettings": {
     "pokemon": "KECLEON"
   }
 }, {
-  "templateId": "FORMS_V0353_POKEMON_SHUPPET",
+  "templateId": "FORMS_V0353_POKEMON_SHUPPET", 
   "formSettings": {
     "pokemon": "SHUPPET"
   }
 }, {
-  "templateId": "FORMS_V0354_POKEMON_BANETTE",
+  "templateId": "FORMS_V0354_POKEMON_BANETTE", 
   "formSettings": {
     "pokemon": "BANETTE"
   }
 }, {
-  "templateId": "FORMS_V0355_POKEMON_DUSKULL",
+  "templateId": "FORMS_V0355_POKEMON_DUSKULL", 
   "formSettings": {
     "pokemon": "DUSKULL"
   }
 }, {
-  "templateId": "FORMS_V0356_POKEMON_DUSCLOPS",
+  "templateId": "FORMS_V0356_POKEMON_DUSCLOPS", 
   "formSettings": {
     "pokemon": "DUSCLOPS"
   }
 }, {
-  "templateId": "FORMS_V0357_POKEMON_TROPIUS",
+  "templateId": "FORMS_V0357_POKEMON_TROPIUS", 
   "formSettings": {
     "pokemon": "TROPIUS"
   }
 }, {
-  "templateId": "FORMS_V0358_POKEMON_CHIMECHO",
+  "templateId": "FORMS_V0358_POKEMON_CHIMECHO", 
   "formSettings": {
     "pokemon": "CHIMECHO"
   }
 }, {
-  "templateId": "FORMS_V0359_POKEMON_ABSOL",
+  "templateId": "FORMS_V0359_POKEMON_ABSOL", 
   "formSettings": {
     "pokemon": "ABSOL"
   }
 }, {
-  "templateId": "FORMS_V0360_POKEMON_WYNAUT",
+  "templateId": "FORMS_V0360_POKEMON_WYNAUT", 
   "formSettings": {
     "pokemon": "WYNAUT"
   }
 }, {
-  "templateId": "FORMS_V0361_POKEMON_SNORUNT",
+  "templateId": "FORMS_V0361_POKEMON_SNORUNT", 
   "formSettings": {
     "pokemon": "SNORUNT"
   }
 }, {
-  "templateId": "FORMS_V0362_POKEMON_GLALIE",
+  "templateId": "FORMS_V0362_POKEMON_GLALIE", 
   "formSettings": {
     "pokemon": "GLALIE"
   }
 }, {
-  "templateId": "FORMS_V0363_POKEMON_SPHEAL",
+  "templateId": "FORMS_V0363_POKEMON_SPHEAL", 
   "formSettings": {
     "pokemon": "SPHEAL"
   }
 }, {
-  "templateId": "FORMS_V0364_POKEMON_SEALEO",
+  "templateId": "FORMS_V0364_POKEMON_SEALEO", 
   "formSettings": {
     "pokemon": "SEALEO"
   }
 }, {
-  "templateId": "FORMS_V0365_POKEMON_WALREIN",
+  "templateId": "FORMS_V0365_POKEMON_WALREIN", 
   "formSettings": {
     "pokemon": "WALREIN"
   }
 }, {
-  "templateId": "FORMS_V0366_POKEMON_CLAMPERL",
+  "templateId": "FORMS_V0366_POKEMON_CLAMPERL", 
   "formSettings": {
     "pokemon": "CLAMPERL"
   }
 }, {
-  "templateId": "FORMS_V0367_POKEMON_HUNTAIL",
+  "templateId": "FORMS_V0367_POKEMON_HUNTAIL", 
   "formSettings": {
     "pokemon": "HUNTAIL"
   }
 }, {
-  "templateId": "FORMS_V0368_POKEMON_GOREBYSS",
+  "templateId": "FORMS_V0368_POKEMON_GOREBYSS", 
   "formSettings": {
     "pokemon": "GOREBYSS"
   }
 }, {
-  "templateId": "FORMS_V0369_POKEMON_RELICANTH",
+  "templateId": "FORMS_V0369_POKEMON_RELICANTH", 
   "formSettings": {
     "pokemon": "RELICANTH"
   }
 }, {
-  "templateId": "FORMS_V0370_POKEMON_LUVDISC",
+  "templateId": "FORMS_V0370_POKEMON_LUVDISC", 
   "formSettings": {
     "pokemon": "LUVDISC"
   }
 }, {
-  "templateId": "FORMS_V0371_POKEMON_BAGON",
+  "templateId": "FORMS_V0371_POKEMON_BAGON", 
   "formSettings": {
     "pokemon": "BAGON"
   }
 }, {
-  "templateId": "FORMS_V0372_POKEMON_SHELGON",
+  "templateId": "FORMS_V0372_POKEMON_SHELGON", 
   "formSettings": {
     "pokemon": "SHELGON"
   }
 }, {
-  "templateId": "FORMS_V0373_POKEMON_SALAMENCE",
+  "templateId": "FORMS_V0373_POKEMON_SALAMENCE", 
   "formSettings": {
     "pokemon": "SALAMENCE"
   }
 }, {
-  "templateId": "FORMS_V0374_POKEMON_BELDUM",
+  "templateId": "FORMS_V0374_POKEMON_BELDUM", 
   "formSettings": {
     "pokemon": "BELDUM"
   }
 }, {
-  "templateId": "FORMS_V0375_POKEMON_METANG",
+  "templateId": "FORMS_V0375_POKEMON_METANG", 
   "formSettings": {
     "pokemon": "METANG"
   }
 }, {
-  "templateId": "FORMS_V0376_POKEMON_METAGROSS",
+  "templateId": "FORMS_V0376_POKEMON_METAGROSS", 
   "formSettings": {
     "pokemon": "METAGROSS"
   }
 }, {
-  "templateId": "FORMS_V0377_POKEMON_REGIROCK",
+  "templateId": "FORMS_V0377_POKEMON_REGIROCK", 
   "formSettings": {
     "pokemon": "REGIROCK"
   }
 }, {
-  "templateId": "FORMS_V0378_POKEMON_REGICE",
+  "templateId": "FORMS_V0378_POKEMON_REGICE", 
   "formSettings": {
     "pokemon": "REGICE"
   }
 }, {
-  "templateId": "FORMS_V0379_POKEMON_REGISTEEL",
+  "templateId": "FORMS_V0379_POKEMON_REGISTEEL", 
   "formSettings": {
     "pokemon": "REGISTEEL"
   }
 }, {
-  "templateId": "FORMS_V0380_POKEMON_LATIAS",
+  "templateId": "FORMS_V0380_POKEMON_LATIAS", 
   "formSettings": {
     "pokemon": "LATIAS"
   }
 }, {
-  "templateId": "FORMS_V0381_POKEMON_LATIOS",
+  "templateId": "FORMS_V0381_POKEMON_LATIOS", 
   "formSettings": {
     "pokemon": "LATIOS"
   }
 }, {
-  "templateId": "FORMS_V0382_POKEMON_KYOGRE",
+  "templateId": "FORMS_V0382_POKEMON_KYOGRE", 
   "formSettings": {
     "pokemon": "KYOGRE"
   }
 }, {
-  "templateId": "FORMS_V0383_POKEMON_GROUDON",
+  "templateId": "FORMS_V0383_POKEMON_GROUDON", 
   "formSettings": {
     "pokemon": "GROUDON"
   }
 }, {
-  "templateId": "FORMS_V0384_POKEMON_RAYQUAZA",
+  "templateId": "FORMS_V0384_POKEMON_RAYQUAZA", 
   "formSettings": {
     "pokemon": "RAYQUAZA"
   }
 }, {
-  "templateId": "FORMS_V0385_POKEMON_JIRACHI",
+  "templateId": "FORMS_V0385_POKEMON_JIRACHI", 
   "formSettings": {
     "pokemon": "JIRACHI"
   }
 }, {
-  "templateId": "FORMS_V0386_POKEMON_DEOXYS",
+  "templateId": "FORMS_V0386_POKEMON_DEOXYS", 
   "formSettings": {
-    "pokemon": "DEOXYS",
+    "pokemon": "DEOXYS", 
     "forms": [
       {
-        "form": "DEOXYS_NORMAL",
+        "form": "DEOXYS_NORMAL", 
         "assetBundleValue": 11
-      },
+      }, 
       {
-        "form": "DEOXYS_ATTACK",
+        "form": "DEOXYS_ATTACK", 
         "assetBundleValue": 12
-      },
+      }, 
       {
-        "form": "DEOXYS_DEFENSE",
+        "form": "DEOXYS_DEFENSE", 
         "assetBundleValue": 13
-      },
+      }, 
       {
-        "form": "DEOXYS_SPEED",
+        "form": "DEOXYS_SPEED", 
         "assetBundleValue": 14
       }
     ]

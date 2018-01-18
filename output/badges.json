@@ -1,446 +1,446 @@
 [{
-  "templateId": "BADGE_BATTLE_ATTACK_WON",
+  "templateId": "BADGE_BATTLE_ATTACK_WON", 
   "badgeSettings": {
-    "badgeType": "BADGE_BATTLE_ATTACK_WON",
-    "badgeRank": 4,
+    "badgeType": "BADGE_BATTLE_ATTACK_WON", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      100,
+      10, 
+      100, 
       1000
     ]
   }
 }, {
-  "templateId": "BADGE_BATTLE_TRAINING_WON",
+  "templateId": "BADGE_BATTLE_TRAINING_WON", 
   "badgeSettings": {
-    "badgeType": "BADGE_BATTLE_TRAINING_WON",
-    "badgeRank": 4,
+    "badgeType": "BADGE_BATTLE_TRAINING_WON", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      100,
+      10, 
+      100, 
       1000
     ]
   }
 }, {
-  "templateId": "BADGE_BERRIES_FED",
+  "templateId": "BADGE_BERRIES_FED", 
   "badgeSettings": {
-    "badgeType": "BADGE_BERRIES_FED",
-    "badgeRank": 4,
+    "badgeType": "BADGE_BERRIES_FED", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      100,
+      10, 
+      100, 
       1000
     ]
   }
 }, {
-  "templateId": "BADGE_BIG_MAGIKARP",
+  "templateId": "BADGE_BIG_MAGIKARP", 
   "badgeSettings": {
-    "badgeType": "BADGE_BIG_MAGIKARP",
-    "badgeRank": 4,
+    "badgeType": "BADGE_BIG_MAGIKARP", 
+    "badgeRank": 4, 
     "targets": [
-      3,
-      50,
+      3, 
+      50, 
       300
     ]
   }
 }, {
-  "templateId": "BADGE_CAPTURE_TOTAL",
+  "templateId": "BADGE_CAPTURE_TOTAL", 
   "badgeSettings": {
-    "badgeType": "BADGE_CAPTURE_TOTAL",
-    "badgeRank": 4,
+    "badgeType": "BADGE_CAPTURE_TOTAL", 
+    "badgeRank": 4, 
     "targets": [
-      30,
-      500,
+      30, 
+      500, 
       2000
     ]
   }
 }, {
-  "templateId": "BADGE_CHICAGO_FEST_JULY_2017",
+  "templateId": "BADGE_CHICAGO_FEST_JULY_2017", 
   "badgeSettings": {
-    "badgeType": "BADGE_CHICAGO_FEST_JULY_2017",
-    "badgeRank": 2,
+    "badgeType": "BADGE_CHICAGO_FEST_JULY_2017", 
+    "badgeRank": 2, 
     "targets": [
       100
-    ],
+    ], 
     "eventBadge": true
   }
 }, {
-  "templateId": "BADGE_EVOLVED_TOTAL",
+  "templateId": "BADGE_EVOLVED_TOTAL", 
   "badgeSettings": {
-    "badgeType": "BADGE_EVOLVED_TOTAL",
-    "badgeRank": 4,
+    "badgeType": "BADGE_EVOLVED_TOTAL", 
+    "badgeRank": 4, 
     "targets": [
-      3,
-      20,
+      3, 
+      20, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_HATCHED_TOTAL",
+  "templateId": "BADGE_HATCHED_TOTAL", 
   "badgeSettings": {
-    "badgeType": "BADGE_HATCHED_TOTAL",
-    "badgeRank": 4,
+    "badgeType": "BADGE_HATCHED_TOTAL", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      100,
+      10, 
+      100, 
       500
     ]
   }
 }, {
-  "templateId": "BADGE_HOURS_DEFENDED",
+  "templateId": "BADGE_HOURS_DEFENDED", 
   "badgeSettings": {
-    "badgeType": "BADGE_HOURS_DEFENDED",
-    "badgeRank": 4,
+    "badgeType": "BADGE_HOURS_DEFENDED", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      100,
+      10, 
+      100, 
       1000
     ]
   }
 }, {
-  "templateId": "BADGE_LEGENDARY_BATTLE_WON",
+  "templateId": "BADGE_LEGENDARY_BATTLE_WON", 
   "badgeSettings": {
-    "badgeType": "BADGE_LEGENDARY_BATTLE_WON",
-    "badgeRank": 4,
+    "badgeType": "BADGE_LEGENDARY_BATTLE_WON", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      100,
+      10, 
+      100, 
       1000
     ]
   }
 }, {
-  "templateId": "BADGE_PIKACHU",
+  "templateId": "BADGE_PIKACHU", 
   "badgeSettings": {
-    "badgeType": "BADGE_PIKACHU",
-    "badgeRank": 4,
+    "badgeType": "BADGE_PIKACHU", 
+    "badgeRank": 4, 
     "targets": [
-      3,
-      50,
+      3, 
+      50, 
       300
     ]
   }
 }, {
-  "templateId": "BADGE_PIKACHU_OUTBREAK_YOKOHAMA_2017",
+  "templateId": "BADGE_PIKACHU_OUTBREAK_YOKOHAMA_2017", 
   "badgeSettings": {
-    "badgeType": "BADGE_PIKACHU_OUTBREAK_YOKOHAMA_2017",
-    "badgeRank": 2,
+    "badgeType": "BADGE_PIKACHU_OUTBREAK_YOKOHAMA_2017", 
+    "badgeRank": 2, 
     "targets": [
       100
-    ],
+    ], 
     "eventBadge": true
   }
 }, {
-  "templateId": "BADGE_POKEDEX_ENTRIES",
+  "templateId": "BADGE_POKEDEX_ENTRIES", 
   "badgeSettings": {
-    "badgeType": "BADGE_POKEDEX_ENTRIES",
-    "badgeRank": 4,
+    "badgeType": "BADGE_POKEDEX_ENTRIES", 
+    "badgeRank": 4, 
     "targets": [
-      5,
-      50,
+      5, 
+      50, 
       100
     ]
   }
 }, {
-  "templateId": "BADGE_POKEDEX_ENTRIES_GEN2",
+  "templateId": "BADGE_POKEDEX_ENTRIES_GEN2", 
   "badgeSettings": {
-    "badgeType": "BADGE_POKEDEX_ENTRIES_GEN2",
-    "badgeRank": 4,
+    "badgeType": "BADGE_POKEDEX_ENTRIES_GEN2", 
+    "badgeRank": 4, 
     "targets": [
-      5,
-      30,
+      5, 
+      30, 
       70
     ]
   }
 }, {
-  "templateId": "BADGE_POKEDEX_ENTRIES_GEN3",
+  "templateId": "BADGE_POKEDEX_ENTRIES_GEN3", 
   "badgeSettings": {
-    "badgeType": "BADGE_POKEDEX_ENTRIES_GEN3",
-    "badgeRank": 4,
+    "badgeType": "BADGE_POKEDEX_ENTRIES_GEN3", 
+    "badgeRank": 4, 
     "targets": [
-      5,
-      40,
+      5, 
+      40, 
       90
     ]
   }
 }, {
-  "templateId": "BADGE_POKESTOPS_VISITED",
+  "templateId": "BADGE_POKESTOPS_VISITED", 
   "badgeSettings": {
-    "badgeType": "BADGE_POKESTOPS_VISITED",
-    "badgeRank": 4,
+    "badgeType": "BADGE_POKESTOPS_VISITED", 
+    "badgeRank": 4, 
     "targets": [
-      100,
-      1000,
+      100, 
+      1000, 
       2000
     ]
   }
 }, {
-  "templateId": "BADGE_RAID_BATTLE_WON",
+  "templateId": "BADGE_RAID_BATTLE_WON", 
   "badgeSettings": {
-    "badgeType": "BADGE_RAID_BATTLE_WON",
-    "badgeRank": 4,
+    "badgeType": "BADGE_RAID_BATTLE_WON", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      100,
+      10, 
+      100, 
       1000
     ]
   }
 }, {
-  "templateId": "BADGE_SAFARI_ZONE_EUROPE_2017",
+  "templateId": "BADGE_SAFARI_ZONE_EUROPE_2017", 
   "badgeSettings": {
-    "badgeType": "BADGE_SAFARI_ZONE_EUROPE_2017",
-    "badgeRank": 2,
+    "badgeType": "BADGE_SAFARI_ZONE_EUROPE_2017", 
+    "badgeRank": 2, 
     "targets": [
       100
-    ],
+    ], 
     "eventBadge": true
   }
 }, {
-  "templateId": "BADGE_SAFARI_ZONE_EUROPE_2017_10_07",
+  "templateId": "BADGE_SAFARI_ZONE_EUROPE_2017_10_07", 
   "badgeSettings": {
-    "badgeType": "BADGE_SAFARI_ZONE_EUROPE_2017_10_07",
-    "badgeRank": 2,
+    "badgeType": "BADGE_SAFARI_ZONE_EUROPE_2017_10_07", 
+    "badgeRank": 2, 
     "targets": [
       100
-    ],
+    ], 
     "eventBadge": true
   }
 }, {
-  "templateId": "BADGE_SAFARI_ZONE_EUROPE_2017_10_14",
+  "templateId": "BADGE_SAFARI_ZONE_EUROPE_2017_10_14", 
   "badgeSettings": {
-    "badgeType": "BADGE_SAFARI_ZONE_EUROPE_2017_10_14",
-    "badgeRank": 2,
+    "badgeType": "BADGE_SAFARI_ZONE_EUROPE_2017_10_14", 
+    "badgeRank": 2, 
     "targets": [
       100
-    ],
+    ], 
     "eventBadge": true
   }
 }, {
-  "templateId": "BADGE_SMALL_RATTATA",
+  "templateId": "BADGE_SMALL_RATTATA", 
   "badgeSettings": {
-    "badgeType": "BADGE_SMALL_RATTATA",
-    "badgeRank": 4,
+    "badgeType": "BADGE_SMALL_RATTATA", 
+    "badgeRank": 4, 
     "targets": [
-      3,
-      50,
+      3, 
+      50, 
       300
     ]
   }
 }, {
-  "templateId": "BADGE_TRAVEL_KM",
+  "templateId": "BADGE_TRAVEL_KM", 
   "badgeSettings": {
-    "badgeType": "BADGE_TRAVEL_KM",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TRAVEL_KM", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      100,
+      10, 
+      100, 
       1000
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_BUG",
+  "templateId": "BADGE_TYPE_BUG", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_BUG",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_BUG", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_DARK",
+  "templateId": "BADGE_TYPE_DARK", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_DARK",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_DARK", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_DRAGON",
+  "templateId": "BADGE_TYPE_DRAGON", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_DRAGON",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_DRAGON", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_ELECTRIC",
+  "templateId": "BADGE_TYPE_ELECTRIC", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_ELECTRIC",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_ELECTRIC", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_FAIRY",
+  "templateId": "BADGE_TYPE_FAIRY", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_FAIRY",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_FAIRY", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_FIGHTING",
+  "templateId": "BADGE_TYPE_FIGHTING", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_FIGHTING",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_FIGHTING", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_FIRE",
+  "templateId": "BADGE_TYPE_FIRE", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_FIRE",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_FIRE", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_FLYING",
+  "templateId": "BADGE_TYPE_FLYING", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_FLYING",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_FLYING", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_GHOST",
+  "templateId": "BADGE_TYPE_GHOST", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_GHOST",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_GHOST", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_GRASS",
+  "templateId": "BADGE_TYPE_GRASS", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_GRASS",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_GRASS", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_GROUND",
+  "templateId": "BADGE_TYPE_GROUND", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_GROUND",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_GROUND", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_ICE",
+  "templateId": "BADGE_TYPE_ICE", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_ICE",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_ICE", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_NORMAL",
+  "templateId": "BADGE_TYPE_NORMAL", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_NORMAL",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_NORMAL", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_POISON",
+  "templateId": "BADGE_TYPE_POISON", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_POISON",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_POISON", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_PSYCHIC",
+  "templateId": "BADGE_TYPE_PSYCHIC", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_PSYCHIC",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_PSYCHIC", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_ROCK",
+  "templateId": "BADGE_TYPE_ROCK", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_ROCK",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_ROCK", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_STEEL",
+  "templateId": "BADGE_TYPE_STEEL", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_STEEL",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_STEEL", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_TYPE_WATER",
+  "templateId": "BADGE_TYPE_WATER", 
   "badgeSettings": {
-    "badgeType": "BADGE_TYPE_WATER",
-    "badgeRank": 4,
+    "badgeType": "BADGE_TYPE_WATER", 
+    "badgeRank": 4, 
     "targets": [
-      10,
-      50,
+      10, 
+      50, 
       200
     ]
   }
 }, {
-  "templateId": "BADGE_UNOWN",
+  "templateId": "BADGE_UNOWN", 
   "badgeSettings": {
-    "badgeType": "BADGE_UNOWN",
-    "badgeRank": 4,
+    "badgeType": "BADGE_UNOWN", 
+    "badgeRank": 4, 
     "targets": [
-      3,
-      10,
+      3, 
+      10, 
       26
     ]
   }

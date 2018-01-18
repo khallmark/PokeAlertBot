@@ -1,3415 +1,3415 @@
 [{
-  "templateId": "SPAWN_V0001_POKEMON_BULBASAUR",
+  "templateId": "SPAWN_V0001_POKEMON_BULBASAUR", 
   "genderSettings": {
-    "pokemon": "BULBASAUR",
+    "pokemon": "BULBASAUR", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0002_POKEMON_IVYSAUR",
+  "templateId": "SPAWN_V0002_POKEMON_IVYSAUR", 
   "genderSettings": {
-    "pokemon": "IVYSAUR",
+    "pokemon": "IVYSAUR", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0003_POKEMON_VENUSAUR",
+  "templateId": "SPAWN_V0003_POKEMON_VENUSAUR", 
   "genderSettings": {
-    "pokemon": "VENUSAUR",
+    "pokemon": "VENUSAUR", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0004_POKEMON_CHARMANDER",
+  "templateId": "SPAWN_V0004_POKEMON_CHARMANDER", 
   "genderSettings": {
-    "pokemon": "CHARMANDER",
+    "pokemon": "CHARMANDER", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0005_POKEMON_CHARMELEON",
+  "templateId": "SPAWN_V0005_POKEMON_CHARMELEON", 
   "genderSettings": {
-    "pokemon": "CHARMELEON",
+    "pokemon": "CHARMELEON", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0006_POKEMON_CHARIZARD",
+  "templateId": "SPAWN_V0006_POKEMON_CHARIZARD", 
   "genderSettings": {
-    "pokemon": "CHARIZARD",
+    "pokemon": "CHARIZARD", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0007_POKEMON_SQUIRTLE",
+  "templateId": "SPAWN_V0007_POKEMON_SQUIRTLE", 
   "genderSettings": {
-    "pokemon": "SQUIRTLE",
+    "pokemon": "SQUIRTLE", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0008_POKEMON_WARTORTLE",
+  "templateId": "SPAWN_V0008_POKEMON_WARTORTLE", 
   "genderSettings": {
-    "pokemon": "WARTORTLE",
+    "pokemon": "WARTORTLE", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0009_POKEMON_BLASTOISE",
+  "templateId": "SPAWN_V0009_POKEMON_BLASTOISE", 
   "genderSettings": {
-    "pokemon": "BLASTOISE",
+    "pokemon": "BLASTOISE", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0010_POKEMON_CATERPIE",
+  "templateId": "SPAWN_V0010_POKEMON_CATERPIE", 
   "genderSettings": {
-    "pokemon": "CATERPIE",
+    "pokemon": "CATERPIE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0011_POKEMON_METAPOD",
+  "templateId": "SPAWN_V0011_POKEMON_METAPOD", 
   "genderSettings": {
-    "pokemon": "METAPOD",
+    "pokemon": "METAPOD", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0012_POKEMON_BUTTERFREE",
+  "templateId": "SPAWN_V0012_POKEMON_BUTTERFREE", 
   "genderSettings": {
-    "pokemon": "BUTTERFREE",
+    "pokemon": "BUTTERFREE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0013_POKEMON_WEEDLE",
+  "templateId": "SPAWN_V0013_POKEMON_WEEDLE", 
   "genderSettings": {
-    "pokemon": "WEEDLE",
+    "pokemon": "WEEDLE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0014_POKEMON_KAKUNA",
+  "templateId": "SPAWN_V0014_POKEMON_KAKUNA", 
   "genderSettings": {
-    "pokemon": "KAKUNA",
+    "pokemon": "KAKUNA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0015_POKEMON_BEEDRILL",
+  "templateId": "SPAWN_V0015_POKEMON_BEEDRILL", 
   "genderSettings": {
-    "pokemon": "BEEDRILL",
+    "pokemon": "BEEDRILL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0016_POKEMON_PIDGEY",
+  "templateId": "SPAWN_V0016_POKEMON_PIDGEY", 
   "genderSettings": {
-    "pokemon": "PIDGEY",
+    "pokemon": "PIDGEY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0017_POKEMON_PIDGEOTTO",
+  "templateId": "SPAWN_V0017_POKEMON_PIDGEOTTO", 
   "genderSettings": {
-    "pokemon": "PIDGEOTTO",
+    "pokemon": "PIDGEOTTO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0018_POKEMON_PIDGEOT",
+  "templateId": "SPAWN_V0018_POKEMON_PIDGEOT", 
   "genderSettings": {
-    "pokemon": "PIDGEOT",
+    "pokemon": "PIDGEOT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0019_POKEMON_RATTATA",
+  "templateId": "SPAWN_V0019_POKEMON_RATTATA", 
   "genderSettings": {
-    "pokemon": "RATTATA",
+    "pokemon": "RATTATA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0020_POKEMON_RATICATE",
+  "templateId": "SPAWN_V0020_POKEMON_RATICATE", 
   "genderSettings": {
-    "pokemon": "RATICATE",
+    "pokemon": "RATICATE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0021_POKEMON_SPEAROW",
+  "templateId": "SPAWN_V0021_POKEMON_SPEAROW", 
   "genderSettings": {
-    "pokemon": "SPEAROW",
+    "pokemon": "SPEAROW", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0022_POKEMON_FEAROW",
+  "templateId": "SPAWN_V0022_POKEMON_FEAROW", 
   "genderSettings": {
-    "pokemon": "FEAROW",
+    "pokemon": "FEAROW", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0023_POKEMON_EKANS",
+  "templateId": "SPAWN_V0023_POKEMON_EKANS", 
   "genderSettings": {
-    "pokemon": "EKANS",
+    "pokemon": "EKANS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0024_POKEMON_ARBOK",
+  "templateId": "SPAWN_V0024_POKEMON_ARBOK", 
   "genderSettings": {
-    "pokemon": "ARBOK",
+    "pokemon": "ARBOK", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0025_POKEMON_PIKACHU",
+  "templateId": "SPAWN_V0025_POKEMON_PIKACHU", 
   "genderSettings": {
-    "pokemon": "PIKACHU",
+    "pokemon": "PIKACHU", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0026_POKEMON_RAICHU",
+  "templateId": "SPAWN_V0026_POKEMON_RAICHU", 
   "genderSettings": {
-    "pokemon": "RAICHU",
+    "pokemon": "RAICHU", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0027_POKEMON_SANDSHREW",
+  "templateId": "SPAWN_V0027_POKEMON_SANDSHREW", 
   "genderSettings": {
-    "pokemon": "SANDSHREW",
+    "pokemon": "SANDSHREW", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0028_POKEMON_SANDSLASH",
+  "templateId": "SPAWN_V0028_POKEMON_SANDSLASH", 
   "genderSettings": {
-    "pokemon": "SANDSLASH",
+    "pokemon": "SANDSLASH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0029_POKEMON_NIDORAN",
+  "templateId": "SPAWN_V0029_POKEMON_NIDORAN", 
   "genderSettings": {
-    "pokemon": "NIDORAN_FEMALE",
+    "pokemon": "NIDORAN_FEMALE", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0030_POKEMON_NIDORINA",
+  "templateId": "SPAWN_V0030_POKEMON_NIDORINA", 
   "genderSettings": {
-    "pokemon": "NIDORINA",
+    "pokemon": "NIDORINA", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0031_POKEMON_NIDOQUEEN",
+  "templateId": "SPAWN_V0031_POKEMON_NIDOQUEEN", 
   "genderSettings": {
-    "pokemon": "NIDOQUEEN",
+    "pokemon": "NIDOQUEEN", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0032_POKEMON_NIDORAN",
+  "templateId": "SPAWN_V0032_POKEMON_NIDORAN", 
   "genderSettings": {
-    "pokemon": "NIDORAN_MALE",
+    "pokemon": "NIDORAN_MALE", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0033_POKEMON_NIDORINO",
+  "templateId": "SPAWN_V0033_POKEMON_NIDORINO", 
   "genderSettings": {
-    "pokemon": "NIDORINO",
+    "pokemon": "NIDORINO", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0034_POKEMON_NIDOKING",
+  "templateId": "SPAWN_V0034_POKEMON_NIDOKING", 
   "genderSettings": {
-    "pokemon": "NIDOKING",
+    "pokemon": "NIDOKING", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0035_POKEMON_CLEFAIRY",
+  "templateId": "SPAWN_V0035_POKEMON_CLEFAIRY", 
   "genderSettings": {
-    "pokemon": "CLEFAIRY",
+    "pokemon": "CLEFAIRY", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0036_POKEMON_CLEFABLE",
+  "templateId": "SPAWN_V0036_POKEMON_CLEFABLE", 
   "genderSettings": {
-    "pokemon": "CLEFABLE",
+    "pokemon": "CLEFABLE", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0037_POKEMON_VULPIX",
+  "templateId": "SPAWN_V0037_POKEMON_VULPIX", 
   "genderSettings": {
-    "pokemon": "VULPIX",
+    "pokemon": "VULPIX", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0038_POKEMON_NINETALES",
+  "templateId": "SPAWN_V0038_POKEMON_NINETALES", 
   "genderSettings": {
-    "pokemon": "NINETALES",
+    "pokemon": "NINETALES", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0039_POKEMON_JIGGLYPUFF",
+  "templateId": "SPAWN_V0039_POKEMON_JIGGLYPUFF", 
   "genderSettings": {
-    "pokemon": "JIGGLYPUFF",
+    "pokemon": "JIGGLYPUFF", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0040_POKEMON_WIGGLYTUFF",
+  "templateId": "SPAWN_V0040_POKEMON_WIGGLYTUFF", 
   "genderSettings": {
-    "pokemon": "WIGGLYTUFF",
+    "pokemon": "WIGGLYTUFF", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0041_POKEMON_ZUBAT",
+  "templateId": "SPAWN_V0041_POKEMON_ZUBAT", 
   "genderSettings": {
-    "pokemon": "ZUBAT",
+    "pokemon": "ZUBAT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0042_POKEMON_GOLBAT",
+  "templateId": "SPAWN_V0042_POKEMON_GOLBAT", 
   "genderSettings": {
-    "pokemon": "GOLBAT",
+    "pokemon": "GOLBAT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0043_POKEMON_ODDISH",
+  "templateId": "SPAWN_V0043_POKEMON_ODDISH", 
   "genderSettings": {
-    "pokemon": "ODDISH",
+    "pokemon": "ODDISH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0044_POKEMON_GLOOM",
+  "templateId": "SPAWN_V0044_POKEMON_GLOOM", 
   "genderSettings": {
-    "pokemon": "GLOOM",
+    "pokemon": "GLOOM", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0045_POKEMON_VILEPLUME",
+  "templateId": "SPAWN_V0045_POKEMON_VILEPLUME", 
   "genderSettings": {
-    "pokemon": "VILEPLUME",
+    "pokemon": "VILEPLUME", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0046_POKEMON_PARAS",
+  "templateId": "SPAWN_V0046_POKEMON_PARAS", 
   "genderSettings": {
-    "pokemon": "PARAS",
+    "pokemon": "PARAS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0047_POKEMON_PARASECT",
+  "templateId": "SPAWN_V0047_POKEMON_PARASECT", 
   "genderSettings": {
-    "pokemon": "PARASECT",
+    "pokemon": "PARASECT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0048_POKEMON_VENONAT",
+  "templateId": "SPAWN_V0048_POKEMON_VENONAT", 
   "genderSettings": {
-    "pokemon": "VENONAT",
+    "pokemon": "VENONAT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0049_POKEMON_VENOMOTH",
+  "templateId": "SPAWN_V0049_POKEMON_VENOMOTH", 
   "genderSettings": {
-    "pokemon": "VENOMOTH",
+    "pokemon": "VENOMOTH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0050_POKEMON_DIGLETT",
+  "templateId": "SPAWN_V0050_POKEMON_DIGLETT", 
   "genderSettings": {
-    "pokemon": "DIGLETT",
+    "pokemon": "DIGLETT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0051_POKEMON_DUGTRIO",
+  "templateId": "SPAWN_V0051_POKEMON_DUGTRIO", 
   "genderSettings": {
-    "pokemon": "DUGTRIO",
+    "pokemon": "DUGTRIO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0052_POKEMON_MEOWTH",
+  "templateId": "SPAWN_V0052_POKEMON_MEOWTH", 
   "genderSettings": {
-    "pokemon": "MEOWTH",
+    "pokemon": "MEOWTH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0053_POKEMON_PERSIAN",
+  "templateId": "SPAWN_V0053_POKEMON_PERSIAN", 
   "genderSettings": {
-    "pokemon": "PERSIAN",
+    "pokemon": "PERSIAN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0054_POKEMON_PSYDUCK",
+  "templateId": "SPAWN_V0054_POKEMON_PSYDUCK", 
   "genderSettings": {
-    "pokemon": "PSYDUCK",
+    "pokemon": "PSYDUCK", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0055_POKEMON_GOLDUCK",
+  "templateId": "SPAWN_V0055_POKEMON_GOLDUCK", 
   "genderSettings": {
-    "pokemon": "GOLDUCK",
+    "pokemon": "GOLDUCK", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0056_POKEMON_MANKEY",
+  "templateId": "SPAWN_V0056_POKEMON_MANKEY", 
   "genderSettings": {
-    "pokemon": "MANKEY",
+    "pokemon": "MANKEY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0057_POKEMON_PRIMEAPE",
+  "templateId": "SPAWN_V0057_POKEMON_PRIMEAPE", 
   "genderSettings": {
-    "pokemon": "PRIMEAPE",
+    "pokemon": "PRIMEAPE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0058_POKEMON_GROWLITHE",
+  "templateId": "SPAWN_V0058_POKEMON_GROWLITHE", 
   "genderSettings": {
-    "pokemon": "GROWLITHE",
+    "pokemon": "GROWLITHE", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0059_POKEMON_ARCANINE",
+  "templateId": "SPAWN_V0059_POKEMON_ARCANINE", 
   "genderSettings": {
-    "pokemon": "ARCANINE",
+    "pokemon": "ARCANINE", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0060_POKEMON_POLIWAG",
+  "templateId": "SPAWN_V0060_POKEMON_POLIWAG", 
   "genderSettings": {
-    "pokemon": "POLIWAG",
+    "pokemon": "POLIWAG", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0061_POKEMON_POLIWHIRL",
+  "templateId": "SPAWN_V0061_POKEMON_POLIWHIRL", 
   "genderSettings": {
-    "pokemon": "POLIWHIRL",
+    "pokemon": "POLIWHIRL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0062_POKEMON_POLIWRATH",
+  "templateId": "SPAWN_V0062_POKEMON_POLIWRATH", 
   "genderSettings": {
-    "pokemon": "POLIWRATH",
+    "pokemon": "POLIWRATH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0063_POKEMON_ABRA",
+  "templateId": "SPAWN_V0063_POKEMON_ABRA", 
   "genderSettings": {
-    "pokemon": "ABRA",
+    "pokemon": "ABRA", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0064_POKEMON_KADABRA",
+  "templateId": "SPAWN_V0064_POKEMON_KADABRA", 
   "genderSettings": {
-    "pokemon": "KADABRA",
+    "pokemon": "KADABRA", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0065_POKEMON_ALAKAZAM",
+  "templateId": "SPAWN_V0065_POKEMON_ALAKAZAM", 
   "genderSettings": {
-    "pokemon": "ALAKAZAM",
+    "pokemon": "ALAKAZAM", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0066_POKEMON_MACHOP",
+  "templateId": "SPAWN_V0066_POKEMON_MACHOP", 
   "genderSettings": {
-    "pokemon": "MACHOP",
+    "pokemon": "MACHOP", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0067_POKEMON_MACHOKE",
+  "templateId": "SPAWN_V0067_POKEMON_MACHOKE", 
   "genderSettings": {
-    "pokemon": "MACHOKE",
+    "pokemon": "MACHOKE", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0068_POKEMON_MACHAMP",
+  "templateId": "SPAWN_V0068_POKEMON_MACHAMP", 
   "genderSettings": {
-    "pokemon": "MACHAMP",
+    "pokemon": "MACHAMP", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0069_POKEMON_BELLSPROUT",
+  "templateId": "SPAWN_V0069_POKEMON_BELLSPROUT", 
   "genderSettings": {
-    "pokemon": "BELLSPROUT",
+    "pokemon": "BELLSPROUT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0070_POKEMON_WEEPINBELL",
+  "templateId": "SPAWN_V0070_POKEMON_WEEPINBELL", 
   "genderSettings": {
-    "pokemon": "WEEPINBELL",
+    "pokemon": "WEEPINBELL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0071_POKEMON_VICTREEBEL",
+  "templateId": "SPAWN_V0071_POKEMON_VICTREEBEL", 
   "genderSettings": {
-    "pokemon": "VICTREEBEL",
+    "pokemon": "VICTREEBEL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0072_POKEMON_TENTACOOL",
+  "templateId": "SPAWN_V0072_POKEMON_TENTACOOL", 
   "genderSettings": {
-    "pokemon": "TENTACOOL",
+    "pokemon": "TENTACOOL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0073_POKEMON_TENTACRUEL",
+  "templateId": "SPAWN_V0073_POKEMON_TENTACRUEL", 
   "genderSettings": {
-    "pokemon": "TENTACRUEL",
+    "pokemon": "TENTACRUEL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0074_POKEMON_GEODUDE",
+  "templateId": "SPAWN_V0074_POKEMON_GEODUDE", 
   "genderSettings": {
-    "pokemon": "GEODUDE",
+    "pokemon": "GEODUDE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0075_POKEMON_GRAVELER",
+  "templateId": "SPAWN_V0075_POKEMON_GRAVELER", 
   "genderSettings": {
-    "pokemon": "GRAVELER",
+    "pokemon": "GRAVELER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0076_POKEMON_GOLEM",
+  "templateId": "SPAWN_V0076_POKEMON_GOLEM", 
   "genderSettings": {
-    "pokemon": "GOLEM",
+    "pokemon": "GOLEM", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0077_POKEMON_PONYTA",
+  "templateId": "SPAWN_V0077_POKEMON_PONYTA", 
   "genderSettings": {
-    "pokemon": "PONYTA",
+    "pokemon": "PONYTA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0078_POKEMON_RAPIDASH",
+  "templateId": "SPAWN_V0078_POKEMON_RAPIDASH", 
   "genderSettings": {
-    "pokemon": "RAPIDASH",
+    "pokemon": "RAPIDASH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0079_POKEMON_SLOWPOKE",
+  "templateId": "SPAWN_V0079_POKEMON_SLOWPOKE", 
   "genderSettings": {
-    "pokemon": "SLOWPOKE",
+    "pokemon": "SLOWPOKE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0080_POKEMON_SLOWBRO",
+  "templateId": "SPAWN_V0080_POKEMON_SLOWBRO", 
   "genderSettings": {
-    "pokemon": "SLOWBRO",
+    "pokemon": "SLOWBRO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0081_POKEMON_MAGNEMITE",
+  "templateId": "SPAWN_V0081_POKEMON_MAGNEMITE", 
   "genderSettings": {
-    "pokemon": "MAGNEMITE",
+    "pokemon": "MAGNEMITE", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0082_POKEMON_MAGNETON",
+  "templateId": "SPAWN_V0082_POKEMON_MAGNETON", 
   "genderSettings": {
-    "pokemon": "MAGNETON",
+    "pokemon": "MAGNETON", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0083_POKEMON_FARFETCHD",
+  "templateId": "SPAWN_V0083_POKEMON_FARFETCHD", 
   "genderSettings": {
-    "pokemon": "FARFETCHD",
+    "pokemon": "FARFETCHD", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0084_POKEMON_DODUO",
+  "templateId": "SPAWN_V0084_POKEMON_DODUO", 
   "genderSettings": {
-    "pokemon": "DODUO",
+    "pokemon": "DODUO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0085_POKEMON_DODRIO",
+  "templateId": "SPAWN_V0085_POKEMON_DODRIO", 
   "genderSettings": {
-    "pokemon": "DODRIO",
+    "pokemon": "DODRIO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0086_POKEMON_SEEL",
+  "templateId": "SPAWN_V0086_POKEMON_SEEL", 
   "genderSettings": {
-    "pokemon": "SEEL",
+    "pokemon": "SEEL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0087_POKEMON_DEWGONG",
+  "templateId": "SPAWN_V0087_POKEMON_DEWGONG", 
   "genderSettings": {
-    "pokemon": "DEWGONG",
+    "pokemon": "DEWGONG", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0088_POKEMON_GRIMER",
+  "templateId": "SPAWN_V0088_POKEMON_GRIMER", 
   "genderSettings": {
-    "pokemon": "GRIMER",
+    "pokemon": "GRIMER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0089_POKEMON_MUK",
+  "templateId": "SPAWN_V0089_POKEMON_MUK", 
   "genderSettings": {
-    "pokemon": "MUK",
+    "pokemon": "MUK", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0090_POKEMON_SHELLDER",
+  "templateId": "SPAWN_V0090_POKEMON_SHELLDER", 
   "genderSettings": {
-    "pokemon": "SHELLDER",
+    "pokemon": "SHELLDER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0091_POKEMON_CLOYSTER",
+  "templateId": "SPAWN_V0091_POKEMON_CLOYSTER", 
   "genderSettings": {
-    "pokemon": "CLOYSTER",
+    "pokemon": "CLOYSTER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0092_POKEMON_GASTLY",
+  "templateId": "SPAWN_V0092_POKEMON_GASTLY", 
   "genderSettings": {
-    "pokemon": "GASTLY",
+    "pokemon": "GASTLY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0093_POKEMON_HAUNTER",
+  "templateId": "SPAWN_V0093_POKEMON_HAUNTER", 
   "genderSettings": {
-    "pokemon": "HAUNTER",
+    "pokemon": "HAUNTER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0094_POKEMON_GENGAR",
+  "templateId": "SPAWN_V0094_POKEMON_GENGAR", 
   "genderSettings": {
-    "pokemon": "GENGAR",
+    "pokemon": "GENGAR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0095_POKEMON_ONIX",
+  "templateId": "SPAWN_V0095_POKEMON_ONIX", 
   "genderSettings": {
-    "pokemon": "ONIX",
+    "pokemon": "ONIX", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0096_POKEMON_DROWZEE",
+  "templateId": "SPAWN_V0096_POKEMON_DROWZEE", 
   "genderSettings": {
-    "pokemon": "DROWZEE",
+    "pokemon": "DROWZEE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0097_POKEMON_HYPNO",
+  "templateId": "SPAWN_V0097_POKEMON_HYPNO", 
   "genderSettings": {
-    "pokemon": "HYPNO",
+    "pokemon": "HYPNO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0098_POKEMON_KRABBY",
+  "templateId": "SPAWN_V0098_POKEMON_KRABBY", 
   "genderSettings": {
-    "pokemon": "KRABBY",
+    "pokemon": "KRABBY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0099_POKEMON_KINGLER",
+  "templateId": "SPAWN_V0099_POKEMON_KINGLER", 
   "genderSettings": {
-    "pokemon": "KINGLER",
+    "pokemon": "KINGLER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0100_POKEMON_VOLTORB",
+  "templateId": "SPAWN_V0100_POKEMON_VOLTORB", 
   "genderSettings": {
-    "pokemon": "VOLTORB",
+    "pokemon": "VOLTORB", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0101_POKEMON_ELECTRODE",
+  "templateId": "SPAWN_V0101_POKEMON_ELECTRODE", 
   "genderSettings": {
-    "pokemon": "ELECTRODE",
+    "pokemon": "ELECTRODE", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0102_POKEMON_EXEGGCUTE",
+  "templateId": "SPAWN_V0102_POKEMON_EXEGGCUTE", 
   "genderSettings": {
-    "pokemon": "EXEGGCUTE",
+    "pokemon": "EXEGGCUTE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0103_POKEMON_EXEGGUTOR",
+  "templateId": "SPAWN_V0103_POKEMON_EXEGGUTOR", 
   "genderSettings": {
-    "pokemon": "EXEGGUTOR",
+    "pokemon": "EXEGGUTOR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0104_POKEMON_CUBONE",
+  "templateId": "SPAWN_V0104_POKEMON_CUBONE", 
   "genderSettings": {
-    "pokemon": "CUBONE",
+    "pokemon": "CUBONE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0105_POKEMON_MAROWAK",
+  "templateId": "SPAWN_V0105_POKEMON_MAROWAK", 
   "genderSettings": {
-    "pokemon": "MAROWAK",
+    "pokemon": "MAROWAK", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0106_POKEMON_HITMONLEE",
+  "templateId": "SPAWN_V0106_POKEMON_HITMONLEE", 
   "genderSettings": {
-    "pokemon": "HITMONLEE",
+    "pokemon": "HITMONLEE", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0107_POKEMON_HITMONCHAN",
+  "templateId": "SPAWN_V0107_POKEMON_HITMONCHAN", 
   "genderSettings": {
-    "pokemon": "HITMONCHAN",
+    "pokemon": "HITMONCHAN", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0108_POKEMON_LICKITUNG",
+  "templateId": "SPAWN_V0108_POKEMON_LICKITUNG", 
   "genderSettings": {
-    "pokemon": "LICKITUNG",
+    "pokemon": "LICKITUNG", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0109_POKEMON_KOFFING",
+  "templateId": "SPAWN_V0109_POKEMON_KOFFING", 
   "genderSettings": {
-    "pokemon": "KOFFING",
+    "pokemon": "KOFFING", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0110_POKEMON_WEEZING",
+  "templateId": "SPAWN_V0110_POKEMON_WEEZING", 
   "genderSettings": {
-    "pokemon": "WEEZING",
+    "pokemon": "WEEZING", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0111_POKEMON_RHYHORN",
+  "templateId": "SPAWN_V0111_POKEMON_RHYHORN", 
   "genderSettings": {
-    "pokemon": "RHYHORN",
+    "pokemon": "RHYHORN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0112_POKEMON_RHYDON",
+  "templateId": "SPAWN_V0112_POKEMON_RHYDON", 
   "genderSettings": {
-    "pokemon": "RHYDON",
+    "pokemon": "RHYDON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0113_POKEMON_CHANSEY",
+  "templateId": "SPAWN_V0113_POKEMON_CHANSEY", 
   "genderSettings": {
-    "pokemon": "CHANSEY",
+    "pokemon": "CHANSEY", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0114_POKEMON_TANGELA",
+  "templateId": "SPAWN_V0114_POKEMON_TANGELA", 
   "genderSettings": {
-    "pokemon": "TANGELA",
+    "pokemon": "TANGELA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0115_POKEMON_KANGASKHAN",
+  "templateId": "SPAWN_V0115_POKEMON_KANGASKHAN", 
   "genderSettings": {
-    "pokemon": "KANGASKHAN",
+    "pokemon": "KANGASKHAN", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0116_POKEMON_HORSEA",
+  "templateId": "SPAWN_V0116_POKEMON_HORSEA", 
   "genderSettings": {
-    "pokemon": "HORSEA",
+    "pokemon": "HORSEA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0117_POKEMON_SEADRA",
+  "templateId": "SPAWN_V0117_POKEMON_SEADRA", 
   "genderSettings": {
-    "pokemon": "SEADRA",
+    "pokemon": "SEADRA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0118_POKEMON_GOLDEEN",
+  "templateId": "SPAWN_V0118_POKEMON_GOLDEEN", 
   "genderSettings": {
-    "pokemon": "GOLDEEN",
+    "pokemon": "GOLDEEN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0119_POKEMON_SEAKING",
+  "templateId": "SPAWN_V0119_POKEMON_SEAKING", 
   "genderSettings": {
-    "pokemon": "SEAKING",
+    "pokemon": "SEAKING", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0120_POKEMON_STARYU",
+  "templateId": "SPAWN_V0120_POKEMON_STARYU", 
   "genderSettings": {
-    "pokemon": "STARYU",
+    "pokemon": "STARYU", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0121_POKEMON_STARMIE",
+  "templateId": "SPAWN_V0121_POKEMON_STARMIE", 
   "genderSettings": {
-    "pokemon": "STARMIE",
+    "pokemon": "STARMIE", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0122_POKEMON_MR_MIME",
+  "templateId": "SPAWN_V0122_POKEMON_MR_MIME", 
   "genderSettings": {
-    "pokemon": "MR_MIME",
+    "pokemon": "MR_MIME", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0123_POKEMON_SCYTHER",
+  "templateId": "SPAWN_V0123_POKEMON_SCYTHER", 
   "genderSettings": {
-    "pokemon": "SCYTHER",
+    "pokemon": "SCYTHER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0124_POKEMON_JYNX",
+  "templateId": "SPAWN_V0124_POKEMON_JYNX", 
   "genderSettings": {
-    "pokemon": "JYNX",
+    "pokemon": "JYNX", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0125_POKEMON_ELECTABUZZ",
+  "templateId": "SPAWN_V0125_POKEMON_ELECTABUZZ", 
   "genderSettings": {
-    "pokemon": "ELECTABUZZ",
+    "pokemon": "ELECTABUZZ", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0126_POKEMON_MAGMAR",
+  "templateId": "SPAWN_V0126_POKEMON_MAGMAR", 
   "genderSettings": {
-    "pokemon": "MAGMAR",
+    "pokemon": "MAGMAR", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0127_POKEMON_PINSIR",
+  "templateId": "SPAWN_V0127_POKEMON_PINSIR", 
   "genderSettings": {
-    "pokemon": "PINSIR",
+    "pokemon": "PINSIR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0128_POKEMON_TAUROS",
+  "templateId": "SPAWN_V0128_POKEMON_TAUROS", 
   "genderSettings": {
-    "pokemon": "TAUROS",
+    "pokemon": "TAUROS", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0129_POKEMON_MAGIKARP",
+  "templateId": "SPAWN_V0129_POKEMON_MAGIKARP", 
   "genderSettings": {
-    "pokemon": "MAGIKARP",
+    "pokemon": "MAGIKARP", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0130_POKEMON_GYARADOS",
+  "templateId": "SPAWN_V0130_POKEMON_GYARADOS", 
   "genderSettings": {
-    "pokemon": "GYARADOS",
+    "pokemon": "GYARADOS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0131_POKEMON_LAPRAS",
+  "templateId": "SPAWN_V0131_POKEMON_LAPRAS", 
   "genderSettings": {
-    "pokemon": "LAPRAS",
+    "pokemon": "LAPRAS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0132_POKEMON_DITTO",
+  "templateId": "SPAWN_V0132_POKEMON_DITTO", 
   "genderSettings": {
-    "pokemon": "DITTO",
+    "pokemon": "DITTO", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0133_POKEMON_EEVEE",
+  "templateId": "SPAWN_V0133_POKEMON_EEVEE", 
   "genderSettings": {
-    "pokemon": "EEVEE",
+    "pokemon": "EEVEE", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0134_POKEMON_VAPOREON",
+  "templateId": "SPAWN_V0134_POKEMON_VAPOREON", 
   "genderSettings": {
-    "pokemon": "VAPOREON",
+    "pokemon": "VAPOREON", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0135_POKEMON_JOLTEON",
+  "templateId": "SPAWN_V0135_POKEMON_JOLTEON", 
   "genderSettings": {
-    "pokemon": "JOLTEON",
+    "pokemon": "JOLTEON", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0136_POKEMON_FLAREON",
+  "templateId": "SPAWN_V0136_POKEMON_FLAREON", 
   "genderSettings": {
-    "pokemon": "FLAREON",
+    "pokemon": "FLAREON", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0137_POKEMON_PORYGON",
+  "templateId": "SPAWN_V0137_POKEMON_PORYGON", 
   "genderSettings": {
-    "pokemon": "PORYGON",
+    "pokemon": "PORYGON", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0138_POKEMON_OMANYTE",
+  "templateId": "SPAWN_V0138_POKEMON_OMANYTE", 
   "genderSettings": {
-    "pokemon": "OMANYTE",
+    "pokemon": "OMANYTE", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0139_POKEMON_OMASTAR",
+  "templateId": "SPAWN_V0139_POKEMON_OMASTAR", 
   "genderSettings": {
-    "pokemon": "OMASTAR",
+    "pokemon": "OMASTAR", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0140_POKEMON_KABUTO",
+  "templateId": "SPAWN_V0140_POKEMON_KABUTO", 
   "genderSettings": {
-    "pokemon": "KABUTO",
+    "pokemon": "KABUTO", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0141_POKEMON_KABUTOPS",
+  "templateId": "SPAWN_V0141_POKEMON_KABUTOPS", 
   "genderSettings": {
-    "pokemon": "KABUTOPS",
+    "pokemon": "KABUTOPS", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0142_POKEMON_AERODACTYL",
+  "templateId": "SPAWN_V0142_POKEMON_AERODACTYL", 
   "genderSettings": {
-    "pokemon": "AERODACTYL",
+    "pokemon": "AERODACTYL", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0143_POKEMON_SNORLAX",
+  "templateId": "SPAWN_V0143_POKEMON_SNORLAX", 
   "genderSettings": {
-    "pokemon": "SNORLAX",
+    "pokemon": "SNORLAX", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0144_POKEMON_ARTICUNO",
+  "templateId": "SPAWN_V0144_POKEMON_ARTICUNO", 
   "genderSettings": {
-    "pokemon": "ARTICUNO",
+    "pokemon": "ARTICUNO", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0145_POKEMON_ZAPDOS",
+  "templateId": "SPAWN_V0145_POKEMON_ZAPDOS", 
   "genderSettings": {
-    "pokemon": "ZAPDOS",
+    "pokemon": "ZAPDOS", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0146_POKEMON_MOLTRES",
+  "templateId": "SPAWN_V0146_POKEMON_MOLTRES", 
   "genderSettings": {
-    "pokemon": "MOLTRES",
+    "pokemon": "MOLTRES", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0147_POKEMON_DRATINI",
+  "templateId": "SPAWN_V0147_POKEMON_DRATINI", 
   "genderSettings": {
-    "pokemon": "DRATINI",
+    "pokemon": "DRATINI", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0148_POKEMON_DRAGONAIR",
+  "templateId": "SPAWN_V0148_POKEMON_DRAGONAIR", 
   "genderSettings": {
-    "pokemon": "DRAGONAIR",
+    "pokemon": "DRAGONAIR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0149_POKEMON_DRAGONITE",
+  "templateId": "SPAWN_V0149_POKEMON_DRAGONITE", 
   "genderSettings": {
-    "pokemon": "DRAGONITE",
+    "pokemon": "DRAGONITE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0150_POKEMON_MEWTWO",
+  "templateId": "SPAWN_V0150_POKEMON_MEWTWO", 
   "genderSettings": {
-    "pokemon": "MEWTWO",
+    "pokemon": "MEWTWO", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0151_POKEMON_MEW",
+  "templateId": "SPAWN_V0151_POKEMON_MEW", 
   "genderSettings": {
-    "pokemon": "MEW",
+    "pokemon": "MEW", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0152_POKEMON_CHIKORITA",
+  "templateId": "SPAWN_V0152_POKEMON_CHIKORITA", 
   "genderSettings": {
-    "pokemon": "CHIKORITA",
+    "pokemon": "CHIKORITA", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0153_POKEMON_BAYLEEF",
+  "templateId": "SPAWN_V0153_POKEMON_BAYLEEF", 
   "genderSettings": {
-    "pokemon": "BAYLEEF",
+    "pokemon": "BAYLEEF", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0154_POKEMON_MEGANIUM",
+  "templateId": "SPAWN_V0154_POKEMON_MEGANIUM", 
   "genderSettings": {
-    "pokemon": "MEGANIUM",
+    "pokemon": "MEGANIUM", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0155_POKEMON_CYNDAQUIL",
+  "templateId": "SPAWN_V0155_POKEMON_CYNDAQUIL", 
   "genderSettings": {
-    "pokemon": "CYNDAQUIL",
+    "pokemon": "CYNDAQUIL", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0156_POKEMON_QUILAVA",
+  "templateId": "SPAWN_V0156_POKEMON_QUILAVA", 
   "genderSettings": {
-    "pokemon": "QUILAVA",
+    "pokemon": "QUILAVA", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0157_POKEMON_TYPHLOSION",
+  "templateId": "SPAWN_V0157_POKEMON_TYPHLOSION", 
   "genderSettings": {
-    "pokemon": "TYPHLOSION",
+    "pokemon": "TYPHLOSION", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0158_POKEMON_TOTODILE",
+  "templateId": "SPAWN_V0158_POKEMON_TOTODILE", 
   "genderSettings": {
-    "pokemon": "TOTODILE",
+    "pokemon": "TOTODILE", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0159_POKEMON_CROCONAW",
+  "templateId": "SPAWN_V0159_POKEMON_CROCONAW", 
   "genderSettings": {
-    "pokemon": "CROCONAW",
+    "pokemon": "CROCONAW", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0160_POKEMON_FERALIGATR",
+  "templateId": "SPAWN_V0160_POKEMON_FERALIGATR", 
   "genderSettings": {
-    "pokemon": "FERALIGATR",
+    "pokemon": "FERALIGATR", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0161_POKEMON_SENTRET",
+  "templateId": "SPAWN_V0161_POKEMON_SENTRET", 
   "genderSettings": {
-    "pokemon": "SENTRET",
+    "pokemon": "SENTRET", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0162_POKEMON_FURRET",
+  "templateId": "SPAWN_V0162_POKEMON_FURRET", 
   "genderSettings": {
-    "pokemon": "FURRET",
+    "pokemon": "FURRET", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0163_POKEMON_HOOTHOOT",
+  "templateId": "SPAWN_V0163_POKEMON_HOOTHOOT", 
   "genderSettings": {
-    "pokemon": "HOOTHOOT",
+    "pokemon": "HOOTHOOT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0164_POKEMON_NOCTOWL",
+  "templateId": "SPAWN_V0164_POKEMON_NOCTOWL", 
   "genderSettings": {
-    "pokemon": "NOCTOWL",
+    "pokemon": "NOCTOWL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0165_POKEMON_LEDYBA",
+  "templateId": "SPAWN_V0165_POKEMON_LEDYBA", 
   "genderSettings": {
-    "pokemon": "LEDYBA",
+    "pokemon": "LEDYBA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0166_POKEMON_LEDIAN",
+  "templateId": "SPAWN_V0166_POKEMON_LEDIAN", 
   "genderSettings": {
-    "pokemon": "LEDIAN",
+    "pokemon": "LEDIAN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0167_POKEMON_SPINARAK",
+  "templateId": "SPAWN_V0167_POKEMON_SPINARAK", 
   "genderSettings": {
-    "pokemon": "SPINARAK",
+    "pokemon": "SPINARAK", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0168_POKEMON_ARIADOS",
+  "templateId": "SPAWN_V0168_POKEMON_ARIADOS", 
   "genderSettings": {
-    "pokemon": "ARIADOS",
+    "pokemon": "ARIADOS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0169_POKEMON_CROBAT",
+  "templateId": "SPAWN_V0169_POKEMON_CROBAT", 
   "genderSettings": {
-    "pokemon": "CROBAT",
+    "pokemon": "CROBAT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0170_POKEMON_CHINCHOU",
+  "templateId": "SPAWN_V0170_POKEMON_CHINCHOU", 
   "genderSettings": {
-    "pokemon": "CHINCHOU",
+    "pokemon": "CHINCHOU", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0171_POKEMON_LANTURN",
+  "templateId": "SPAWN_V0171_POKEMON_LANTURN", 
   "genderSettings": {
-    "pokemon": "LANTURN",
+    "pokemon": "LANTURN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0172_POKEMON_PICHU",
+  "templateId": "SPAWN_V0172_POKEMON_PICHU", 
   "genderSettings": {
-    "pokemon": "PICHU",
+    "pokemon": "PICHU", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0173_POKEMON_CLEFFA",
+  "templateId": "SPAWN_V0173_POKEMON_CLEFFA", 
   "genderSettings": {
-    "pokemon": "CLEFFA",
+    "pokemon": "CLEFFA", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0174_POKEMON_IGGLYBUFF",
+  "templateId": "SPAWN_V0174_POKEMON_IGGLYBUFF", 
   "genderSettings": {
-    "pokemon": "IGGLYBUFF",
+    "pokemon": "IGGLYBUFF", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0175_POKEMON_TOGEPI",
+  "templateId": "SPAWN_V0175_POKEMON_TOGEPI", 
   "genderSettings": {
-    "pokemon": "TOGEPI",
+    "pokemon": "TOGEPI", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0176_POKEMON_TOGETIC",
+  "templateId": "SPAWN_V0176_POKEMON_TOGETIC", 
   "genderSettings": {
-    "pokemon": "TOGETIC",
+    "pokemon": "TOGETIC", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0177_POKEMON_NATU",
+  "templateId": "SPAWN_V0177_POKEMON_NATU", 
   "genderSettings": {
-    "pokemon": "NATU",
+    "pokemon": "NATU", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0178_POKEMON_XATU",
+  "templateId": "SPAWN_V0178_POKEMON_XATU", 
   "genderSettings": {
-    "pokemon": "XATU",
+    "pokemon": "XATU", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0179_POKEMON_MAREEP",
+  "templateId": "SPAWN_V0179_POKEMON_MAREEP", 
   "genderSettings": {
-    "pokemon": "MAREEP",
+    "pokemon": "MAREEP", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0180_POKEMON_FLAAFFY",
+  "templateId": "SPAWN_V0180_POKEMON_FLAAFFY", 
   "genderSettings": {
-    "pokemon": "FLAAFFY",
+    "pokemon": "FLAAFFY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0181_POKEMON_AMPHAROS",
+  "templateId": "SPAWN_V0181_POKEMON_AMPHAROS", 
   "genderSettings": {
-    "pokemon": "AMPHAROS",
+    "pokemon": "AMPHAROS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0182_POKEMON_BELLOSSOM",
+  "templateId": "SPAWN_V0182_POKEMON_BELLOSSOM", 
   "genderSettings": {
-    "pokemon": "BELLOSSOM",
+    "pokemon": "BELLOSSOM", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0183_POKEMON_MARILL",
+  "templateId": "SPAWN_V0183_POKEMON_MARILL", 
   "genderSettings": {
-    "pokemon": "MARILL",
+    "pokemon": "MARILL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0184_POKEMON_AZUMARILL",
+  "templateId": "SPAWN_V0184_POKEMON_AZUMARILL", 
   "genderSettings": {
-    "pokemon": "AZUMARILL",
+    "pokemon": "AZUMARILL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0185_POKEMON_SUDOWOODO",
+  "templateId": "SPAWN_V0185_POKEMON_SUDOWOODO", 
   "genderSettings": {
-    "pokemon": "SUDOWOODO",
+    "pokemon": "SUDOWOODO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0186_POKEMON_POLITOED",
+  "templateId": "SPAWN_V0186_POKEMON_POLITOED", 
   "genderSettings": {
-    "pokemon": "POLITOED",
+    "pokemon": "POLITOED", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0187_POKEMON_HOPPIP",
+  "templateId": "SPAWN_V0187_POKEMON_HOPPIP", 
   "genderSettings": {
-    "pokemon": "HOPPIP",
+    "pokemon": "HOPPIP", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0188_POKEMON_SKIPLOOM",
+  "templateId": "SPAWN_V0188_POKEMON_SKIPLOOM", 
   "genderSettings": {
-    "pokemon": "SKIPLOOM",
+    "pokemon": "SKIPLOOM", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0189_POKEMON_JUMPLUFF",
+  "templateId": "SPAWN_V0189_POKEMON_JUMPLUFF", 
   "genderSettings": {
-    "pokemon": "JUMPLUFF",
+    "pokemon": "JUMPLUFF", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0190_POKEMON_AIPOM",
+  "templateId": "SPAWN_V0190_POKEMON_AIPOM", 
   "genderSettings": {
-    "pokemon": "AIPOM",
+    "pokemon": "AIPOM", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0191_POKEMON_SUNKERN",
+  "templateId": "SPAWN_V0191_POKEMON_SUNKERN", 
   "genderSettings": {
-    "pokemon": "SUNKERN",
+    "pokemon": "SUNKERN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0192_POKEMON_SUNFLORA",
+  "templateId": "SPAWN_V0192_POKEMON_SUNFLORA", 
   "genderSettings": {
-    "pokemon": "SUNFLORA",
+    "pokemon": "SUNFLORA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0193_POKEMON_YANMA",
+  "templateId": "SPAWN_V0193_POKEMON_YANMA", 
   "genderSettings": {
-    "pokemon": "YANMA",
+    "pokemon": "YANMA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0194_POKEMON_WOOPER",
+  "templateId": "SPAWN_V0194_POKEMON_WOOPER", 
   "genderSettings": {
-    "pokemon": "WOOPER",
+    "pokemon": "WOOPER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0195_POKEMON_QUAGSIRE",
+  "templateId": "SPAWN_V0195_POKEMON_QUAGSIRE", 
   "genderSettings": {
-    "pokemon": "QUAGSIRE",
+    "pokemon": "QUAGSIRE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0196_POKEMON_ESPEON",
+  "templateId": "SPAWN_V0196_POKEMON_ESPEON", 
   "genderSettings": {
-    "pokemon": "ESPEON",
+    "pokemon": "ESPEON", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0197_POKEMON_UMBREON",
+  "templateId": "SPAWN_V0197_POKEMON_UMBREON", 
   "genderSettings": {
-    "pokemon": "UMBREON",
+    "pokemon": "UMBREON", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0198_POKEMON_MURKROW",
+  "templateId": "SPAWN_V0198_POKEMON_MURKROW", 
   "genderSettings": {
-    "pokemon": "MURKROW",
+    "pokemon": "MURKROW", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0199_POKEMON_SLOWKING",
+  "templateId": "SPAWN_V0199_POKEMON_SLOWKING", 
   "genderSettings": {
-    "pokemon": "SLOWKING",
+    "pokemon": "SLOWKING", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0200_POKEMON_MISDREAVUS",
+  "templateId": "SPAWN_V0200_POKEMON_MISDREAVUS", 
   "genderSettings": {
-    "pokemon": "MISDREAVUS",
+    "pokemon": "MISDREAVUS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0201_POKEMON_UNOWN",
+  "templateId": "SPAWN_V0201_POKEMON_UNOWN", 
   "genderSettings": {
-    "pokemon": "UNOWN",
+    "pokemon": "UNOWN", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0202_POKEMON_WOBBUFFET",
+  "templateId": "SPAWN_V0202_POKEMON_WOBBUFFET", 
   "genderSettings": {
-    "pokemon": "WOBBUFFET",
+    "pokemon": "WOBBUFFET", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0203_POKEMON_GIRAFARIG",
+  "templateId": "SPAWN_V0203_POKEMON_GIRAFARIG", 
   "genderSettings": {
-    "pokemon": "GIRAFARIG",
+    "pokemon": "GIRAFARIG", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0204_POKEMON_PINECO",
+  "templateId": "SPAWN_V0204_POKEMON_PINECO", 
   "genderSettings": {
-    "pokemon": "PINECO",
+    "pokemon": "PINECO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0205_POKEMON_FORRETRESS",
+  "templateId": "SPAWN_V0205_POKEMON_FORRETRESS", 
   "genderSettings": {
-    "pokemon": "FORRETRESS",
+    "pokemon": "FORRETRESS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0206_POKEMON_DUNSPARCE",
+  "templateId": "SPAWN_V0206_POKEMON_DUNSPARCE", 
   "genderSettings": {
-    "pokemon": "DUNSPARCE",
+    "pokemon": "DUNSPARCE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0207_POKEMON_GLIGAR",
+  "templateId": "SPAWN_V0207_POKEMON_GLIGAR", 
   "genderSettings": {
-    "pokemon": "GLIGAR",
+    "pokemon": "GLIGAR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0208_POKEMON_STEELIX",
+  "templateId": "SPAWN_V0208_POKEMON_STEELIX", 
   "genderSettings": {
-    "pokemon": "STEELIX",
+    "pokemon": "STEELIX", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0209_POKEMON_SNUBBULL",
+  "templateId": "SPAWN_V0209_POKEMON_SNUBBULL", 
   "genderSettings": {
-    "pokemon": "SNUBBULL",
+    "pokemon": "SNUBBULL", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0210_POKEMON_GRANBULL",
+  "templateId": "SPAWN_V0210_POKEMON_GRANBULL", 
   "genderSettings": {
-    "pokemon": "GRANBULL",
+    "pokemon": "GRANBULL", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0211_POKEMON_QWILFISH",
+  "templateId": "SPAWN_V0211_POKEMON_QWILFISH", 
   "genderSettings": {
-    "pokemon": "QWILFISH",
+    "pokemon": "QWILFISH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0212_POKEMON_SCIZOR",
+  "templateId": "SPAWN_V0212_POKEMON_SCIZOR", 
   "genderSettings": {
-    "pokemon": "SCIZOR",
+    "pokemon": "SCIZOR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0213_POKEMON_SHUCKLE",
+  "templateId": "SPAWN_V0213_POKEMON_SHUCKLE", 
   "genderSettings": {
-    "pokemon": "SHUCKLE",
+    "pokemon": "SHUCKLE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0214_POKEMON_HERACROSS",
+  "templateId": "SPAWN_V0214_POKEMON_HERACROSS", 
   "genderSettings": {
-    "pokemon": "HERACROSS",
+    "pokemon": "HERACROSS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0215_POKEMON_SNEASEL",
+  "templateId": "SPAWN_V0215_POKEMON_SNEASEL", 
   "genderSettings": {
-    "pokemon": "SNEASEL",
+    "pokemon": "SNEASEL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0216_POKEMON_TEDDIURSA",
+  "templateId": "SPAWN_V0216_POKEMON_TEDDIURSA", 
   "genderSettings": {
-    "pokemon": "TEDDIURSA",
+    "pokemon": "TEDDIURSA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0217_POKEMON_URSARING",
+  "templateId": "SPAWN_V0217_POKEMON_URSARING", 
   "genderSettings": {
-    "pokemon": "URSARING",
+    "pokemon": "URSARING", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0218_POKEMON_SLUGMA",
+  "templateId": "SPAWN_V0218_POKEMON_SLUGMA", 
   "genderSettings": {
-    "pokemon": "SLUGMA",
+    "pokemon": "SLUGMA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0219_POKEMON_MAGCARGO",
+  "templateId": "SPAWN_V0219_POKEMON_MAGCARGO", 
   "genderSettings": {
-    "pokemon": "MAGCARGO",
+    "pokemon": "MAGCARGO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0220_POKEMON_SWINUB",
+  "templateId": "SPAWN_V0220_POKEMON_SWINUB", 
   "genderSettings": {
-    "pokemon": "SWINUB",
+    "pokemon": "SWINUB", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0221_POKEMON_PILOSWINE",
+  "templateId": "SPAWN_V0221_POKEMON_PILOSWINE", 
   "genderSettings": {
-    "pokemon": "PILOSWINE",
+    "pokemon": "PILOSWINE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0222_POKEMON_CORSOLA",
+  "templateId": "SPAWN_V0222_POKEMON_CORSOLA", 
   "genderSettings": {
-    "pokemon": "CORSOLA",
+    "pokemon": "CORSOLA", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0223_POKEMON_REMORAID",
+  "templateId": "SPAWN_V0223_POKEMON_REMORAID", 
   "genderSettings": {
-    "pokemon": "REMORAID",
+    "pokemon": "REMORAID", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0224_POKEMON_OCTILLERY",
+  "templateId": "SPAWN_V0224_POKEMON_OCTILLERY", 
   "genderSettings": {
-    "pokemon": "OCTILLERY",
+    "pokemon": "OCTILLERY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0225_POKEMON_DELIBIRD",
+  "templateId": "SPAWN_V0225_POKEMON_DELIBIRD", 
   "genderSettings": {
-    "pokemon": "DELIBIRD",
+    "pokemon": "DELIBIRD", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0226_POKEMON_MANTINE",
+  "templateId": "SPAWN_V0226_POKEMON_MANTINE", 
   "genderSettings": {
-    "pokemon": "MANTINE",
+    "pokemon": "MANTINE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0227_POKEMON_SKARMORY",
+  "templateId": "SPAWN_V0227_POKEMON_SKARMORY", 
   "genderSettings": {
-    "pokemon": "SKARMORY",
+    "pokemon": "SKARMORY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0228_POKEMON_HOUNDOUR",
+  "templateId": "SPAWN_V0228_POKEMON_HOUNDOUR", 
   "genderSettings": {
-    "pokemon": "HOUNDOUR",
+    "pokemon": "HOUNDOUR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0229_POKEMON_HOUNDOOM",
+  "templateId": "SPAWN_V0229_POKEMON_HOUNDOOM", 
   "genderSettings": {
-    "pokemon": "HOUNDOOM",
+    "pokemon": "HOUNDOOM", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0230_POKEMON_KINGDRA",
+  "templateId": "SPAWN_V0230_POKEMON_KINGDRA", 
   "genderSettings": {
-    "pokemon": "KINGDRA",
+    "pokemon": "KINGDRA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0231_POKEMON_PHANPY",
+  "templateId": "SPAWN_V0231_POKEMON_PHANPY", 
   "genderSettings": {
-    "pokemon": "PHANPY",
+    "pokemon": "PHANPY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0232_POKEMON_DONPHAN",
+  "templateId": "SPAWN_V0232_POKEMON_DONPHAN", 
   "genderSettings": {
-    "pokemon": "DONPHAN",
+    "pokemon": "DONPHAN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0233_POKEMON_PORYGON2",
+  "templateId": "SPAWN_V0233_POKEMON_PORYGON2", 
   "genderSettings": {
-    "pokemon": "PORYGON2",
+    "pokemon": "PORYGON2", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0234_POKEMON_STANTLER",
+  "templateId": "SPAWN_V0234_POKEMON_STANTLER", 
   "genderSettings": {
-    "pokemon": "STANTLER",
+    "pokemon": "STANTLER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0235_POKEMON_SMEARGLE",
+  "templateId": "SPAWN_V0235_POKEMON_SMEARGLE", 
   "genderSettings": {
-    "pokemon": "SMEARGLE",
+    "pokemon": "SMEARGLE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0236_POKEMON_TYROGUE",
+  "templateId": "SPAWN_V0236_POKEMON_TYROGUE", 
   "genderSettings": {
-    "pokemon": "TYROGUE",
+    "pokemon": "TYROGUE", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0237_POKEMON_HITMONTOP",
+  "templateId": "SPAWN_V0237_POKEMON_HITMONTOP", 
   "genderSettings": {
-    "pokemon": "HITMONTOP",
+    "pokemon": "HITMONTOP", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0238_POKEMON_SMOOCHUM",
+  "templateId": "SPAWN_V0238_POKEMON_SMOOCHUM", 
   "genderSettings": {
-    "pokemon": "SMOOCHUM",
+    "pokemon": "SMOOCHUM", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0239_POKEMON_ELEKID",
+  "templateId": "SPAWN_V0239_POKEMON_ELEKID", 
   "genderSettings": {
-    "pokemon": "ELEKID",
+    "pokemon": "ELEKID", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0240_POKEMON_MAGBY",
+  "templateId": "SPAWN_V0240_POKEMON_MAGBY", 
   "genderSettings": {
-    "pokemon": "MAGBY",
+    "pokemon": "MAGBY", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0241_POKEMON_MILTANK",
+  "templateId": "SPAWN_V0241_POKEMON_MILTANK", 
   "genderSettings": {
-    "pokemon": "MILTANK",
+    "pokemon": "MILTANK", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0242_POKEMON_BLISSEY",
+  "templateId": "SPAWN_V0242_POKEMON_BLISSEY", 
   "genderSettings": {
-    "pokemon": "BLISSEY",
+    "pokemon": "BLISSEY", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0243_POKEMON_RAIKOU",
+  "templateId": "SPAWN_V0243_POKEMON_RAIKOU", 
   "genderSettings": {
-    "pokemon": "RAIKOU",
+    "pokemon": "RAIKOU", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0244_POKEMON_ENTEI",
+  "templateId": "SPAWN_V0244_POKEMON_ENTEI", 
   "genderSettings": {
-    "pokemon": "ENTEI",
+    "pokemon": "ENTEI", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0245_POKEMON_SUICUNE",
+  "templateId": "SPAWN_V0245_POKEMON_SUICUNE", 
   "genderSettings": {
-    "pokemon": "SUICUNE",
+    "pokemon": "SUICUNE", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0246_POKEMON_LARVITAR",
+  "templateId": "SPAWN_V0246_POKEMON_LARVITAR", 
   "genderSettings": {
-    "pokemon": "LARVITAR",
+    "pokemon": "LARVITAR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0247_POKEMON_PUPITAR",
+  "templateId": "SPAWN_V0247_POKEMON_PUPITAR", 
   "genderSettings": {
-    "pokemon": "PUPITAR",
+    "pokemon": "PUPITAR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0248_POKEMON_TYRANITAR",
+  "templateId": "SPAWN_V0248_POKEMON_TYRANITAR", 
   "genderSettings": {
-    "pokemon": "TYRANITAR",
+    "pokemon": "TYRANITAR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0249_POKEMON_LUGIA",
+  "templateId": "SPAWN_V0249_POKEMON_LUGIA", 
   "genderSettings": {
-    "pokemon": "LUGIA",
+    "pokemon": "LUGIA", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0250_POKEMON_HO_OH",
+  "templateId": "SPAWN_V0250_POKEMON_HO_OH", 
   "genderSettings": {
-    "pokemon": "HO_OH",
+    "pokemon": "HO_OH", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0251_POKEMON_CELEBI",
+  "templateId": "SPAWN_V0251_POKEMON_CELEBI", 
   "genderSettings": {
-    "pokemon": "CELEBI",
+    "pokemon": "CELEBI", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0252_POKEMON_TREECKO",
+  "templateId": "SPAWN_V0252_POKEMON_TREECKO", 
   "genderSettings": {
-    "pokemon": "TREECKO",
+    "pokemon": "TREECKO", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0253_POKEMON_GROVYLE",
+  "templateId": "SPAWN_V0253_POKEMON_GROVYLE", 
   "genderSettings": {
-    "pokemon": "GROVYLE",
+    "pokemon": "GROVYLE", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0254_POKEMON_SCEPTILE",
+  "templateId": "SPAWN_V0254_POKEMON_SCEPTILE", 
   "genderSettings": {
-    "pokemon": "SCEPTILE",
+    "pokemon": "SCEPTILE", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0255_POKEMON_TORCHIC",
+  "templateId": "SPAWN_V0255_POKEMON_TORCHIC", 
   "genderSettings": {
-    "pokemon": "TORCHIC",
+    "pokemon": "TORCHIC", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0256_POKEMON_COMBUSKEN",
+  "templateId": "SPAWN_V0256_POKEMON_COMBUSKEN", 
   "genderSettings": {
-    "pokemon": "COMBUSKEN",
+    "pokemon": "COMBUSKEN", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0257_POKEMON_BLAZIKEN",
+  "templateId": "SPAWN_V0257_POKEMON_BLAZIKEN", 
   "genderSettings": {
-    "pokemon": "BLAZIKEN",
+    "pokemon": "BLAZIKEN", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0258_POKEMON_MUDKIP",
+  "templateId": "SPAWN_V0258_POKEMON_MUDKIP", 
   "genderSettings": {
-    "pokemon": "MUDKIP",
+    "pokemon": "MUDKIP", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0259_POKEMON_MARSHTOMP",
+  "templateId": "SPAWN_V0259_POKEMON_MARSHTOMP", 
   "genderSettings": {
-    "pokemon": "MARSHTOMP",
+    "pokemon": "MARSHTOMP", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0260_POKEMON_SWAMPERT",
+  "templateId": "SPAWN_V0260_POKEMON_SWAMPERT", 
   "genderSettings": {
-    "pokemon": "SWAMPERT",
+    "pokemon": "SWAMPERT", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0261_POKEMON_POOCHYENA",
+  "templateId": "SPAWN_V0261_POKEMON_POOCHYENA", 
   "genderSettings": {
-    "pokemon": "POOCHYENA",
+    "pokemon": "POOCHYENA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0262_POKEMON_MIGHTYENA",
+  "templateId": "SPAWN_V0262_POKEMON_MIGHTYENA", 
   "genderSettings": {
-    "pokemon": "MIGHTYENA",
+    "pokemon": "MIGHTYENA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0263_POKEMON_ZIGZAGOON",
+  "templateId": "SPAWN_V0263_POKEMON_ZIGZAGOON", 
   "genderSettings": {
-    "pokemon": "ZIGZAGOON",
+    "pokemon": "ZIGZAGOON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0264_POKEMON_LINOONE",
+  "templateId": "SPAWN_V0264_POKEMON_LINOONE", 
   "genderSettings": {
-    "pokemon": "LINOONE",
+    "pokemon": "LINOONE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0265_POKEMON_WURMPLE",
+  "templateId": "SPAWN_V0265_POKEMON_WURMPLE", 
   "genderSettings": {
-    "pokemon": "WURMPLE",
+    "pokemon": "WURMPLE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0266_POKEMON_SILCOON",
+  "templateId": "SPAWN_V0266_POKEMON_SILCOON", 
   "genderSettings": {
-    "pokemon": "SILCOON",
+    "pokemon": "SILCOON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0267_POKEMON_BEAUTIFLY",
+  "templateId": "SPAWN_V0267_POKEMON_BEAUTIFLY", 
   "genderSettings": {
-    "pokemon": "BEAUTIFLY",
+    "pokemon": "BEAUTIFLY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0268_POKEMON_CASCOON",
+  "templateId": "SPAWN_V0268_POKEMON_CASCOON", 
   "genderSettings": {
-    "pokemon": "CASCOON",
+    "pokemon": "CASCOON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0269_POKEMON_DUSTOX",
+  "templateId": "SPAWN_V0269_POKEMON_DUSTOX", 
   "genderSettings": {
-    "pokemon": "DUSTOX",
+    "pokemon": "DUSTOX", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0270_POKEMON_LOTAD",
+  "templateId": "SPAWN_V0270_POKEMON_LOTAD", 
   "genderSettings": {
-    "pokemon": "LOTAD",
+    "pokemon": "LOTAD", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0271_POKEMON_LOMBRE",
+  "templateId": "SPAWN_V0271_POKEMON_LOMBRE", 
   "genderSettings": {
-    "pokemon": "LOMBRE",
+    "pokemon": "LOMBRE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0272_POKEMON_LUDICOLO",
+  "templateId": "SPAWN_V0272_POKEMON_LUDICOLO", 
   "genderSettings": {
-    "pokemon": "LUDICOLO",
+    "pokemon": "LUDICOLO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0273_POKEMON_SEEDOT",
+  "templateId": "SPAWN_V0273_POKEMON_SEEDOT", 
   "genderSettings": {
-    "pokemon": "SEEDOT",
+    "pokemon": "SEEDOT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0274_POKEMON_NUZLEAF",
+  "templateId": "SPAWN_V0274_POKEMON_NUZLEAF", 
   "genderSettings": {
-    "pokemon": "NUZLEAF",
+    "pokemon": "NUZLEAF", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0275_POKEMON_SHIFTRY",
+  "templateId": "SPAWN_V0275_POKEMON_SHIFTRY", 
   "genderSettings": {
-    "pokemon": "SHIFTRY",
+    "pokemon": "SHIFTRY", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0276_POKEMON_TAILLOW",
+  "templateId": "SPAWN_V0276_POKEMON_TAILLOW", 
   "genderSettings": {
-    "pokemon": "TAILLOW",
+    "pokemon": "TAILLOW", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0277_POKEMON_SWELLOW",
+  "templateId": "SPAWN_V0277_POKEMON_SWELLOW", 
   "genderSettings": {
-    "pokemon": "SWELLOW",
+    "pokemon": "SWELLOW", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0278_POKEMON_WINGULL",
+  "templateId": "SPAWN_V0278_POKEMON_WINGULL", 
   "genderSettings": {
-    "pokemon": "WINGULL",
+    "pokemon": "WINGULL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0279_POKEMON_PELIPPER",
+  "templateId": "SPAWN_V0279_POKEMON_PELIPPER", 
   "genderSettings": {
-    "pokemon": "PELIPPER",
+    "pokemon": "PELIPPER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0280_POKEMON_RALTS",
+  "templateId": "SPAWN_V0280_POKEMON_RALTS", 
   "genderSettings": {
-    "pokemon": "RALTS",
+    "pokemon": "RALTS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0281_POKEMON_KIRLIA",
+  "templateId": "SPAWN_V0281_POKEMON_KIRLIA", 
   "genderSettings": {
-    "pokemon": "KIRLIA",
+    "pokemon": "KIRLIA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0282_POKEMON_GARDEVOIR",
+  "templateId": "SPAWN_V0282_POKEMON_GARDEVOIR", 
   "genderSettings": {
-    "pokemon": "GARDEVOIR",
+    "pokemon": "GARDEVOIR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0283_POKEMON_SURSKIT",
+  "templateId": "SPAWN_V0283_POKEMON_SURSKIT", 
   "genderSettings": {
-    "pokemon": "SURSKIT",
+    "pokemon": "SURSKIT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0284_POKEMON_MASQUERAIN",
+  "templateId": "SPAWN_V0284_POKEMON_MASQUERAIN", 
   "genderSettings": {
-    "pokemon": "MASQUERAIN",
+    "pokemon": "MASQUERAIN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0285_POKEMON_SHROOMISH",
+  "templateId": "SPAWN_V0285_POKEMON_SHROOMISH", 
   "genderSettings": {
-    "pokemon": "SHROOMISH",
+    "pokemon": "SHROOMISH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0286_POKEMON_BRELOOM",
+  "templateId": "SPAWN_V0286_POKEMON_BRELOOM", 
   "genderSettings": {
-    "pokemon": "BRELOOM",
+    "pokemon": "BRELOOM", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0287_POKEMON_SLAKOTH",
+  "templateId": "SPAWN_V0287_POKEMON_SLAKOTH", 
   "genderSettings": {
-    "pokemon": "SLAKOTH",
+    "pokemon": "SLAKOTH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0288_POKEMON_VIGOROTH",
+  "templateId": "SPAWN_V0288_POKEMON_VIGOROTH", 
   "genderSettings": {
-    "pokemon": "VIGOROTH",
+    "pokemon": "VIGOROTH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0289_POKEMON_SLAKING",
+  "templateId": "SPAWN_V0289_POKEMON_SLAKING", 
   "genderSettings": {
-    "pokemon": "SLAKING",
+    "pokemon": "SLAKING", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0290_POKEMON_NINCADA",
+  "templateId": "SPAWN_V0290_POKEMON_NINCADA", 
   "genderSettings": {
-    "pokemon": "NINCADA",
+    "pokemon": "NINCADA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0291_POKEMON_NINJASK",
+  "templateId": "SPAWN_V0291_POKEMON_NINJASK", 
   "genderSettings": {
-    "pokemon": "NINJASK",
+    "pokemon": "NINJASK", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0292_POKEMON_SHEDINJA",
+  "templateId": "SPAWN_V0292_POKEMON_SHEDINJA", 
   "genderSettings": {
-    "pokemon": "SHEDINJA",
+    "pokemon": "SHEDINJA", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0293_POKEMON_WHISMUR",
+  "templateId": "SPAWN_V0293_POKEMON_WHISMUR", 
   "genderSettings": {
-    "pokemon": "WHISMUR",
+    "pokemon": "WHISMUR", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0294_POKEMON_LOUDRED",
+  "templateId": "SPAWN_V0294_POKEMON_LOUDRED", 
   "genderSettings": {
-    "pokemon": "LOUDRED",
+    "pokemon": "LOUDRED", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0295_POKEMON_EXPLOUD",
+  "templateId": "SPAWN_V0295_POKEMON_EXPLOUD", 
   "genderSettings": {
-    "pokemon": "EXPLOUD",
+    "pokemon": "EXPLOUD", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0296_POKEMON_MAKUHITA",
+  "templateId": "SPAWN_V0296_POKEMON_MAKUHITA", 
   "genderSettings": {
-    "pokemon": "MAKUHITA",
+    "pokemon": "MAKUHITA", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0297_POKEMON_HARIYAMA",
+  "templateId": "SPAWN_V0297_POKEMON_HARIYAMA", 
   "genderSettings": {
-    "pokemon": "HARIYAMA",
+    "pokemon": "HARIYAMA", 
     "gender": {
-      "malePercent": 0.75,
+      "malePercent": 0.75, 
       "femalePercent": 0.25
     }
   }
 }, {
-  "templateId": "SPAWN_V0298_POKEMON_AZURILL",
+  "templateId": "SPAWN_V0298_POKEMON_AZURILL", 
   "genderSettings": {
-    "pokemon": "AZURILL",
+    "pokemon": "AZURILL", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0299_POKEMON_NOSEPASS",
+  "templateId": "SPAWN_V0299_POKEMON_NOSEPASS", 
   "genderSettings": {
-    "pokemon": "NOSEPASS",
+    "pokemon": "NOSEPASS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0300_POKEMON_SKITTY",
+  "templateId": "SPAWN_V0300_POKEMON_SKITTY", 
   "genderSettings": {
-    "pokemon": "SKITTY",
+    "pokemon": "SKITTY", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0301_POKEMON_DELCATTY",
+  "templateId": "SPAWN_V0301_POKEMON_DELCATTY", 
   "genderSettings": {
-    "pokemon": "DELCATTY",
+    "pokemon": "DELCATTY", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0302_POKEMON_SABLEYE",
+  "templateId": "SPAWN_V0302_POKEMON_SABLEYE", 
   "genderSettings": {
-    "pokemon": "SABLEYE",
+    "pokemon": "SABLEYE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0303_POKEMON_MAWILE",
+  "templateId": "SPAWN_V0303_POKEMON_MAWILE", 
   "genderSettings": {
-    "pokemon": "MAWILE",
+    "pokemon": "MAWILE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0304_POKEMON_ARON",
+  "templateId": "SPAWN_V0304_POKEMON_ARON", 
   "genderSettings": {
-    "pokemon": "ARON",
+    "pokemon": "ARON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0305_POKEMON_LAIRON",
+  "templateId": "SPAWN_V0305_POKEMON_LAIRON", 
   "genderSettings": {
-    "pokemon": "LAIRON",
+    "pokemon": "LAIRON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0306_POKEMON_AGGRON",
+  "templateId": "SPAWN_V0306_POKEMON_AGGRON", 
   "genderSettings": {
-    "pokemon": "AGGRON",
+    "pokemon": "AGGRON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0307_POKEMON_MEDITITE",
+  "templateId": "SPAWN_V0307_POKEMON_MEDITITE", 
   "genderSettings": {
-    "pokemon": "MEDITITE",
+    "pokemon": "MEDITITE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0308_POKEMON_MEDICHAM",
+  "templateId": "SPAWN_V0308_POKEMON_MEDICHAM", 
   "genderSettings": {
-    "pokemon": "MEDICHAM",
+    "pokemon": "MEDICHAM", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0309_POKEMON_ELECTRIKE",
+  "templateId": "SPAWN_V0309_POKEMON_ELECTRIKE", 
   "genderSettings": {
-    "pokemon": "ELECTRIKE",
+    "pokemon": "ELECTRIKE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0310_POKEMON_MANECTRIC",
+  "templateId": "SPAWN_V0310_POKEMON_MANECTRIC", 
   "genderSettings": {
-    "pokemon": "MANECTRIC",
+    "pokemon": "MANECTRIC", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0311_POKEMON_PLUSLE",
+  "templateId": "SPAWN_V0311_POKEMON_PLUSLE", 
   "genderSettings": {
-    "pokemon": "PLUSLE",
+    "pokemon": "PLUSLE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0312_POKEMON_MINUN",
+  "templateId": "SPAWN_V0312_POKEMON_MINUN", 
   "genderSettings": {
-    "pokemon": "MINUN",
+    "pokemon": "MINUN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0313_POKEMON_VOLBEAT",
+  "templateId": "SPAWN_V0313_POKEMON_VOLBEAT", 
   "genderSettings": {
-    "pokemon": "VOLBEAT",
+    "pokemon": "VOLBEAT", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0314_POKEMON_ILLUMISE",
+  "templateId": "SPAWN_V0314_POKEMON_ILLUMISE", 
   "genderSettings": {
-    "pokemon": "ILLUMISE",
+    "pokemon": "ILLUMISE", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0315_POKEMON_ROSELIA",
+  "templateId": "SPAWN_V0315_POKEMON_ROSELIA", 
   "genderSettings": {
-    "pokemon": "ROSELIA",
+    "pokemon": "ROSELIA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0316_POKEMON_GULPIN",
+  "templateId": "SPAWN_V0316_POKEMON_GULPIN", 
   "genderSettings": {
-    "pokemon": "GULPIN",
+    "pokemon": "GULPIN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0317_POKEMON_SWALOT",
+  "templateId": "SPAWN_V0317_POKEMON_SWALOT", 
   "genderSettings": {
-    "pokemon": "SWALOT",
+    "pokemon": "SWALOT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0318_POKEMON_CARVANHA",
+  "templateId": "SPAWN_V0318_POKEMON_CARVANHA", 
   "genderSettings": {
-    "pokemon": "CARVANHA",
+    "pokemon": "CARVANHA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0319_POKEMON_SHARPEDO",
+  "templateId": "SPAWN_V0319_POKEMON_SHARPEDO", 
   "genderSettings": {
-    "pokemon": "SHARPEDO",
+    "pokemon": "SHARPEDO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0320_POKEMON_WAILMER",
+  "templateId": "SPAWN_V0320_POKEMON_WAILMER", 
   "genderSettings": {
-    "pokemon": "WAILMER",
+    "pokemon": "WAILMER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0321_POKEMON_WAILORD",
+  "templateId": "SPAWN_V0321_POKEMON_WAILORD", 
   "genderSettings": {
-    "pokemon": "WAILORD",
+    "pokemon": "WAILORD", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0322_POKEMON_NUMEL",
+  "templateId": "SPAWN_V0322_POKEMON_NUMEL", 
   "genderSettings": {
-    "pokemon": "NUMEL",
+    "pokemon": "NUMEL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0323_POKEMON_CAMERUPT",
+  "templateId": "SPAWN_V0323_POKEMON_CAMERUPT", 
   "genderSettings": {
-    "pokemon": "CAMERUPT",
+    "pokemon": "CAMERUPT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0324_POKEMON_TORKOAL",
+  "templateId": "SPAWN_V0324_POKEMON_TORKOAL", 
   "genderSettings": {
-    "pokemon": "TORKOAL",
+    "pokemon": "TORKOAL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0325_POKEMON_SPOINK",
+  "templateId": "SPAWN_V0325_POKEMON_SPOINK", 
   "genderSettings": {
-    "pokemon": "SPOINK",
+    "pokemon": "SPOINK", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0326_POKEMON_GRUMPIG",
+  "templateId": "SPAWN_V0326_POKEMON_GRUMPIG", 
   "genderSettings": {
-    "pokemon": "GRUMPIG",
+    "pokemon": "GRUMPIG", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0327_POKEMON_SPINDA",
+  "templateId": "SPAWN_V0327_POKEMON_SPINDA", 
   "genderSettings": {
-    "pokemon": "SPINDA",
+    "pokemon": "SPINDA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0328_POKEMON_TRAPINCH",
+  "templateId": "SPAWN_V0328_POKEMON_TRAPINCH", 
   "genderSettings": {
-    "pokemon": "TRAPINCH",
+    "pokemon": "TRAPINCH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0329_POKEMON_VIBRAVA",
+  "templateId": "SPAWN_V0329_POKEMON_VIBRAVA", 
   "genderSettings": {
-    "pokemon": "VIBRAVA",
+    "pokemon": "VIBRAVA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0330_POKEMON_FLYGON",
+  "templateId": "SPAWN_V0330_POKEMON_FLYGON", 
   "genderSettings": {
-    "pokemon": "FLYGON",
+    "pokemon": "FLYGON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0331_POKEMON_CACNEA",
+  "templateId": "SPAWN_V0331_POKEMON_CACNEA", 
   "genderSettings": {
-    "pokemon": "CACNEA",
+    "pokemon": "CACNEA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0332_POKEMON_CACTURNE",
+  "templateId": "SPAWN_V0332_POKEMON_CACTURNE", 
   "genderSettings": {
-    "pokemon": "CACTURNE",
+    "pokemon": "CACTURNE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0333_POKEMON_SWABLU",
+  "templateId": "SPAWN_V0333_POKEMON_SWABLU", 
   "genderSettings": {
-    "pokemon": "SWABLU",
+    "pokemon": "SWABLU", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0334_POKEMON_ALTARIA",
+  "templateId": "SPAWN_V0334_POKEMON_ALTARIA", 
   "genderSettings": {
-    "pokemon": "ALTARIA",
+    "pokemon": "ALTARIA", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0335_POKEMON_ZANGOOSE",
+  "templateId": "SPAWN_V0335_POKEMON_ZANGOOSE", 
   "genderSettings": {
-    "pokemon": "ZANGOOSE",
+    "pokemon": "ZANGOOSE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0336_POKEMON_SEVIPER",
+  "templateId": "SPAWN_V0336_POKEMON_SEVIPER", 
   "genderSettings": {
-    "pokemon": "SEVIPER",
+    "pokemon": "SEVIPER", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0337_POKEMON_LUNATONE",
+  "templateId": "SPAWN_V0337_POKEMON_LUNATONE", 
   "genderSettings": {
-    "pokemon": "LUNATONE",
+    "pokemon": "LUNATONE", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0338_POKEMON_SOLROCK",
+  "templateId": "SPAWN_V0338_POKEMON_SOLROCK", 
   "genderSettings": {
-    "pokemon": "SOLROCK",
+    "pokemon": "SOLROCK", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0339_POKEMON_BARBOACH",
+  "templateId": "SPAWN_V0339_POKEMON_BARBOACH", 
   "genderSettings": {
-    "pokemon": "BARBOACH",
+    "pokemon": "BARBOACH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0340_POKEMON_WHISCASH",
+  "templateId": "SPAWN_V0340_POKEMON_WHISCASH", 
   "genderSettings": {
-    "pokemon": "WHISCASH",
+    "pokemon": "WHISCASH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0341_POKEMON_CORPHISH",
+  "templateId": "SPAWN_V0341_POKEMON_CORPHISH", 
   "genderSettings": {
-    "pokemon": "CORPHISH",
+    "pokemon": "CORPHISH", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0342_POKEMON_CRAWDAUNT",
+  "templateId": "SPAWN_V0342_POKEMON_CRAWDAUNT", 
   "genderSettings": {
-    "pokemon": "CRAWDAUNT",
+    "pokemon": "CRAWDAUNT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0343_POKEMON_BALTOY",
+  "templateId": "SPAWN_V0343_POKEMON_BALTOY", 
   "genderSettings": {
-    "pokemon": "BALTOY",
+    "pokemon": "BALTOY", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0344_POKEMON_CLAYDOL",
+  "templateId": "SPAWN_V0344_POKEMON_CLAYDOL", 
   "genderSettings": {
-    "pokemon": "CLAYDOL",
+    "pokemon": "CLAYDOL", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0345_POKEMON_LILEEP",
+  "templateId": "SPAWN_V0345_POKEMON_LILEEP", 
   "genderSettings": {
-    "pokemon": "LILEEP",
+    "pokemon": "LILEEP", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0346_POKEMON_CRADILY",
+  "templateId": "SPAWN_V0346_POKEMON_CRADILY", 
   "genderSettings": {
-    "pokemon": "CRADILY",
+    "pokemon": "CRADILY", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0347_POKEMON_ANORITH",
+  "templateId": "SPAWN_V0347_POKEMON_ANORITH", 
   "genderSettings": {
-    "pokemon": "ANORITH",
+    "pokemon": "ANORITH", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0348_POKEMON_ARMALDO",
+  "templateId": "SPAWN_V0348_POKEMON_ARMALDO", 
   "genderSettings": {
-    "pokemon": "ARMALDO",
+    "pokemon": "ARMALDO", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0349_POKEMON_FEEBAS",
+  "templateId": "SPAWN_V0349_POKEMON_FEEBAS", 
   "genderSettings": {
-    "pokemon": "FEEBAS",
+    "pokemon": "FEEBAS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0350_POKEMON_MILOTIC",
+  "templateId": "SPAWN_V0350_POKEMON_MILOTIC", 
   "genderSettings": {
-    "pokemon": "MILOTIC",
+    "pokemon": "MILOTIC", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0351_POKEMON_CASTFORM",
+  "templateId": "SPAWN_V0351_POKEMON_CASTFORM", 
   "genderSettings": {
-    "pokemon": "CASTFORM",
+    "pokemon": "CASTFORM", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0352_POKEMON_KECLEON",
+  "templateId": "SPAWN_V0352_POKEMON_KECLEON", 
   "genderSettings": {
-    "pokemon": "KECLEON",
+    "pokemon": "KECLEON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0353_POKEMON_SHUPPET",
+  "templateId": "SPAWN_V0353_POKEMON_SHUPPET", 
   "genderSettings": {
-    "pokemon": "SHUPPET",
+    "pokemon": "SHUPPET", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0354_POKEMON_BANETTE",
+  "templateId": "SPAWN_V0354_POKEMON_BANETTE", 
   "genderSettings": {
-    "pokemon": "BANETTE",
+    "pokemon": "BANETTE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0355_POKEMON_DUSKULL",
+  "templateId": "SPAWN_V0355_POKEMON_DUSKULL", 
   "genderSettings": {
-    "pokemon": "DUSKULL",
+    "pokemon": "DUSKULL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0356_POKEMON_DUSCLOPS",
+  "templateId": "SPAWN_V0356_POKEMON_DUSCLOPS", 
   "genderSettings": {
-    "pokemon": "DUSCLOPS",
+    "pokemon": "DUSCLOPS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0357_POKEMON_TROPIUS",
+  "templateId": "SPAWN_V0357_POKEMON_TROPIUS", 
   "genderSettings": {
-    "pokemon": "TROPIUS",
+    "pokemon": "TROPIUS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0358_POKEMON_CHIMECHO",
+  "templateId": "SPAWN_V0358_POKEMON_CHIMECHO", 
   "genderSettings": {
-    "pokemon": "CHIMECHO",
+    "pokemon": "CHIMECHO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0359_POKEMON_ABSOL",
+  "templateId": "SPAWN_V0359_POKEMON_ABSOL", 
   "genderSettings": {
-    "pokemon": "ABSOL",
+    "pokemon": "ABSOL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0360_POKEMON_WYNAUT",
+  "templateId": "SPAWN_V0360_POKEMON_WYNAUT", 
   "genderSettings": {
-    "pokemon": "WYNAUT",
+    "pokemon": "WYNAUT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0361_POKEMON_SNORUNT",
+  "templateId": "SPAWN_V0361_POKEMON_SNORUNT", 
   "genderSettings": {
-    "pokemon": "SNORUNT",
+    "pokemon": "SNORUNT", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0362_POKEMON_GLALIE",
+  "templateId": "SPAWN_V0362_POKEMON_GLALIE", 
   "genderSettings": {
-    "pokemon": "GLALIE",
+    "pokemon": "GLALIE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0363_POKEMON_SPHEAL",
+  "templateId": "SPAWN_V0363_POKEMON_SPHEAL", 
   "genderSettings": {
-    "pokemon": "SPHEAL",
+    "pokemon": "SPHEAL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0364_POKEMON_SEALEO",
+  "templateId": "SPAWN_V0364_POKEMON_SEALEO", 
   "genderSettings": {
-    "pokemon": "SEALEO",
+    "pokemon": "SEALEO", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0365_POKEMON_WALREIN",
+  "templateId": "SPAWN_V0365_POKEMON_WALREIN", 
   "genderSettings": {
-    "pokemon": "WALREIN",
+    "pokemon": "WALREIN", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0366_POKEMON_CLAMPERL",
+  "templateId": "SPAWN_V0366_POKEMON_CLAMPERL", 
   "genderSettings": {
-    "pokemon": "CLAMPERL",
+    "pokemon": "CLAMPERL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0367_POKEMON_HUNTAIL",
+  "templateId": "SPAWN_V0367_POKEMON_HUNTAIL", 
   "genderSettings": {
-    "pokemon": "HUNTAIL",
+    "pokemon": "HUNTAIL", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0368_POKEMON_GOREBYSS",
+  "templateId": "SPAWN_V0368_POKEMON_GOREBYSS", 
   "genderSettings": {
-    "pokemon": "GOREBYSS",
+    "pokemon": "GOREBYSS", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0369_POKEMON_RELICANTH",
+  "templateId": "SPAWN_V0369_POKEMON_RELICANTH", 
   "genderSettings": {
-    "pokemon": "RELICANTH",
+    "pokemon": "RELICANTH", 
     "gender": {
-      "malePercent": 0.875,
+      "malePercent": 0.875, 
       "femalePercent": 0.125
     }
   }
 }, {
-  "templateId": "SPAWN_V0370_POKEMON_LUVDISC",
+  "templateId": "SPAWN_V0370_POKEMON_LUVDISC", 
   "genderSettings": {
-    "pokemon": "LUVDISC",
+    "pokemon": "LUVDISC", 
     "gender": {
-      "malePercent": 0.25,
+      "malePercent": 0.25, 
       "femalePercent": 0.75
     }
   }
 }, {
-  "templateId": "SPAWN_V0371_POKEMON_BAGON",
+  "templateId": "SPAWN_V0371_POKEMON_BAGON", 
   "genderSettings": {
-    "pokemon": "BAGON",
+    "pokemon": "BAGON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0372_POKEMON_SHELGON",
+  "templateId": "SPAWN_V0372_POKEMON_SHELGON", 
   "genderSettings": {
-    "pokemon": "SHELGON",
+    "pokemon": "SHELGON", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0373_POKEMON_SALAMENCE",
+  "templateId": "SPAWN_V0373_POKEMON_SALAMENCE", 
   "genderSettings": {
-    "pokemon": "SALAMENCE",
+    "pokemon": "SALAMENCE", 
     "gender": {
-      "malePercent": 0.5,
+      "malePercent": 0.5, 
       "femalePercent": 0.5
     }
   }
 }, {
-  "templateId": "SPAWN_V0374_POKEMON_BELDUM",
+  "templateId": "SPAWN_V0374_POKEMON_BELDUM", 
   "genderSettings": {
-    "pokemon": "BELDUM",
+    "pokemon": "BELDUM", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0375_POKEMON_METANG",
+  "templateId": "SPAWN_V0375_POKEMON_METANG", 
   "genderSettings": {
-    "pokemon": "METANG",
+    "pokemon": "METANG", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0376_POKEMON_METAGROSS",
+  "templateId": "SPAWN_V0376_POKEMON_METAGROSS", 
   "genderSettings": {
-    "pokemon": "METAGROSS",
+    "pokemon": "METAGROSS", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0377_POKEMON_REGIROCK",
+  "templateId": "SPAWN_V0377_POKEMON_REGIROCK", 
   "genderSettings": {
-    "pokemon": "REGIROCK",
+    "pokemon": "REGIROCK", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0378_POKEMON_REGICE",
+  "templateId": "SPAWN_V0378_POKEMON_REGICE", 
   "genderSettings": {
-    "pokemon": "REGICE",
+    "pokemon": "REGICE", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0379_POKEMON_REGISTEEL",
+  "templateId": "SPAWN_V0379_POKEMON_REGISTEEL", 
   "genderSettings": {
-    "pokemon": "REGISTEEL",
+    "pokemon": "REGISTEEL", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0380_POKEMON_LATIAS",
+  "templateId": "SPAWN_V0380_POKEMON_LATIAS", 
   "genderSettings": {
-    "pokemon": "LATIAS",
+    "pokemon": "LATIAS", 
     "gender": {
       "femalePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0381_POKEMON_LATIOS",
+  "templateId": "SPAWN_V0381_POKEMON_LATIOS", 
   "genderSettings": {
-    "pokemon": "LATIOS",
+    "pokemon": "LATIOS", 
     "gender": {
       "malePercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0382_POKEMON_KYOGRE",
+  "templateId": "SPAWN_V0382_POKEMON_KYOGRE", 
   "genderSettings": {
-    "pokemon": "KYOGRE",
+    "pokemon": "KYOGRE", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0383_POKEMON_GROUDON",
+  "templateId": "SPAWN_V0383_POKEMON_GROUDON", 
   "genderSettings": {
-    "pokemon": "GROUDON",
+    "pokemon": "GROUDON", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0384_POKEMON_RAYQUAZA",
+  "templateId": "SPAWN_V0384_POKEMON_RAYQUAZA", 
   "genderSettings": {
-    "pokemon": "RAYQUAZA",
+    "pokemon": "RAYQUAZA", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0385_POKEMON_JIRACHI",
+  "templateId": "SPAWN_V0385_POKEMON_JIRACHI", 
   "genderSettings": {
-    "pokemon": "JIRACHI",
+    "pokemon": "JIRACHI", 
     "gender": {
       "genderlessPercent": 1.0
     }
   }
 }, {
-  "templateId": "SPAWN_V0386_POKEMON_DEOXYS",
+  "templateId": "SPAWN_V0386_POKEMON_DEOXYS", 
   "genderSettings": {
-    "pokemon": "DEOXYS",
+    "pokemon": "DEOXYS", 
     "gender": {
       "genderlessPercent": 1.0
     }
