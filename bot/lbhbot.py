@@ -135,7 +135,13 @@ class LBHBot(commands.Bot):
         if pokemonObj.type2 is not None:
             typeString = typeString+"/"+pokemonObj.type2.name
 
+        em.add_field(name="Weight", value=str(pokemonObj.weight) + "kg")
+        em.add_field(name="Height", value=str(pokemonObj.height) + "m")
+
         em.add_field(name="Type", value=typeString, inline=True)
+
+        # statString = str(pokemonObj.baseAttack) + "/" + str(pokemonObj.baseDefense) + "/" + str(pokemonObj.baseStamina)?
+        # em.add_field(name="Base Attack/Defense/Stamina", value=statString, inline=True)
 
         em.add_field(name="Base Attack", value=pokemonObj.baseAttack, inline=True)
         em.add_field(name="Base Defense", value=pokemonObj.baseDefense, inline=True)

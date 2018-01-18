@@ -36,6 +36,9 @@ class PokeApiImport:
         pokemonObj.baseDefense = self.calculatePogoDefense(stats["defense"], stats["special-defense"], stats["speed"])
         pokemonObj.baseStamina = self.calculatePogoStamina(stats["hp"])
 
+        pokemonObj.weight = apiMon.weight/10
+        pokemonObj.height = apiMon.height/10
+
 
         for type in apiMon.types:
             name = type.type.name
@@ -44,39 +47,11 @@ class PokeApiImport:
 
             if type.slot == 1:
                 pokemonObj.type = typeObj
-
-            if type.slot == 2:
+            elif type.slot == 2:
                 pokemonObj.type2 = typeObj
 
         for move in apiMon.moves:
-            version_group_details = move.version_group_details
-
-            moveName = move.move.name.replace('-', ' ').title()
-
-            moves = Move.objects(name__iexact=moveName)
-
-            if len(moves) > 0:
-
-                for learnMethod in version_group_details:
-                    if learnMethod["move_learn_method"]['name'] == "level-up":
-                        learnMethod = "level-up"
-                        break
-                # learnMethod = version_group_details[0]["move_learn_method"]["name"]
-                # print(moveName + " " + learnMethod)
-                if learnMethod == "level-up":
-                    moveObj = moves[0]
-
-                    if moveObj.type == pokemonObj.type or (pokemonObj.type2 is not None and moveObj.type == pokemonObj.type2):
-                        pokemonObj.stabMoves.append(moveObj)
-
-                    if moveObj.charge:
-                        # print(moveName + " Charge Learned by " + learnMethod)
-                        if moveObj not in pokemonObj.chargeMoves:
-                            pokemonObj.chargeMoves.append(moveObj)
-                    else:
-                        # print(moveName + " Charge Learned by " + version_group_details[0]["move_learn_method"]["name"])
-                        if moveObj not in pokemonObj.quickMoves:
-                            pokemonObj.quickMoves.append(moveObj)
+            self.importPokemonMove(pokemonObj, move)
 
         if pokemonObj.description is None or pokemonObj.category is None:
             if not self.loadPokedexData(pokemonObj.name.lower(), pokemonObj):
@@ -84,6 +59,36 @@ class PokeApiImport:
 
         return pokemonObj
 
+    def importPokemonMove(self, pokemonObj, move):
+        version_group_details = move.version_group_details
+
+        moveName = move.move.name.replace('-', ' ').title()
+
+        moves = Move.objects(name__iexact=moveName)
+
+        if len(moves) == 0:
+            return
+
+        learnMethod = False
+        for learnMethod in version_group_details:
+            if learnMethod["move_learn_method"]['name'] == "level-up":
+                learnMethod = True
+                break
+
+        if not learnMethod:
+            return
+
+        moveObj = moves[0]
+
+        if moveObj.type == pokemonObj.type or (pokemonObj.type2 is not None and moveObj.type == pokemonObj.type2):
+            pokemonObj.stabMoves.append(moveObj)
+
+        if moveObj.charge and moveObj not in pokemonObj.chargeMoves:
+            pokemonObj.chargeMoves.append(moveObj)
+        elif moveObj not in pokemonObj.quickMoves:
+            pokemonObj.quickMoves.append(moveObj)
+
+    # Loads accurate flavor text and genera from the Pokémon Website
     def loadPokedexData(self, pokemon, pokemonObj):
         page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
 
