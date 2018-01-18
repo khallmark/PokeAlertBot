@@ -1,0 +1,47 @@
+{
+  "count": 10,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/1/",
+      "name": "black"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/2/",
+      "name": "blue"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/3/",
+      "name": "brown"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/4/",
+      "name": "gray"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/5/",
+      "name": "green"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/6/",
+      "name": "pink"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/7/",
+      "name": "purple"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/8/",
+      "name": "red"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/9/",
+      "name": "white"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-color/10/",
+      "name": "yellow"
+    }
+  ],
+  "next": null
+}

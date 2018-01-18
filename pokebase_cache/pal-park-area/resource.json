@@ -1,0 +1,27 @@
+{
+  "count": 5,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/pal-park-area/1/",
+      "name": "forest"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pal-park-area/2/",
+      "name": "field"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pal-park-area/3/",
+      "name": "mountain"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pal-park-area/4/",
+      "name": "pond"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pal-park-area/5/",
+      "name": "sea"
+    }
+  ],
+  "next": null
+}

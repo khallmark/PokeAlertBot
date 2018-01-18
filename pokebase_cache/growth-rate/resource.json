@@ -1,0 +1,31 @@
+{
+  "count": 6,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+      "name": "slow"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/growth-rate/2/",
+      "name": "medium"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/growth-rate/3/",
+      "name": "fast"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/growth-rate/4/",
+      "name": "medium-slow"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/growth-rate/5/",
+      "name": "slow-then-very-fast"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/growth-rate/6/",
+      "name": "fast-then-very-slow"
+    }
+  ],
+  "next": null
+}

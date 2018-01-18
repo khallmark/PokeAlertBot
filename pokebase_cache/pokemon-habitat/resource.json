@@ -1,0 +1,43 @@
+{
+  "count": 9,
+  "previous": null,
+  "results": [
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/1/",
+      "name": "cave"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/2/",
+      "name": "forest"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/3/",
+      "name": "grassland"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/4/",
+      "name": "mountain"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/5/",
+      "name": "rare"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/6/",
+      "name": "rough-terrain"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/7/",
+      "name": "sea"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/8/",
+      "name": "urban"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/9/",
+      "name": "waters-edge"
+    }
+  ],
+  "next": null
+}

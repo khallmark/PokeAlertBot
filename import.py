@@ -13,7 +13,7 @@ connect('pokemon', host='localhost', port=27017)
 pokemon_data = json.load(open('output/pokemons.json'))
 spawn_data   = json.load(open('output/spawns.json'))
 type_data    = json.load(open('output/types.json'))
-weather_data = json.load(open('output/missed.json'))
+weather_data = json.load(open('output/weather.json'))
 move_data = json.load(open('output/moves.json'))
 
 
