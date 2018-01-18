@@ -9,7 +9,7 @@ masterNew = json.load(open('../GAME_MASTER.json'), object_pairs_hook=OrderedDict
 
 masterNewIn = masterNew['itemTemplates']
 
-docs = 'avatars', 'badges', 'settings', 'forms', 'items', 'types', 'quests', 'spawns', 'pokemons', 'moves', 'cameras', 'iaps', 'sequences', 'missed'
+docs = 'avatars', 'badges', 'settings', 'forms', 'items', 'types', 'quests', 'spawns', 'pokemons', 'moves', 'cameras', 'iaps', 'sequences', 'missed', 'weather'
 generalNew = OrderedDict()
 suffixNew = ''
 
@@ -58,6 +58,8 @@ def parse(json_file, general):
             general['iaps']['items'].append(a)
         elif a['templateId'].startswith('sequence_'):
             general['sequences']['items'].append(a)
+        elif a['templateId'].startswith('WEATHER_'):
+            general['weather']['items'].append(a)
         else:
             general['missed']['items'].append(a)
             # print "This one fled: " + str(a)
