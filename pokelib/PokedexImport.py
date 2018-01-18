@@ -182,6 +182,8 @@ class PokedexImport:
             pokemonObj.stabMoves = stabMoves
 
             pokemonObj.save()
+            
+        return pokemonObj
 
     def loadPokedexData(self, pokemon, pokemonObj):
         page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
@@ -208,4 +210,6 @@ class PokedexImport:
 
         pokemonObj.weight = apiMon.weight/10
         pokemonObj.height = apiMon.height/10
+
+        apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemonObj.number)
 

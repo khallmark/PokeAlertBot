@@ -57,10 +57,17 @@ class PokeApiImport:
 
             if len(moves) > 0:
 
-                learnMethod = version_group_details[0]["move_learn_method"]["name"]
+                for learnMethod in version_group_details:
+                    if learnMethod["move_learn_method"]['name'] == "level-up":
+                        learnMethod = "level-up"
+                        break
+                # learnMethod = version_group_details[0]["move_learn_method"]["name"]
                 # print(moveName + " " + learnMethod)
                 if learnMethod == "level-up":
                     moveObj = moves[0]
+
+                    if moveObj.type == pokemonObj.type or (pokemonObj.type2 is not None and moveObj.type == pokemonObj.type2):
+                        pokemonObj.stabMoves.append(moveObj)
 
                     if moveObj.charge:
                         # print(moveName + " Charge Learned by " + learnMethod)
@@ -74,13 +81,6 @@ class PokeApiImport:
         if pokemonObj.description is None or pokemonObj.category is None:
             if not self.loadPokedexData(pokemonObj.name.lower(), pokemonObj):
                 return None
-
-        # print(pokemonObj.baseAttack)
-        # print(pokemonObj.baseDefense)
-        # print(pokemonObj.baseStamina)
-        # print(statsMap)
-        #
-        # print(pokemonObj.type.name)
 
         return pokemonObj
 

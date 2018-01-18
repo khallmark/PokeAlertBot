@@ -174,6 +174,7 @@ class Pokemon(Document):
 
     templateId = StringField(required=True)
     number = IntField()
+    generation = StringField()
     source = StringField()
     name = StringField(required=True)
     description = StringField()

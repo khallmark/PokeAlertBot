@@ -106,6 +106,11 @@ class LBHBot(commands.Bot):
         em.add_field(name="Defense", value=defense, inline=True)
         em.add_field(name="HP", value=hp, inline=True)
 
+        if pokemonObj.source == "pokeapi":
+            em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
+        else:
+            em.set_footer(text="Data is accurate for Pokémon Go.")
+
         await self.say(embed=em)
 
     @commands.command()
