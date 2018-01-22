@@ -78,13 +78,13 @@ class Move(Document):
     durationMS = IntField()
     charge = BooleanField()
 
-    def dps(self, pokemon, weather):
+    def dps(self, stabMoves, weather: Weather):
         power = self.power
 
         if power is None:
             power = 0
 
-        if self in pokemon.stabMoves:
+        if self in stabMoves:
             power = power * 1.2
 
         if weather is not None and self.type in weather.typeBoost:
@@ -199,6 +199,29 @@ class Pokemon(Document):
     stabMoves = ListField(ReferenceField(Move))
     evolutions = ListField(ReferenceField('self'))
     # familyId = StringField()
+        
+    def sizeString(self):
+        return "{}kg / {}m".format(self.weight, self.height)
+    
+    def typeString(self):
+        typeString = self.type.name
+
+        if self.type2 is not None:
+            typeString = "{} / {}".format(self.type.name, self.type2.name)
+
+        return typeString
+
+    def statString(self):
+         return "{} / {} / {}".format(self.baseAttack, self.baseDefense, self.baseStamina)
+
+    def cpString(self, levels: [int]):
+        separator = " / "
+
+        levelsList = []
+        for level in levels:
+            levelsList.append(str(self.cp(level, 15, 15, 15)))
+
+        return separator.join(levelsList)
 
     def icon(self):
         number = str(self.number).zfill(3)

@@ -37,15 +37,12 @@ class LBHBot(commands.Bot):
         self.pokedex = pokedex
 
         self.add_command(self.type)
-        self.add_command(self.dex)
+        self.add_command(self.move)
         self.add_command(self.cp)
+        self.add_command(self.dex)
         self.add_command(self.moves)
 
         self.run(self.token)
-
-    # Adds a channel to grab files from
-    def addFileChannel(self, channelId):
-        self.file_channels.append(channelId)
 
     async def on_ready(self):
         print('Logged in as '+self.user.name+' (ID:'+self.user.id+') | Connected to '+str(len(self.servers))+' servers | Connected to '+str(len(set(self.get_all_members())))+' users')
@@ -96,12 +93,12 @@ class LBHBot(commands.Bot):
 
         inline = False
 
-        effective, ineffective = self.processMoves(typeObj.typeIndex)
+        effective, ineffective = self.processTypeMap(typeObj.typeIndex)
 
         em.add_field(name="Super Effective (140%)", value=effective, inline=inline)
         em.add_field(name="Not Very Effective (71.4%)", value=ineffective, inline=inline)
 
-        effective, ineffective = self.processMoves(typeObj.defenseTypeIndex)
+        effective, ineffective = self.processTypeMap(typeObj.defenseTypeIndex)
 
         em.add_field(name="Strong Against", value=ineffective, inline=inline)
         em.add_field(name="Weak Against", value=effective, inline=inline)
@@ -110,32 +107,12 @@ class LBHBot(commands.Bot):
 
         await self.say(embed=em)
 
-    def processMoves(self, typeIndex):
-        commaStr = ", "
+    @commands.command()
+    async def move(self, *args):
+        if len(args) != 1:
+            await self.say("Command: ?move <move_name>")
+            return
 
-        ineffectiveMoves = []
-        effectiveMoves = []
-        for typeName, typeScalar in typeIndex.items():
-            theType = Type.objects(templateId__iexact=typeName)[0]
-
-            if typeScalar > 1:
-                effectiveMoves.append(theType.name)# + " (" + str(round(typeScalar*100, 2)) + "%)")
-            elif typeScalar < 1:
-                if typeScalar < .714:
-                    ineffectiveMoves.append(theType.name + " (" + str(round(typeScalar*100, 2)) + "%)")
-                else:
-                    ineffectiveMoves.append(theType.name)# + " (" + str(round(typeScalar*100, 2)) + "%)")
-
-        effective = "No Effective Moves"
-        ineffective = "No Ineffective Moves"
-
-        if len(effectiveMoves):
-            effective = commaStr.join(effectiveMoves)
-
-        if len(ineffectiveMoves):
-            ineffective = commaStr.join(ineffectiveMoves)
-
-        return (effective, ineffective)
 
 
     @commands.command()
@@ -166,11 +143,6 @@ class LBHBot(commands.Bot):
         em.add_field(name="Defense", value=defense, inline=True)
         em.add_field(name="HP", value=hp, inline=True)
 
-        if pokemonObj.source == "pokeapi":
-            em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
-        else:
-            em.set_footer(text="Data is accurate for Pokémon Go.")
-
         await self.say(embed=em)
 
     @commands.command()
@@ -190,40 +162,12 @@ class LBHBot(commands.Bot):
 
         em = self.embedForPokemon(pokemonObj)
 
-        typeString = pokemonObj.type.name
-
-        if pokemonObj.type2 is not None:
-            typeString = typeString+"/"+pokemonObj.type2.name
-
-        em.add_field(name="Weight / Height", value=str(pokemonObj.weight) + "kg / " + str(pokemonObj.height) + "m")
-        em.add_field(name="Type", value=typeString, inline=True)
-
-        statString = str(pokemonObj.baseAttack) + " / " + str(pokemonObj.baseDefense) + " / " + str(pokemonObj.baseStamina)
-        em.add_field(name="Base Att / Def / Sta", value=statString, inline=True)
-
-        cpString = str(pokemonObj.cp(20, 15, 15, 15)) + " / " + str(pokemonObj.cp(25, 15, 15, 15))
-        em.add_field(name="100% Level 20 / 25 CP", value=cpString, inline=True)
-
-        if pokemonObj.source == "pokeapi":
-            em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
-        else:
-            em.set_footer(text="Data is accurate for Pokémon Go.")
+        em.add_field(name="Weight / Height", value=pokemonObj.sizeString())
+        em.add_field(name="Type", value=pokemonObj.typeString())
+        em.add_field(name="Base Att / Def / Sta", value=pokemonObj.statString())
+        em.add_field(name="100% Level 20 / 25 CP", value=pokemonObj.cpString([20, 25]))
 
         await self.say(embed=em)
-
-    def embedForPokemon(self, pokemonObj):
-        title = pokemonObj.name
-
-        if pokemonObj.category is not None:
-            title = pokemonObj.name + " (" + pokemonObj.category + " Pokémon)"
-
-        em = discord.Embed(title=title, description=pokemonObj.description, colour=pokemonObj.type.color())
-
-        tn = pokemonObj.icon()
-        em.set_thumbnail(url=tn)
-
-        return em
-
 
     @commands.command()
     async def moves(self, *args):
@@ -241,35 +185,78 @@ class LBHBot(commands.Bot):
 
         em = self.embedForPokemon(pokemonObj)
 
-        if len(pokemonObj.quickMoves):
-            quickString = ""
-            for move in pokemonObj.quickMoves:
-                quickString += self.generateMoveString(pokemonObj, move)
-        else:
-            quickString = "No Quick Moves Found"
+        em.add_field(name="Quick Moves", value=self.generateMoveString(pokemonObj.quickMoves, pokemonObj.stabMoves), inline=False)
+        em.add_field(name="Charge Moves", value=self.generateMoveString(pokemonObj.chargeMoves, pokemonObj.stabMoves), inline=False)
 
-        em.add_field(name="Quick Moves", value=quickString, inline=False)
+        await self.say(embed=em)
 
-        if len(pokemonObj.chargeMoves):
-            chargeString = ""
-            for move in pokemonObj.chargeMoves:
-                chargeString += self.generateMoveString(pokemonObj, move)
-        else:
-            chargeString = "No Charge Moves Found"
+    # Processes a list of [TYPE_ID] => scalar for output
+    def processTypeMap(self, typeIndex, separator=", "):
+        ineffectiveMoves = []
+        effectiveMoves = []
+        for typeName, typeScalar in typeIndex.items():
 
-        em.add_field(name="Charge Moves", value=chargeString, inline=False)
+            # Assuming the type exists because it should
+            theType = Type.objects(templateId__iexact=typeName)[0]
+
+            if typeScalar > 1:
+                effectiveMoves.append(theType.name)
+            elif typeScalar < .714:
+                ineffectiveMoves.append("{} ({}%)".format(theType.name, round(typeScalar*100, 2)))
+            else:
+                ineffectiveMoves.append(theType.name)
+
+        effective = "No Effective Moves"
+        if len(effectiveMoves):
+            effective = separator.join(effectiveMoves)
+
+        ineffective = "No Ineffective Moves"
+        if len(ineffectiveMoves):
+            ineffective = separator.join(ineffectiveMoves)
+
+        return (effective, ineffective)
+
+    # Generates the embed for a Pokemon related command (?cp, ?dex, ?moves)
+    def embedForPokemon(self, pokemonObj, includeDescription=True):
+        title = pokemonObj.name
+
+        if pokemonObj.category is not None:
+            title = "{} ({} Pokémon)".format(pokemonObj.name, pokemonObj.category)
+
+        em = discord.Embed(title=title, colour=pokemonObj.type.color())
+
+        if includeDescription:
+            em = discord.Embed(title=title, description=pokemonObj.description, colour=pokemonObj.type.color())
+
+        tn = pokemonObj.icon()
+        em.set_thumbnail(url=tn)
 
         if pokemonObj.source == "pokeapi":
             em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
         else:
             em.set_footer(text="Data is accurate for Pokémon Go.")
 
-        await self.say(embed=em)
+        return em
 
-    def generateMoveString(self, pokemonObj: Pokemon, move: Move):
-        stabStr = ""
-        if move in pokemonObj.stabMoves:
-            stabStr = ", STAB"
+    # Generates a move string for the ?moves command
+    def generateMoveString(self, moves: [Move], stabMoves: [Move]):
+        if len(moves) == 0:
+            return "No Moves Found"
 
-        return move.name + " (" + str(move.dps(pokemon=pokemonObj, weather=None)) + " DPS, " + move.type.name + "" + stabStr + ")\n"
+        chargeStrings = []
+        for move in moves:
+            stabStr = ""
+            if move in stabMoves:
+                stabStr = ", STAB"
 
+            chargeStrings.append(
+                "{} ({} DPS, {}{})".format(move.name, move.dps(stabMoves=stabMoves, weather=None), move.type.name, stabStr)
+            )
+
+        newLineString = "\n"
+
+        return newLineString.join(chargeStrings)
+
+    # Adds a channel to grab files from
+    def addFileChannel(self, channelId):
+        self.file_channels.append(channelId)
