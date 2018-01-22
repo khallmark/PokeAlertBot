@@ -48,6 +48,11 @@ class Type(Document):
     name = StringField(required=True, max_length=10)
     typeIndex = DictField()
 
+    defenseTypeIndex = DictField()
+
+    def icon(self):
+        return "http://images.whiskeypicklewolfpack.club/images/type/" + self.name.lower() + ".png"
+
     def color(self):
         return Type.type_colors[self.templateId]
 
@@ -55,6 +60,9 @@ class Type(Document):
         for index, scalar in enumerate(attackScalars):
             type_name = Type.type_order[index]
             self.typeIndex[type_name] = scalar
+
+    def setDefenseType(self, type, scalar):
+        self.defenseTypeIndex[type] = scalar
 
 
 class Weather(Document):

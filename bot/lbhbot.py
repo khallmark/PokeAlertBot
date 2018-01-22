@@ -36,6 +36,7 @@ class LBHBot(commands.Bot):
         self.file_channels = []
         self.pokedex = pokedex
 
+        self.add_command(self.type)
         self.add_command(self.dex)
         self.add_command(self.cp)
         self.add_command(self.moves)
@@ -77,6 +78,65 @@ class LBHBot(commands.Bot):
             await self.send_message(message.channel, reply)
         else:
             await self.process_commands(message)
+
+    @commands.command()
+    async def type(self, *args):
+        if len(args) != 1:
+            await self.say("Command: ?type <type_name>")
+            return
+
+        type = args[0]
+
+        typeObj = self.pokedex.getType(type)
+
+        em = discord.Embed()
+
+        em.title = typeObj.name
+        em.colour = typeObj.color()
+
+        inline = False
+
+        effective, ineffective = self.processMoves(typeObj.typeIndex)
+
+        em.add_field(name="Super Effective (140%)", value=effective, inline=inline)
+        em.add_field(name="Not Very Effective (71.4%)", value=ineffective, inline=inline)
+
+        effective, ineffective = self.processMoves(typeObj.defenseTypeIndex)
+
+        em.add_field(name="Strong Against", value=ineffective, inline=inline)
+        em.add_field(name="Weak Against", value=effective, inline=inline)
+
+        em.set_thumbnail(url=typeObj.icon())
+
+        await self.say(embed=em)
+
+    def processMoves(self, typeIndex):
+        commaStr = ", "
+
+        ineffectiveMoves = []
+        effectiveMoves = []
+        for typeName, typeScalar in typeIndex.items():
+            theType = Type.objects(templateId__iexact=typeName)[0]
+
+            if typeScalar > 1:
+                effectiveMoves.append(theType.name)# + " (" + str(round(typeScalar*100, 2)) + "%)")
+            elif typeScalar < 1:
+                if typeScalar < .714:
+                    ineffectiveMoves.append(theType.name + " (" + str(round(typeScalar*100, 2)) + "%)")
+                else:
+                    ineffectiveMoves.append(theType.name)# + " (" + str(round(typeScalar*100, 2)) + "%)")
+
+        effective = "No Effective Moves"
+        ineffective = "No Ineffective Moves"
+
+        if len(effectiveMoves):
+            effective = commaStr.join(effectiveMoves)
+
+        if len(ineffectiveMoves):
+            ineffective = commaStr.join(ineffectiveMoves)
+
+        return (effective, ineffective)
+
 
     @commands.command()
     async def cp(self, *args):
@@ -135,26 +195,19 @@ class LBHBot(commands.Bot):
         if pokemonObj.type2 is not None:
             typeString = typeString+"/"+pokemonObj.type2.name
 
-        em.add_field(name="Weight", value=str(pokemonObj.weight) + "kg")
-        em.add_field(name="Height", value=str(pokemonObj.height) + "m")
-
+        em.add_field(name="Weight / Height", value=str(pokemonObj.weight) + "kg / " + str(pokemonObj.height) + "m")
         em.add_field(name="Type", value=typeString, inline=True)
 
-        # statString = str(pokemonObj.baseAttack) + "/" + str(pokemonObj.baseDefense) + "/" + str(pokemonObj.baseStamina)?
-        # em.add_field(name="Base Attack/Defense/Stamina", value=statString, inline=True)
+        statString = str(pokemonObj.baseAttack) + " / " + str(pokemonObj.baseDefense) + " / " + str(pokemonObj.baseStamina)
+        em.add_field(name="Base Att / Def / Sta", value=statString, inline=True)
 
-        em.add_field(name="Base Attack", value=pokemonObj.baseAttack, inline=True)
-        em.add_field(name="Base Defense", value=pokemonObj.baseDefense, inline=True)
-        em.add_field(name="Base Stamina", value=pokemonObj.baseStamina, inline=True)
-
-        em.add_field(name="100% Level 20 CP", value=pokemonObj.cp(20, 15, 15, 15), inline=True)
-        em.add_field(name="100% Level 25 CP", value=pokemonObj.cp(25, 15, 15, 15), inline=True)
+        cpString = str(pokemonObj.cp(20, 15, 15, 15)) + " / " + str(pokemonObj.cp(25, 15, 15, 15))
+        em.add_field(name="100% Level 20 / 25 CP", value=cpString, inline=True)
 
         if pokemonObj.source == "pokeapi":
             em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
         else:
             em.set_footer(text="Data is accurate for Pokémon Go.")
-        # em.set_author(name='Someone', icon_url=client.user.default_avatar_url)
 
         await self.say(embed=em)
 

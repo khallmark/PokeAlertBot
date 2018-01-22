@@ -11,3 +11,11 @@ class Pokedex:
             return results[0]
 
         return None
+
+    def getType(self, type):
+        results = Type.objects(name__iexact=type)
+
+        if len(results) > 0:
+            return results[0]
+
+        return None
