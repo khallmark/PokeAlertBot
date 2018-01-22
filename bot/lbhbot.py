@@ -136,7 +136,7 @@ class LBHBot(commands.Bot):
         defense = pokemonObj.defense(level, 15)
         hp = pokemonObj.hp(level, 15)
 
-        em = self.embedForPokemon(pokemonObj)
+        em = self.embedForPokemon(pokemonObj, includeDescription=False)
 
         em.add_field(name="CP", value=cp, inline=True)
         em.add_field(name="Attack", value=attack, inline=True)
@@ -183,7 +183,7 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-        em = self.embedForPokemon(pokemonObj)
+        em = self.embedForPokemon(pokemonObj, includeDescription=False)
 
         em.add_field(name="Quick Moves", value=self.generateMoveString(pokemonObj.quickMoves, pokemonObj.stabMoves), inline=False)
         em.add_field(name="Charge Moves", value=self.generateMoveString(pokemonObj.chargeMoves, pokemonObj.stabMoves), inline=False)
