@@ -136,7 +136,7 @@ class LBHBot(commands.Bot):
         defense = pokemonObj.defense(level, 15)
         hp = pokemonObj.hp(level, 15)
 
-        em = self.embedForPokemon(pokemonObj, includeDescription=False)
+        em = self.embedForPokemon(pokemonObj)
 
         em.add_field(name="CP", value=cp, inline=True)
         em.add_field(name="Attack", value=attack, inline=True)
@@ -162,6 +162,7 @@ class LBHBot(commands.Bot):
 
         em = self.embedForPokemon(pokemonObj)
 
+        em.description = pokemonObj.description
         em.add_field(name="Weight / Height", value=pokemonObj.sizeString())
         em.add_field(name="Type", value=pokemonObj.typeString())
         em.add_field(name="Base Att / Def / Sta", value=pokemonObj.statString())
@@ -183,7 +184,7 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-        em = self.embedForPokemon(pokemonObj, includeDescription=False)
+        em = self.embedForPokemon(pokemonObj)
 
         em.add_field(name="Quick Moves", value=self.generateMoveString(pokemonObj.quickMoves, pokemonObj.stabMoves), inline=False)
         em.add_field(name="Charge Moves", value=self.generateMoveString(pokemonObj.chargeMoves, pokemonObj.stabMoves), inline=False)
@@ -217,16 +218,13 @@ class LBHBot(commands.Bot):
         return (effective, ineffective)
 
     # Generates the embed for a Pokemon related command (?cp, ?dex, ?moves)
-    def embedForPokemon(self, pokemonObj, includeDescription=True):
+    def embedForPokemon(self, pokemonObj):
         title = pokemonObj.name
 
         if pokemonObj.category is not None:
             title = "{} ({} Pokémon)".format(pokemonObj.name, pokemonObj.category)
 
         em = discord.Embed(title=title, colour=pokemonObj.type.color())
-
-        if includeDescription:
-            em = discord.Embed(title=title, description=pokemonObj.description, colour=pokemonObj.type.color())
 
         tn = pokemonObj.icon()
         em.set_thumbnail(url=tn)
