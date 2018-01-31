@@ -153,6 +153,7 @@ class LBHBot(commands.Bot):
         print(sorted(combinedTypeMap.items(), key=operator.itemgetter(1), reverse=True))
         effective, ineffective = self.processTypeMap(combinedTypeMap)
 
+        em.add_field(name="Type", value=pokemon.typeString(), inline=False)
         em.add_field(name="Super Effective (140%)", value=effective, inline=inline)
         em.add_field(name="Not Very Effective (71.4%)", value=ineffective, inline=inline)
 
