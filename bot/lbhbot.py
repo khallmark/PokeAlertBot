@@ -1,6 +1,7 @@
 import os
 import platform
 import sys
+import operator
 
 from discord.ext import commands
 import discord
@@ -38,6 +39,8 @@ class LBHBot(commands.Bot):
 
         self.add_command(self.type)
         self.add_command(self.move)
+        self.add_command(self.compare)
+        self.add_command(self.counters)
         self.add_command(self.cp)
         self.add_command(self.dex)
         self.add_command(self.moves)
@@ -78,6 +81,7 @@ class LBHBot(commands.Bot):
 
     @commands.command()
     async def type(self, *args):
+        """Help Text"""
         if len(args) != 1:
             await self.say("Command: ?type <type_name>")
             return
@@ -85,6 +89,10 @@ class LBHBot(commands.Bot):
         type = args[0]
 
         typeObj = self.pokedex.getType(type)
+
+        if typeObj is None:
+            await self.say("Type not found")
+            return
 
         em = discord.Embed()
 
@@ -113,7 +121,44 @@ class LBHBot(commands.Bot):
             await self.say("Command: ?move <move_name>")
             return
 
+    @commands.command()
+    async def compare(self, *args):
+        if len(args) != 2:
+            await self.say("Command: ?compare <pokemon_name> <pokemon_name>")
+            return
 
+    @commands.command()
+    async def counters(self, *args):
+        if len(args) != 1:
+            await self.say("Command: ?counters <pokemon_name>")
+            return
+
+        pokemon_name = args[0]
+        pokemon = self.pokedex.getPokemon(pokemon_name)
+
+        if pokemon is None:
+            await self.say("Pokemon {} not found".format(pokemon_name))
+            return
+
+        inline = True
+        em = self.embedForPokemon(pokemon)
+
+        combinedTypeMap = pokemon.type.defenseTypeIndex
+
+        if pokemon.type2 is not None:
+            for name, value in pokemon.type2.defenseTypeIndex.items():
+                combinedTypeMap[name] = round(combinedTypeMap[name] * value, 3)
+
+        print(combinedTypeMap)
+        print(sorted(combinedTypeMap.items(), key=operator.itemgetter(1), reverse=True))
+        effective, ineffective = self.processTypeMap(combinedTypeMap)
+
+        em.add_field(name="Super Effective (140%)", value=effective, inline=inline)
+        em.add_field(name="Not Very Effective (71.4%)", value=ineffective, inline=inline)
+
+        # em.add_field(name="CP / Att / Def / HP", value="{} / {} / {} / {}".format(cp, attack, defense, hp))
+
+        await self.say(embed=em)
 
     @commands.command()
     async def cp(self, *args):
@@ -130,7 +175,6 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-
         cp = pokemonObj.cp(level, 15, 15, 15)
         attack = pokemonObj.attack(level, 15)
         defense = pokemonObj.defense(level, 15)
@@ -138,10 +182,7 @@ class LBHBot(commands.Bot):
 
         em = self.embedForPokemon(pokemonObj)
 
-        em.add_field(name="CP", value=cp, inline=True)
-        em.add_field(name="Attack", value=attack, inline=True)
-        em.add_field(name="Defense", value=defense, inline=True)
-        em.add_field(name="HP", value=hp, inline=True)
+        em.add_field(name="CP / Att / Def / HP", value="{} / {} / {} / {}".format(cp, attack, defense, hp))
 
         await self.say(embed=em)
 
@@ -195,16 +236,17 @@ class LBHBot(commands.Bot):
     def processTypeMap(self, typeIndex, separator=", "):
         ineffectiveMoves = []
         effectiveMoves = []
-        for typeName, typeScalar in typeIndex.items():
 
+        for typeName, typeScalar in sorted(typeIndex.items(), key=operator.itemgetter(1), reverse=True):
             # Assuming the type exists because it should
             theType = Type.objects(templateId__iexact=typeName)[0]
-
-            if typeScalar > 1:
+            if typeScalar > 1.4:
+                effectiveMoves.append("{} ({}%)".format(theType.name, round(typeScalar*100, 2)))
+            elif typeScalar > 1:
                 effectiveMoves.append(theType.name)
             elif typeScalar < .714:
                 ineffectiveMoves.append("{} ({}%)".format(theType.name, round(typeScalar*100, 2)))
-            else:
+            elif typeScalar < 1:
                 ineffectiveMoves.append(theType.name)
 
         effective = "No Effective Moves"
