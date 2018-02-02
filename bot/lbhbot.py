@@ -149,8 +149,6 @@ class LBHBot(commands.Bot):
             for name, value in pokemon.type2.defenseTypeIndex.items():
                 combinedTypeMap[name] = round(combinedTypeMap[name] * value, 3)
 
-        print(combinedTypeMap)
-        print(sorted(combinedTypeMap.items(), key=operator.itemgetter(1), reverse=True))
         effective, ineffective = self.processTypeMap(combinedTypeMap)
 
         em.add_field(name="Type", value=pokemon.typeString(), inline=False)
