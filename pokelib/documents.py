@@ -83,7 +83,7 @@ class Move(Document):
     staminaLossScalar = FloatField()
 
     def steps(self):
-        return math.floor(100/self.energyDelta)
+        return math.floor(-100/self.energyDelta)
 
     def dps(self, stabMoves=None, weather=None):
         power = self.power
