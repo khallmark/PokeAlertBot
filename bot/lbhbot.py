@@ -129,7 +129,7 @@ class LBHBot(commands.Bot):
             await self.say("Move not found")
             return
 
-        title = "{} ({})".format(move.name, move.type.name)
+        title = "{} ({} Type)".format(move.name, move.type.name)
 
         em = discord.Embed(title=title, colour=move.type.color())
 
@@ -147,6 +147,8 @@ class LBHBot(commands.Bot):
 
         duration = "{}ms ({}ms - {}ms)".format(move.durationMS, move.damageWindowStart, move.damageWindowEnd)
         em.add_field(name="Duration (Dodge Window)", value=duration, inline=inline)
+
+        em.add_field(name="Number of Bars", value=move.steps(), inline=inline)
 
         em.set_footer(text="Data is accurate for Pokémon Go.")
 
