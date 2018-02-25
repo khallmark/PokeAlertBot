@@ -19,3 +19,11 @@ class Pokedex:
             return results[0]
 
         return None
+
+    def getMove(self, move):
+        results = Move.objects(name__iexact=move)
+
+        if len(results) > 0:
+            return results[0]
+
+        return None

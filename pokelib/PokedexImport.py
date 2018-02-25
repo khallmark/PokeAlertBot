@@ -113,6 +113,21 @@ class PokedexImport:
 
             moveObj.durationMS = moveSettings["durationMs"]
 
+            if "energyDelta" in moveSettings:
+                moveObj.energyDelta = moveSettings["energyDelta"]
+            else:
+                print(name)
+
+
+            if "staminaLossScalar" in moveSettings:
+                moveObj.staminaLossScalar = moveSettings["staminaLossScalar"]
+            else:
+                print(name)
+
+            moveObj.damageWindowStart = moveSettings["damageWindowStartMs"]
+            moveObj.damageWindowEnd   = moveSettings["damageWindowEndMs"]
+
+
             if "power" in moveSettings:
                 moveObj.power = moveSettings["power"]
             else:

@@ -53,7 +53,7 @@ class LBHBot(commands.Bot):
         print('Current Discord.py Version: {} | Current Python Version: {}'.format(discord.__version__, platform.python_version()))
         print('--------')
         print('Use this link to invite {}:'.format(self.user.name))
-        print('https://discordapp.com/oauth2/authorize?client_id={}&scope=bot&permissions=8'.format(self.user.id))
+        print('https://discordapp.com/oauth2/authorize?client_id={}&scope=bot&permissions=378944'.format(self.user.id))
 
     async def on_message(self, message):
         if (message.channel.id in self.file_channels) and len(message.attachments) > 0:
@@ -117,9 +117,40 @@ class LBHBot(commands.Bot):
 
     @commands.command()
     async def move(self, *args):
-        if len(args) != 1:
+        if len(args) < 1:
             await self.say("Command: ?move <move_name>")
             return
+
+        separator = " "
+        moveId = separator.join(args)
+        move = self.pokedex.getMove(moveId)
+
+        if move is None:
+            await self.say("Move not found")
+            return
+
+        title = "{} ({})".format(move.name, move.type.name)
+
+        em = discord.Embed(title=title, colour=move.type.color())
+
+        tn = move.type.icon()
+        em.set_thumbnail(url=tn)
+
+        inline = True
+        effective, ineffective = self.processTypeMap(move.type.typeIndex)
+
+        em.add_field(name="Super Effective (140%)", value=effective, inline=inline)
+        em.add_field(name="Not Very Effective (71.4%)", value=ineffective, inline=inline)
+
+        em.add_field(name="Power", value=move.power, inline=inline)
+        em.add_field(name="DPS", value=move.dps())
+
+        duration = "{}ms ({}ms - {}ms)".format(move.durationMS, move.damageWindowStart, move.damageWindowEnd)
+        em.add_field(name="Duration (Dodge Window)", value=duration, inline=inline)
+
+        em.set_footer(text="Data is accurate for Pokémon Go.")
+
+        await self.say(embed=em)
 
     @commands.command()
     async def compare(self, *args):

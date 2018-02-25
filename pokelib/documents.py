@@ -77,14 +77,21 @@ class Move(Document):
     power = FloatField()
     durationMS = IntField()
     charge = BooleanField()
+    damageWindowStart = IntField()
+    damageWindowEnd = IntField()
+    energyDelta = IntField()
+    staminaLossScalar = FloatField()
 
-    def dps(self, stabMoves, weather: Weather):
+    def steps(self):
+        return math.floor(100/self.energyDelta)
+
+    def dps(self, stabMoves=None, weather=None):
         power = self.power
 
         if power is None:
             power = 0
 
-        if self in stabMoves:
+        if stabMoves is not None and self in stabMoves:
             power = power * 1.2
 
         if weather is not None and self.type in weather.typeBoost:
