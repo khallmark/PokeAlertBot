@@ -142,13 +142,19 @@ class LBHBot(commands.Bot):
         em.add_field(name="Super Effective (140%)", value=effective, inline=inline)
         em.add_field(name="Not Very Effective (71.4%)", value=ineffective, inline=inline)
 
-        em.add_field(name="Power", value=move.power, inline=inline)
-        em.add_field(name="DPS", value=move.dps())
+        dps = "{} ({})".format(move.power, move.dps())
+        em.add_field(name="Power (DPS)", value=dps, inline=inline)
+
+        typeField = "Type (# Bars)"
+        type = "Charge ({})".format(move.steps())
+        if move.energyDelta > 0:
+            typeField = "Type"
+            type = "Quick"
+
+        em.add_field(name=typeField, value=type, inline=inline)
 
         duration = "{}ms ({}ms - {}ms)".format(move.durationMS, move.damageWindowStart, move.damageWindowEnd)
         em.add_field(name="Duration (Dodge Window)", value=duration, inline=inline)
-
-        em.add_field(name="Number of Bars", value=move.steps(), inline=inline)
 
         em.set_footer(text="Data is accurate for Pokémon Go.")
 
