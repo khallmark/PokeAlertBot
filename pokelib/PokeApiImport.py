@@ -30,6 +30,7 @@ class PokeApiImport:
 
         pokemonObj.source = "pokeapi"
         pokemonObj.number = apiMon.id
+        pokemonObj.generation = self.generation(apiMon.id)
         pokemonObj.templateId = "V" + str(pokemonObj.number).zfill(4) + "_POKEMON_" + pokemonObj.name.upper()
 
         pokemonObj.baseAttack = self.calculatePogoAttack(stats["attack"], stats["special-attack"], stats["speed"])
@@ -58,6 +59,26 @@ class PokeApiImport:
                 return None
 
         return pokemonObj
+
+    def generation(self, number):
+
+        generation = 1
+        if number <= 151:
+            generation = 1
+        elif number <= 251:
+            generation = 2
+        elif number <= 386:
+            generation = 3
+        elif number <= 493:
+            generation = 4
+        elif number <= 649:
+            generation = 5
+        elif number <= 721:
+            generation = 6
+        elif number <= 807:
+            generation = 7
+
+        return generation
 
     def importPokemonMove(self, pokemonObj, move):
         version_group_details = move.version_group_details

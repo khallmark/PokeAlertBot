@@ -24,3 +24,10 @@ weather = importer.importWeather(weather_data, types)
 moves = importer.importMoves(move_data, types)
 
 importer.importPokemon(pokemon_data, types, weather, moves)
+
+'''
+Pokemon Import Steps
+
+1. Import Game_Master 
+2. Import PokeAPI starting from 1. Check for "varieties" in pokemon-species. If "game_master" import, only import some 
+'''

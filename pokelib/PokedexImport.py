@@ -164,6 +164,7 @@ class PokedexImport:
             pokemonObj.source = "game_master"
             pokemonObj.name = name
             pokemonObj.number = pokemonNumber
+            pokemonObj.generation = self.generation(pokemonNumber)
             pokemonObj.type = types[pokemonSettings["type"]]
 
             self.loadPokeAPIData(pokemonObj)
@@ -207,6 +208,26 @@ class PokedexImport:
             pokemonObj.save()
 
         return pokemonObj
+
+    def generation(self, number):
+
+        generation = 1
+        if number <= 151:
+            generation = 1
+        elif number <= 251:
+            generation = 2
+        elif number <= 386:
+            generation = 3
+        elif number <= 493:
+            generation = 4
+        elif number <= 649:
+            generation = 5
+        elif number <= 721:
+            generation = 6
+        elif number <= 807:
+            generation = 7
+
+        return generation
 
     def loadPokedexData(self, pokemon, pokemonObj):
         page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)

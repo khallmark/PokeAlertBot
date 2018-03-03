@@ -189,7 +189,7 @@ class Pokemon(Document):
 
     templateId = StringField(required=True)
     number = IntField()
-    generation = StringField()
+    generation = IntField()
     source = StringField()
     name = StringField(required=True)
     description = StringField()
@@ -206,7 +206,7 @@ class Pokemon(Document):
     stabMoves = ListField(ReferenceField(Move))
     evolutions = ListField(ReferenceField('self'))
     # familyId = StringField()
-        
+
     def sizeString(self):
         return "{}kg / {}m".format(self.weight, self.height)
     
