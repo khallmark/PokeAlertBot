@@ -209,6 +209,7 @@ class Pokemon(Document):
     quickMoves = ListField(ReferenceField(Move))
     chargeMoves = ListField(ReferenceField(Move))
     stabMoves = ListField(ReferenceField(Move))
+    legacyMoves = ListField(ReferenceField(Move))
     evolutions = ListField(ReferenceField('self'))
     gender = EmbeddedDocumentField(PokemonGender)
     # familyId = StringField()

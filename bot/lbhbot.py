@@ -268,8 +268,8 @@ class LBHBot(commands.Bot):
 
         em = self.embedForPokemon(pokemonObj)
 
-        em.add_field(name="Quick Moves", value=self.generateMoveString(pokemonObj.quickMoves, pokemonObj.stabMoves), inline=False)
-        em.add_field(name="Charge Moves", value=self.generateMoveString(pokemonObj.chargeMoves, pokemonObj.stabMoves), inline=False)
+        em.add_field(name="Quick Moves", value=self.generateMoveString(pokemonObj.quickMoves, pokemonObj.stabMoves, pokemonObj.legacyMoves), inline=False)
+        em.add_field(name="Charge Moves", value=self.generateMoveString(pokemonObj.chargeMoves, pokemonObj.stabMoves, pokemonObj.legacyMoves), inline=False)
 
         await self.say(embed=em)
 
@@ -320,7 +320,7 @@ class LBHBot(commands.Bot):
         return em
 
     # Generates a move string for the ?moves command
-    def generateMoveString(self, moves: [Move], stabMoves: [Move]):
+    def generateMoveString(self, moves: [Move], stabMoves: [Move], legacyMoves: [Move]):
         if len(moves) == 0:
             return "No Moves Found"
 
@@ -330,8 +330,18 @@ class LBHBot(commands.Bot):
             if move in stabMoves:
                 stabStr = ", STAB"
 
+            legacyStr = ""
+            if move in legacyMoves:
+                legacyStr = ", Legacy"
+
             chargeStrings.append(
-                "{} ({} DPS, {}{})".format(move.name, move.dps(stabMoves=stabMoves, weather=None), move.type.name, stabStr)
+                "{} ({} DPS, {}{}{})".format(
+                    move.name,
+                    move.dps(stabMoves=stabMoves, weather=None),
+                    move.type.name,
+                    stabStr,
+                    legacyStr
+                )
             )
 
         newLineString = "\n"
