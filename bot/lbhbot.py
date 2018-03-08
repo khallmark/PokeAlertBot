@@ -247,8 +247,11 @@ class LBHBot(commands.Bot):
         em.add_field(name="Base Att / Def / Sta", value=pokemonObj.statString())
         em.add_field(name="100% Level 20 / 25 CP", value=pokemonObj.cpString([20, 25]))
 
-        gender = "{}% / {}%".format(pokemonObj.gender.male*100, pokemonObj.gender.female*100)
-        em.add_field(name="Male(%) / Female(%)", value=gender)
+        if pokemonObj.gender is not None:
+            gender = "{}% / {}%".format(pokemonObj.gender.male*100, pokemonObj.gender.female*100)
+            em.add_field(name="Male(%) / Female(%)", value=gender)
+        else:
+            em.add_field(name="Male(%) / Female(%)", value="No Gender")
 
         await self.say(embed=em)
 
