@@ -5,6 +5,7 @@ from pokelib.documents import *
 from mongoengine import *
 import pokebase
 import pokebase.api as api
+from pokelib.PokeApiImport import PokeApiImport
 
 api.set_cache("./pokebase_cache")
 
@@ -16,16 +17,26 @@ type_data    = json.load(open('output/types.json'))
 weather_data = json.load(open('output/weather.json'))
 move_data = json.load(open('output/moves.json'))
 
+dexImporter = PokedexImport()
 
-importer = PokedexImport()
+types = dexImporter.importTypes(type_data)
+weather = dexImporter.importWeather(weather_data, types)
+moves = dexImporter.importMoves(move_data, types)
 
-types = importer.importTypes(type_data)
-weather = importer.importWeather(weather_data, types)
-moves = importer.importMoves(move_data, types)
+pokemons = dexImporter.importPokemon(pokemon_data, spawn_data, types, weather, moves)
 
-pokemons = importer.importPokemon(pokemon_data, spawn_data, types, weather, moves)
+dexImporter.addLegacyMoves()
 
-importer.addLegacyMoves()
+apiImporter = PokeApiImport()
+
+i = 387
+while i < 802:
+    pokemon = apiImporter.importPokemon(i)
+
+    if pokemon is not None:
+        pokemon.save()
+
+    i += 1
 
 '''
 Pokemon Import Steps
