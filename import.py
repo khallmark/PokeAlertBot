@@ -23,7 +23,7 @@ types = importer.importTypes(type_data)
 weather = importer.importWeather(weather_data, types)
 moves = importer.importMoves(move_data, types)
 
-importer.importPokemon(pokemon_data, types, weather, moves)
+importer.importPokemon(pokemon_data, spawn_data, types, weather, moves)
 
 '''
 Pokemon Import Steps

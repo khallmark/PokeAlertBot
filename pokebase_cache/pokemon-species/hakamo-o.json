@@ -1,0 +1,310 @@
+{
+  "capture_rate": 45,
+  "habitat": null,
+  "color": {
+    "url": "https://pokeapi.co/api/v2/pokemon-color/4/",
+    "name": "gray"
+  },
+  "forms_switchable": false,
+  "shape": {
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/6/",
+    "name": "upright"
+  },
+  "names": [
+    {
+      "name": "\u9cde\u7532\u9f99",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "name": "\u30b8\u30e3\u30e9\u30f3\u30b4",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "name": "Hakamo-o",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "name": "Hakamo-o",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "name": "Hakamo-o",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "name": "Mediras",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "name": "\u00c9ca\u00efd",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "name": "\u9c57\u7532\u9f8d",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "name": "\uc9dc\ub791\uace0\uc6b0",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "name": "\u30b8\u30e3\u30e9\u30f3\u30b4",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "id": 783,
+  "egg_groups": [
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/14/",
+      "name": "dragon"
+    }
+  ],
+  "base_happiness": 70,
+  "generation": {
+    "url": "https://pokeapi.co/api/v2/generation/7/",
+    "name": "sun-moon"
+  },
+  "flavor_text_entries": [
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u9cde\u7247\u4f1a\u4e0d\u65ad\u66f4\u66ff\u3002\n\u968f\u7740\u6bcf\u6b21\u5d2d\u65b0\u8715\u53d8\uff0c\n\u9cde\u7247\u4f1a\u53d8\u5f97\u575a\u786c\u53c8\u950b\u5229\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u9c57\u306f\u3000\u3069\u3093\u3069\u3093\u3000\u751f\u3048\u5909\u308f\u308b\u3002\n\u65b0\u3057\u304f\u306a\u308b\u305f\u3073\u3000\u9c57\u306f\n\u786c\u304f\u3000\u92ed\u304f\u3000\u306a\u3063\u3066\u3044\u304f\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "It sheds and regrows its scales on a continuous\nbasis. The scales become harder and sharper\neach time they\u2019re regrown.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Cambia frequentemente le scaglie, che\ndiventano pi\u00f9 dure e taglienti ogni volta\nche ricrescono.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Muda constantemente sus escamas, que cada\nvez se vuelven m\u00e1s duras y afiladas.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Seine Schuppen wachsen sehr schnell nach.\nJede neue Schuppe ist h\u00e4rter und sch\u00e4rfer\nals die vorherige.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Ses \u00e9cailles poussent tr\u00e8s vite.\nChaque nouvelle \u00e9caille est plus dure et plus\npointue que l\u2019ancienne.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u9c57\u7247\u6703\u4e0d\u65b7\u66f4\u66ff\u3002\n\u96a8\u8457\u6bcf\u6b21\u5d84\u65b0\u86fb\u8b8a\uff0c\n\u9c57\u7247\u6703\u8b8a\u5f97\u5805\u786c\u53c8\u92d2\u5229\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\ube44\ub298\uc740 \uc810\uc810 \uc0c8\ub85c \uc790\ub780\ub2e4.\n\uc0c8\ub85c\uc6cc\uc9c8\uc218\ub85d \ube44\ub298\uc740\n\ub2e8\ub2e8\ud558\uace0 \uc608\ub9ac\ud574\uc9c4\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u30a6\u30ed\u30b3\u306f\u3000\u3069\u3093\u3069\u3093\u3000\u306f\u3048\u304b\u308f\u308b\u3002\n\u3042\u305f\u3089\u3057\u304f\u306a\u308b\u305f\u3073\u3000\u30a6\u30ed\u30b3\u306f\n\u304b\u305f\u304f\u3000\u3059\u308b\u3069\u304f\u3000\u306a\u3063\u3066\u3044\u304f\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "growth_rate": {
+    "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+    "name": "slow"
+  },
+  "hatch_counter": 40,
+  "genera": [
+    {
+      "genus": "\u9cde\u7247\u5b9d\u53ef\u68a6",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "genus": "\u3046\u308d\u3053\u30dd\u30b1\u30e2\u30f3",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "genus": "Scaly Pok\u00e9mon",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Squama",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Escamas",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "genus": "Schuppentier",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon \u00c9cailles",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "genus": "\u9c57\u7247\u5bf6\u53ef\u5922",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "genus": "\ube44\ub298\ud3ec\ucf13\ubaac",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "genus": "\u3046\u308d\u3053\u30dd\u30b1\u30e2\u30f3",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "evolves_from_species": {
+    "url": "https://pokeapi.co/api/v2/pokemon-species/782/",
+    "name": "jangmo-o"
+  },
+  "form_descriptions": [],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/783/",
+        "name": "hakamo-o"
+      }
+    }
+  ],
+  "name": "hakamo-o",
+  "evolution_chain": {
+    "url": "https://pokeapi.co/api/v2/evolution-chain/408/"
+  },
+  "has_gender_differences": false,
+  "is_baby": false,
+  "gender_rate": 4,
+  "pal_park_encounters": [],
+  "order": 783,
+  "pokedex_numbers": []
+}

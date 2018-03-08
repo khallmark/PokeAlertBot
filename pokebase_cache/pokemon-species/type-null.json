@@ -1,0 +1,307 @@
+{
+  "capture_rate": 3,
+  "habitat": null,
+  "color": {
+    "url": "https://pokeapi.co/api/v2/pokemon-color/4/",
+    "name": "gray"
+  },
+  "forms_switchable": false,
+  "shape": {
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/8/",
+    "name": "quadruped"
+  },
+  "names": [
+    {
+      "name": "\u5c5e\u6027\uff1a\u7a7a",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "name": "\u30bf\u30a4\u30d7\uff1a\u30cc\u30eb",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "name": "Type: Null",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "name": "Tipo Zero",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "name": "C\u00f3digo Cero",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "name": "Typ:Null",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "name": "Type:0",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "name": "\u5c6c\u6027\uff1a\u7a7a",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "name": "\ud0c0\uc785:\ub110",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "name": "\u30bf\u30a4\u30d7\uff1a\u30cc\u30eb",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "id": 772,
+  "egg_groups": [
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/15/",
+      "name": "no-eggs"
+    }
+  ],
+  "base_happiness": 0,
+  "generation": {
+    "url": "https://pokeapi.co/api/v2/generation/7/",
+    "name": "sun-moon"
+  },
+  "flavor_text_entries": [
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u4eba\u5de5\u7684\u5b9d\u53ef\u68a6\u3002\n\u56e0\u4e3a\u6709\u66b4\u8d70\u7684\u5371\u9669\uff0c\n\u6240\u4ee5\u88ab\u63a7\u5236\u9762\u7f69\u5c01\u5370\u4f4f\u4e86\u529b\u91cf\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u4eba\u5de5\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\u3000\u66b4\u8d70\u306e\n\u5371\u967a\u304c\u3000\u3042\u308b\u305f\u3081\u3000\u5236\u5fa1\u30de\u30b9\u30af\u3067\n\u529b\u3092\u3000\u5c01\u5370\u3000\u3055\u308c\u3066\u3044\u308b\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Due to the danger that this synthetic Pok\u00e9mon\nmay go on a rampage, it wears a control mask\nto restrain its power.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u00c8 un Pok\u00e9mon artificiale. La maschera che porta\nha la funzione di tenere a freno la sua potenza\ne impedirgli di perdere il controllo.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Un Pok\u00e9mon artificial. La m\u00e1scara de contenci\u00f3n\nque lleva sirve para evitar que se descontrole.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Ein k\u00fcnstliches Pok\u00e9mon. Da die Gefahr besteht,\ndass es alles kurz und klein schlagen k\u00f6nnte,\nmuss es eine Kontrollmaske tragen.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Ce Pok\u00e9mon cr\u00e9\u00e9 de toutes pi\u00e8ces porte un\nmasque qui contient sa puissance et l\u2019emp\u00eache\nde perdre le contr\u00f4le et de tout d\u00e9truire.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u4eba\u5de5\u5275\u9020\u51fa\u7684\u5bf6\u53ef\u5922\u3002\n\u56e0\u70ba\u6709\u66b4\u8d70\u7684\u5371\u96aa\uff0c\n\u6240\u4ee5\u5176\u529b\u91cf\u88ab\u63a7\u5236\u9762\u7f69\u5c01\u5370\u4f4f\u4e86\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\uc778\uacf5\uc758 \ud3ec\ucf13\ubaac\uc774\ub2e4. \ud3ed\uc8fc\ud560\n\uc704\ud5d8\uc774 \uc788\uc5b4 \uc81c\uc5b4\ub9c8\uc2a4\ud06c\ub85c\n\ud798\uc744 \ubd09\uc778\ud558\uace0 \uc788\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u3058\u3093\u3053\u3046\u306e\u3000\u30dd\u30b1\u30e2\u30f3\u3002\u3000\u307c\u3046\u305d\u3046\u306e\n\u304d\u3051\u3093\u304c\u3000\u3042\u308b\u305f\u3081\u3000\u305b\u3044\u304e\u3087\u30de\u30b9\u30af\u3067\n\u3061\u304b\u3089\u3092\u3000\u3075\u3046\u3044\u3093\u3000\u3055\u308c\u3066\u3044\u308b\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "growth_rate": {
+    "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+    "name": "slow"
+  },
+  "hatch_counter": 120,
+  "genera": [
+    {
+      "genus": "\u4eba\u5de5\u5b9d\u53ef\u68a6",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "genus": "\u3058\u3093\u3053\u3046\u30dd\u30b1\u30e2\u30f3",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "genus": "Synthetic Pok\u00e9mon",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Multigene",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Multig\u00e9nico",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "genus": "Modifikation",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Multig\u00e9nome",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "genus": "\u4eba\u5de5\u5bf6\u53ef\u5922",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "genus": "\uc778\uacf5\ud3ec\ucf13\ubaac",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "genus": "\u3058\u3093\u3053\u3046\u30dd\u30b1\u30e2\u30f3",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "evolves_from_species": null,
+  "form_descriptions": [],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/772/",
+        "name": "type-null"
+      }
+    }
+  ],
+  "name": "type-null",
+  "evolution_chain": {
+    "url": "https://pokeapi.co/api/v2/evolution-chain/399/"
+  },
+  "has_gender_differences": false,
+  "is_baby": false,
+  "gender_rate": -1,
+  "pal_park_encounters": [],
+  "order": 772,
+  "pokedex_numbers": []
+}

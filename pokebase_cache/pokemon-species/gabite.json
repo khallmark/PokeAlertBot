@@ -1,0 +1,839 @@
+{
+  "capture_rate": 45,
+  "habitat": null,
+  "color": {
+    "url": "https://pokeapi.co/api/v2/pokemon-color/2/",
+    "name": "blue"
+  },
+  "forms_switchable": false,
+  "shape": {
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/6/",
+    "name": "upright"
+  },
+  "names": [
+    {
+      "name": "\u5c16\u7259\u9646\u9ca8",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "name": "\u30ac\u30d0\u30a4\u30c8",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "name": "Gabite",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "name": "Gabite",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "name": "Gabite",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "name": "Knarksel",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "name": "Carmache",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "name": "\u5c16\u7259\u9678\u9bca",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "name": "\ud55c\ubc14\uc774\ud2b8",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "name": "Gabite",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/2/",
+        "name": "roomaji"
+      }
+    },
+    {
+      "name": "\u30ac\u30d0\u30a4\u30c8",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "id": 444,
+  "egg_groups": [
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/14/",
+      "name": "dragon"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/1/",
+      "name": "monster"
+    }
+  ],
+  "base_happiness": 70,
+  "generation": {
+    "url": "https://pokeapi.co/api/v2/generation/4/",
+    "name": "generation-iv"
+  },
+  "flavor_text_entries": [
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u6700\u559c\u6b22\u95ea\u95ea\u53d1\u5149\u7684\u4e1c\u897f\u3002\n\u4e00\u76f4\u5446\u5728\u5de2\u7a74\u91cc\uff0c\n\u76ef\u7740\u5b9d\u77f3\u548c\u6355\u6349\u5230\u7684\u5c0f\u788e\u94bb\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u5149\u308a\u3000\u8f1d\u304f\u3082\u306e\u304c\u3000\u5927\u597d\u304d\u3002\n\u5b9d\u77f3\u3084\u3000\u6355\u307e\u3048\u305f\u3000\u30e1\u30ec\u30b7\u30fc\u3092\n\u5de3\u7a74\u3067\u3000\u3058\u30fc\u3063\u3068\u3000\u773a\u3081\u3066\u3044\u308b\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Shiny objects are its passion. It can be found in\nits cave, scarcely moving, its gaze fixed on the\njewels it\u2019s amassed or Carbink it has caught.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Adora gli oggetti luccicanti. Passa molto tempo\nnella sua tana a rimirare la sua scorta di gemme\ne Carbink.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Le gustan las cosas brillantes. Pasa largas\nhoras en su cueva, admirando las gemas y los\nCarbink que ha capturado.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Es liebt funkelnde Dinge. Edelsteine und\ngefangene Rocara nimmt es mit in sein Nest,\num sich an ihrem Anblick zu weiden.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "Il adore tout ce qui brille. Au fond de sa tani\u00e8re,\nil contemple les joyaux qu\u2019il a d\u00e9rob\u00e9s et les\nStrassie qu\u2019il a kidnapp\u00e9s.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u6700\u559c\u6b61\u9583\u9583\u767c\u5149\u7684\u6771\u897f\u3002\n\u6703\u4e00\u76f4\u5446\u5728\u5de2\u7a74\u88e1\n\u76ef\u8457\u5bf6\u77f3\u548c\u6355\u6349\u5230\u7684\u5c0f\u788e\u947d\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\ubc18\uc9dd\ubc18\uc9dd \ube5b\ub098\ub294 \uac83\uc744 \uc544\uc8fc \uc88b\uc544\ud55c\ub2e4.\n\ubcf4\uc11d\uc774\ub098 \uc7a1\uc740 \uba5c\ub9ac\uc2dc\ub97c\n\ub465\uc9c0\uc5d0\uc11c \uac00\ub9cc\ud788 \ubc14\ub77c\ubcf4\uace0 \uc788\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/28/",
+        "name": "moon"
+      },
+      "flavor_text": "\u3072\u304b\u308a\u3000\u304b\u304c\u3084\u304f\u3082\u306e\u304c\u3000\u3060\u3044\u3059\u304d\u3002\n\u307b\u3046\u305b\u304d\u3084\u3000\u3064\u304b\u307e\u3048\u305f\u3000\u30e1\u30ec\u30b7\u30fc\u3092\n\u3059\u3042\u306a\u3067\u3000\u3058\u30fc\u3063\u3068\u3000\u306a\u304c\u3081\u3066\u3044\u308b\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "\u5de3\u7a74\u3092\u3000\u5e83\u3052\u308b\u3068\u304d\u3000\u5730\u4e2d\u304b\u3089\n\u51fa\u3066\u304d\u305f\u3000\u5b9d\u77f3\u306e\u3000\u539f\u77f3\u3092\n\u5de3\u306b\u3000\u305f\u3081\u308b\u3000\u7fd2\u6027\u3092\u3000\u6301\u3064\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "As it digs to expand its nest, it habitually digs up\ngems that it then hoards in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Ha l\u2019abitudine di collezionare gemme che trova mentre si scava\nla tana, appositamente ampliata.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Tiende a acumular las gemas en bruto que encuentra cuando\nagranda su guarida.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Die Rohedelsteine, die beim Erweitern seiner H\u00f6hle\nzum Vorschein kommen, hortet es in seinem Nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Carmache accumule les pierres pr\u00e9cieuses qu\u2019il d\u00e9terre quand\nil entreprend d\u2019agrandir son nid.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "\uac70\ucc98\ub97c \ub298\ub9b4 \ub54c \ub545\uc18d\uc5d0\uc11c\n\ub098\uc628 \ubcf4\uc11d\uc758 \uc6d0\uc11d\uc744\n\uac70\ucc98\uc5d0 \ubaa8\uc544\ub450\ub294 \uc2b5\uc131\uc744 \uac00\uc84c\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "\u3059\u3042\u306a\u3092\u3000\u3072\u308d\u3052\u308b\u3068\u304d\u3000\u3061\u3061\u3085\u3046\u304b\u3089\n\u3067\u3066\u304d\u305f\u3000\u307b\u3046\u305b\u304d\u306e\u3000\u3052\u3093\u305b\u304d\u3092\n\u3059\u306b\u3000\u305f\u3081\u308b\u3000\u3057\u3085\u3046\u305b\u3044\u3092\u3000\u3082\u3064\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "\u5149\u308a\u8f1d\u304f\u3000\u3082\u306e\u304c\u3000\u5927\u597d\u304d\u3067\n\u6d1e\u7a9f\u306e\u3000\u4e2d\u3067\u3000\u898b\u3064\u3051\u305f\n\u5b9d\u3092\u3000\u81ea\u5206\u306e\u5de3\u306b\u3000\u305f\u3081\u3053\u3080\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "It loves sparkly things. It seeks treasures in caves\nand hoards the loot in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Adora gli oggetti luccicanti. Va a caccia di tesori nelle grotte\ne li trasporta nel suo nido.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Le gustan las cosas brillantes. Busca tesoros en cuevas y se\nlleva el bot\u00edn a su nido.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Es liebt funkelnde Dinge und sucht nach Sch\u00e4tzen in H\u00f6hlen,\ndie es dann in seinem Nest hortet.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Toujours \u00e0 la recherche d\u2019objets brillants, il arpente\nles grottes pour constituer son butin.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "\ubc18\uc9dd\ubc18\uc9dd \ube5b\ub098\ub294 \uac83\uc744\n\uc544\uc8fc \uc88b\uc544\ud558\uae30\uc5d0 \ub3d9\uad74 \uc548\uc5d0\uc11c \ubc1c\uacac\ud55c\n\ubcf4\ubb3c\uc744 \uc790\uc2e0\uc758 \ub465\uc9c0\uc5d0 \ubaa8\uc544\ub454\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "\u3072\u304b\u308a\u304b\u304c\u3084\u304f\u3000\u3082\u306e\u304c\u3000\u3060\u3044\u3059\u304d\u3067\n\u3069\u3046\u304f\u3064\u306e\u3000\u306a\u304b\u3067\u3000\u202f\u3064\u3051\u305f\n\u305f\u304b\u3089\u3092\u3000\u3058\u3076\u3093\u306e\u3059\u306b\u3000\u305f\u3081\u3053\u3080\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "\u5de3\u7a74\u3092\u3000\u5e83\u3052\u308b\u3068\u304d\u3000\u5730\u4e2d\u304b\u3089\n\u51fa\u3066\u304d\u305f\u3000\u5b9d\u77f3\u306e\u3000\u539f\u77f3\u3092\n\u5de3\u306b\u3000\u305f\u3081\u308b\u3000\u7fd2\u6027\u3092\u3000\u6301\u3064\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "As it digs to expand its nest, it habitually digs up\ngems that it then hoards in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Ha l\u2019abitudine di collezionare gemme che trova\nmentre si scava la tana, appositamente ampliata.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Tiende a acumular las gemas en bruto que encuentra\ncuando agranda su guarida.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Die Rohedelsteine, die beim Erweitern seiner H\u00f6hle\nzum Vorschein kommen, hortet es in seinem Nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Carmache accumule les pierres pr\u00e9cieuses qu\u2019il\nd\u00e9terre quand il entreprend d\u2019agrandir son nid.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "\uac70\ucc98\ub97c \ub298\ub9b4 \ub54c \ub545\uc18d\uc5d0\uc11c\n\ub098\uc628 \ubcf4\uc11d\uc758 \uc6d0\uc11d\uc744\n\uac70\ucc98\uc5d0 \ubaa8\uc544\ub450\ub294 \uc2b5\uc131\uc744 \uac00\uc84c\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "\u3059\u3042\u306a\u3092\u3000\u3072\u308d\u3052\u308b\u3068\u304d\u3000\u3061\u3061\u3085\u3046\u304b\u3089\n\u3067\u3066\u304d\u305f\u3000\u307b\u3046\u305b\u304d\u306e\u3000\u3052\u3093\u305b\u304d\u3092\n\u3059\u306b\u3000\u305f\u3081\u308b\u3000\u3057\u3085\u3046\u305b\u3044\u3092\u3000\u3082\u3064\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "\u5149\u308a\u8f1d\u304f\u3000\u3082\u306e\u304c\u3000\u5927\u597d\u304d\u3067\n\u6d1e\u7a9f\u306e\u3000\u4e2d\u3067\u3000\u898b\u3064\u3051\u305f\n\u5b9d\u3092\u3000\u81ea\u5206\u306e\u5de3\u306b\u3000\u305f\u3081\u3053\u3080\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "It loves sparkly things. It seeks treasures in caves\nand hoards the loot in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Adora gli oggetti luccicanti. Va a caccia di tesori\nnelle grotte e li trasporta nel suo nido.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Le gustan las cosas brillantes. Busca tesoros en\ncuevas y se lleva el bot\u00edn a su nido.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Es liebt funkelnde Dinge und sucht nach Sch\u00e4tzen\nin H\u00f6hlen, die es dann in seinem Nest hortet.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Toujours \u00e0 la recherche d\u2019objets brillants, il arpente\nles grottes pour constituer son butin.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "\ubc18\uc9dd\ubc18\uc9dd \ube5b\ub098\ub294 \uac83\uc744\n\uc544\uc8fc \uc88b\uc544\ud558\uae30\uc5d0 \ub3d9\uad74 \uc548\uc5d0\uc11c \ubc1c\uacac\ud55c\n\ubcf4\ubb3c\uc744 \uc790\uc2e0\uc758 \ub465\uc9c0\uc5d0 \ubaa8\uc544\ub454\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "\u3072\u304b\u308a\u304b\u304c\u3084\u304f\u3000\u3082\u306e\u304c\u3000\u3060\u3044\u3059\u304d\u3067\n\u3069\u3046\u304f\u3064\u306e\u3000\u306a\u304b\u3067\u3000\u307f\u3064\u3051\u305f\n\u305f\u304b\u3089\u3092\u3000\u3058\u3076\u3093\u306e\u3059\u306b\u3000\u305f\u3081\u3053\u3080\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/22/",
+        "name": "white-2"
+      },
+      "flavor_text": "It loves sparkly things. It seeks\ntreasures in caves and hoards the\nloot in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/21/",
+        "name": "black-2"
+      },
+      "flavor_text": "It loves sparkly things. It seeks\ntreasures in caves and hoards the\nloot in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "It loves sparkly things. It seeks\ntreasures in caves and hoards the\nloot in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "Toujours \u00e0 la recherche d\u2019objets\nbrillants, il arpente les grottes\npour constituer son butin.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "It loves sparkly things. It seeks\ntreasures in caves and hoards the\nloot in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "Toujours \u00e0 la recherche d\u2019objets\nbrillants, il arpente les grottes\npour constituer son butin.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/16/",
+        "name": "soulsilver"
+      },
+      "flavor_text": "As it digs to expand its nest, it\nhabitually digs up gems that it\nthen hoards in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/15/",
+        "name": "heartgold"
+      },
+      "flavor_text": "As it digs to expand its nest, it\nhabitually digs up gems that it\nthen hoards in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/14/",
+        "name": "platinum"
+      },
+      "flavor_text": "It loves sparkly things. It seeks\ntreasures in caves and hoards the\nloot in its nest.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/13/",
+        "name": "pearl"
+      },
+      "flavor_text": "It habitually digs up and hoards\ngems in its nest. Its loot is\nconstantly targeted by thieves.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/12/",
+        "name": "diamond"
+      },
+      "flavor_text": "There is a long-held belief that\nmedicine made from its scales will\nheal even incurable illnesses.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    }
+  ],
+  "growth_rate": {
+    "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+    "name": "slow"
+  },
+  "hatch_counter": 40,
+  "genera": [
+    {
+      "genus": "\u6d1e\u7a74\u5b9d\u53ef\u68a6",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "genus": "\u307b\u3089\u3042\u306a\u30dd\u30b1\u30e2\u30f3",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "genus": "Cave Pok\u00e9mon",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Grotta",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Cueva",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "genus": "H\u00f6hle",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Caverne",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "genus": "\u6d1e\u7a74\u5bf6\u53ef\u5922",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "genus": "\ub3d9\uad74\ud3ec\ucf13\ubaac",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "genus": "\u307b\u3089\u3042\u306a\u30dd\u30b1\u30e2\u30f3",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "evolves_from_species": {
+    "url": "https://pokeapi.co/api/v2/pokemon-species/443/",
+    "name": "gible"
+  },
+  "form_descriptions": [],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/444/",
+        "name": "gabite"
+      }
+    }
+  ],
+  "name": "gabite",
+  "evolution_chain": {
+    "url": "https://pokeapi.co/api/v2/evolution-chain/230/"
+  },
+  "has_gender_differences": true,
+  "is_baby": false,
+  "gender_rate": 4,
+  "pal_park_encounters": [
+    {
+      "rate": 20,
+      "base_score": 70,
+      "area": {
+        "url": "https://pokeapi.co/api/v2/pal-park-area/3/",
+        "name": "mountain"
+      }
+    }
+  ],
+  "order": 465,
+  "pokedex_numbers": [
+    {
+      "entry_number": 7,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/14/",
+        "name": "kalos-mountain"
+      }
+    },
+    {
+      "entry_number": 86,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/11/",
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 110,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/6/",
+        "name": "extended-sinnoh"
+      }
+    },
+    {
+      "entry_number": 110,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/5/",
+        "name": "original-sinnoh"
+      }
+    },
+    {
+      "entry_number": 444,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/1/",
+        "name": "national"
+      }
+    }
+  ]
+}

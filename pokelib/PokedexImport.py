@@ -139,7 +139,7 @@ class PokedexImport:
 
         return dbMap
 
-    def importPokemon(self, pokemonData, types, weather, moves):
+    def importPokemon(self, pokemonData, spawns, types, weather, moves):
         dbMap = self.createMap(Pokemon)
 
         pokemon_dict = []
@@ -256,4 +256,13 @@ class PokedexImport:
         pokemonObj.height = apiMon.height/10
 
         apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemonObj.number)
+
+        gender_rate = apiSpecies.gender_rate
+
+        gender = PokemonGender()
+
+        gender.male = (8-gender_rate)/8
+        gender.female = gender_rate/8
+
+        pokemonObj.gender = gender
 

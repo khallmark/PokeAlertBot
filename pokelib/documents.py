@@ -104,6 +104,11 @@ class Move(Document):
 
         return round((power * 1000)/duration, 1)
 
+class PokemonGender(EmbeddedDocument):
+    male = FloatField()
+    female = FloatField()
+
+
 class Pokemon(Document):
     cpm_map = {
         "1":    0.094,
@@ -205,7 +210,28 @@ class Pokemon(Document):
     chargeMoves = ListField(ReferenceField(Move))
     stabMoves = ListField(ReferenceField(Move))
     evolutions = ListField(ReferenceField('self'))
+    gender = EmbeddedDocumentField(PokemonGender)
     # familyId = StringField()
+
+    def generationStr(self):
+        gen = self.generation
+        genString = "I"
+        if gen == 1:
+            genString = "I"
+        elif gen == 2:
+            genString = "II"
+        elif gen == 3:
+            genString = "III"
+        elif gen == 4:
+            genString = "IV"
+        elif gen == 5:
+            genString = "V"
+        elif gen == 6:
+            genString = "VI"
+        elif gen == 7:
+            genString = "VII"
+
+        return genString
 
     def sizeString(self):
         return "{}kg / {}m".format(self.weight, self.height)

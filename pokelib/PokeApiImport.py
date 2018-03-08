@@ -28,6 +28,9 @@ class PokeApiImport:
 
             stats[statName] = statValue
 
+        if pokemonObj.source is not "pokeapi":
+            return
+
         pokemonObj.source = "pokeapi"
         pokemonObj.number = apiMon.id
         pokemonObj.generation = self.generation(apiMon.id)
@@ -40,6 +43,16 @@ class PokeApiImport:
         pokemonObj.weight = apiMon.weight/10
         pokemonObj.height = apiMon.height/10
 
+        apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemonObj.number)
+
+        gender_rate = apiSpecies.gender_rate
+
+        gender = PokemonGender()
+
+        gender.male = (8-gender_rate)/8
+        gender.female = gender_rate/8
+
+        pokemonObj.gender = gender
 
         for type in apiMon.types:
             name = type.type.name

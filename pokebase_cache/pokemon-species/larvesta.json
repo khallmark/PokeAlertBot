@@ -1,0 +1,644 @@
+{
+  "capture_rate": 45,
+  "habitat": null,
+  "color": {
+    "url": "https://pokeapi.co/api/v2/pokemon-color/9/",
+    "name": "white"
+  },
+  "forms_switchable": false,
+  "shape": {
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/14/",
+    "name": "armor"
+  },
+  "names": [
+    {
+      "name": "\u71c3\u70e7\u866b",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "name": "\u30e1\u30e9\u30eb\u30d0",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "name": "Larvesta",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "name": "Larvesta",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "name": "Larvesta",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "name": "Ignivor",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "name": "Pyronille",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "name": "\u71c3\u71d2\u87f2",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "name": "\ud65c\ud654\ub974\ubc14",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "name": "\u30e1\u30e9\u30eb\u30d0",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "id": 636,
+  "egg_groups": [
+    {
+      "url": "https://pokeapi.co/api/v2/egg-group/3/",
+      "name": "bug"
+    }
+  ],
+  "base_happiness": 70,
+  "generation": {
+    "url": "https://pokeapi.co/api/v2/generation/5/",
+    "name": "generation-v"
+  },
+  "flavor_text_entries": [
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "\u706b\u5c71\u306e\u3000\u3075\u3082\u3068\u306b\u3000\u751f\u606f\u3059\u308b\u3002\n\uff15\u672c\u306e\u3000\u30c4\u30ce\u304b\u3089\u3000\u708e\u3092\u3000\u51fa\u3057\u3066\n\u8972\u3063\u3066\u304d\u305f\u3000\u6575\u3092\u3000\u6483\u9000\u3059\u308b\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "The base of volcanoes is where they make their\nhomes. They shoot fire from their five horns to repel\nattacking enemies.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Vive ai piedi dei vulcani. Se attaccato, mette in fuga il nemico\nlanciando fiamme dai suoi cinque corni.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Vive en las laderas de los volcanes. Emite fuego por sus cinco\ncuernos para ahuyentar a sus enemigos.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Es lebt am Fu\u00df von Vulkanen. Mit Gegnern r\u00e4umt es auf,\nindem es aus seinen f\u00fcnf H\u00f6rnern Flammen auf sie abfeuert.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "Il vit au pied des volcans. Il repousse ceux qui l\u2019attaquent\navec les flammes qui jaillissent de ses cinq cornes.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "\ud654\uc0b0 \uae30\uc2ad\uc5d0 \uc11c\uc2dd\ud55c\ub2e4.\n5\uac1c\uc758 \ubfd4\uc5d0\uc11c \ubd88\uaf43\uc774 \ub098\uc640\n\ub2ec\ub824\ub4dc\ub294 \uc0c1\ub300\ub97c \uaca9\ud1f4\ud55c\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/26/",
+        "name": "alpha-sapphire"
+      },
+      "flavor_text": "\u304b\u3056\u3093\u306e\u3000\u3075\u3082\u3068\u306b\u3000\u305b\u3044\u305d\u304f\u3059\u308b\u3002\n\uff15\u307b\u3093\u306e\u3000\u30c4\u30ce\u304b\u3089\u3000\u307b\u306e\u304a\u3092\u3000\u3060\u3057\u3066\n\u304a\u305d\u3063\u3066\u304d\u305f\u3000\u3066\u304d\u3092\u3000\u3052\u304d\u305f\u3044\u3059\u308b\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "\u592a\u967d\u304b\u3089\u3000\u751f\u307e\u308c\u305f\u3068\u3000\u3044\u308f\u308c\u308b\u3002\n\u9032\u5316\u3059\u308b\u3068\u304d\u3000\u30c4\u30ce\u304b\u3089\u3000\u5674\u304d\u51fa\u3057\u305f\n\u708e\u3067\u3000\u5168\u8eab\u3092\u3000\u5305\u202f\u3053\u3080\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Said to have been born from the sun, it spews fire\nfrom its horns and encases itself in a cocoon of fire\nwhen it evolves.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Si dice che sia nato dal sole. Prima di evolversi, avvolge\ntutto il suo corpo nelle fiamme emesse dai corni.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Se dice que naci\u00f3 del sol. Al evolucionar, cubre su cuerpo\ncon llamas que brotan de sus cuernos.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "Es hei\u00dft, es sei ein Produkt der Sonne. Wenn es sich\nentwickelt, h\u00fcllt es sich in Flammen, die es aus seinen\nH\u00f6rnern bl\u00e4st.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "On dit que ce Pok\u00e9mon serait n\u00e9 du soleil. Il \u00e9volue\nen enveloppant son corps des flammes qui jaillissent\nde ses cornes.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "\ud0dc\uc591\uc5d0\uc11c \ud0dc\uc5b4\ub0ac\ub2e4\uace0 \uc804\ud574\uc9c4\ub2e4.\n\uc9c4\ud654\ud560 \ub54c \ubfd4\uc5d0\uc11c \ubfdc\uc5b4\uc838 \ub098\uc628\n\ubd88\uaf43\uc73c\ub85c \uc804\uc2e0\uc744 \uac10\uc2fc\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/25/",
+        "name": "omega-ruby"
+      },
+      "flavor_text": "\u305f\u3044\u3088\u3046\u304b\u3089\u3000\u3046\u307e\u308c\u305f\u3068\u3000\u3044\u308f\u308c\u308b\u3002\n\u3057\u3093\u304b\u3059\u308b\u3068\u304d\u3000\u30c4\u30ce\u304b\u3089\u3000\u3075\u304d\u3060\u3057\u305f\n\u307b\u306e\u304a\u3067\u3000\u305c\u3093\u3057\u3093\u3092\u3000\u3064\u3064\u202f\u3053\u3080\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "\u706b\u5c71\u306e\u3000\u3075\u3082\u3068\u306b\u3000\u751f\u606f\u3059\u308b\u3002\n\uff15\u672c\u306e\u3000\u30c4\u30ce\u304b\u3089\u3000\u708e\u3092\u3000\u51fa\u3057\u3066\n\u8972\u3063\u3066\u304d\u305f\u3000\u6575\u3092\u3000\u6483\u9000\u3059\u308b\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "The base of volcanoes is where they make their\nhomes. They shoot fire from their five horns to repel\nattacking enemies.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Vive ai piedi dei vulcani. Se attaccato, mette in fuga\nil nemico lanciando fiamme dai suoi cinque corni.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Vive en las laderas de los volcanes. Emite fuego por\nsus cinco cuernos para ahuyentar a sus enemigos.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Es lebt am Fu\u00df von Vulkanen. Mit Gegnern r\u00e4umt\nes auf, indem es aus seinen f\u00fcnf H\u00f6rnern Flammen\nauf sie abfeuert.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "Il vit au pied des volcans. Il repousse ceux qui\nl\u2019attaquent avec les flammes qui jaillissent de ses cinq\ncornes.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "\ud654\uc0b0 \uae30\uc2ad\uc5d0 \uc11c\uc2dd\ud55c\ub2e4.\n5\uac1c\uc758 \ubfd4\uc5d0\uc11c \ubd88\uaf43\uc774 \ub098\uc640\n\ub2ec\ub824\ub4dc\ub294 \uc0c1\ub300\ub97c \uaca9\ud1f4\ud55c\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/24/",
+        "name": "y"
+      },
+      "flavor_text": "\u304b\u3056\u3093\u306e\u3000\u3075\u3082\u3068\u306b\u3000\u305b\u3044\u305d\u304f\u3059\u308b\u3002\n\uff15\u307b\u3093\u306e\u3000\u30c4\u30ce\u304b\u3089\u3000\u307b\u306e\u304a\u3092\u3000\u3060\u3057\u3066\n\u304a\u305d\u3063\u3066\u304d\u305f\u3000\u3066\u304d\u3092\u3000\u3052\u304d\u305f\u3044\u3059\u308b\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "\u592a\u967d\u304b\u3089\u3000\u751f\u307e\u308c\u305f\u3068\u3000\u3044\u308f\u308c\u308b\u3002\n\u9032\u5316\u3059\u308b\u3068\u304d\u3000\u30c4\u30ce\u304b\u3089\u3000\u5674\u304d\u51fa\u3057\u305f\n\u708e\u3067\u3000\u5168\u8eab\u3092\u3000\u5305\u307f\u3053\u3080\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Said to have been born from the sun, it spews fire\nfrom its horns and encases itself in a cocoon of fire\nwhen it evolves.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Si dice che sia nato dal sole. Prima di evolversi,\navvolge tutto il suo corpo nelle fiamme emesse dai\ncorni.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Se dice que naci\u00f3 del sol. Al evolucionar, cubre su\ncuerpo con llamas que brotan de sus cuernos.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "Es hei\u00dft, es sei ein Produkt der Sonne.\nWenn es sich entwickelt, h\u00fcllt es sich in Flammen,\ndie es aus seinen H\u00f6rnern bl\u00e4st.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "On dit que ce Pok\u00e9mon serait n\u00e9 du soleil.\nIl \u00e9volue en enveloppant son corps des flammes qui\njaillissent de ses cornes.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "\ud0dc\uc591\uc5d0\uc11c \ud0dc\uc5b4\ub0ac\ub2e4\uace0 \uc804\ud574\uc9c4\ub2e4.\n\uc9c4\ud654\ud560 \ub54c \ubfd4\uc5d0\uc11c \ubfdc\uc5b4\uc838 \ub098\uc628\n\ubd88\uaf43\uc73c\ub85c \uc804\uc2e0\uc744 \uac10\uc2fc\ub2e4.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/23/",
+        "name": "x"
+      },
+      "flavor_text": "\u305f\u3044\u3088\u3046\u304b\u3089\u3000\u3046\u307e\u308c\u305f\u3068\u3000\u3044\u308f\u308c\u308b\u3002\n\u3057\u3093\u304b\u3059\u308b\u3068\u304d\u3000\u30c4\u30ce\u304b\u3089\u3000\u3075\u304d\u3060\u3057\u305f\n\u307b\u306e\u304a\u3067\u3000\u305c\u3093\u3057\u3093\u3092\u3000\u3064\u3064\u307f\u3053\u3080\u3002",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/22/",
+        "name": "white-2"
+      },
+      "flavor_text": "Said to have been born from the sun,\nit spews fire from its horns and encases\nitself in a cocoon of fire when it evolves.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/21/",
+        "name": "black-2"
+      },
+      "flavor_text": "Said to have been born from the sun,\nit spews fire from its horns and encases\nitself in a cocoon of fire when it evolves.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "The base of volcanoes is where they make\ntheir homes. They shoot fire from their\nfive horns to repel attacking enemies.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/18/",
+        "name": "white"
+      },
+      "flavor_text": "Il vit au pied des volcans. Il repousse\nceux qui l\u2019attaquent avec les flammes\nqui jaillissent de ses cinq cornes.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "This Pok\u00e9mon was believed to have\nbeen born from the sun. When it evolves,\nits entire body is engulfed in flames.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "version": {
+        "url": "https://pokeapi.co/api/v2/version/17/",
+        "name": "black"
+      },
+      "flavor_text": "On dit que ce Pok\u00e9mon serait n\u00e9 du\nsoleil. Lorsqu\u2019il \u00e9volue, tout son\ncorps est envelopp\u00e9 de flammes.",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    }
+  ],
+  "growth_rate": {
+    "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+    "name": "slow"
+  },
+  "hatch_counter": 40,
+  "genera": [
+    {
+      "genus": "\u706b\u70ac\u5b9d\u53ef\u68a6",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/12/",
+        "name": "zh-Hans"
+      }
+    },
+    {
+      "genus": "\u305f\u3044\u307e\u3064\u30dd\u30b1\u30e2\u30f3",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/11/",
+        "name": "ja"
+      }
+    },
+    {
+      "genus": "Torch Pok\u00e9mon",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/9/",
+        "name": "en"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Torcia",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/8/",
+        "name": "it"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Antorcha",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/7/",
+        "name": "es"
+      }
+    },
+    {
+      "genus": "Fackel",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/6/",
+        "name": "de"
+      }
+    },
+    {
+      "genus": "Pok\u00e9mon Torche",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/5/",
+        "name": "fr"
+      }
+    },
+    {
+      "genus": "\u706b\u70ac\u5bf6\u53ef\u5922",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/4/",
+        "name": "zh-Hant"
+      }
+    },
+    {
+      "genus": "\ud683\ubd88\ud3ec\ucf13\ubaac",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/3/",
+        "name": "ko"
+      }
+    },
+    {
+      "genus": "\u305f\u3044\u307e\u3064\u30dd\u30b1\u30e2\u30f3",
+      "language": {
+        "url": "https://pokeapi.co/api/v2/language/1/",
+        "name": "ja-Hrkt"
+      }
+    }
+  ],
+  "evolves_from_species": null,
+  "form_descriptions": [],
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "url": "https://pokeapi.co/api/v2/pokemon/636/",
+        "name": "larvesta"
+      }
+    }
+  ],
+  "name": "larvesta",
+  "evolution_chain": {
+    "url": "https://pokeapi.co/api/v2/evolution-chain/324/"
+  },
+  "has_gender_differences": false,
+  "is_baby": false,
+  "gender_rate": 4,
+  "pal_park_encounters": [],
+  "order": 637,
+  "pokedex_numbers": [
+    {
+      "entry_number": 173,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/11/",
+        "name": "conquest-gallery"
+      }
+    },
+    {
+      "entry_number": 171,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/9/",
+        "name": "updated-unova"
+      }
+    },
+    {
+      "entry_number": 142,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/8/",
+        "name": "original-unova"
+      }
+    },
+    {
+      "entry_number": 636,
+      "pokedex": {
+        "url": "https://pokeapi.co/api/v2/pokedex/1/",
+        "name": "national"
+      }
+    }
+  ]
+}

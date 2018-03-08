@@ -247,6 +247,9 @@ class LBHBot(commands.Bot):
         em.add_field(name="Base Att / Def / Sta", value=pokemonObj.statString())
         em.add_field(name="100% Level 20 / 25 CP", value=pokemonObj.cpString([20, 25]))
 
+        gender = "{}% / {}%".format(pokemonObj.gender.male*100, pokemonObj.gender.female*100)
+        em.add_field(name="Male(%) / Female(%)", value=gender)
+
         await self.say(embed=em)
 
     @commands.command()
@@ -302,7 +305,7 @@ class LBHBot(commands.Bot):
         title = pokemonObj.name
 
         if pokemonObj.category is not None:
-            title = "{} ({} Pokémon)".format(pokemonObj.name, pokemonObj.category)
+            title = "{} ({} Pokémon, Gen {})".format(pokemonObj.name, pokemonObj.category, pokemonObj.generationStrsup())
 
         em = discord.Embed(title=title, colour=pokemonObj.type.color())
 
