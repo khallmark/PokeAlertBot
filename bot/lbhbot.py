@@ -39,7 +39,7 @@ class LBHBot(commands.Bot):
 
         self.add_command(self.type)
         self.add_command(self.move)
-        self.add_command(self.compare)
+        # self.add_command(self.compare)
         self.add_command(self.counters)
         self.add_command(self.cp)
         self.add_command(self.dex)
@@ -81,9 +81,13 @@ class LBHBot(commands.Bot):
 
     @commands.command()
     async def type(self, *args):
-        """Help Text"""
+        """Get information about a specific type.
+
+        Format: !type <type_name>
+        Example: !type Poison
+        """
         if len(args) != 1:
-            await self.say("Command: ?type <type_name>")
+            await self.say("Command: !type <type_name>")
             return
 
         type = args[0]
@@ -117,8 +121,13 @@ class LBHBot(commands.Bot):
 
     @commands.command()
     async def move(self, *args):
+        """Get information about a specific move.
+
+        Format: !move <move_name>
+        Example: !move Surf
+        """
         if len(args) < 1:
-            await self.say("Command: ?move <move_name>")
+            await self.say("Command: !move <move_name>")
             return
 
         separator = " "
@@ -163,13 +172,18 @@ class LBHBot(commands.Bot):
     @commands.command()
     async def compare(self, *args):
         if len(args) != 2:
-            await self.say("Command: ?compare <pokemon_name> <pokemon_name>")
+            await self.say("Command: !compare <pokemon_name> <pokemon_name>")
             return
 
     @commands.command()
     async def counters(self, *args):
+        """Get type strengths/weaknesses for a pokemon.
+
+        Format: !counters <pokemon_name>
+        Example: !counters Rayquaza
+        """
         if len(args) != 1:
-            await self.say("Command: ?counters <pokemon_name>")
+            await self.say("Command: !counters <pokemon_name>")
             return
 
         pokemon_name = args[0]
@@ -200,8 +214,13 @@ class LBHBot(commands.Bot):
 
     @commands.command()
     async def cp(self, *args):
+        """Get CP for 100 IV at the specified level.
+
+        Format: !cp <pokemon_name> <level>
+        Example: !cp Pikachu 40
+        """
         if len(args) != 2:
-            await self.say("Command: ?cp <pokemon_name> <level>")
+            await self.say("Command: !cp <pokemon_name> <level>")
             return
 
         pokemon = args[0]
@@ -226,9 +245,13 @@ class LBHBot(commands.Bot):
 
     @commands.command()
     async def dex(self, *args):
+        """Get general information about a Pokémon
 
+        Format: !dex <pokemon_name>
+        Example: !dex Bulbasaur
+        """
         if len(args) != 1:
-            await self.say("Command: ?dex <pokemon_name>")
+            await self.say("Command: !dex <pokemon_name>")
             return
 
         pokemon = args[0]
@@ -257,8 +280,13 @@ class LBHBot(commands.Bot):
 
     @commands.command()
     async def moves(self, *args):
+        """Gets the moves for a Pokémon
+        
+        Format: !moves <pokemon_name>
+        Example: !moves mewtwo
+        """
         if len(args) != 1:
-            await self.say("Command: ?dex <pokemon_name>")
+            await self.say("Command: !moves <pokemon_name>")
             return
 
         pokemon = args[0]
@@ -303,7 +331,7 @@ class LBHBot(commands.Bot):
 
         return (effective, ineffective)
 
-    # Generates the embed for a Pokemon related command (?cp, ?dex, ?moves)
+    # Generates the embed for a Pokemon related command (!cp, !dex, !moves)
     def embedForPokemon(self, pokemonObj):
         title = pokemonObj.name
 
@@ -322,7 +350,7 @@ class LBHBot(commands.Bot):
 
         return em
 
-    # Generates a move string for the ?moves command
+    # Generates a move string for the !moves command
     def generateMoveString(self, moves: [Move], stabMoves: [Move], legacyMoves: [Move]):
         if len(moves) == 0:
             return "No Moves Found"
