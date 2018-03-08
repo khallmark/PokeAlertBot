@@ -287,7 +287,8 @@ class PokedexImport:
 
         move = results[0]
 
-        pokemon.legacyMoves.append(move)
+        if move not in pokemon.legacyMoves:
+            pokemon.legacyMoves.append(move)
 
         if move.charge and move not in pokemon.chargeMoves:
             pokemon.chargeMoves.append(move)
