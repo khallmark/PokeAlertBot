@@ -28,7 +28,7 @@ class PokeApiImport:
 
             stats[statName] = statValue
 
-        if pokemonObj.source is not "pokeapi":
+        if pokemonObj.source != "pokeapi":
             return
 
         pokemonObj.source = "pokeapi"
@@ -47,12 +47,15 @@ class PokeApiImport:
 
         gender_rate = apiSpecies.gender_rate
 
-        gender = PokemonGender()
+        if gender_rate == -1:
+            pokemonObj.gender = None
+        else:
+            gender = PokemonGender()
 
-        gender.male = (8-gender_rate)/8
-        gender.female = gender_rate/8
+            gender.male = (8-gender_rate)/8
+            gender.female = gender_rate/8
 
-        pokemonObj.gender = gender
+            pokemonObj.gender = gender
 
         for type in apiMon.types:
             name = type.type.name
@@ -64,8 +67,8 @@ class PokeApiImport:
             elif type.slot == 2:
                 pokemonObj.type2 = typeObj
 
-        for move in apiMon.moves:
-            self.importPokemonMove(pokemonObj, move)
+
+        self.importPokemonMove(pokemonObj, apiMon.moves)
 
         if pokemonObj.description is None or pokemonObj.category is None:
             if not self.loadPokedexData(pokemonObj.name.lower(), pokemonObj):
@@ -93,34 +96,43 @@ class PokeApiImport:
 
         return generation
 
-    def importPokemonMove(self, pokemonObj, move):
-        version_group_details = move.version_group_details
+    def importPokemonMove(self, pokemonObj, moves):
+        quickMoves = []
+        chargeMoves = []
+        stabMoves = []
 
-        moveName = move.move.name.replace('-', ' ').title()
+        for move in moves:
+            version_group_details = move.version_group_details
 
-        moves = Move.objects(name__iexact=moveName)
+            moveName = move.move.name.replace('-', ' ').title()
 
-        if len(moves) == 0:
-            return
+            movesResult = Move.objects(name__iexact=moveName)
 
-        learnMethod = False
-        for learnMethod in version_group_details:
-            if learnMethod["move_learn_method"]['name'] == "level-up":
-                learnMethod = True
-                break
+            if len(movesResult) == 0:
+                continue
 
-        if not learnMethod:
-            return
+            learnMethod = False
+            for learnMethod in version_group_details:
+                if learnMethod["move_learn_method"]['name'] == "level-up":
+                    learnMethod = True
+                    break
 
-        moveObj = moves[0]
+            if not learnMethod:
+                continue
 
-        if moveObj.type == pokemonObj.type or (pokemonObj.type2 is not None and moveObj.type == pokemonObj.type2):
-            pokemonObj.stabMoves.append(moveObj)
+            moveObj = movesResult[0]
 
-        if moveObj.charge and moveObj not in pokemonObj.chargeMoves:
-            pokemonObj.chargeMoves.append(moveObj)
-        elif moveObj not in pokemonObj.quickMoves:
-            pokemonObj.quickMoves.append(moveObj)
+            if moveObj.type == pokemonObj.type or (pokemonObj.type2 is not None and moveObj.type == pokemonObj.type2):
+                stabMoves.append(moveObj)
+
+            if moveObj.charge:
+                chargeMoves.append(moveObj)
+            else:
+                quickMoves.append(moveObj)
+
+        pokemonObj.quickMoves = quickMoves
+        pokemonObj.chargeMoves = chargeMoves
+        pokemonObj.stabMoves = stabMoves
 
     # Loads accurate flavor text and genera from the Pokémon Website
     def loadPokedexData(self, pokemon, pokemonObj):
