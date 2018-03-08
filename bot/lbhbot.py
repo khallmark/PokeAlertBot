@@ -77,7 +77,8 @@ class LBHBot(commands.Bot):
             reply = self.cw.say(txt)
             await self.send_message(message.channel, reply)
         else:
-            await self.process_commands(message.lower())
+            message.content = message.content.lower()
+            await self.process_commands(message)
 
     @commands.command()
     async def type(self, *args):
