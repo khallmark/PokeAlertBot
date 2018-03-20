@@ -1,4 +1,5 @@
 import math
+import datetime
 from mongoengine import *
 
 class Stat(Document):
@@ -7,6 +8,7 @@ class Stat(Document):
     count = IntField()
 
 class CommandLog(Document):
+    timestamp = DateTimeField(default=datetime.datetime.now)
     server = StringField()
     channel = StringField()
     user = StringField()

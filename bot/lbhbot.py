@@ -87,6 +87,7 @@ class LBHBot(commands.Bot):
         Format: !type <type_name>
         Example: !type Poison
         """
+        self.logContext(ctx)
         if len(args) != 1:
             await self.say("Command: !type <type_name>")
             return
