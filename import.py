@@ -1,8 +1,8 @@
 import json
 
-from pokelib.PokedexImport import PokedexImport
 from mongoengine import *
 import pokebase.api as api
+from pokelib.PokedexImport import PokedexImport
 from pokelib.PokeApiImport import PokeApiImport
 
 api.set_cache("./pokebase_cache")

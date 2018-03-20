@@ -30,6 +30,15 @@ class PokedexImport:
                 typeObj.templateId = templateId
                 typeObj.name = name
 
+            dbMap[templateId] = typeObj
+
+        for type in typeData:
+            templateId = type['templateId']
+            name = templateId.split("_")[2].capitalize()
+
+            if templateId in dbMap:
+                typeObj = dbMap[templateId]
+
             attackScalars = type["typeEffective"]["attackScalar"]
 
             for index, scalar in enumerate(attackScalars):
@@ -38,8 +47,6 @@ class PokedexImport:
                 typeObj.typeIndex[type_name] = scalar
 
                 dbMap[type_name].setDefenseType(templateId, scalar)
-
-            dbMap[templateId] = typeObj
 
         for item in dbMap:
             dbMap[item].save()
