@@ -1,159 +1,159 @@
-Alakazam, Dazzling Gleam
-Alakazam, Psychic
-Arcanine, Bite
-Arcanine, Bulldoze
-Arcanine, Flamethrower
-Beedril, Bug Bite
-Blaziken, Stone Edge
-Butterfree, Bug Bite
-Chansey, Psybeam
-Charizard, Ember
-Charizard, Wing Attack
-Charizard, Flamethrower
-Charmeleon, Scratch
-Clefable, Pound
-Cleffa, Psychic
-Cleffa, Body Slam
-Cloyster, Blizzard
-Cloyster, Icy Wind
-Delibird, Ice Shard
-Delibird, Quick Attack
-Dewgong, Ice Shard
-Dewgong, Aqua Jet
-Dewgong, Icy Wind
-Diglett, Mud Shot
-Dodrio, Air Cutter
-Doduo, Swift
-Dragonite, Dragon Breath
-Dragonite, Dragon Claw
-Dragonite, Dragon Pulse
-Dugtrio, Mud Shot
-Eevee, Body Slam
-Ekans, Gunk Shot
-Electrode, Tackle
-Elekid, Thunderbolt
-Exeggutor, Confusion
-Exeggutor, Zen Headbutt
-Farfetch'd, Cut
-Fearow, Twister
-Feraligator, Water Gun
-Flareon, Heat Wave
-Gastly, Sucker Punch
-Gastly, Ominous Wind
-Gengar, Shadow Claw
-Gengar, Sludge Wave
-Gengar, Dark Pulse
-Golbat, Ominous Wind
-Golem, Mud Shot
-Golem, Ancienty Power
-Graveler, Mud Shot
-Grimer, Acid
-Gyarados, Dragon Breath
-Gyarados, Dragon Tail
-Gyarados, Dragon Pulse
-Gyarados, Twister
-Haunter, Lick
-Haunter, Shadow Ball
-Hitmonchan, Rock Smash
-Hitmonchan, Brick Break
-Hitmonlee, Stomp
-Hitmonlee, Brick Break
-Hypno, Psyshock
-Hypno, Shadow Ball
-Igglybuff, Body Slam
-Jigglypuff, Play Rough
-Jigglypuff, Body Slam
-Jynx, Pound
-Jynx, Ice Punch
-Kabutops, Fury Cutter
-Kangaskhan, Brick Break
-Kangaskahn, Stomp
-Kingdra, Water Gun
-Kingler, Mud Shot
-Koffing, Acid
-Kyogre, Dragon Tail
-Lapras, Ice Shard
-Lapras, Dragon Pulse
-Lapras, Ice Beam
-Loudred, Crunch
-Machamp, Karate Chop
-Machamp, Cross Chop
-Machamp, Stone Edge
-Machamp, Submission
-Machoke, Cross Chop
-Machop, Low Kick
-Magby, Flamethrower
-Magneton, Thunder Shock
-Magneton, Discharge
-Meowth, Body Slam
-Mew, Hurrican
-Mew, Dragon Pulse
-Milotic, Water Gun
-Moltres, Ember
-Moltres, Flamethrower
-Muk, Acid
-Muk, Lick
-Nidoking, Fury Cutter
-Ninetales, Ember
-Ninetales, Fire Blast
-Ninetales, Flamethrower
-Omanyte, Rock Tomb
-Omanyte, Brine
-Omastar, Rock Throw
-Omastar, Rock Slide
-Onix, Iron Head
-Onix, Rock Slide
-Parasect, Bug Bite
-Persian, Night Slash
-Pichu, Quick Attack
-Pidgeot, Wing Attack
-Pidgeot, Air Cutter
-Pikachu, Thunder
-Pinsir, Fury Cutter
-Pinsir, Submission
-Politoed, Earthquake
-Poliwhirl, Scald
-Poliwrath, Mud Shot
-Poliwrath, Submission
-Ponyta, Fire Blash
-Porygon, Quick Attack
-Porygon, Tackle
-Porygon, Zen Headbutt
-Porygon, Discharge
-Porygon, Psybeam
-Porygon, Signal Beam
-Primeape, Karate Chop
-Primeape, Cross Chop
-Raichu, Thunder Shock
-Raichu, Thunder
-Rapidash, Ember
-Rhydon, Megahorn
-Sandshrew, Rock Tomb
-Scyther, Steel Wing
-Scyther, Bug Buzz
-Seadra, Blizzard
-Seaking, Poison Jab
-Seaking, Icy Wind
-Seaking, Drill Run
-Seel, Water Gun
-Seel, Aqua Jet
-Smoochum, Frost Breath
-Snorlax, Body Slam
-Spearow, Twister
-Starmie, Quick Attack
-Starmie, Tackle
-Starmie, Psybeam
-Staryu, Quick Attack
-Suicune, Hidden Power
-Tangela, Power Whip
-Togepi, Zen Headbutt
-Togetic, Steel Wing
-Togetic, Zen Headbutt
-Venomoth, Bug Bite
-Venomoth, Poison Fang
-Voltorb, Signal Beam
-Weepinbell, Razor Leaf
-Weezing, Acid
-Zapdos, Thunder Shock
-Zapdos, Discharge
-Zubat, Sludge Bomb
+self.addMove("Alakazam", "Dazzling Gleam
+self.addMove("Alakazam", "Psychic
+self.addMove("Arcanine", "Bite
+self.addMove("Arcanine", "Bulldoze
+self.addMove("Arcanine", "Flamethrower
+self.addMove("Beedril", "Bug Bite
+self.addMove("Blaziken", "Stone Edge
+self.addMove("Butterfree", "Bug Bite
+self.addMove("Chansey", "Psybeam
+self.addMove("Charizard", "Ember
+self.addMove("Charizard", "Wing Attack
+self.addMove("Charizard", "Flamethrower
+self.addMove("Charmeleon", "Scratch
+self.addMove("Clefable", "Pound
+self.addMove("Cleffa", "Psychic
+self.addMove("Cleffa", "Body Slam
+self.addMove("Cloyster", "Blizzard
+self.addMove("Cloyster", "Icy Wind
+self.addMove("Delibird", "Ice Shard
+self.addMove("Delibird", "Quick Attack
+self.addMove("Dewgong", "Ice Shard
+self.addMove("Dewgong", "Aqua Jet
+self.addMove("Dewgong", "Icy Wind
+self.addMove("Diglett", "Mud Shot
+self.addMove("Dodrio", "Air Cutter
+self.addMove("Doduo", "Swift
+self.addMove("Dragonite", "Dragon Breath
+self.addMove("Dragonite", "Dragon Claw
+self.addMove("Dragonite", "Dragon Pulse
+self.addMove("Dugtrio", "Mud Shot
+self.addMove("Eevee", "Body Slam
+self.addMove("Ekans", "Gunk Shot
+self.addMove("Electrode", "Tackle
+self.addMove("Elekid", "Thunderbolt
+self.addMove("Exeggutor", "Confusion
+self.addMove("Exeggutor", "Zen Headbutt
+self.addMove("Farfetch"'"d, Cut
+self.addMove("Fearow", "Twister
+self.addMove("Feraligator", "Water Gun
+self.addMove("Flareon", "Heat Wave
+self.addMove("Gastly", "Sucker Punch
+self.addMove("Gastly", "Ominous Wind
+self.addMove("Gengar", "Shadow Claw
+self.addMove("Gengar", "Sludge Wave
+self.addMove("Gengar", "Dark Pulse
+self.addMove("Golbat", "Ominous Wind
+self.addMove("Golem", "Mud Shot
+self.addMove("Golem", "Ancienty Power
+self.addMove("Graveler", "Mud Shot
+self.addMove("Grimer", "Acid
+self.addMove("Gyarados", "Dragon Breath
+self.addMove("Gyarados", "Dragon Tail
+self.addMove("Gyarados", "Dragon Pulse
+self.addMove("Gyarados", "Twister
+self.addMove("Haunter", "Lick
+self.addMove("Haunter", "Shadow Ball
+self.addMove("Hitmonchan", "Rock Smash
+self.addMove("Hitmonchan", "Brick Break
+self.addMove("Hitmonlee", "Stomp
+self.addMove("Hitmonlee", "Brick Break
+self.addMove("Hypno", "Psyshock
+self.addMove("Hypno", "Shadow Ball
+self.addMove("Igglybuff", "Body Slam
+self.addMove("Jigglypuff", "Play Rough
+self.addMove("Jigglypuff", "Body Slam
+self.addMove("Jynx", "Pound
+self.addMove("Jynx", "Ice Punch
+self.addMove("Kabutops", "Fury Cutter
+self.addMove("Kangaskhan", "Brick Break
+self.addMove("Kangaskahn", "Stomp
+self.addMove("Kingdra", "Water Gun
+self.addMove("Kingler", "Mud Shot
+self.addMove("Koffing", "Acid
+self.addMove("Kyogre", "Dragon Tail
+self.addMove("Lapras", "Ice Shard
+self.addMove("Lapras", "Dragon Pulse
+self.addMove("Lapras", "Ice Beam
+self.addMove("Loudred", "Crunch
+self.addMove("Machamp", "Karate Chop
+self.addMove("Machamp", "Cross Chop
+self.addMove("Machamp", "Stone Edge
+self.addMove("Machamp", "Submission
+self.addMove("Machoke", "Cross Chop
+self.addMove("Machop", "Low Kick
+self.addMove("Magby", "Flamethrower
+self.addMove("Magneton", "Thunder Shock
+self.addMove("Magneton", "Discharge
+self.addMove("Meowth", "Body Slam
+self.addMove("Mew", "Hurrican
+self.addMove("Mew", "Dragon Pulse
+self.addMove("Milotic", "Water Gun
+self.addMove("Moltres", "Ember
+self.addMove("Moltres", "Flamethrower
+self.addMove("Muk", "Acid
+self.addMove("Muk", "Lick
+self.addMove("Nidoking", "Fury Cutter
+self.addMove("Ninetales", "Ember
+self.addMove("Ninetales", "Fire Blast
+self.addMove("Ninetales", "Flamethrower
+self.addMove("Omanyte", "Rock Tomb
+self.addMove("Omanyte", "Brine
+self.addMove("Omastar", "Rock Throw
+self.addMove("Omastar", "Rock Slide
+self.addMove("Onix", "Iron Head
+self.addMove("Onix", "Rock Slide
+self.addMove("Parasect", "Bug Bite
+self.addMove("Persian", "Night Slash
+self.addMove("Pichu", "Quick Attack
+self.addMove("Pidgeot", "Wing Attack
+self.addMove("Pidgeot", "Air Cutter
+self.addMove("Pikachu", "Thunder
+self.addMove("Pinsir", "Fury Cutter
+self.addMove("Pinsir", "Submission
+self.addMove("Politoed", "Earthquake
+self.addMove("Poliwhirl", "Scald
+self.addMove("Poliwrath", "Mud Shot
+self.addMove("Poliwrath", "Submission
+self.addMove("Ponyta", "Fire Blash
+self.addMove("Porygon", "Quick Attack
+self.addMove("Porygon", "Tackle
+self.addMove("Porygon", "Zen Headbutt
+self.addMove("Porygon", "Discharge
+self.addMove("Porygon", "Psybeam
+self.addMove("Porygon", "Signal Beam
+self.addMove("Primeape", "Karate Chop
+self.addMove("Primeape", "Cross Chop
+self.addMove("Raichu", "Thunder Shock
+self.addMove("Raichu", "Thunder
+self.addMove("Rapidash", "Ember
+self.addMove("Rhydon", "Megahorn
+self.addMove("Sandshrew", "Rock Tomb
+self.addMove("Scyther", "Steel Wing
+self.addMove("Scyther", "Bug Buzz
+self.addMove("Seadra", "Blizzard
+self.addMove("Seaking", "Poison Jab
+self.addMove("Seaking", "Icy Wind
+self.addMove("Seaking", "Drill Run
+self.addMove("Seel", "Water Gun
+self.addMove("Seel", "Aqua Jet
+self.addMove("Smoochum", "Frost Breath
+self.addMove("Snorlax", "Body Slam
+self.addMove("Spearow", "Twister
+self.addMove("Starmie", "Quick Attack
+self.addMove("Starmie", "Tackle
+self.addMove("Starmie", "Psybeam
+self.addMove("Staryu", "Quick Attack
+self.addMove("Suicune", "Hidden Power
+self.addMove("Tangela", "Power Whip
+self.addMove("Togepi", "Zen Headbutt
+self.addMove("Togetic", "Steel Wing
+self.addMove("Togetic", "Zen Headbutt
+self.addMove("Venomoth", "Bug Bite
+self.addMove("Venomoth", "Poison Fang
+self.addMove("Voltorb", "Signal Beam
+self.addMove("Weepinbell", "Razor Leaf
+self.addMove("Weezing", "Acid
+self.addMove("Zapdos", "Thunder Shock
+self.addMove("Zapdos", "Discharge
+self.addMove("Zubat", "Sludge Bomb

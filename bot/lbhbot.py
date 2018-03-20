@@ -80,8 +80,8 @@ class LBHBot(commands.Bot):
             message.content = message.content.lower()
             await self.process_commands(message)
 
-    @commands.command()
-    async def type(self, *args):
+    @commands.command(pass_context=True)
+    async def type(self, ctx, *args):
         """Get information about a specific type.
 
         Format: !type <type_name>
@@ -120,13 +120,14 @@ class LBHBot(commands.Bot):
 
         await self.say(embed=em)
 
-    @commands.command()
-    async def move(self, *args):
+    @commands.command(pass_context=True)
+    async def move(self,ctx, *args):
         """Get information about a specific move.
 
         Format: !move <move_name>
         Example: !move Surf
         """
+        self.logContext(ctx)
         if len(args) < 1:
             await self.say("Command: !move <move_name>")
             return
@@ -170,19 +171,21 @@ class LBHBot(commands.Bot):
 
         await self.say(embed=em)
 
-    @commands.command()
-    async def compare(self, *args):
+    @commands.command(pass_context=True)
+    async def compare(self,ctx, *args):
+        self.logContext(ctx)
         if len(args) != 2:
             await self.say("Command: !compare <pokemon_name> <pokemon_name>")
             return
 
-    @commands.command()
-    async def counters(self, *args):
+    @commands.command(pass_context=True)
+    async def counters(self,ctx, *args):
         """Get type strengths/weaknesses for a pokemon.
 
         Format: !counters <pokemon_name>
         Example: !counters Rayquaza
         """
+        self.logContext(ctx)
         if len(args) != 1:
             await self.say("Command: !counters <pokemon_name>")
             return
@@ -213,13 +216,14 @@ class LBHBot(commands.Bot):
 
         await self.say(embed=em)
 
-    @commands.command()
-    async def cp(self, *args):
+    @commands.command(pass_context=True)
+    async def cp(self,ctx, *args):
         """Get CP for 100 IV at the specified level.
 
         Format: !cp <pokemon_name> <level>
         Example: !cp Pikachu 40
         """
+        self.logContext(ctx)
         if len(args) != 2:
             await self.say("Command: !cp <pokemon_name> <level>")
             return
@@ -244,13 +248,14 @@ class LBHBot(commands.Bot):
 
         await self.say(embed=em)
 
-    @commands.command()
-    async def dex(self, *args):
+    @commands.command(pass_context=True)
+    async def dex(self,ctx, *args):
         """Get general information about a Pokémon
 
         Format: !dex <pokemon_name>
         Example: !dex Bulbasaur
         """
+        self.logContext(ctx)
         if len(args) != 1:
             await self.say("Command: !dex <pokemon_name>")
             return
@@ -279,13 +284,14 @@ class LBHBot(commands.Bot):
 
         await self.say(embed=em)
 
-    @commands.command()
-    async def moves(self, *args):
+    @commands.command(pass_context=True)
+    async def moves(self,ctx, *args):
         """Gets the moves for a Pokémon
         
         Format: !moves <pokemon_name>
         Example: !moves mewtwo
         """
+        self.logContext(ctx)
         if len(args) != 1:
             await self.say("Command: !moves <pokemon_name>")
             return
@@ -383,3 +389,14 @@ class LBHBot(commands.Bot):
     # Adds a channel to grab files from
     def addFileChannel(self, channelId):
         self.file_channels.append(channelId)
+
+    def logContext(self, ctx):
+        log = CommandLog()
+
+        log.user = str(ctx.message.author)
+        log.channel = str(ctx.message.channel)
+        log.server = str(ctx.message.server)
+        log.command = ctx.invoked_with
+        log.message = ctx.message.content
+
+        log.save()

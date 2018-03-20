@@ -5,7 +5,7 @@ import json
 import os
 from collections import OrderedDict
 
-masterNew = json.load(open('game_master/versions/latest/GAME_MASTER.json'), object_pairs_hook=OrderedDict)
+masterNew = json.load(open('..game_master/versions/latest/GAME_MASTER.json'), object_pairs_hook=OrderedDict)
 
 masterNewIn = masterNew['itemTemplates']
 

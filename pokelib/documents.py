@@ -1,6 +1,18 @@
 import math
 from mongoengine import *
 
+class Stat(Document):
+    identifier = StringField()
+    type = StringField() # channel, command, user
+    count = IntField()
+
+class CommandLog(Document):
+    server = StringField()
+    channel = StringField()
+    user = StringField()
+    command = StringField()
+    message = StringField()
+
 class Type(Document):
     type_order=[
         "POKEMON_TYPE_NORMAL",

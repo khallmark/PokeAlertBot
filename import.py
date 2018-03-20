@@ -1,9 +1,7 @@
 import json
 
 from pokelib.PokedexImport import PokedexImport
-from pokelib.documents import *
 from mongoengine import *
-import pokebase
 import pokebase.api as api
 from pokelib.PokeApiImport import PokeApiImport
 
@@ -11,6 +9,7 @@ api.set_cache("./pokebase_cache")
 
 connect('pokemon', host='localhost', port=27017)
 
+# @todo Adjust this so it always pulls from the "latest" GAME_MASTER directly instead of relying on the parse script
 pokemon_data = json.load(open('output/pokemons.json'))
 spawn_data   = json.load(open('output/spawns.json'))
 type_data    = json.load(open('output/types.json'))
