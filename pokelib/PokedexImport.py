@@ -1,7 +1,10 @@
 from pokelib.documents import *
 from lxml import html
+from time import sleep
 import requests
 import pokebase
+import os
+from pprint import pprint
 
 class PokedexImport:
     def createMap(self, objectType):
@@ -122,14 +125,12 @@ class PokedexImport:
 
             if "energyDelta" in moveSettings:
                 moveObj.energyDelta = moveSettings["energyDelta"]
-            else:
-                print(name)
+            # else:
+            #     print(name)
 
 
             if "staminaLossScalar" in moveSettings:
                 moveObj.staminaLossScalar = moveSettings["staminaLossScalar"]
-            else:
-                print(name)
 
             moveObj.damageWindowStart = moveSettings["damageWindowStartMs"]
             moveObj.damageWindowEnd   = moveSettings["damageWindowEndMs"]
@@ -239,13 +240,23 @@ class PokedexImport:
         return generation
 
     def loadPokedexData(self, pokemon, pokemonObj):
-        page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
+        cache_file = "./pokemon_cache/" + pokemon + ".html"
 
-        if page.status_code == 503 or page.status_code == 404:
-            print(pokemon)
-            exit(0)
+        content = None
+        if os.path.exists(cache_file):
+            with open(cache_file, 'r') as htmlFile:
+                content = htmlFile.read()
+        else:
+            page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
 
-        content = page.text.replace('\n', ' ')
+            while page.status_code == 503 or page.status_code == 404:
+                sleep(1)
+                page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
+
+            content = page.text.replace('\n', ' ')
+
+            open(cache_file, 'w').write(content)
+
 
         tree = html.fromstring(content)
 

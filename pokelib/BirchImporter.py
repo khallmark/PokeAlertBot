@@ -1,5 +1,11 @@
 import json
 import os
+import requests
+
+from lxml import html
+from time import sleep
+
+
 # from collections import OrderedDict
 from pprint import pprint
 
@@ -31,7 +37,7 @@ class BirchImporter:
         weather = dexImporter.importWeather(data['weather'], types)
         moves = dexImporter.importMoves(data['moves'], types)
 
-        pokemons = dexImporter.importPokemon(data['pokemons'], types, weather, moves)
+        pokemons = dexImporter.importPokemon(data['pokemons'], data['spawns'], types, weather, moves)
 
         dexImporter.addLegacyMoves()
 
@@ -39,12 +45,53 @@ class BirchImporter:
 
         i = 387
         while i < 802:
+
+            ## load pokemon object
+            ## if game_master:
+            ##      import data for gm record
+            ## else
+            ##      import whole record from pokeapi.co
+
             pokemon = apiImporter.importPokemon(i)
+
+            self.loadPokedexData(pokemon)
 
             if pokemon is not None:
                 pokemon.save()
 
             i += 1
+
+    def loadPokedexData(self, pokemonObj):
+        pokemon = pokemonObj.name
+
+        cache_file = "./pokemon_cache/" + pokemon + ".html"
+
+        content = None
+        if os.path.exists(cache_file):
+            with open(cache_file, 'r') as htmlFile:
+                content = htmlFile.read()
+        else:
+            page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
+
+            while page.status_code == 503 or page.status_code == 404:
+                sleep(1)
+                page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
+
+            content = page.text.replace('\n', ' ')
+
+            open(cache_file, 'w').write(content)
+
+
+        tree = html.fromstring(content)
+
+        description = tree.xpath('//p[@class="version-y                                   active"]/text()')
+
+        if (len(description)):
+            pokemonObj.description = description[0].strip()
+
+        category = tree.xpath('//div[@class="column-7 push-7"]/ul/li/span[@class="attribute-value"]/text()')
+
+        pokemonObj.category = category[0].strip()
 
     def parse_game_master(self, json_file, categories = []):
 
