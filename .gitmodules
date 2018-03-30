@@ -1,3 +1,0 @@
-[submodule "game_master"]
-	path = game_master
-	url = git@github.com:BrunnerLivio/pokemongo-game-master.git
