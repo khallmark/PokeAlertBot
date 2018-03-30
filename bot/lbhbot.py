@@ -31,7 +31,7 @@ class LBHImageDownload:
 
 class LBHBot(commands.Bot):
     def __init__(self, token, cleverToken, pokedex):
-        super().__init__(command_prefix=["?", "!"], description="Birch", pm_help=None)
+        super().__init__(command_prefix=["!", "?"], description="Birch", pm_help=None)
         self.token = token
         self.cw = CleverWrap(cleverToken)
         self.file_channels = []
