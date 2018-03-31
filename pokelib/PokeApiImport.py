@@ -7,7 +7,7 @@ from pokelib.documents import *
 
 class PokeApiImport:
 
-    def importPokemon(self, pokemon):
+    def importAPIPokemon(self, pokemon):
 
         apiMon = pokebase.NamedAPIResource("pokemon", pokemon)
 
@@ -18,6 +18,7 @@ class PokeApiImport:
         else:
             pokemonObj = Pokemon()
             pokemonObj.name = apiMon.name.title()
+            pokemonObj.source = "pokeapi"
 
         # print(pokemonObj.name)
 
@@ -31,7 +32,6 @@ class PokeApiImport:
         if pokemonObj.source != "pokeapi":
             return
 
-        pokemonObj.source = "pokeapi"
         pokemonObj.number = apiMon.id
         pokemonObj.generation = self.generation(apiMon.id)
         pokemonObj.templateId = "V" + str(pokemonObj.number).zfill(4) + "_POKEMON_" + pokemonObj.name.upper()
@@ -70,11 +70,28 @@ class PokeApiImport:
 
         self.importPokemonMove(pokemonObj, apiMon.moves)
 
-        if pokemonObj.description is None or pokemonObj.category is None:
-            if not self.loadPokedexData(pokemonObj.name.lower(), pokemonObj):
-                return None
-
         return pokemonObj
+
+
+    def importGMPokemon(self, pokemonObj):
+        # apiMon = pokebase.NamedAPIResource("pokemon", pokemonObj.number)
+        #
+        # pokemonObj.weight = apiMon.weight/10
+        # pokemonObj.height = apiMon.height/10
+
+        apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemonObj.number)
+
+        gender_rate = apiSpecies.gender_rate
+
+        if gender_rate == -1:
+            pokemonObj.gender = None
+        else:
+            gender = PokemonGender()
+
+            gender.male = (8-gender_rate)/8
+            gender.female = gender_rate/8
+
+            pokemonObj.gender = gender
 
     def generation(self, number):
 

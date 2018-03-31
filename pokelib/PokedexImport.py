@@ -95,12 +95,11 @@ class PokedexImport:
         for move in moveData:
             moveObj = False
 
-            #templateId = move["templateId"]
+            templateId = move["templateId"][11:].replace("_FAST", "")
 
-            moveSettings = move["moveSettings"]
 
-            templateId = moveSettings["movementId"]
-            name = moveSettings["movementId"].replace("_FAST", "").replace("_", " ").title()
+            name = templateId.replace("_", " ").title()
+
 
             if templateId in dbMap:
                 moveObj = dbMap[templateId]
@@ -111,9 +110,10 @@ class PokedexImport:
                 )
 
             moveObj.name = name
+            moveSettings = move["moveSettings"]
 
             charge = True
-            if "_FAST" in templateId:
+            if "_FAST" in move["templateId"]:
                 charge = False
 
             moveObj.charge = charge
@@ -174,7 +174,11 @@ class PokedexImport:
             pokemonObj.generation = self.generation(pokemonNumber)
             pokemonObj.type = types[pokemonSettings["type"]]
 
-            self.loadPokeAPIData(pokemonObj)
+
+            pokemonObj.weight = pokemonSettings['pokedexWeightKg']
+            pokemonObj.height = pokemonSettings['pokedexHeightM']
+
+            # self.loadPokeAPIData(pokemonObj)
 
             if "type2" in pokemonSettings:
                 pokemonObj.type2 = types[pokemonSettings["type2"]]
@@ -268,26 +272,6 @@ class PokedexImport:
         category = tree.xpath('//div[@class="column-7 push-7"]/ul/li/span[@class="attribute-value"]/text()')
 
         pokemonObj.category = category[0].strip()
-
-    def loadPokeAPIData(self, pokemonObj):
-        apiMon = pokebase.NamedAPIResource("pokemon", pokemonObj.number)
-
-        pokemonObj.weight = apiMon.weight/10
-        pokemonObj.height = apiMon.height/10
-
-        apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemonObj.number)
-
-        gender_rate = apiSpecies.gender_rate
-
-        if gender_rate == -1:
-            pokemonObj.gender = None
-        else:
-            gender = PokemonGender()
-
-            gender.male = (8-gender_rate)/8
-            gender.female = gender_rate/8
-
-            pokemonObj.gender = gender
 
 
     def addLegacyMove(self, pokemonName, moveName):
@@ -475,6 +459,7 @@ class PokedexImport:
         self.addLegacyMove("Togetic", "Zen Headbutt")
         self.addLegacyMove("Venomoth", "Bug Bite")
         self.addLegacyMove("Venomoth", "Poison Fang")
+        self.addLegacyMove("Venusaur", "Frenzy Plant")
         self.addLegacyMove("Voltorb", "Signal Beam")
         self.addLegacyMove("Weepinbell", "Razor Leaf")
         self.addLegacyMove("Weezing", "Acid")

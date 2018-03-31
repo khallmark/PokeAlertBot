@@ -1,14 +1,14 @@
+import operator
 import os
 import platform
-import sys
-import operator
 
-from discord.ext import commands
 import discord
 import requests
 from cleverwrap import CleverWrap
+from discord.ext import commands
 
 from pokelib.documents import *
+
 
 class LBHImageDownload:
     def __init__(self, url, filename):

@@ -5,6 +5,7 @@ import requests
 from lxml import html
 from time import sleep
 
+from pokelib.documents import *
 
 # from collections import OrderedDict
 from pprint import pprint
@@ -36,30 +37,40 @@ class BirchImporter:
         types = dexImporter.importTypes(data['types'])
         weather = dexImporter.importWeather(data['weather'], types)
         moves = dexImporter.importMoves(data['moves'], types)
-
-        pokemons = dexImporter.importPokemon(data['pokemons'], data['spawns'], types, weather, moves)
+        dexImporter.importPokemon(data['pokemons'], data['spawns'], types, weather, moves)
 
         dexImporter.addLegacyMoves()
 
         apiImporter = PokeApiImport()
 
-        i = 387
+        i = 395
         while i < 802:
+            pokemon = self.getPokemon(i)
 
-            ## load pokemon object
-            ## if game_master:
-            ##      import data for gm record
-            ## else
-            ##      import whole record from pokeapi.co
-
-            pokemon = apiImporter.importPokemon(i)
-
-            self.loadPokedexData(pokemon)
+            if pokemon is None:
+                pokemon = apiImporter.importAPIPokemon(i)
+            else:
+                pokemon = apiImporter.importGMPokemon(pokemon)
 
             if pokemon is not None:
+                if pokemon.description is None:
+                    self.loadPokedexData(pokemon)
+
                 pokemon.save()
 
             i += 1
+
+    def getPokemon(self, pokemon):
+
+        if isinstance(pokemon, int):
+            results = Pokemon.objects(number=pokemon)
+        else:
+            results = Pokemon.objects(name__iexact=pokemon)
+
+        if len(results) > 0:
+            return results[0]
+
+        return None
 
     def loadPokedexData(self, pokemonObj):
         pokemon = pokemonObj.name

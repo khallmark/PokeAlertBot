@@ -122,6 +122,8 @@ class PokemonGender(EmbeddedDocument):
     male = FloatField()
     female = FloatField()
 
+# class PokemonEvolution(Document):
+
 
 class Pokemon(Document):
     cpm_map = {
@@ -209,24 +211,43 @@ class Pokemon(Document):
     templateId = StringField(required=True)
     number = IntField()
     generation = IntField()
+
     source = StringField()
     name = StringField(required=True)
     description = StringField()
     category = StringField()
+
     weight = FloatField()
     height = FloatField()
+    weightStdDev = FloatField()
+    heightStdDev = FloatField()
+
     type = ReferenceField(Type)
     type2 = ReferenceField(Type)
+
     baseAttack = IntField()
     baseDefense = IntField()
     baseStamina = IntField()
+
     quickMoves = ListField(ReferenceField(Move))
     chargeMoves = ListField(ReferenceField(Move))
     stabMoves = ListField(ReferenceField(Move))
     legacyMoves = ListField(ReferenceField(Move))
+
+    familyName = StringField()
     evolutions = ListField(ReferenceField('self'))
+    evolvesFrom = ListField(ReferenceField('self'))
+
     gender = EmbeddedDocumentField(PokemonGender)
-    # familyId = StringField()
+
+    rarity = StringField()
+
+    candyToEvolve = IntField()
+    baseCatchRate = FloatField()
+    buddyDistance = FloatField()
+
+    isBaby = BooleanField()
+    hasShiny = BooleanField()
 
     def generationStr(self):
         gen = self.generation
