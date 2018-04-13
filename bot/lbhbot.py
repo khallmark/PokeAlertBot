@@ -117,7 +117,7 @@ class LBHBot(commands.Bot):
         description = "**Location:** {}\n**Playstyle:** {}, {}".format(silph["home_region"], silph["playstyle"], silph["goal"])
 
         # silph_stats = "Joine"em
-        em.add_field(name="Game Stats", value=game_stats, inline=True)
+        # em.add_field(name="Game Stats", value=game_stats, inline=True)
         em.description = description
 
         await self.say(embed=em)
