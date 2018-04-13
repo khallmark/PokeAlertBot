@@ -4,6 +4,9 @@ import platform
 
 import discord
 import requests
+import json
+from pprint import pprint
+
 from cleverwrap import CleverWrap
 from discord.ext import commands
 
@@ -31,12 +34,13 @@ class LBHImageDownload:
 
 class LBHBot(commands.Bot):
     def __init__(self, token, cleverToken, pokedex):
-        super().__init__(command_prefix=["!", "?    "], description="Birch", pm_help=None)
+        super().__init__(command_prefix=["!", "?"], description="Birch", pm_help=None)
         self.token = token
         self.cw = CleverWrap(cleverToken)
         self.file_channels = []
         self.pokedex = pokedex
 
+        self.add_command(self.silph)
         self.add_command(self.type)
         self.add_command(self.move)
         # self.add_command(self.compare)
@@ -79,6 +83,60 @@ class LBHBot(commands.Bot):
         else:
             message.content = message.content.lower()
             await self.process_commands(message)
+
+
+    @commands.command(pass_context=True)
+    async def silph(self, ctx, *args):
+        self.logContext(ctx)
+        if len(args) != 1:
+            await self.say("Command: !silph <trainer_name>")
+            return
+
+        user = args[0]
+
+        url = "https://thesilphroad.com/{}.json".format(user)
+        request = requests.get(url).json()
+
+        silph = request["data"]
+
+        pprint(silph)
+
+
+        title = "{} ({} {}, {})".format(silph["in_game_username"], silph["trainer_level"], silph["team"], silph["title"])
+
+        colors = {
+            "Mystic" : 0x2358C2,
+            "Instinct": 0xF2D044,
+            "Valor": 0xA3221E,
+        }
+
+        em = discord.Embed(title=title, colour=colors[silph["team"]])
+
+        em.set_thumbnail(url=silph["avatar"])
+
+        description = "**Location:** {}\n**Playstyle:** {}, {}".format(silph["home_region"], silph["playstyle"], silph["goal"])
+
+        # silph_stats = "Joine"em
+        em.add_field(name="Game Stats", value=game_stats, inline=True)
+        em.description = description
+
+        await self.say(embed=em)
+
+        # title = pokemonObj.name
+        #
+        # if pokemonObj.category is not None:
+        #     title = "{} ({} Pokémon, Gen {})".format(pokemonObj.name, pokemonObj.category, pokemonObj.generationStr())
+        #
+        # em = discord.Embed(title=title, colour=pokemonObj.type.color())
+        #
+        # tn = pokemonObj.icon()
+        # em.set_thumbnail(url=tn)
+        #
+        # if pokemonObj.source == "pokeapi":
+        #     em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
+        # else:
+        #     em.set_footer(text="Data is accurate for Pokémon Go.")
+
 
     @commands.command(pass_context=True)
     async def type(self, ctx, *args):

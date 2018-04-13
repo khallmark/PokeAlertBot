@@ -288,7 +288,8 @@ class Pokemon(Document):
 
         levelsList = []
         for level in levels:
-            levelsList.append(str(self.cp(level, 15, 15, 15)))
+            cp_string = "{} - {}".format(str(self.cp(level, 10, 10, 10)), str(self.cp(level, 15, 15, 15)))
+            levelsList.append(cp_string)
 
         return separator.join(levelsList)
 

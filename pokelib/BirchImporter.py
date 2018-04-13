@@ -84,7 +84,10 @@ class BirchImporter:
         else:
             page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
 
-            while page.status_code == 503 or page.status_code == 404:
+            if page.status_code == 404:
+                return
+
+            while page.status_code == 503:
                 sleep(1)
                 page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
 
@@ -102,7 +105,11 @@ class BirchImporter:
 
         category = tree.xpath('//div[@class="column-7 push-7"]/ul/li/span[@class="attribute-value"]/text()')
 
-        pokemonObj.category = category[0].strip()
+        if len(category) < 1:
+            print(pokemon)
+            exit(1)
+        else:
+            pokemonObj.category = category[0].strip()
 
     def parse_game_master(self, json_file, categories = []):
 
