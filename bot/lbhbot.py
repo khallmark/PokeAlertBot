@@ -97,10 +97,13 @@ class LBHBot(commands.Bot):
         url = "https://thesilphroad.com/{}.json".format(user)
         request = requests.get(url).json()
 
+        if "error" in request:
+            await self.say("User " + user + " not found")
+            return
+
         silph = request["data"]
 
         pprint(silph)
-
 
         title = "{} ({} {}, {})".format(silph["in_game_username"], silph["trainer_level"], silph["team"], silph["title"])
 
@@ -114,28 +117,29 @@ class LBHBot(commands.Bot):
 
         em.set_thumbnail(url=silph["avatar"])
 
-        description = "**Location:** {}\n**Playstyle:** {}, {}".format(silph["home_region"], silph["playstyle"], silph["goal"])
+        home_region = silph["home_region"]
+        if len(home_region) == 0:
+            home_region = "No home region listed"
 
-        silph_stats = "**Joined:** {}\n**Badges:** {}\n**Check-ins:** {}\n**Handshakes:** {}\n**Migrations:** {}".format(silph[])
-        # em.add_field(name="Game Stats", value=game_stats, inline=True)
+        description = "**Location:** {}\n**Playstyle:** {}, {}".format(home_region, silph["playstyle"], silph["goal"])
+
+        silph_stats = "**Joined:** {}\n**Badges:** {}\n**Check-ins:** {}\n**Handshakes:** {}\n**Migrations:** {}"
+
+        checkins = silph["checkins"]
+        if "name" in checkins:
+            checkins = 0
+        else:
+            checkins = len(checkins)
+
+        silph_stats = silph_stats.format(silph["joined"], len(silph["badges"]), checkins, silph["handshakes"], silph["nest_migrations"])
+
+        em.add_field(name="Silph Stats", value=silph_stats, inline=True)
+
         em.description = description
 
-        await self.say(embed=em)
+        em.set_footer(text="Silph Road Travelers Card - {} - Updated {}".format(silph["card_id"], silph["modified"]))
 
-        # title = pokemonObj.name
-        #
-        # if pokemonObj.category is not None:
-        #     title = "{} ({} Pokémon, Gen {})".format(pokemonObj.name, pokemonObj.category, pokemonObj.generationStr())
-        #
-        # em = discord.Embed(title=title, colour=pokemonObj.type.color())
-        #
-        # tn = pokemonObj.icon()
-        # em.set_thumbnail(url=tn)
-        #
-        # if pokemonObj.source == "pokeapi":
-        #     em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
-        # else:
-        #     em.set_footer(text="Data is accurate for Pokémon Go.")
+        await self.say(embed=em)
 
 
     @commands.command(pass_context=True)
@@ -333,7 +337,7 @@ class LBHBot(commands.Bot):
         em.add_field(name="Weight / Height", value=pokemonObj.sizeString())
         em.add_field(name="Type", value=pokemonObj.typeString())
         em.add_field(name="Base Att / Def / Sta", value=pokemonObj.statString())
-        em.add_field(name="100% Level 20 / 25 CP", value=pokemonObj.cpString([20, 25]))
+        em.add_field(name="Raid Boss CP", value=pokemonObj.cpString([20, 25]))
 
         if pokemonObj.gender is not None:
             gender = "{}% / {}%".format(pokemonObj.gender.male*100, pokemonObj.gender.female*100)
