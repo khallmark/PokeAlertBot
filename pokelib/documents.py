@@ -244,6 +244,7 @@ class Pokemon(Document):
 
     candyToEvolve = IntField()
     baseCatchRate = FloatField()
+    baseFleeRate = FloatField()
     buddyDistance = FloatField()
 
     isBaby = BooleanField()

@@ -174,12 +174,6 @@ class PokedexImport:
             pokemonObj.generation = self.generation(pokemonNumber)
             pokemonObj.type = types[pokemonSettings["type"]]
 
-
-            pokemonObj.weight = pokemonSettings['pokedexWeightKg']
-            pokemonObj.height = pokemonSettings['pokedexHeightM']
-
-            # self.loadPokeAPIData(pokemonObj)
-
             if "type2" in pokemonSettings:
                 pokemonObj.type2 = types[pokemonSettings["type2"]]
 
@@ -187,8 +181,30 @@ class PokedexImport:
             pokemonObj.baseDefense = pokemonSettings['stats']['baseDefense']
             pokemonObj.baseStamina = pokemonSettings['stats']['baseStamina']
 
-            if pokemonObj.description is None or pokemonObj.category is None:
-                self.loadPokedexData(name.lower(), pokemonObj)
+            pokemonObj.weight = pokemonSettings['pokedexWeightKg']
+            pokemonObj.height = pokemonSettings['pokedexHeightM']
+
+            encounter = pokemonSettings['encounter']
+
+            if "baseCaptureRate" in encounter:
+                pokemonObj.baseCatchRate = encounter['baseCaptureRate']
+
+                if pokemonObj.baseCatchRate > 1:
+                    print("Large Capture Rate: " + pokemonObj.name)
+                    pokemonObj.baseCatchRate = pokemonObj.baseCatchRate / 100
+            else:
+                print("No Capture Rate: " + pokemonObj.name)
+                pokemonObj.baseCatchRate = 0.0
+
+            if "baseFleeRate" in encounter:
+                pokemonObj.baseFleeRate = encounter['baseFleeRate']
+
+                if pokemonObj.baseFleeRate > 1:
+                    print("Large Flee Rate: " + pokemonObj.name)
+                    pokemonObj.baseFleeRate = pokemonObj.baseFleeRate / 100
+            else:
+                print("No Flee Rate: " + pokemonObj.name)
+                pokemonObj.baseFleeRate = 0.0
 
             stabMoves = []
             legacyMoves = []
@@ -242,36 +258,6 @@ class PokedexImport:
             generation = 7
 
         return generation
-
-    def loadPokedexData(self, pokemon, pokemonObj):
-        cache_file = "./pokemon_cache/" + pokemon + ".html"
-
-        content = None
-        if os.path.exists(cache_file):
-            with open(cache_file, 'r') as htmlFile:
-                content = htmlFile.read()
-        else:
-            page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
-
-            while page.status_code == 503 or page.status_code == 404:
-                sleep(1)
-                page = requests.get("https://www.pokemon.com/us/pokedex/" + pokemon)
-
-            content = page.text.replace('\n', ' ')
-
-            open(cache_file, 'w').write(content)
-
-
-        tree = html.fromstring(content)
-
-        description = tree.xpath('//p[@class="version-y                                   active"]/text()')
-
-        if (len(description)):
-            pokemonObj.description = description[0].strip()
-
-        category = tree.xpath('//div[@class="column-7 push-7"]/ul/li/span[@class="attribute-value"]/text()')
-
-        pokemonObj.category = category[0].strip()
 
 
     def addLegacyMove(self, pokemonName, moveName):
@@ -332,7 +318,7 @@ class PokedexImport:
         self.addLegacyMove("Dragonite", "Dragon Breath")
         self.addLegacyMove("Dragonite", "Dragon Claw")
         self.addLegacyMove("Dragonite", "Dragon Pulse")
-        self.addLegacyMove("Dragonite", "Draco Meteor")
+        self.addLegacyMove("Dragonite", "Draco Meteor") # Community Day March 2018
         self.addLegacyMove("Dugtrio", "Mud Shot")
         self.addLegacyMove("Eevee", "Body Slam")
         self.addLegacyMove("Ekans", "Gunk Shot")
@@ -391,6 +377,7 @@ class PokedexImport:
         self.addLegacyMove("Magby", "Flamethrower")
         self.addLegacyMove("Magneton", "Thunder Shock")
         self.addLegacyMove("Magneton", "Discharge")
+        self.addLegacyMove("Mareep", "Dragon Pulse") # Community day 4/2018
         self.addLegacyMove("Meowth", "Body Slam")
         self.addLegacyMove("Mew", "Hurrican")
         self.addLegacyMove("Mew", "Dragon Pulse")
@@ -414,8 +401,8 @@ class PokedexImport:
         self.addLegacyMove("Pichu", "Quick Attack")
         self.addLegacyMove("Pidgeot", "Wing Attack")
         self.addLegacyMove("Pidgeot", "Air Cutter")
-        self.addLegacyMove("Pikachu", "Present")
-        self.addLegacyMove("Pikachu", "Surf")
+        self.addLegacyMove("Pikachu", "Present") # December 2017
+        self.addLegacyMove("Pikachu", "Surf") # Community day 1/2018
         self.addLegacyMove("Pikachu", "Thunder")
         self.addLegacyMove("Pinsir", "Fury Cutter")
         self.addLegacyMove("Pinsir", "Submission")

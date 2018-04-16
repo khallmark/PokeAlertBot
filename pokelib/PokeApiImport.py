@@ -93,6 +93,8 @@ class PokeApiImport:
 
             pokemonObj.gender = gender
 
+        return pokemonObj
+
     def generation(self, number):
 
         generation = 1

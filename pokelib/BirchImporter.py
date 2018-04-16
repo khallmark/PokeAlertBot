@@ -1,6 +1,7 @@
 import json
 import os
 import requests
+import shutil
 
 from lxml import html
 from time import sleep
@@ -43,8 +44,7 @@ class BirchImporter:
 
         apiImporter = PokeApiImport()
 
-        i = 395
-        while i < 802:
+        for i in range(1, 802):
             pokemon = self.getPokemon(i)
 
             if pokemon is None:
@@ -53,12 +53,11 @@ class BirchImporter:
                 pokemon = apiImporter.importGMPokemon(pokemon)
 
             if pokemon is not None:
+                self.downloadSprite(pokemon)
                 if pokemon.description is None:
                     self.loadPokedexData(pokemon)
 
                 pokemon.save()
-
-            i += 1
 
     def getPokemon(self, pokemon):
 
@@ -71,6 +70,34 @@ class BirchImporter:
             return results[0]
 
         return None
+
+    def downloadSprite(self, pokemonObj):
+        pokemon = pokemonObj.name.lower()
+        cache_file = "./images/ps_sprites/" + pokemon + ".gif"
+
+        if os.path.exists(cache_file):
+            return
+
+        url = "http://www.pokestadium.com/sprites/xy/" + pokemon + ".gif"
+
+        if self.downloadImage(cache_file, url) == False:
+            url = "http://www.pkparaiso.com/imagenes/sol-luna/sprites/animados/" + pokemon + ".gif"
+            self.downloadImage(cache_file, url)
+
+    def downloadImage(self, filename, url):
+        image = requests.get(url, stream=True)
+
+        if image.status_code != 200 and image.status_code != 304:
+            print("Download Failed: " + url)
+            return False
+
+        with open(filename, 'wb') as f:
+            image.raw.decode_content = True
+            shutil.copyfileobj(image.raw, f)
+
+        sleep(1)
+        return True
+
 
     def loadPokedexData(self, pokemonObj):
         pokemon = pokemonObj.name
@@ -106,8 +133,7 @@ class BirchImporter:
         category = tree.xpath('//div[@class="column-7 push-7"]/ul/li/span[@class="attribute-value"]/text()')
 
         if len(category) < 1:
-            print(pokemon)
-            exit(1)
+            print("No Category: " + pokemon)
         else:
             pokemonObj.category = category[0].strip()
 

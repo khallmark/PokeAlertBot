@@ -2,8 +2,9 @@
 
 New Features:
 
+Raid features
 Catch Rate
-Min CP
+DPE
 Pokemon Varieties/Families/Evolution cost
 
 
