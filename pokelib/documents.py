@@ -295,6 +295,13 @@ class Pokemon(Document):
         return separator.join(levelsList)
 
     def icon(self):
+        name = self.name.lower()
+
+        if name == "kyogre":
+            name = "kyogre2"
+
+        return "http://images.whiskeypicklewolfpack.club/images/sprites/{}.gif".format(name)
+
         number = str(self.number).zfill(3)
 
         if self.source == "pokeapi":
