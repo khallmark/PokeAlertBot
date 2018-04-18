@@ -345,7 +345,7 @@ class LBHBot(commands.Bot):
         else:
             em.add_field(name="Male(%) / Female(%)", value="No Gender")
 
-        if pokemonObj.source == "game_master    ":
+        if pokemonObj.source == "game_master":
             em.add_field(name="Catch/Flee Rate", value="{}%/{}%".format(pokemonObj.baseCatchRate*100, pokemonObj.baseFleeRate*100))
 
         await self.say(embed=em)
