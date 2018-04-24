@@ -211,8 +211,9 @@ class PokedexImport:
 
             quickMoves = []
             for quickMove in pokemonSettings["quickMoves"]:
-                if quickMove in moves:
-                    move = moves[quickMove]
+                moveId = quickMove.replace("_FAST", "")
+                if moveId in moves:
+                    move = moves[moveId]
 
                     quickMoves.append(move)
                     if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):

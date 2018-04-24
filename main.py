@@ -2,8 +2,10 @@ import os
 from mongoengine import *
 import bot.lbhbot as bot
 from pokelib.Pokedex import Pokedex
+import logging
 
-connect('pokemon', host='localhost', port=27017)
+logging.basicConfig(level=logging.INFO)
+connect('pokemon_import_test', host='localhost', port=27017)
 
 token = "Mzk0NTkxMzkyMTgzMjIyMjc1.DSGjbA.Ta1Pwzksn_a8UmlGvWAJ7DeDs3I"
 
