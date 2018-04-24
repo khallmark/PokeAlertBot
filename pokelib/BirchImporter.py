@@ -22,7 +22,7 @@ class BirchImporter:
     def __init__(self):
         api.set_cache("./pokebase_cache")
 
-        connect('pokemon_import_test', host='localhost', port=27017)
+        connect('pokemon', host='localhost', port=27017)
 
     '''
     Pokemon Import Steps

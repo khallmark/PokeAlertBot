@@ -5,7 +5,7 @@ from pokelib.Pokedex import Pokedex
 import logging
 
 logging.basicConfig(level=logging.INFO)
-connect('pokemon_import_test', host='localhost', port=27017)
+connect('pokemon', host='localhost', port=27017)
 
 token = "Mzk0NTkxMzkyMTgzMjIyMjc1.DSGjbA.Ta1Pwzksn_a8UmlGvWAJ7DeDs3I"
 
