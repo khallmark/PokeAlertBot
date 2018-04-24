@@ -240,6 +240,8 @@ class Pokemon(Document):
 
     gender = EmbeddedDocumentField(PokemonGender)
 
+    varieties = ListField(StringField())
+
     rarity = StringField()
 
     candyToEvolve = IntField()
@@ -284,7 +286,7 @@ class Pokemon(Document):
     def statString(self):
          return "{} / {} / {}".format(self.baseAttack, self.baseDefense, self.baseStamina)
 
-    def cpString(self, levels: [int]):
+    def raidCPString(self, levels: [int]):
         separator = " / "
 
         levelsList = []
@@ -294,13 +296,20 @@ class Pokemon(Document):
 
         return separator.join(levelsList)
 
+    def cpString(self, levels: [int]):
+        separator = " / "
+
+        levelsList = []
+        for level in levels:
+            cp_string = "{} - {}".format(str(self.cp(level, 0, 0, 0)), str(self.cp(level, 15, 15, 15)))
+            levelsList.append(cp_string)
+
+        return separator.join(levelsList)
+
     def icon(self):
         name = self.name.lower()
 
-        if name == "kyogre":
-            name = "kyogre2"
-
-        return "http://images.whiskeypicklewolfpack.club/images/sprites/{}.gif".format(name)
+        # return "http://images.whiskeypicklewolfpack.club/images/pokesprites/{}.gif".format(name)
 
         number = str(self.number).zfill(3)
 

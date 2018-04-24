@@ -45,9 +45,10 @@ class BirchImporter:
         apiImporter = PokeApiImport()
 
         for i in range(1, 802):
+        # for i in range(413, 414):
             pokemon = self.getPokemon(i)
 
-            if pokemon is None:
+            if pokemon is None or pokemon.source == "pokeapi":
                 pokemon = apiImporter.importAPIPokemon(i)
             else:
                 pokemon = apiImporter.importGMPokemon(pokemon)
@@ -73,7 +74,7 @@ class BirchImporter:
 
     def downloadSprite(self, pokemonObj):
         pokemon = pokemonObj.name.lower()
-        cache_file = "./images/ps_sprites/" + pokemon + ".gif"
+        cache_file = "./images/poke_sprites/" + pokemon + ".gif"
 
         if os.path.exists(cache_file):
             return

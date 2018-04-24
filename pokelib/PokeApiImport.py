@@ -8,17 +8,30 @@ from pokelib.documents import *
 class PokeApiImport:
 
     def importAPIPokemon(self, pokemon):
+        apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemon)
+
+        name = apiSpecies.name.title()
 
         apiMon = pokebase.NamedAPIResource("pokemon", pokemon)
 
-        results = Pokemon.objects(name__iexact=apiMon.name.title())
+        results = Pokemon.objects(name__iexact=name)
 
         if len(results) > 0:
             pokemonObj = results[0]
         else:
             pokemonObj = Pokemon()
-            pokemonObj.name = apiMon.name.title()
+            pokemonObj.name = apiSpecies.name.title()
             pokemonObj.source = "pokeapi"
+
+        if apiSpecies.varieties is not None:
+            varieties = []
+            for variety in apiSpecies.varieties:
+                varietyName = variety.pokemon.name.title()
+                if pokemonObj.name != varietyName:
+                    print(apiSpecies.name + "/" + varietyName)
+                    varieties.append(varietyName)
+
+            pokemonObj.varieties = varieties
 
         # print(pokemonObj.name)
 
@@ -29,8 +42,8 @@ class PokeApiImport:
 
             stats[statName] = statValue
 
-        if pokemonObj.source != "pokeapi":
-            return
+        # if pokemonObj.source != "pokeapi":
+        #     return
 
         pokemonObj.number = apiMon.id
         pokemonObj.generation = self.generation(apiMon.id)
@@ -43,7 +56,6 @@ class PokeApiImport:
         pokemonObj.weight = apiMon.weight/10
         pokemonObj.height = apiMon.height/10
 
-        apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemonObj.number)
 
         gender_rate = apiSpecies.gender_rate
 
@@ -80,6 +92,16 @@ class PokeApiImport:
         # pokemonObj.height = apiMon.height/10
 
         apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemonObj.number)
+
+        if apiSpecies.varieties is not None:
+            varieties = []
+            for variety in apiSpecies.varieties:
+                varietyName = variety.pokemon.name.title()
+                if pokemonObj.name != varietyName:
+                    print(apiSpecies.name + "/" + varietyName)
+                    varieties.append(varietyName)
+
+            pokemonObj.varieties = varieties
 
         gender_rate = apiSpecies.gender_rate
 

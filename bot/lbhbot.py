@@ -337,7 +337,7 @@ class LBHBot(commands.Bot):
         em.add_field(name="Weight / Height", value=pokemonObj.sizeString())
         em.add_field(name="Type", value=pokemonObj.typeString())
         em.add_field(name="Base Att / Def / Sta", value=pokemonObj.statString())
-        em.add_field(name="Raid Boss CP", value=pokemonObj.cpString([20, 25]))
+        em.add_field(name="Raid Boss CP (20/25)", value=pokemonObj.raidCPString([20, 25]))
 
         if pokemonObj.gender is not None:
             gender = "{}% / {}%".format(pokemonObj.gender.male*100, pokemonObj.gender.female*100)
@@ -347,6 +347,9 @@ class LBHBot(commands.Bot):
 
         if pokemonObj.source == "game_master":
             em.add_field(name="Catch/Flee Rate", value="{}%/{}%".format(pokemonObj.baseCatchRate*100, pokemonObj.baseFleeRate*100))
+
+        if len(pokemonObj.varieties):
+            em.add_field(name="Varieties", value="\n".join(pokemonObj.varieties))
 
         await self.say(embed=em)
 
