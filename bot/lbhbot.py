@@ -374,16 +374,6 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-        if pokemonObj.number == 151:
-            em = self.embedForPokemon(pokemonObj)
-
-            em.add_field(name="Quick Moves", value=self.generateMoveString(pokemonObj.quickMoves, pokemonObj.stabMoves, pokemonObj.legacyMoves), inline=False)
-            em.add_field(name="Charge Moves", value=self.generateMoveString(pokemonObj.chargeMoves[:15], pokemonObj.stabMoves, pokemonObj.legacyMoves), inline=False)
-            em.add_field(name="Charge Moves (2)", value=self.generateMoveString(pokemonObj.chargeMoves[16:], pokemonObj.stabMoves, pokemonObj.legacyMoves), inline=False)
-            await self.say(embed=em)
-
-            return
-
         em = self.embedForPokemon(pokemonObj)
 
         em.add_field(name="Quick Moves", value=self.generateMoveString(pokemonObj.quickMoves, pokemonObj.stabMoves, pokemonObj.legacyMoves), inline=False)

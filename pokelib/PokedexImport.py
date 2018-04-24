@@ -215,19 +215,20 @@ class PokedexImport:
                 if moveId in moves:
                     move = moves[moveId]
 
-                    quickMoves.append(move)
-                    if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
-                        stabMoves.append(move)
+                    if move not in quickMoves:
+                        quickMoves.append(move)
+                        if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
+                            stabMoves.append(move)
 
             chargeMoves = []
             for chargeMove in pokemonSettings["cinematicMoves"]:
-                if chargeMove in moves:
+                if chargeMove in moves and chargeMove not in chargeMoves:
                     move = moves[chargeMove]
 
-                    chargeMoves.append(moves[chargeMove])
-
-                    if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
-                        stabMoves.append(move)
+                    if move not in chargeMoves:
+                        chargeMoves.append(move)
+                        if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
+                            stabMoves.append(move)
 
 
             pokemonObj.quickMoves = quickMoves
