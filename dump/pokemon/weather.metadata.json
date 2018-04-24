@@ -1,1 +1,1 @@
-{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"pokemon.weather"}],"uuid":"74e0ada6aa254ed69361114fff6cec4d"}
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"pokemon_import_test.weather"}],"uuid":"addce7f43f4b4821a3b437653c153495"}
