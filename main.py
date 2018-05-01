@@ -18,10 +18,8 @@ client = bot.LBHBot(
     pokedex=Pokedex()
 )
 
-#
+# May Fighting Event
+client.addFileChannel("441006333672685568")
+
 # client.addFileChannel("349042487924490242")
 # client.addFileChannel("396193424220618763")
-
-# Features: Message logging by user, command, server
-# Catch Rate
-# Add external emoji to perm issions +
