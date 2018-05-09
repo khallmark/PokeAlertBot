@@ -99,6 +99,25 @@ class Move(Document):
     def steps(self):
         return math.floor(-100/self.energyDelta)
 
+    def dpe(self, stabMoves=None, weather=None):
+        power = self.power
+
+        if power is None:
+            power = 0
+
+        if stabMoves is not None and self in stabMoves:
+            power = power * 1.2
+
+        if weather is not None and self.type in weather.typeBoost:
+            power = power * 1.2
+
+        # energy = self.energyDelta
+        #
+        # if self.charge:
+        #     energy += 500
+
+        return round(power*self.steps(), 1)
+
     def dps(self, stabMoves=None, weather=None):
         power = self.power
 

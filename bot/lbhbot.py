@@ -211,14 +211,14 @@ class LBHBot(commands.Bot):
         tn = move.type.icon()
         em.set_thumbnail(url=tn)
 
-        inline = True
+        inline = False
         effective, ineffective = self.processTypeMap(move.type.typeIndex)
 
         em.add_field(name="Super Effective (140%)", value=effective, inline=inline)
         em.add_field(name="Not Very Effective (71.4%)", value=ineffective, inline=inline)
 
-        dps = "{} ({})".format(move.power, move.dps())
-        em.add_field(name="Power (DPS)", value=dps, inline=inline)
+        dps = "{} ({}/{})".format(move.power, move.dps(), move.dpe())
+        em.add_field(name="Power (DPS/DPE)", value=dps, inline=inline)
 
         typeField = "Type (# Bars)"
         type = "Charge ({})".format(move.steps())
@@ -288,8 +288,8 @@ class LBHBot(commands.Bot):
         Example: !cp Pikachu 40
         """
         self.logContext(ctx)
-        if len(args) != 2:
-            await self.say("Command: !cp <pokemon_name> <level>")
+        if len(args) != 2 and len(args) != 5:
+            await self.say("Command: !cp <pokemon_name> <level> [<atk> <def> <sta>] (bracket arguments are optional)")
             return
 
         pokemon = args[0]
@@ -301,10 +301,19 @@ class LBHBot(commands.Bot):
             await self.say("Pokemon not found")
             return
 
-        cp = pokemonObj.cp(level, 15, 15, 15)
-        attack = pokemonObj.attack(level, 15)
-        defense = pokemonObj.defense(level, 15)
-        hp = pokemonObj.hp(level, 15)
+        if len(args) == 5:
+            attack  = int(args[2])
+            defense = int(args[3])
+            stamina = int(args[4])
+        else:
+            attack = 15
+            defense = 15
+            stamina = 15
+
+        cp = pokemonObj.cp(level, attack, defense, stamina)
+        attack = pokemonObj.attack(level, attack)
+        defense = pokemonObj.defense(level, defense)
+        hp = pokemonObj.hp(level, stamina)
 
         em = self.embedForPokemon(pokemonObj)
 
@@ -432,7 +441,7 @@ class LBHBot(commands.Bot):
         if len(moves) == 0:
             return "No Moves Found"
 
-        chargeStrings = []
+        moveStrings = []
         for move in moves:
             stabStr = ""
             if move in stabMoves:
@@ -442,19 +451,31 @@ class LBHBot(commands.Bot):
             if move in legacyMoves:
                 legacyStr = ", Legacy"
 
-            chargeStrings.append(
-                "{} ({} DPS, {}{}{})".format(
-                    move.name,
-                    move.dps(stabMoves=stabMoves, weather=None),
-                    move.type.name,
-                    stabStr,
-                    legacyStr
+            if move.charge == True:
+                moveStrings.append(
+                    "{} ({} DPS, {} DPE, {}{}{})".format(
+                        move.name,
+                        move.dps(stabMoves=stabMoves, weather=None),
+                        move.dpe(stabMoves=stabMoves, weather=None),
+                        move.type.name,
+                        stabStr,
+                        legacyStr
+                    )
                 )
-            )
+            else:
+                moveStrings.append(
+                    "{} ({} DPS, {}{}{})".format(
+                        move.name,
+                        move.dps(stabMoves=stabMoves, weather=None),
+                        move.type.name,
+                        stabStr,
+                        legacyStr
+                    )
+                )
 
         newLineString = "\n"
 
-        return newLineString.join(chargeStrings)
+        return newLineString.join(moveStrings)
 
     # Adds a channel to grab files from
     def addFileChannel(self, channelId):

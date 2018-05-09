@@ -20,13 +20,17 @@ Revamped import process completed (deterministic)
 Added catch/flee rate
 Added updated move set with special support for mew
 
+
 0.7 - Planned
+Added ability to view cp for arbitrary mon
+DPE
+
+0.8
 
 Evolutions
-DPE
 TDO
 
-0.8 - Raid Update Orlando Pilot
+1.1 - Raid Update Orlando Pilot
 
 !raid info <partial gym name> hatch=<start_time> end=<end_time> - Sets info about a raid
 !raid add <partial gym name> hatch=<start_time> end=<end_time> hard=<hard_start> soft=<soft start> wafu=<order> - Creates a new raid
