@@ -61,6 +61,9 @@ class LBHBot(commands.Bot):
         print('https://discordapp.com/oauth2/authorize?client_id={}&scope=bot&permissions=378944'.format(self.user.id))
 
     async def on_message(self, message):
+
+        self.logMessageMeta(message)
+
         if (message.channel.id in self.file_channels) and len(message.attachments) > 0:
             save_path = "files/"+message.server.name+"/"+message.author.display_name+"/"
 
@@ -480,6 +483,20 @@ class LBHBot(commands.Bot):
     # Adds a channel to grab files from
     def addFileChannel(self, channelId):
         self.file_channels.append(channelId)
+
+    def logMessageMeta(self, message):
+        if (message.author.bot) or (self.user.id == message.author.id):
+            return
+
+        log = MessageLog()
+
+        log.chanId = "{}-{}".format(message.server, message.channel)
+        log.user = str(message.author)
+        log.channel = str(message.channel)
+        log.server = str(message.server)
+        log.length = len(message.content)
+
+        log.save()
 
     def logContext(self, ctx):
         log = CommandLog()

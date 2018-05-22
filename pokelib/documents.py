@@ -7,6 +7,14 @@ class Stat(Document):
     type = StringField() # channel, command, user
     count = IntField()
 
+class MessageLog(Document):
+    timestamp = DateTimeField(default=datetime.datetime.now)
+    chanId = StringField()
+    server = StringField()
+    channel = StringField()
+    user = StringField()
+    length = IntField()
+
 class CommandLog(Document):
     timestamp = DateTimeField(default=datetime.datetime.now)
     server = StringField()
@@ -14,6 +22,7 @@ class CommandLog(Document):
     user = StringField()
     command = StringField()
     message = StringField()
+
 
 class Type(Document):
     type_order=[
