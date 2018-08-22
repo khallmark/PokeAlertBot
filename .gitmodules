@@ -1,3 +1,6 @@
 [submodule "game_master"]
 	path = game_master
 	url = git@github.com:khallmark/pokemongo-game-master.git
+[submodule "pokemongo-game-master"]
+	path = pokemongo-game-master
+	url = git@github.com:pokemongo-dev-contrib/pokemongo-game-master.git
