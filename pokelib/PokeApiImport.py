@@ -120,19 +120,22 @@ class PokeApiImport:
         if pokemonName == "deoxys":
             pokemonName = "deoxys-normal"
 
-        apiMon = pokebase.NamedAPIResource("pokemon", pokemonName)
+        try:
+            apiMon = pokebase.NamedAPIResource("pokemon", pokemonName)
+        except:
+            apiMon = pokebase.NamedAPIResource("pokemon", pokemonObj.number)
 
         # @todo Remove this when the game master updates
-        stats = {}
-        for stat in apiMon.stats:
-            statName = stat.stat.name
-            statValue = stat.base_stat
-
-            stats[statName] = statValue
-
-        pokemonObj.baseAttack = self.calculatePogoAttack(stats["attack"], stats["special-attack"], stats["speed"])
-        pokemonObj.baseDefense = self.calculatePogoDefense(stats["defense"], stats["special-defense"], stats["speed"])
-        pokemonObj.baseStamina = self.calculatePogoStamina(stats["hp"])
+        # stats = {}
+        # for stat in apiMon.stats:
+        #     statName = stat.stat.name
+        #     statValue = stat.base_stat
+        #
+        #     stats[statName] = statValue
+        #
+        # pokemonObj.baseAttack = self.calculatePogoAttack(stats["attack"], stats["special-attack"], stats["speed"])
+        # pokemonObj.baseDefense = self.calculatePogoDefense(stats["defense"], stats["special-defense"], stats["speed"])
+        # pokemonObj.baseStamina = self.calculatePogoStamina(stats["hp"])
 
         self.importVarieties(pokemonObj, apiSpecies)
 
