@@ -242,6 +242,8 @@ class Pokemon(Document):
 
     source = StringField()
     name = StringField(required=True)
+    species = StringField(required=True)
+
     description = StringField()
     category = StringField()
 

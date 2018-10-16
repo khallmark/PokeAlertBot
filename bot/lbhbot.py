@@ -64,6 +64,9 @@ class LBHBot(commands.Bot):
 
         self.logMessageMeta(message)
 
+        if self.user.id == message.author.id:
+            return
+
         if (message.channel.id in self.file_channels) and len(message.attachments) > 0:
             save_path = "files/"+message.server.name+"/"+message.author.display_name+"/"
 
@@ -79,10 +82,12 @@ class LBHBot(commands.Bot):
                 image.save_file()
                 await self.add_reaction(message, u"\U0001F44D")
 
-        if (not message.author.bot) and (message.server == None or self.user in message.mentions) and not (self.user.id == message.author.id):
+        if (not message.author.bot) and (message.server == None or self.user in message.mentions):
             await self.send_typing(message.channel)
+
             txt = message.content.replace(message.server.me.mention,'') if message.server else message.content
             reply = self.cw.say(txt)
+
             await self.send_message(message.channel, reply)
         else:
             message.content = message.content.lower()

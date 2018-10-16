@@ -6,13 +6,22 @@ from lxml import html
 from pokelib.documents import *
 
 class PokeApiImport:
+    def importAPIPokemon(self, pokemon, pokemonVariety = 0):
 
-    def importAPIPokemon(self, pokemon):
+        hasVariety = True
+        if pokemonVariety == 0:
+            hasVariety = False
+            pokemonVariety = pokemon
+
         apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemon)
+        apiMon = pokebase.NamedAPIResource("pokemon", pokemonVariety)
 
-        name = apiSpecies.name.title()
+        species = apiSpecies.name.title()
 
-        apiMon = pokebase.NamedAPIResource("pokemon", pokemon)
+        if hasVariety:
+            name = apiMon.name.title()
+        else:
+            name = species
 
         results = Pokemon.objects(name__iexact=name)
 
@@ -20,18 +29,14 @@ class PokeApiImport:
             pokemonObj = results[0]
         else:
             pokemonObj = Pokemon()
-            pokemonObj.name = apiSpecies.name.title()
+            pokemonObj.name = name
             pokemonObj.source = "pokeapi"
 
-        if apiSpecies.varieties is not None:
-            varieties = []
-            for variety in apiSpecies.varieties:
-                varietyName = variety.pokemon.name.title()
-                if pokemonObj.name != varietyName:
-                    print(apiSpecies.name + "/" + varietyName)
-                    varieties.append(varietyName)
+        pokemonObj.species = species
+        pokemonObj.number = pokemon
 
-            pokemonObj.varieties = varieties
+        if hasVariety == False:
+            self.importVarieties(pokemonObj, apiSpecies)
 
         # print(pokemonObj.name)
 
@@ -45,8 +50,8 @@ class PokeApiImport:
         # if pokemonObj.source != "pokeapi":
         #     return
 
-        pokemonObj.number = apiMon.id
-        pokemonObj.generation = self.generation(apiMon.id)
+        pokemonObj.number = apiSpecies.id
+        pokemonObj.generation = self.generation(apiSpecies.id)
         pokemonObj.templateId = "V" + str(pokemonObj.number).zfill(4) + "_POKEMON_" + pokemonObj.name.upper()
 
         pokemonObj.baseAttack = self.calculatePogoAttack(stats["attack"], stats["special-attack"], stats["speed"])
@@ -84,15 +89,7 @@ class PokeApiImport:
 
         return pokemonObj
 
-
-    def importGMPokemon(self, pokemonObj):
-        # apiMon = pokebase.NamedAPIResource("pokemon", pokemonObj.number)
-        #
-        # pokemonObj.weight = apiMon.weight/10
-        # pokemonObj.height = apiMon.height/10
-
-        apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemonObj.number)
-
+    def importVarieties(self, pokemonObj, apiSpecies):
         if apiSpecies.varieties is not None:
             varieties = []
             for variety in apiSpecies.varieties:
@@ -100,8 +97,44 @@ class PokeApiImport:
                 if pokemonObj.name != varietyName:
                     print(apiSpecies.name + "/" + varietyName)
                     varieties.append(varietyName)
+                    varietyUrl = variety.pokemon.url
+                    varietyNum = varietyUrl.rsplit('/', 1)[-1]
+
+                    varietyMon = self.importAPIPokemon(pokemonObj.number, varietyNum)
+
+                    if (varietyMon is not None):
+                        varietyMon.save()
 
             pokemonObj.varieties = varieties
+
+    def importGMPokemon(self, pokemonObj):
+        # apiMon = pokebase.NamedAPIResource("pokemon", pokemonObj.number)
+        #?
+        # pokemonObj.weight = apiMon.weight/10
+        # pokemonObj.height = apiMon.height/10
+
+        apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemonObj.number)
+
+        pokemonName = pokemonObj.name.lower().replace('female', 'f').replace("male", "m")
+
+        if pokemonName == "deoxys":
+            pokemonName = "deoxys-normal"
+
+        apiMon = pokebase.NamedAPIResource("pokemon", pokemonName)
+
+        # @todo Remove this when the game master updates
+        stats = {}
+        for stat in apiMon.stats:
+            statName = stat.stat.name
+            statValue = stat.base_stat
+
+            stats[statName] = statValue
+
+        pokemonObj.baseAttack = self.calculatePogoAttack(stats["attack"], stats["special-attack"], stats["speed"])
+        pokemonObj.baseDefense = self.calculatePogoDefense(stats["defense"], stats["special-defense"], stats["speed"])
+        pokemonObj.baseStamina = self.calculatePogoStamina(stats["hp"])
+
+        self.importVarieties(pokemonObj, apiSpecies)
 
         gender_rate = apiSpecies.gender_rate
 
@@ -145,7 +178,7 @@ class PokeApiImport:
         for move in moves:
             version_group_details = move.version_group_details
 
-            moveName = move.move.name.replace('-', ' ').title()
+            moveName = move._APIMetadata__data["move"]["name"].replace('-', ' ').title()
 
             movesResult = Move.objects(name__iexact=moveName)
 
@@ -224,8 +257,8 @@ class PokeApiImport:
             higher = specialDefense
             lower = defense
 
-        higher = (7/8)*higher
-        lower = (1/8)*lower
+        higher = (5/8)*higher
+        lower = (3/8)*lower
 
         scaledAttack = round(2*(higher+lower))
         speedMod =  1+(speed - 75)/500
@@ -235,4 +268,4 @@ class PokeApiImport:
         return baseDefense
 
     def calculatePogoStamina(self, hp):
-        return 2*hp
+        return math.floor(1.75 * hp + 50)

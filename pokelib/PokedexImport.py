@@ -158,7 +158,12 @@ class PokedexImport:
             pokemonNumber = int(templateId.split("_")[0][1:])
 
             pokemonSettings = pokemon["pokemonSettings"]
-            name = pokemonSettings["pokemonId"].title().replace("_", "-")
+
+            species = pokemonSettings["pokemonId"].title().replace("_", "-")
+            if "form" in pokemonSettings:
+                name = pokemonSettings["form"].title().replace("_", "-")
+            else:
+                name = species
 
             if templateId in dbMap:
                 pokemonObj = dbMap[templateId]
@@ -169,7 +174,10 @@ class PokedexImport:
                 )
 
             pokemonObj.source = "game_master"
+
             pokemonObj.name = name
+            pokemonObj.species = species
+
             pokemonObj.number = pokemonNumber
             pokemonObj.generation = self.generation(pokemonNumber)
             pokemonObj.type = types[pokemonSettings["type"]]
@@ -455,3 +463,12 @@ class PokedexImport:
         self.addLegacyMove("Zapdos", "Thunder Shock")
         self.addLegacyMove("Zapdos", "Discharge")
         self.addLegacyMove("Zubat", "Sludge Bomb")
+
+        self.addLegacyMove("Meganium", "Frenzy Plant")
+        self.addLegacyMove("Eevee", "Last Resort")
+        self.addLegacyMove("Articuno", "Hurricane")
+        self.addLegacyMove("Moltres", "Sky Attack")
+        self.addLegacyMove("Zapdos", "Sky Attack")
+        self.addLegacyMove("Blastoise", "Hydro Cannon")
+        self.addLegacyMove("Tyranitar", "Smack Down")
+        self.addLegacyMove("Charizard", "Blast Burn")
