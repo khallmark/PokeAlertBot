@@ -109,7 +109,7 @@ class PokeApiImport:
 
     def importGMPokemon(self, pokemonObj):
         # apiMon = pokebase.NamedAPIResource("pokemon", pokemonObj.number)
-        #?
+        #
         # pokemonObj.weight = apiMon.weight/10
         # pokemonObj.height = apiMon.height/10
 
