@@ -306,8 +306,10 @@ class PokedexImport:
         self.addLegacyMove("Arcanine", "Bite")
         self.addLegacyMove("Arcanine", "Bulldoze")
         self.addLegacyMove("Arcanine", "Flamethrower")
+        self.addLegacyMove("Articuno", "Hurricane")
         self.addLegacyMove("Beedril", "Bug Bite")
         self.addLegacyMove("Blaziken", "Stone Edge")
+        self.addLegacyMove("Breloom", "Grass Knot")
         self.addLegacyMove("Butterfree", "Bug Bite")
         self.addLegacyMove("Chansey", "Psybeam")
         self.addLegacyMove("Charizard", "Ember")
@@ -330,7 +332,6 @@ class PokedexImport:
         self.addLegacyMove("Dragonite", "Dragon Breath")
         self.addLegacyMove("Dragonite", "Dragon Claw")
         self.addLegacyMove("Dragonite", "Dragon Pulse")
-        self.addLegacyMove("Dragonite", "Draco Meteor") # Community Day March 2018
         self.addLegacyMove("Dugtrio", "Mud Shot")
         self.addLegacyMove("Eevee", "Body Slam")
         self.addLegacyMove("Ekans", "Gunk Shot")
@@ -345,11 +346,14 @@ class PokedexImport:
         self.addLegacyMove("Gastly", "Sucker Punch")
         self.addLegacyMove("Gastly", "Ominous Wind")
         self.addLegacyMove("Gengar", "Shadow Claw")
+        self.addLegacyMove("Gengar", "Lick")
         self.addLegacyMove("Gengar", "Sludge Wave")
         self.addLegacyMove("Gengar", "Dark Pulse")
+        self.addLegacyMove("Gengar", "Psychic")
         self.addLegacyMove("Golbat", "Ominous Wind")
         self.addLegacyMove("Golem", "Mud Shot")
-        self.addLegacyMove("Golem", "Ancienty Power")
+        self.addLegacyMove("Golem", "Ancient Power")
+        self.addLegacyMove("Golem", "Rock Slide")
         self.addLegacyMove("Graveler", "Mud Shot")
         self.addLegacyMove("Grimer", "Acid")
         self.addLegacyMove("Gyarados", "Dragon Breath")
@@ -389,9 +393,8 @@ class PokedexImport:
         self.addLegacyMove("Magby", "Flamethrower")
         self.addLegacyMove("Magneton", "Thunder Shock")
         self.addLegacyMove("Magneton", "Discharge")
-        self.addLegacyMove("Mareep", "Dragon Pulse") # Community day 4/2018
         self.addLegacyMove("Meowth", "Body Slam")
-        self.addLegacyMove("Mew", "Hurrican")
+        self.addLegacyMove("Mew", "Hurricane")
         self.addLegacyMove("Mew", "Dragon Pulse")
         self.addLegacyMove("Milotic", "Water Gun")
         self.addLegacyMove("Moltres", "Ember")
@@ -414,7 +417,6 @@ class PokedexImport:
         self.addLegacyMove("Pidgeot", "Wing Attack")
         self.addLegacyMove("Pidgeot", "Air Cutter")
         self.addLegacyMove("Pikachu", "Present") # December 2017
-        self.addLegacyMove("Pikachu", "Surf") # Community day 1/2018
         self.addLegacyMove("Pikachu", "Thunder")
         self.addLegacyMove("Pinsir", "Fury Cutter")
         self.addLegacyMove("Pinsir", "Submission")
@@ -467,10 +469,38 @@ class PokedexImport:
         self.addLegacyMove("Zubat", "Sludge Bomb")
 
         self.addLegacyMove("Meganium", "Frenzy Plant")
-        self.addLegacyMove("Eevee", "Last Resort")
+
+
+
+        self.addLegacyMove("Mareep", "Dragon Pulse") # Community day 4/2018
+        self.addLegacyMove("Pikachu", "Surf") # Community day 1/2018
+        self.addLegacyMove("Dragonite", "Draco Meteor") # Community Day March 2018
+
+
         self.addLegacyMove("Articuno", "Hurricane")
         self.addLegacyMove("Moltres", "Sky Attack")
         self.addLegacyMove("Zapdos", "Sky Attack")
         self.addLegacyMove("Blastoise", "Hydro Cannon")
         self.addLegacyMove("Tyranitar", "Smack Down")
         self.addLegacyMove("Charizard", "Blast Burn")
+
+        self.addLegacyMove("Metagross", "Meteor Mash")
+        self.addLegacyMove("Typhlosion", "Blast Burn")
+        self.addLegacyMove("Feraligatr", "Hydro Cannon")
+        self.addLegacyMove("Mamoswine", "Ancient Power")
+        self.addLegacyMove("Sceptile", "Frenzy Plant")
+        self.addLegacyMove("Salamence", "Outrage")
+        self.addLegacyMove("Blaziken", "Blast Burn")
+
+
+        self.addLegacyMove("Ampharos", "Dragon Pulse")
+
+        self.addLegacyMove("Mewtwo", "Shadow Ball")
+        self.addLegacyMove("Mewtwo", "Hyper Beam")
+
+        self.addLegacyMove("Eevee", "Last Resort")
+        self.addLegacyMove("Flareon", "Last Resort")
+        self.addLegacyMove("Jolteon", "Last Resort")
+        self.addLegacyMove("Vaporeon", "Last Resort")
+        self.addLegacyMove("Espeon", "Last Resort")
+        self.addLegacyMove("Umbreon", "Last Resort")
