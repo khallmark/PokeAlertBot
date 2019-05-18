@@ -37,7 +37,7 @@ class LBHBot(commands.Bot):
     def __init__(self, token, cleverToken, pokedex, file_channels = []):
         super().__init__(command_prefix=["!", "?"], description="Birch", pm_help=None)
         self.token = token
-        self.version = "1.0"
+        self.version = "1.0.1"
         self.cw = CleverWrap(cleverToken)
         self.file_channels = file_channels
         self.pokedex = pokedex
