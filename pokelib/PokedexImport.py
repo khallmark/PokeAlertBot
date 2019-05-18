@@ -491,6 +491,7 @@ class PokedexImport:
         self.addLegacyMove("Sceptile", "Frenzy Plant")
         self.addLegacyMove("Salamence", "Outrage")
         self.addLegacyMove("Blaziken", "Blast Burn")
+        self.addLegacyMove("Blaziken", "Blaze Kick")
 
 
         self.addLegacyMove("Ampharos", "Dragon Pulse")
