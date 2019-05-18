@@ -2,6 +2,11 @@ import math
 import datetime
 from mongoengine import *
 
+class Settings(Document):
+    server = StringField()
+    last_updated = DateTimeField(default=datetime.datetime.now)
+
+
 class Stat(Document):
     identifier = StringField()
     type = StringField() # channel, command, user

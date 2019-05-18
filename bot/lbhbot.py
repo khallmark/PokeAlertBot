@@ -37,6 +37,7 @@ class LBHBot(commands.Bot):
     def __init__(self, token, cleverToken, pokedex, file_channels = []):
         super().__init__(command_prefix=["!", "?"], description="Birch", pm_help=None)
         self.token = token
+        self.version = "1.0"
         self.cw = CleverWrap(cleverToken)
         self.file_channels = file_channels
         self.pokedex = pokedex
@@ -50,7 +51,11 @@ class LBHBot(commands.Bot):
         self.add_command(self.dex)
         self.add_command(self.moves)
 
-        self.run(self.token)
+        f = open("../last_updated", "r")
+        self.last_updated = f.read()
+        f.close()
+
+        # self.run(self.token)
 
     async def on_ready(self):
         print('Logged in as '+self.user.name+' (ID:'+self.user.id+') | Connected to '+str(len(self.servers))+' servers | Connected to '+str(len(set(self.get_all_members())))+' users')
@@ -59,6 +64,9 @@ class LBHBot(commands.Bot):
         print('--------')
         print('Use this link to invite {}:'.format(self.user.name))
         print('https://discordapp.com/oauth2/authorize?client_id={}&scope=bot&permissions=378944'.format(self.user.id))
+
+        for server in self.servers:
+            print ("Connected to server: {}".format(server))
 
     async def on_message(self, message):
 
@@ -364,7 +372,7 @@ class LBHBot(commands.Bot):
             em.add_field(name="Male(%) / Female(%)", value="No Gender")
 
         if pokemonObj.source == "game_master":
-            em.add_field(name="Catch/Flee Rate", value="{}%/{}%".format(pokemonObj.baseCatchRate*100, pokemonObj.baseFleeRate*100))
+            em.add_field(name="Catch/Flee Rate", value="{}%/{}%".format(round(pokemonObj.baseCatchRate*100,1), round(pokemonObj.baseFleeRate*100,1)))
 
         if len(pokemonObj.varieties):
             em.add_field(name="Varieties", value="\n".join(pokemonObj.varieties))
@@ -430,17 +438,19 @@ class LBHBot(commands.Bot):
         title = pokemonObj.name
 
         if pokemonObj.category is not None:
-            title = "{} ({} Pokémon, Gen {})".format(pokemonObj.name, pokemonObj.category, pokemonObj.generationStr())
+            title = "#{} {} ({} Pokémon, Gen {})".format(pokemonObj.number, pokemonObj.name, pokemonObj.category, pokemonObj.generationStr())
 
         em = discord.Embed(title=title, colour=pokemonObj.type.color())
 
         tn = pokemonObj.icon()
         em.set_thumbnail(url=tn)
 
+        footer = "Data is accurate for Pokémon Go."
         if pokemonObj.source == "pokeapi":
-            em.set_footer(text="Data was loaded from pokeapi.co and may change before release.")
-        else:
-            em.set_footer(text="Data is accurate for Pokémon Go.")
+            footer="Data was loaded from pokeapi.co and may change before release."
+
+        footer = footer + " Bot Version " + self.version + ". Data Updated: " + self.last_updated
+        em.set_footer(text=footer)
 
         return em
 

@@ -1,4 +1,6 @@
 import os
+import time
+
 from mongoengine import *
 import bot.lbhbot as bot
 from pokelib.Pokedex import Pokedex
@@ -26,3 +28,9 @@ client = bot.LBHBot(
     pokedex=Pokedex(),
     file_channels=file_channels
 )
+
+while True:
+    try:
+        client.loop.run_until_complete(client.start(client.token))
+    except BaseException:
+        time.sleep(5)

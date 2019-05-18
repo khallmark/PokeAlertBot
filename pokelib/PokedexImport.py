@@ -195,54 +195,56 @@ class PokedexImport:
             encounter = pokemonSettings['encounter']
 
             if "baseCaptureRate" in encounter:
-                pokemonObj.baseCatchRate = encounter['baseCaptureRate']
+                pokemonObj.baseCatchRate = round(encounter['baseCaptureRate'], 2)
 
                 if pokemonObj.baseCatchRate > 1:
                     print("Large Capture Rate: " + pokemonObj.name)
-                    pokemonObj.baseCatchRate = pokemonObj.baseCatchRate / 100
+                    pokemonObj.baseCatchRate = round(pokemonObj.baseCatchRate / 100, 2)
             else:
                 print("No Capture Rate: " + pokemonObj.name)
                 pokemonObj.baseCatchRate = 0.0
 
             if "baseFleeRate" in encounter:
-                pokemonObj.baseFleeRate = encounter['baseFleeRate']
+                pokemonObj.baseFleeRate = round(encounter['baseFleeRate'],2)
 
                 if pokemonObj.baseFleeRate > 1:
                     print("Large Flee Rate: " + pokemonObj.name)
-                    pokemonObj.baseFleeRate = pokemonObj.baseFleeRate / 100
+                    pokemonObj.baseFleeRate = round(pokemonObj.baseFleeRate / 100, 2)
             else:
                 print("No Flee Rate: " + pokemonObj.name)
                 pokemonObj.baseFleeRate = 0.0
 
-            stabMoves = []
-            legacyMoves = []
+            if pokemonNumber != 235:
+                stabMoves = []
+                legacyMoves = []
 
-            quickMoves = []
-            for quickMove in pokemonSettings["quickMoves"]:
-                moveId = quickMove.replace("_FAST", "")
-                if moveId in moves:
-                    move = moves[moveId]
+                quickMoves = []
+                for quickMove in pokemonSettings["quickMoves"]:
+                    moveId = quickMove.replace("_FAST", "")
+                    if moveId in moves:
+                        move = moves[moveId]
 
-                    if move not in quickMoves:
-                        quickMoves.append(move)
-                        if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
-                            stabMoves.append(move)
-
-            chargeMoves = []
-            for chargeMove in pokemonSettings["cinematicMoves"]:
-                if chargeMove in moves and chargeMove not in chargeMoves:
-                    move = moves[chargeMove]
-
-                    if move not in chargeMoves:
-                        chargeMoves.append(move)
-                        if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
-                            stabMoves.append(move)
+                        if move not in quickMoves:
+                            quickMoves.append(move)
+                            if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
+                                stabMoves.append(move)
 
 
-            pokemonObj.quickMoves = quickMoves
-            pokemonObj.chargeMoves = chargeMoves
-            pokemonObj.stabMoves = stabMoves
-            pokemonObj.legacyMoves = legacyMoves
+                chargeMoves = []
+                for chargeMove in pokemonSettings["cinematicMoves"]:
+                    if chargeMove in moves and chargeMove not in chargeMoves:
+                        move = moves[chargeMove]
+
+                        if move not in chargeMoves:
+                            chargeMoves.append(move)
+                            if move.type == pokemonObj.type or (pokemonObj.type2 is not None and move.type == pokemonObj.type2):
+                                stabMoves.append(move)
+
+
+                pokemonObj.quickMoves = quickMoves
+                pokemonObj.chargeMoves = chargeMoves
+                pokemonObj.stabMoves = stabMoves
+                pokemonObj.legacyMoves = legacyMoves
 
             pokemonObj.save()
             dbMap[templateId] = pokemonObj
