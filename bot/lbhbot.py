@@ -37,7 +37,7 @@ class LBHBot(commands.Bot):
     def __init__(self, token, cleverToken, pokedex, file_channels = []):
         super().__init__(command_prefix=["!", "?"], description="Birch", pm_help=None)
         self.token = token
-        self.version = "1.0.1"
+        self.version = "1.1"
         self.cw = CleverWrap(cleverToken)
         self.file_channels = file_channels
         self.pokedex = pokedex
@@ -198,6 +198,7 @@ class LBHBot(commands.Bot):
 
         em.set_thumbnail(url=typeObj.icon())
 
+        em.set_footer(text=self.footerString())
         await self.say(embed=em)
 
     @commands.command(pass_context=True)
@@ -247,7 +248,7 @@ class LBHBot(commands.Bot):
         duration = "{}ms ({}ms - {}ms)".format(move.durationMS, move.damageWindowStart, move.damageWindowEnd)
         em.add_field(name="Duration (Dodge Window)", value=duration, inline=inline)
 
-        em.set_footer(text="Data is accurate for Pokémon Go.")
+        em.set_footer(text=self.footerString())
 
         await self.say(embed=em)
 
@@ -447,14 +448,18 @@ class LBHBot(commands.Bot):
         tn = pokemonObj.icon()
         em.set_thumbnail(url=tn)
 
+        em.set_footer(text=self.footerString(pokemonObj))
+
+        return em
+
+    def footerString(self, pokemonObj=None):
         footer = "Data is accurate for Pokémon Go."
-        if pokemonObj.source == "pokeapi":
+        if pokemonObj is not None and pokemonObj.source == "pokeapi":
             footer="Data was loaded from pokeapi.co and may change before release."
 
         footer = footer + " Bot Version " + self.version + ". Data Updated: " + self.last_updated
-        em.set_footer(text=footer)
 
-        return em
+        return footer
 
     # Generates a move string for the !moves command
     def generateMoveString(self, moves: [Move], stabMoves: [Move], legacyMoves: [Move]):
