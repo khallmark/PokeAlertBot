@@ -304,6 +304,8 @@ class Pokemon(Document):
             genString = "VI"
         elif gen == 7:
             genString = "VII"
+        elif gen == 8:
+            genString = "VIII"
 
         return genString
 

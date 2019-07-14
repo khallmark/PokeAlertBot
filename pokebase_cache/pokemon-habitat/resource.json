@@ -1,43 +1,43 @@
 {
   "count": 9,
+  "next": null,
   "previous": null,
   "results": [
     {
-      "url": "https://pokeapi.co/api/v2/pokemon-habitat/1/",
-      "name": "cave"
+      "name": "cave",
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/1/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokemon-habitat/2/",
-      "name": "forest"
+      "name": "forest",
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/2/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokemon-habitat/3/",
-      "name": "grassland"
+      "name": "grassland",
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/3/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokemon-habitat/4/",
-      "name": "mountain"
+      "name": "mountain",
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/4/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokemon-habitat/5/",
-      "name": "rare"
+      "name": "rare",
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/5/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokemon-habitat/6/",
-      "name": "rough-terrain"
+      "name": "rough-terrain",
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/6/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokemon-habitat/7/",
-      "name": "sea"
+      "name": "sea",
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/7/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokemon-habitat/8/",
-      "name": "urban"
+      "name": "urban",
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/8/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokemon-habitat/9/",
-      "name": "waters-edge"
+      "name": "waters-edge",
+      "url": "https://pokeapi.co/api/v2/pokemon-habitat/9/"
     }
-  ],
-  "next": null
+  ]
 }

@@ -1,55 +1,55 @@
 {
   "count": 12,
+  "next": null,
   "previous": null,
   "results": [
     {
-      "url": "https://pokeapi.co/api/v2/language/1/",
-      "name": "ja-Hrkt"
+      "name": "ja-Hrkt",
+      "url": "https://pokeapi.co/api/v2/language/1/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/2/",
-      "name": "roomaji"
+      "name": "roomaji",
+      "url": "https://pokeapi.co/api/v2/language/2/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/3/",
-      "name": "ko"
+      "name": "ko",
+      "url": "https://pokeapi.co/api/v2/language/3/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/4/",
-      "name": "zh-Hant"
+      "name": "zh-Hant",
+      "url": "https://pokeapi.co/api/v2/language/4/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/5/",
-      "name": "fr"
+      "name": "fr",
+      "url": "https://pokeapi.co/api/v2/language/5/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/6/",
-      "name": "de"
+      "name": "de",
+      "url": "https://pokeapi.co/api/v2/language/6/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/7/",
-      "name": "es"
+      "name": "es",
+      "url": "https://pokeapi.co/api/v2/language/7/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/8/",
-      "name": "it"
+      "name": "it",
+      "url": "https://pokeapi.co/api/v2/language/8/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/9/",
-      "name": "en"
+      "name": "en",
+      "url": "https://pokeapi.co/api/v2/language/9/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/10/",
-      "name": "cs"
+      "name": "cs",
+      "url": "https://pokeapi.co/api/v2/language/10/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/11/",
-      "name": "ja"
+      "name": "ja",
+      "url": "https://pokeapi.co/api/v2/language/11/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/language/12/",
-      "name": "zh-Hans"
+      "name": "zh-Hans",
+      "url": "https://pokeapi.co/api/v2/language/12/"
     }
-  ],
-  "next": null
+  ]
 }

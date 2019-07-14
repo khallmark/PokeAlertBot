@@ -45,7 +45,7 @@ class BirchImporter:
         apiImporter = PokeApiImport()
 
         for i in range(1, 807):
-        # for i in range(700, 802):
+        # for i in range(802, 808):
             pokemon = self.getPokemon(i)
 
             if pokemon is None or pokemon.source == "pokeapi":

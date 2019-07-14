@@ -1,31 +1,31 @@
 {
   "count": 6,
+  "next": null,
   "previous": null,
   "results": [
     {
-      "url": "https://pokeapi.co/api/v2/growth-rate/1/",
-      "name": "slow"
+      "name": "slow",
+      "url": "https://pokeapi.co/api/v2/growth-rate/1/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/growth-rate/2/",
-      "name": "medium"
+      "name": "medium",
+      "url": "https://pokeapi.co/api/v2/growth-rate/2/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/growth-rate/3/",
-      "name": "fast"
+      "name": "fast",
+      "url": "https://pokeapi.co/api/v2/growth-rate/3/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/growth-rate/4/",
-      "name": "medium-slow"
+      "name": "medium-slow",
+      "url": "https://pokeapi.co/api/v2/growth-rate/4/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/growth-rate/5/",
-      "name": "slow-then-very-fast"
+      "name": "slow-then-very-fast",
+      "url": "https://pokeapi.co/api/v2/growth-rate/5/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/growth-rate/6/",
-      "name": "fast-then-very-slow"
+      "name": "fast-then-very-slow",
+      "url": "https://pokeapi.co/api/v2/growth-rate/6/"
     }
-  ],
-  "next": null
+  ]
 }

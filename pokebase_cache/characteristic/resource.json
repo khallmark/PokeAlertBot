@@ -1,5 +1,6 @@
 {
   "count": 30,
+  "next": null,
   "previous": null,
   "results": [
     {
@@ -92,6 +93,5 @@
     {
       "url": "https://pokeapi.co/api/v2/characteristic/30/"
     }
-  ],
-  "next": null
+  ]
 }

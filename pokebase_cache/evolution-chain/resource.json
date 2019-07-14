@@ -1,5 +1,6 @@
 {
-  "count": 415,
+  "count": 419,
+  "next": null,
   "previous": null,
   "results": [
     {
@@ -1246,7 +1247,18 @@
     },
     {
       "url": "https://pokeapi.co/api/v2/evolution-chain/423/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/evolution-chain/424/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/evolution-chain/425/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/evolution-chain/426/"
+    },
+    {
+      "url": "https://pokeapi.co/api/v2/evolution-chain/427/"
     }
-  ],
-  "next": null
+  ]
 }

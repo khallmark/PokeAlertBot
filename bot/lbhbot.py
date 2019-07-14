@@ -439,6 +439,8 @@ class LBHBot(commands.Bot):
 
         if pokemonObj.category is not None:
             title = "#{} {} ({} Pokémon, Gen {})".format(pokemonObj.number, pokemonObj.name, pokemonObj.category, pokemonObj.generationStr())
+        else:
+            title = "#{} {} (Gen {})".format(pokemonObj.number, pokemonObj.name, pokemonObj.generationStr())
 
         em = discord.Embed(title=title, colour=pokemonObj.type.color())
 

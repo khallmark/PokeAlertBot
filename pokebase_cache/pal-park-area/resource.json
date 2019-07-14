@@ -1,27 +1,27 @@
 {
   "count": 5,
+  "next": null,
   "previous": null,
   "results": [
     {
-      "url": "https://pokeapi.co/api/v2/pal-park-area/1/",
-      "name": "forest"
+      "name": "forest",
+      "url": "https://pokeapi.co/api/v2/pal-park-area/1/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pal-park-area/2/",
-      "name": "field"
+      "name": "field",
+      "url": "https://pokeapi.co/api/v2/pal-park-area/2/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pal-park-area/3/",
-      "name": "mountain"
+      "name": "mountain",
+      "url": "https://pokeapi.co/api/v2/pal-park-area/3/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pal-park-area/4/",
-      "name": "pond"
+      "name": "pond",
+      "url": "https://pokeapi.co/api/v2/pal-park-area/4/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pal-park-area/5/",
-      "name": "sea"
+      "name": "sea",
+      "url": "https://pokeapi.co/api/v2/pal-park-area/5/"
     }
-  ],
-  "next": null
+  ]
 }

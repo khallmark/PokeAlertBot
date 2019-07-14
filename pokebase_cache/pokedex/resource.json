@@ -1,63 +1,63 @@
 {
   "count": 14,
+  "next": null,
   "previous": null,
   "results": [
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/1/",
-      "name": "national"
+      "name": "national",
+      "url": "https://pokeapi.co/api/v2/pokedex/1/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/2/",
-      "name": "kanto"
+      "name": "kanto",
+      "url": "https://pokeapi.co/api/v2/pokedex/2/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/3/",
-      "name": "original-johto"
+      "name": "original-johto",
+      "url": "https://pokeapi.co/api/v2/pokedex/3/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/4/",
-      "name": "hoenn"
+      "name": "hoenn",
+      "url": "https://pokeapi.co/api/v2/pokedex/4/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/5/",
-      "name": "original-sinnoh"
+      "name": "original-sinnoh",
+      "url": "https://pokeapi.co/api/v2/pokedex/5/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/6/",
-      "name": "extended-sinnoh"
+      "name": "extended-sinnoh",
+      "url": "https://pokeapi.co/api/v2/pokedex/6/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/7/",
-      "name": "updated-johto"
+      "name": "updated-johto",
+      "url": "https://pokeapi.co/api/v2/pokedex/7/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/8/",
-      "name": "original-unova"
+      "name": "original-unova",
+      "url": "https://pokeapi.co/api/v2/pokedex/8/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/9/",
-      "name": "updated-unova"
+      "name": "updated-unova",
+      "url": "https://pokeapi.co/api/v2/pokedex/9/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/11/",
-      "name": "conquest-gallery"
+      "name": "conquest-gallery",
+      "url": "https://pokeapi.co/api/v2/pokedex/11/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/12/",
-      "name": "kalos-central"
+      "name": "kalos-central",
+      "url": "https://pokeapi.co/api/v2/pokedex/12/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/13/",
-      "name": "kalos-coastal"
+      "name": "kalos-coastal",
+      "url": "https://pokeapi.co/api/v2/pokedex/13/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/14/",
-      "name": "kalos-mountain"
+      "name": "kalos-mountain",
+      "url": "https://pokeapi.co/api/v2/pokedex/14/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/pokedex/15/",
-      "name": "updated-hoenn"
+      "name": "updated-hoenn",
+      "url": "https://pokeapi.co/api/v2/pokedex/15/"
     }
-  ],
-  "next": null
+  ]
 }

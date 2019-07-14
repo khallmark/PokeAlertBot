@@ -7,14 +7,24 @@ from pokelib.documents import *
 
 class PokeApiImport:
     def importAPIPokemon(self, pokemon, pokemonVariety = 0):
-
         hasVariety = True
         if pokemonVariety == 0:
             hasVariety = False
             pokemonVariety = pokemon
 
-        apiSpecies = pokebase.NamedAPIResource("pokemon-species", pokemon)
-        apiMon = pokebase.NamedAPIResource("pokemon", pokemonVariety)
+        try:
+            apiSpecies = pokebase.pokemon_species(pokemon)
+            apiMon = pokebase.pokemon(pokemonVariety)
+        except:
+
+            if isinstance(pokemon, int):
+                pokemon = str(pokemon)
+
+            if isinstance(pokemonVariety, int):
+                pokemonVariety = str(pokemonVariety)
+
+            print("ERROR: Could not import " + pokemon + " " + pokemonVariety)
+            return
 
         species = apiSpecies.name.title()
 

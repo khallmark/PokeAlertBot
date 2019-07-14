@@ -268,6 +268,8 @@ class PokedexImport:
             generation = 6
         elif number <= 807:
             generation = 7
+        else:
+            generation = 8
 
         return generation
 

@@ -1,1315 +1,1322 @@
 {
-  "name": "water",
-  "generation": {
-    "url": "https://pokeapi.co/api/v2/generation/1/",
-    "name": "generation-i"
-  },
   "damage_relations": {
+    "double_damage_from": [
+      {
+        "name": "grass",
+        "url": "https://pokeapi.co/api/v2/type/12/"
+      },
+      {
+        "name": "electric",
+        "url": "https://pokeapi.co/api/v2/type/13/"
+      }
+    ],
+    "double_damage_to": [
+      {
+        "name": "ground",
+        "url": "https://pokeapi.co/api/v2/type/5/"
+      },
+      {
+        "name": "rock",
+        "url": "https://pokeapi.co/api/v2/type/6/"
+      },
+      {
+        "name": "fire",
+        "url": "https://pokeapi.co/api/v2/type/10/"
+      }
+    ],
     "half_damage_from": [
       {
-        "url": "https://pokeapi.co/api/v2/type/9/",
-        "name": "steel"
+        "name": "steel",
+        "url": "https://pokeapi.co/api/v2/type/9/"
       },
       {
-        "url": "https://pokeapi.co/api/v2/type/10/",
-        "name": "fire"
+        "name": "fire",
+        "url": "https://pokeapi.co/api/v2/type/10/"
       },
       {
-        "url": "https://pokeapi.co/api/v2/type/11/",
-        "name": "water"
+        "name": "water",
+        "url": "https://pokeapi.co/api/v2/type/11/"
       },
       {
-        "url": "https://pokeapi.co/api/v2/type/15/",
-        "name": "ice"
+        "name": "ice",
+        "url": "https://pokeapi.co/api/v2/type/15/"
+      }
+    ],
+    "half_damage_to": [
+      {
+        "name": "water",
+        "url": "https://pokeapi.co/api/v2/type/11/"
+      },
+      {
+        "name": "grass",
+        "url": "https://pokeapi.co/api/v2/type/12/"
+      },
+      {
+        "name": "dragon",
+        "url": "https://pokeapi.co/api/v2/type/16/"
       }
     ],
     "no_damage_from": [],
-    "half_damage_to": [
-      {
-        "url": "https://pokeapi.co/api/v2/type/11/",
-        "name": "water"
-      },
-      {
-        "url": "https://pokeapi.co/api/v2/type/12/",
-        "name": "grass"
-      },
-      {
-        "url": "https://pokeapi.co/api/v2/type/16/",
-        "name": "dragon"
-      }
-    ],
-    "double_damage_from": [
-      {
-        "url": "https://pokeapi.co/api/v2/type/12/",
-        "name": "grass"
-      },
-      {
-        "url": "https://pokeapi.co/api/v2/type/13/",
-        "name": "electric"
-      }
-    ],
-    "no_damage_to": [],
-    "double_damage_to": [
-      {
-        "url": "https://pokeapi.co/api/v2/type/5/",
-        "name": "ground"
-      },
-      {
-        "url": "https://pokeapi.co/api/v2/type/6/",
-        "name": "rock"
-      },
-      {
-        "url": "https://pokeapi.co/api/v2/type/10/",
-        "name": "fire"
-      }
-    ]
+    "no_damage_to": []
   },
   "game_indices": [
     {
+      "game_index": 21,
       "generation": {
-        "url": "https://pokeapi.co/api/v2/generation/1/",
-        "name": "generation-i"
-      },
-      "game_index": 21
+        "name": "generation-i",
+        "url": "https://pokeapi.co/api/v2/generation/1/"
+      }
     },
     {
+      "game_index": 21,
       "generation": {
-        "url": "https://pokeapi.co/api/v2/generation/2/",
-        "name": "generation-ii"
-      },
-      "game_index": 21
+        "name": "generation-ii",
+        "url": "https://pokeapi.co/api/v2/generation/2/"
+      }
     },
     {
+      "game_index": 11,
       "generation": {
-        "url": "https://pokeapi.co/api/v2/generation/3/",
-        "name": "generation-iii"
-      },
-      "game_index": 11
+        "name": "generation-iii",
+        "url": "https://pokeapi.co/api/v2/generation/3/"
+      }
     },
     {
+      "game_index": 11,
       "generation": {
-        "url": "https://pokeapi.co/api/v2/generation/4/",
-        "name": "generation-iv"
-      },
-      "game_index": 11
+        "name": "generation-iv",
+        "url": "https://pokeapi.co/api/v2/generation/4/"
+      }
     },
     {
+      "game_index": 10,
       "generation": {
-        "url": "https://pokeapi.co/api/v2/generation/5/",
-        "name": "generation-v"
-      },
-      "game_index": 10
+        "name": "generation-v",
+        "url": "https://pokeapi.co/api/v2/generation/5/"
+      }
     },
     {
+      "game_index": 10,
       "generation": {
-        "url": "https://pokeapi.co/api/v2/generation/6/",
-        "name": "generation-vi"
-      },
-      "game_index": 10
+        "name": "generation-vi",
+        "url": "https://pokeapi.co/api/v2/generation/6/"
+      }
     }
   ],
+  "generation": {
+    "name": "generation-i",
+    "url": "https://pokeapi.co/api/v2/generation/1/"
+  },
+  "id": 11,
   "move_damage_class": {
-    "url": "https://pokeapi.co/api/v2/move-damage-class/3/",
-    "name": "special"
+    "name": "special",
+    "url": "https://pokeapi.co/api/v2/move-damage-class/3/"
   },
   "moves": [
     {
-      "url": "https://pokeapi.co/api/v2/move/55/",
-      "name": "water-gun"
+      "name": "water-gun",
+      "url": "https://pokeapi.co/api/v2/move/55/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/56/",
-      "name": "hydro-pump"
+      "name": "hydro-pump",
+      "url": "https://pokeapi.co/api/v2/move/56/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/57/",
-      "name": "surf"
+      "name": "surf",
+      "url": "https://pokeapi.co/api/v2/move/57/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/61/",
-      "name": "bubble-beam"
+      "name": "bubble-beam",
+      "url": "https://pokeapi.co/api/v2/move/61/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/110/",
-      "name": "withdraw"
+      "name": "withdraw",
+      "url": "https://pokeapi.co/api/v2/move/110/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/127/",
-      "name": "waterfall"
+      "name": "waterfall",
+      "url": "https://pokeapi.co/api/v2/move/127/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/128/",
-      "name": "clamp"
+      "name": "clamp",
+      "url": "https://pokeapi.co/api/v2/move/128/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/145/",
-      "name": "bubble"
+      "name": "bubble",
+      "url": "https://pokeapi.co/api/v2/move/145/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/152/",
-      "name": "crabhammer"
+      "name": "crabhammer",
+      "url": "https://pokeapi.co/api/v2/move/152/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/190/",
-      "name": "octazooka"
+      "name": "octazooka",
+      "url": "https://pokeapi.co/api/v2/move/190/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/240/",
-      "name": "rain-dance"
+      "name": "rain-dance",
+      "url": "https://pokeapi.co/api/v2/move/240/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/250/",
-      "name": "whirlpool"
+      "name": "whirlpool",
+      "url": "https://pokeapi.co/api/v2/move/250/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/291/",
-      "name": "dive"
+      "name": "dive",
+      "url": "https://pokeapi.co/api/v2/move/291/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/308/",
-      "name": "hydro-cannon"
+      "name": "hydro-cannon",
+      "url": "https://pokeapi.co/api/v2/move/308/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/323/",
-      "name": "water-spout"
+      "name": "water-spout",
+      "url": "https://pokeapi.co/api/v2/move/323/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/330/",
-      "name": "muddy-water"
+      "name": "muddy-water",
+      "url": "https://pokeapi.co/api/v2/move/330/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/346/",
-      "name": "water-sport"
+      "name": "water-sport",
+      "url": "https://pokeapi.co/api/v2/move/346/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/352/",
-      "name": "water-pulse"
+      "name": "water-pulse",
+      "url": "https://pokeapi.co/api/v2/move/352/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/362/",
-      "name": "brine"
+      "name": "brine",
+      "url": "https://pokeapi.co/api/v2/move/362/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/392/",
-      "name": "aqua-ring"
+      "name": "aqua-ring",
+      "url": "https://pokeapi.co/api/v2/move/392/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/401/",
-      "name": "aqua-tail"
+      "name": "aqua-tail",
+      "url": "https://pokeapi.co/api/v2/move/401/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/453/",
-      "name": "aqua-jet"
+      "name": "aqua-jet",
+      "url": "https://pokeapi.co/api/v2/move/453/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/487/",
-      "name": "soak"
+      "name": "soak",
+      "url": "https://pokeapi.co/api/v2/move/487/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/503/",
-      "name": "scald"
+      "name": "scald",
+      "url": "https://pokeapi.co/api/v2/move/503/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/518/",
-      "name": "water-pledge"
+      "name": "water-pledge",
+      "url": "https://pokeapi.co/api/v2/move/518/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/534/",
-      "name": "razor-shell"
+      "name": "razor-shell",
+      "url": "https://pokeapi.co/api/v2/move/534/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/592/",
-      "name": "steam-eruption"
+      "name": "steam-eruption",
+      "url": "https://pokeapi.co/api/v2/move/592/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/594/",
-      "name": "water-shuriken"
+      "name": "water-shuriken",
+      "url": "https://pokeapi.co/api/v2/move/594/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/618/",
-      "name": "origin-pulse"
+      "name": "origin-pulse",
+      "url": "https://pokeapi.co/api/v2/move/618/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/642/",
-      "name": "hydro-vortex--physical"
+      "name": "hydro-vortex--physical",
+      "url": "https://pokeapi.co/api/v2/move/642/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/643/",
-      "name": "hydro-vortex--special"
+      "name": "hydro-vortex--special",
+      "url": "https://pokeapi.co/api/v2/move/643/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/664/",
-      "name": "sparkling-aria"
+      "name": "sparkling-aria",
+      "url": "https://pokeapi.co/api/v2/move/664/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/697/",
-      "name": "oceanic-operetta"
+      "name": "oceanic-operetta",
+      "url": "https://pokeapi.co/api/v2/move/697/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/move/710/",
-      "name": "liquidation"
+      "name": "liquidation",
+      "url": "https://pokeapi.co/api/v2/move/710/"
+    }
+  ],
+  "name": "water",
+  "names": [
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "\u307f\u305a"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "\ubb3c"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Eau"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Wasser"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Agua"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Acqua"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Water"
     }
   ],
   "pokemon": [
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/7/",
-        "name": "squirtle"
-      }
+        "name": "squirtle",
+        "url": "https://pokeapi.co/api/v2/pokemon/7/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/8/",
-        "name": "wartortle"
-      }
+        "name": "wartortle",
+        "url": "https://pokeapi.co/api/v2/pokemon/8/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/9/",
-        "name": "blastoise"
-      }
+        "name": "blastoise",
+        "url": "https://pokeapi.co/api/v2/pokemon/9/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/54/",
-        "name": "psyduck"
-      }
+        "name": "psyduck",
+        "url": "https://pokeapi.co/api/v2/pokemon/54/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/55/",
-        "name": "golduck"
-      }
+        "name": "golduck",
+        "url": "https://pokeapi.co/api/v2/pokemon/55/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/60/",
-        "name": "poliwag"
-      }
+        "name": "poliwag",
+        "url": "https://pokeapi.co/api/v2/pokemon/60/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/61/",
-        "name": "poliwhirl"
-      }
+        "name": "poliwhirl",
+        "url": "https://pokeapi.co/api/v2/pokemon/61/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/62/",
-        "name": "poliwrath"
-      }
+        "name": "poliwrath",
+        "url": "https://pokeapi.co/api/v2/pokemon/62/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/72/",
-        "name": "tentacool"
-      }
+        "name": "tentacool",
+        "url": "https://pokeapi.co/api/v2/pokemon/72/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/73/",
-        "name": "tentacruel"
-      }
+        "name": "tentacruel",
+        "url": "https://pokeapi.co/api/v2/pokemon/73/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/79/",
-        "name": "slowpoke"
-      }
+        "name": "slowpoke",
+        "url": "https://pokeapi.co/api/v2/pokemon/79/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/80/",
-        "name": "slowbro"
-      }
+        "name": "slowbro",
+        "url": "https://pokeapi.co/api/v2/pokemon/80/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/86/",
-        "name": "seel"
-      }
+        "name": "seel",
+        "url": "https://pokeapi.co/api/v2/pokemon/86/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/87/",
-        "name": "dewgong"
-      }
+        "name": "dewgong",
+        "url": "https://pokeapi.co/api/v2/pokemon/87/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/90/",
-        "name": "shellder"
-      }
+        "name": "shellder",
+        "url": "https://pokeapi.co/api/v2/pokemon/90/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/91/",
-        "name": "cloyster"
-      }
+        "name": "cloyster",
+        "url": "https://pokeapi.co/api/v2/pokemon/91/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/98/",
-        "name": "krabby"
-      }
+        "name": "krabby",
+        "url": "https://pokeapi.co/api/v2/pokemon/98/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/99/",
-        "name": "kingler"
-      }
+        "name": "kingler",
+        "url": "https://pokeapi.co/api/v2/pokemon/99/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/116/",
-        "name": "horsea"
-      }
+        "name": "horsea",
+        "url": "https://pokeapi.co/api/v2/pokemon/116/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/117/",
-        "name": "seadra"
-      }
+        "name": "seadra",
+        "url": "https://pokeapi.co/api/v2/pokemon/117/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/118/",
-        "name": "goldeen"
-      }
+        "name": "goldeen",
+        "url": "https://pokeapi.co/api/v2/pokemon/118/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/119/",
-        "name": "seaking"
-      }
+        "name": "seaking",
+        "url": "https://pokeapi.co/api/v2/pokemon/119/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/120/",
-        "name": "staryu"
-      }
+        "name": "staryu",
+        "url": "https://pokeapi.co/api/v2/pokemon/120/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/121/",
-        "name": "starmie"
-      }
+        "name": "starmie",
+        "url": "https://pokeapi.co/api/v2/pokemon/121/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/129/",
-        "name": "magikarp"
-      }
+        "name": "magikarp",
+        "url": "https://pokeapi.co/api/v2/pokemon/129/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/130/",
-        "name": "gyarados"
-      }
+        "name": "gyarados",
+        "url": "https://pokeapi.co/api/v2/pokemon/130/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/131/",
-        "name": "lapras"
-      }
+        "name": "lapras",
+        "url": "https://pokeapi.co/api/v2/pokemon/131/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/134/",
-        "name": "vaporeon"
-      }
+        "name": "vaporeon",
+        "url": "https://pokeapi.co/api/v2/pokemon/134/"
+      },
+      "slot": 1
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/138/",
-        "name": "omanyte"
-      }
+        "name": "omanyte",
+        "url": "https://pokeapi.co/api/v2/pokemon/138/"
+      },
+      "slot": 2
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/139/",
-        "name": "omastar"
-      }
+        "name": "omastar",
+        "url": "https://pokeapi.co/api/v2/pokemon/139/"
+      },
+      "slot": 2
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/140/",
-        "name": "kabuto"
-      }
+        "name": "kabuto",
+        "url": "https://pokeapi.co/api/v2/pokemon/140/"
+      },
+      "slot": 2
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/141/",
-        "name": "kabutops"
-      }
+        "name": "kabutops",
+        "url": "https://pokeapi.co/api/v2/pokemon/141/"
+      },
+      "slot": 2
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/158/",
-        "name": "totodile"
-      }
+        "name": "totodile",
+        "url": "https://pokeapi.co/api/v2/pokemon/158/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/159/",
-        "name": "croconaw"
-      }
+        "name": "croconaw",
+        "url": "https://pokeapi.co/api/v2/pokemon/159/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/160/",
-        "name": "feraligatr"
-      }
+        "name": "feraligatr",
+        "url": "https://pokeapi.co/api/v2/pokemon/160/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/170/",
-        "name": "chinchou"
-      }
+        "name": "chinchou",
+        "url": "https://pokeapi.co/api/v2/pokemon/170/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/171/",
-        "name": "lanturn"
-      }
+        "name": "lanturn",
+        "url": "https://pokeapi.co/api/v2/pokemon/171/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/183/",
-        "name": "marill"
-      }
+        "name": "marill",
+        "url": "https://pokeapi.co/api/v2/pokemon/183/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/184/",
-        "name": "azumarill"
-      }
+        "name": "azumarill",
+        "url": "https://pokeapi.co/api/v2/pokemon/184/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/186/",
-        "name": "politoed"
-      }
+        "name": "politoed",
+        "url": "https://pokeapi.co/api/v2/pokemon/186/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/194/",
-        "name": "wooper"
-      }
+        "name": "wooper",
+        "url": "https://pokeapi.co/api/v2/pokemon/194/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/195/",
-        "name": "quagsire"
-      }
+        "name": "quagsire",
+        "url": "https://pokeapi.co/api/v2/pokemon/195/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/199/",
-        "name": "slowking"
-      }
+        "name": "slowking",
+        "url": "https://pokeapi.co/api/v2/pokemon/199/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/211/",
-        "name": "qwilfish"
-      }
+        "name": "qwilfish",
+        "url": "https://pokeapi.co/api/v2/pokemon/211/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/222/",
-        "name": "corsola"
-      }
+        "name": "corsola",
+        "url": "https://pokeapi.co/api/v2/pokemon/222/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/223/",
-        "name": "remoraid"
-      }
+        "name": "remoraid",
+        "url": "https://pokeapi.co/api/v2/pokemon/223/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/224/",
-        "name": "octillery"
-      }
+        "name": "octillery",
+        "url": "https://pokeapi.co/api/v2/pokemon/224/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/226/",
-        "name": "mantine"
-      }
+        "name": "mantine",
+        "url": "https://pokeapi.co/api/v2/pokemon/226/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/230/",
-        "name": "kingdra"
-      }
+        "name": "kingdra",
+        "url": "https://pokeapi.co/api/v2/pokemon/230/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/245/",
-        "name": "suicune"
-      }
+        "name": "suicune",
+        "url": "https://pokeapi.co/api/v2/pokemon/245/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/258/",
-        "name": "mudkip"
-      }
+        "name": "mudkip",
+        "url": "https://pokeapi.co/api/v2/pokemon/258/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/259/",
-        "name": "marshtomp"
-      }
+        "name": "marshtomp",
+        "url": "https://pokeapi.co/api/v2/pokemon/259/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/260/",
-        "name": "swampert"
-      }
+        "name": "swampert",
+        "url": "https://pokeapi.co/api/v2/pokemon/260/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/270/",
-        "name": "lotad"
-      }
+        "name": "lotad",
+        "url": "https://pokeapi.co/api/v2/pokemon/270/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/271/",
-        "name": "lombre"
-      }
+        "name": "lombre",
+        "url": "https://pokeapi.co/api/v2/pokemon/271/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/272/",
-        "name": "ludicolo"
-      }
+        "name": "ludicolo",
+        "url": "https://pokeapi.co/api/v2/pokemon/272/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/278/",
-        "name": "wingull"
-      }
+        "name": "wingull",
+        "url": "https://pokeapi.co/api/v2/pokemon/278/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/279/",
-        "name": "pelipper"
-      }
+        "name": "pelipper",
+        "url": "https://pokeapi.co/api/v2/pokemon/279/"
+      },
+      "slot": 1
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/283/",
-        "name": "surskit"
-      }
+        "name": "surskit",
+        "url": "https://pokeapi.co/api/v2/pokemon/283/"
+      },
+      "slot": 2
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/318/",
-        "name": "carvanha"
-      }
+        "name": "carvanha",
+        "url": "https://pokeapi.co/api/v2/pokemon/318/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/319/",
-        "name": "sharpedo"
-      }
+        "name": "sharpedo",
+        "url": "https://pokeapi.co/api/v2/pokemon/319/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/320/",
-        "name": "wailmer"
-      }
+        "name": "wailmer",
+        "url": "https://pokeapi.co/api/v2/pokemon/320/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/321/",
-        "name": "wailord"
-      }
+        "name": "wailord",
+        "url": "https://pokeapi.co/api/v2/pokemon/321/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/339/",
-        "name": "barboach"
-      }
+        "name": "barboach",
+        "url": "https://pokeapi.co/api/v2/pokemon/339/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/340/",
-        "name": "whiscash"
-      }
+        "name": "whiscash",
+        "url": "https://pokeapi.co/api/v2/pokemon/340/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/341/",
-        "name": "corphish"
-      }
+        "name": "corphish",
+        "url": "https://pokeapi.co/api/v2/pokemon/341/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/342/",
-        "name": "crawdaunt"
-      }
+        "name": "crawdaunt",
+        "url": "https://pokeapi.co/api/v2/pokemon/342/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/349/",
-        "name": "feebas"
-      }
+        "name": "feebas",
+        "url": "https://pokeapi.co/api/v2/pokemon/349/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/350/",
-        "name": "milotic"
-      }
+        "name": "milotic",
+        "url": "https://pokeapi.co/api/v2/pokemon/350/"
+      },
+      "slot": 1
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/363/",
-        "name": "spheal"
-      }
+        "name": "spheal",
+        "url": "https://pokeapi.co/api/v2/pokemon/363/"
+      },
+      "slot": 2
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/364/",
-        "name": "sealeo"
-      }
+        "name": "sealeo",
+        "url": "https://pokeapi.co/api/v2/pokemon/364/"
+      },
+      "slot": 2
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/365/",
-        "name": "walrein"
-      }
+        "name": "walrein",
+        "url": "https://pokeapi.co/api/v2/pokemon/365/"
+      },
+      "slot": 2
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/366/",
-        "name": "clamperl"
-      }
+        "name": "clamperl",
+        "url": "https://pokeapi.co/api/v2/pokemon/366/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/367/",
-        "name": "huntail"
-      }
+        "name": "huntail",
+        "url": "https://pokeapi.co/api/v2/pokemon/367/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/368/",
-        "name": "gorebyss"
-      }
+        "name": "gorebyss",
+        "url": "https://pokeapi.co/api/v2/pokemon/368/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/369/",
-        "name": "relicanth"
-      }
+        "name": "relicanth",
+        "url": "https://pokeapi.co/api/v2/pokemon/369/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/370/",
-        "name": "luvdisc"
-      }
+        "name": "luvdisc",
+        "url": "https://pokeapi.co/api/v2/pokemon/370/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/382/",
-        "name": "kyogre"
-      }
+        "name": "kyogre",
+        "url": "https://pokeapi.co/api/v2/pokemon/382/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/393/",
-        "name": "piplup"
-      }
+        "name": "piplup",
+        "url": "https://pokeapi.co/api/v2/pokemon/393/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/394/",
-        "name": "prinplup"
-      }
+        "name": "prinplup",
+        "url": "https://pokeapi.co/api/v2/pokemon/394/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/395/",
-        "name": "empoleon"
-      }
+        "name": "empoleon",
+        "url": "https://pokeapi.co/api/v2/pokemon/395/"
+      },
+      "slot": 1
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/400/",
-        "name": "bibarel"
-      }
+        "name": "bibarel",
+        "url": "https://pokeapi.co/api/v2/pokemon/400/"
+      },
+      "slot": 2
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/418/",
-        "name": "buizel"
-      }
+        "name": "buizel",
+        "url": "https://pokeapi.co/api/v2/pokemon/418/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/419/",
-        "name": "floatzel"
-      }
+        "name": "floatzel",
+        "url": "https://pokeapi.co/api/v2/pokemon/419/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/422/",
-        "name": "shellos"
-      }
+        "name": "shellos",
+        "url": "https://pokeapi.co/api/v2/pokemon/422/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/423/",
-        "name": "gastrodon"
-      }
+        "name": "gastrodon",
+        "url": "https://pokeapi.co/api/v2/pokemon/423/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/456/",
-        "name": "finneon"
-      }
+        "name": "finneon",
+        "url": "https://pokeapi.co/api/v2/pokemon/456/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/457/",
-        "name": "lumineon"
-      }
+        "name": "lumineon",
+        "url": "https://pokeapi.co/api/v2/pokemon/457/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/458/",
-        "name": "mantyke"
-      }
+        "name": "mantyke",
+        "url": "https://pokeapi.co/api/v2/pokemon/458/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/484/",
-        "name": "palkia"
-      }
+        "name": "palkia",
+        "url": "https://pokeapi.co/api/v2/pokemon/484/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/489/",
-        "name": "phione"
-      }
+        "name": "phione",
+        "url": "https://pokeapi.co/api/v2/pokemon/489/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/490/",
-        "name": "manaphy"
-      }
+        "name": "manaphy",
+        "url": "https://pokeapi.co/api/v2/pokemon/490/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/501/",
-        "name": "oshawott"
-      }
+        "name": "oshawott",
+        "url": "https://pokeapi.co/api/v2/pokemon/501/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/502/",
-        "name": "dewott"
-      }
+        "name": "dewott",
+        "url": "https://pokeapi.co/api/v2/pokemon/502/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/503/",
-        "name": "samurott"
-      }
+        "name": "samurott",
+        "url": "https://pokeapi.co/api/v2/pokemon/503/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/515/",
-        "name": "panpour"
-      }
+        "name": "panpour",
+        "url": "https://pokeapi.co/api/v2/pokemon/515/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/516/",
-        "name": "simipour"
-      }
+        "name": "simipour",
+        "url": "https://pokeapi.co/api/v2/pokemon/516/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/535/",
-        "name": "tympole"
-      }
+        "name": "tympole",
+        "url": "https://pokeapi.co/api/v2/pokemon/535/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/536/",
-        "name": "palpitoad"
-      }
+        "name": "palpitoad",
+        "url": "https://pokeapi.co/api/v2/pokemon/536/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/537/",
-        "name": "seismitoad"
-      }
+        "name": "seismitoad",
+        "url": "https://pokeapi.co/api/v2/pokemon/537/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/550/",
-        "name": "basculin-red-striped"
-      }
+        "name": "basculin-red-striped",
+        "url": "https://pokeapi.co/api/v2/pokemon/550/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/564/",
-        "name": "tirtouga"
-      }
+        "name": "tirtouga",
+        "url": "https://pokeapi.co/api/v2/pokemon/564/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/565/",
-        "name": "carracosta"
-      }
+        "name": "carracosta",
+        "url": "https://pokeapi.co/api/v2/pokemon/565/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/580/",
-        "name": "ducklett"
-      }
+        "name": "ducklett",
+        "url": "https://pokeapi.co/api/v2/pokemon/580/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/581/",
-        "name": "swanna"
-      }
+        "name": "swanna",
+        "url": "https://pokeapi.co/api/v2/pokemon/581/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/592/",
-        "name": "frillish"
-      }
+        "name": "frillish",
+        "url": "https://pokeapi.co/api/v2/pokemon/592/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/593/",
-        "name": "jellicent"
-      }
+        "name": "jellicent",
+        "url": "https://pokeapi.co/api/v2/pokemon/593/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/594/",
-        "name": "alomomola"
-      }
+        "name": "alomomola",
+        "url": "https://pokeapi.co/api/v2/pokemon/594/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/647/",
-        "name": "keldeo-ordinary"
-      }
+        "name": "keldeo-ordinary",
+        "url": "https://pokeapi.co/api/v2/pokemon/647/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/656/",
-        "name": "froakie"
-      }
+        "name": "froakie",
+        "url": "https://pokeapi.co/api/v2/pokemon/656/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/657/",
-        "name": "frogadier"
-      }
+        "name": "frogadier",
+        "url": "https://pokeapi.co/api/v2/pokemon/657/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/658/",
-        "name": "greninja"
-      }
+        "name": "greninja",
+        "url": "https://pokeapi.co/api/v2/pokemon/658/"
+      },
+      "slot": 1
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/688/",
-        "name": "binacle"
-      }
+        "name": "binacle",
+        "url": "https://pokeapi.co/api/v2/pokemon/688/"
+      },
+      "slot": 2
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/689/",
-        "name": "barbaracle"
-      }
+        "name": "barbaracle",
+        "url": "https://pokeapi.co/api/v2/pokemon/689/"
+      },
+      "slot": 2
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/690/",
-        "name": "skrelp"
-      }
+        "name": "skrelp",
+        "url": "https://pokeapi.co/api/v2/pokemon/690/"
+      },
+      "slot": 2
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/692/",
-        "name": "clauncher"
-      }
+        "name": "clauncher",
+        "url": "https://pokeapi.co/api/v2/pokemon/692/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/693/",
-        "name": "clawitzer"
-      }
+        "name": "clawitzer",
+        "url": "https://pokeapi.co/api/v2/pokemon/693/"
+      },
+      "slot": 1
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/721/",
-        "name": "volcanion"
-      }
+        "name": "volcanion",
+        "url": "https://pokeapi.co/api/v2/pokemon/721/"
+      },
+      "slot": 2
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/728/",
-        "name": "popplio"
-      }
+        "name": "popplio",
+        "url": "https://pokeapi.co/api/v2/pokemon/728/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/729/",
-        "name": "brionne"
-      }
+        "name": "brionne",
+        "url": "https://pokeapi.co/api/v2/pokemon/729/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/730/",
-        "name": "primarina"
-      }
+        "name": "primarina",
+        "url": "https://pokeapi.co/api/v2/pokemon/730/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/746/",
-        "name": "wishiwashi-solo"
-      }
+        "name": "wishiwashi-solo",
+        "url": "https://pokeapi.co/api/v2/pokemon/746/"
+      },
+      "slot": 1
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/747/",
-        "name": "mareanie"
-      }
+        "name": "mareanie",
+        "url": "https://pokeapi.co/api/v2/pokemon/747/"
+      },
+      "slot": 2
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/748/",
-        "name": "toxapex"
-      }
+        "name": "toxapex",
+        "url": "https://pokeapi.co/api/v2/pokemon/748/"
+      },
+      "slot": 2
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/751/",
-        "name": "dewpider"
-      }
+        "name": "dewpider",
+        "url": "https://pokeapi.co/api/v2/pokemon/751/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/752/",
-        "name": "araquanid"
-      }
+        "name": "araquanid",
+        "url": "https://pokeapi.co/api/v2/pokemon/752/"
+      },
+      "slot": 1
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/767/",
-        "name": "wimpod"
-      }
+        "name": "wimpod",
+        "url": "https://pokeapi.co/api/v2/pokemon/767/"
+      },
+      "slot": 2
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/768/",
-        "name": "golisopod"
-      }
+        "name": "golisopod",
+        "url": "https://pokeapi.co/api/v2/pokemon/768/"
+      },
+      "slot": 2
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/771/",
-        "name": "pyukumuku"
-      }
+        "name": "pyukumuku",
+        "url": "https://pokeapi.co/api/v2/pokemon/771/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/779/",
-        "name": "bruxish"
-      }
+        "name": "bruxish",
+        "url": "https://pokeapi.co/api/v2/pokemon/779/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/788/",
-        "name": "tapu-fini"
-      }
+        "name": "tapu-fini",
+        "url": "https://pokeapi.co/api/v2/pokemon/788/"
+      },
+      "slot": 1
     },
     {
-      "slot": 2,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10009/",
-        "name": "rotom-wash"
-      }
+        "name": "rotom-wash",
+        "url": "https://pokeapi.co/api/v2/pokemon/10009/"
+      },
+      "slot": 2
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10014/",
-        "name": "castform-rainy"
-      }
+        "name": "castform-rainy",
+        "url": "https://pokeapi.co/api/v2/pokemon/10014/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10016/",
-        "name": "basculin-blue-striped"
-      }
+        "name": "basculin-blue-striped",
+        "url": "https://pokeapi.co/api/v2/pokemon/10016/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10024/",
-        "name": "keldeo-resolute"
-      }
+        "name": "keldeo-resolute",
+        "url": "https://pokeapi.co/api/v2/pokemon/10024/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10036/",
-        "name": "blastoise-mega"
-      }
+        "name": "blastoise-mega",
+        "url": "https://pokeapi.co/api/v2/pokemon/10036/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10041/",
-        "name": "gyarados-mega"
-      }
+        "name": "gyarados-mega",
+        "url": "https://pokeapi.co/api/v2/pokemon/10041/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10064/",
-        "name": "swampert-mega"
-      }
+        "name": "swampert-mega",
+        "url": "https://pokeapi.co/api/v2/pokemon/10064/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10070/",
-        "name": "sharpedo-mega"
-      }
+        "name": "sharpedo-mega",
+        "url": "https://pokeapi.co/api/v2/pokemon/10070/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10071/",
-        "name": "slowbro-mega"
-      }
+        "name": "slowbro-mega",
+        "url": "https://pokeapi.co/api/v2/pokemon/10071/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10077/",
-        "name": "kyogre-primal"
-      }
+        "name": "kyogre-primal",
+        "url": "https://pokeapi.co/api/v2/pokemon/10077/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10116/",
-        "name": "greninja-battle-bond"
-      }
+        "name": "greninja-battle-bond",
+        "url": "https://pokeapi.co/api/v2/pokemon/10116/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10117/",
-        "name": "greninja-ash"
-      }
+        "name": "greninja-ash",
+        "url": "https://pokeapi.co/api/v2/pokemon/10117/"
+      },
+      "slot": 1
     },
     {
-      "slot": 1,
       "pokemon": {
-        "url": "https://pokeapi.co/api/v2/pokemon/10127/",
-        "name": "wishiwashi-school"
-      }
-    }
-  ],
-  "id": 11,
-  "names": [
-    {
-      "name": "\u307f\u305a",
-      "language": {
-        "url": "https://pokeapi.co/api/v2/language/1/",
-        "name": "ja-Hrkt"
-      }
-    },
-    {
-      "name": "\ubb3c",
-      "language": {
-        "url": "https://pokeapi.co/api/v2/language/3/",
-        "name": "ko"
-      }
-    },
-    {
-      "name": "Eau",
-      "language": {
-        "url": "https://pokeapi.co/api/v2/language/5/",
-        "name": "fr"
-      }
-    },
-    {
-      "name": "Wasser",
-      "language": {
-        "url": "https://pokeapi.co/api/v2/language/6/",
-        "name": "de"
-      }
-    },
-    {
-      "name": "Agua",
-      "language": {
-        "url": "https://pokeapi.co/api/v2/language/7/",
-        "name": "es"
-      }
+        "name": "wishiwashi-school",
+        "url": "https://pokeapi.co/api/v2/pokemon/10127/"
+      },
+      "slot": 1
     },
     {
-      "name": "Acqua",
-      "language": {
-        "url": "https://pokeapi.co/api/v2/language/8/",
-        "name": "it"
-      }
-    },
-    {
-      "name": "Water",
-      "language": {
-        "url": "https://pokeapi.co/api/v2/language/9/",
-        "name": "en"
-      }
+      "pokemon": {
+        "name": "araquanid-totem",
+        "url": "https://pokeapi.co/api/v2/pokemon/10153/"
+      },
+      "slot": 1
     }
   ]
 }

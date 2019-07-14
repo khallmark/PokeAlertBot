@@ -1,39 +1,39 @@
 {
   "count": 8,
+  "next": null,
   "previous": null,
   "results": [
     {
-      "url": "https://pokeapi.co/api/v2/stat/1/",
-      "name": "hp"
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/stat/2/",
-      "name": "attack"
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/stat/3/",
-      "name": "defense"
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/stat/4/",
-      "name": "special-attack"
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/stat/5/",
-      "name": "special-defense"
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/stat/6/",
-      "name": "speed"
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/stat/7/",
-      "name": "accuracy"
+      "name": "accuracy",
+      "url": "https://pokeapi.co/api/v2/stat/7/"
     },
     {
-      "url": "https://pokeapi.co/api/v2/stat/8/",
-      "name": "evasion"
+      "name": "evasion",
+      "url": "https://pokeapi.co/api/v2/stat/8/"
     }
-  ],
-  "next": null
+  ]
 }
