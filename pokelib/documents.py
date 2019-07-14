@@ -79,7 +79,7 @@ class Type(Document):
     defenseTypeIndex = DictField()
 
     def icon(self):
-        return "http://images.whiskeypicklewolfpack.club/images/type/" + self.name.lower() + ".png"
+        return "http://littleblackhat.com/birch/type/" + self.name.lower() + ".png"
 
     def color(self):
         return Type.type_colors[self.templateId]
@@ -346,7 +346,7 @@ class Pokemon(Document):
     def icon(self):
         name = self.name.lower()
 
-        # return "http://images.whiskeypicklewolfpack.club/images/pokesprites/{}.gif".format(name)
+        return "http://littleblackhat.com/birch/poke_sprites/{}.gif".format(name)
 
         number = str(self.number).zfill(3)
 
