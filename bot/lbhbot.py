@@ -225,8 +225,7 @@ class LBHBot(commands.Bot):
 
         em = discord.Embed(title=title, colour=move.type.color())
 
-        tn = move.type.icon()
-        em.set_thumbnail(url=tn)
+        em.set_thumbnail(url=move.type.icon())
 
         inline = False
         effective, ineffective = self.processTypeMap(move.type.typeIndex)
