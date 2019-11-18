@@ -6,7 +6,7 @@ class Pokedex:
 
     def getPokemon(self, pokemon):
 
-        if isinstance(pokemon, int):
+        if pokemon.isdigit():
             results = Pokemon.objects(number=pokemon)
         else:
             results = Pokemon.objects(name__iexact=pokemon)

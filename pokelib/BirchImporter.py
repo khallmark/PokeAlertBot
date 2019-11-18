@@ -174,7 +174,7 @@ class BirchImporter:
                 general['pokemons'].append(a)
             elif a['templateId'].startswith('camera_'):
                 general['cameras'].append(a)
-            elif 'iapItemDisplay' in a and a['iapItemDisplay']['category'].startswith('IAP_'):
+            elif 'iapItemDisplay' in a and 'category' in a['iapItemDisplay'] and a['iapItemDisplay']['category'].startswith('IAP_'):
                 general['iaps'].append(a)
             elif a['templateId'].startswith('sequence_'):
                 general['sequences'].append(a)
